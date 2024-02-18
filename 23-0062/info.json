@@ -1,0 +1,26 @@
+{
+    "abstract": "In this work we undertake a thorough study of the non-asymptotic properties of the vanilla generative adversarial networks (GANs). We prove an oracle inequality for the Jensen-Shannon (JS) divergence between the underlying density $\\mathsf{p}^*$ and the GAN estimate with a significantly better statistical error term compared to the previously known results. The advantage of our bound becomes clear in application to nonparametric density estimation. We show that the JS-divergence between the GAN estimate and $\\mathsf{p}^*$ decays as fast as $(\\log{n}/n)^{2\\beta/(2\\beta + d)}$, where $n$ is the sample size and $\\beta$ determines the smoothness of $\\mathsf{p}^*$. This rate of convergence coincides (up to logarithmic factors) with minimax optimal for the considered class of densities.",
+    "authors": [
+        "Nikita Puchkin",
+        "Sergey Samsonov",
+        "Denis Belomestny",
+        "Eric Moulines",
+        "Alexey Naumov"
+    ],
+    "emails": [
+        "npuchkin@hse.ru",
+        "svsamsonov@hse.ru",
+        "denis.belomestny@uni-due.de",
+        "eric.moulines@polytechnique.edu",
+        "anaumov@hse.ru"
+    ],
+    "id": "23-0062",
+    "issue": 29,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Rates of convergence for density estimation with generative adversarial networks",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "We consider estimating a low-dimensional parameter in an estimating equation involving high-dimensional nuisance functions that depend on the target parameter as an input. A central example is the efficient estimating equation for the (local) quantile treatment effect ((L)QTE) in causal inference, which involves the covariate-conditional cumulative distribution function evaluated at the quantile to be estimated. Existing approaches based on flexibly estimating the nuisances and plugging in the estimates, such as debiased machine learning (DML), require we learn the nuisance at all possible inputs. For (L)QTE, DML requires we learn the whole covariate-conditional cumulative distribution function. We instead propose localized debiased machine learning (LDML), which avoids this burdensome step and needs only estimate nuisances at a single initial rough guess for the target parameter. For (L)QTE, LDML involves learning just two regression functions, a standard task for machine learning methods. We prove that under lax rate conditions our estimator has the same favorable asymptotic behavior as the infeasible estimator that uses the unknown true nuisances. Thus, LDML notably enables practically-feasible and theoretically-grounded efficient estimation of important quantities in causal inference such as (L)QTEs when we must control for many covariates and/or flexible relationships, as we demonstrate in empirical studies.",
+    "authors": [
+        "Nathan Kallus",
+        "Xiaojie Mao",
+        "Masatoshi Uehara"
+    ],
+    "emails": [
+        "kallus@cornell.edu",
+        "maoxj@sem.tsinghua.edu.cn",
+        "mu223@cornell.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/CausalML/LocalizedDebiasedMachineLearning"
+        ]
+    ],
+    "id": "23-0661",
+    "issue": 16,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Localized Debiased Machine Learning: Efficient Inference on Quantile Treatment Effects and Beyond",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "In supervised learning, the regularization path is sometimes used as a convenient theoretical proxy for the optimization path of gradient descent initialized from zero. In this paper, we study a modification of the regularization path for infinite-width 2-layer ReLU neural networks with nonzero initial distribution of the weights at different scales. By exploiting a link with unbalanced optimal-transport theory, we show that, despite the non-convexity of the 2-layer network training, this problem admits an infinite-dimensional convex counterpart. We formulate the corresponding functional-optimization problem and investigate its main properties. In particular, we show that, as the scale of the initialization ranges between $0$ and $+\\infty$, the associated path interpolates continuously between the so-called kernel and rich regimes. Numerical experiments confirm that, in our setting, the scaling path and the final states of the optimization path behave similarly, even beyond these extreme points.",
+    "authors": [
+        "Sebastian Neumayer",
+        "L\u00e9na\u00efc Chizat",
+        "Michael Unser"
+    ],
+    "emails": [
+        "sebastian.neumayer@mathematik.tu-chemnitz.de",
+        "lenaic.chizat@epfl.ch",
+        "michael.unser@epfl.ch"
+    ],
+    "id": "23-0549",
+    "issue": 15,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "On the Effect of Initialization: The Scaling Path of 2-Layer Neural Networks",
+    "volume": 25,
+    "year": 2024
+}

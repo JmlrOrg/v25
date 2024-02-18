@@ -1,0 +1,36 @@
+{
+    "abstract": "Gaussian processes are frequently deployed as part of larger machine learning and decision-making systems, for instance in geospatial modeling, Bayesian optimization, or in latent Gaussian models. Within a system, the Gaussian process model needs to perform in a stable and reliable manner to ensure it interacts correctly with other parts of the system. In this work, we study the numerical stability of scalable sparse approximations based on inducing points. To do so, we first review numerical stability, and illustrate typical situations in which Gaussian process models can be unstable. Building on stability theory originally developed in the interpolation literature, we derive sufficient and in certain cases necessary conditions on the inducing points for the computations performed to be numerically stable. For low-dimensional tasks such as geospatial modeling, we propose an automated method for computing inducing points satisfying these conditions. This is done via a modification of the cover tree data structure, which is of independent interest. We additionally propose an alternative sparse approximation for regression with a Gaussian likelihood which trades off a small amount of performance to further improve stability. We provide illustrative examples showing the relationship between stability of calculations and predictive performance of inducing point methods on spatial tasks.",
+    "authors": [
+        "Alexander Terenin",
+        "David R. Burt",
+        "Artem Artemev",
+        "Seth Flaxman",
+        "Mark van der Wilk",
+        "Carl Edward Rasmussen",
+        "Hong Ge"
+    ],
+    "emails": [
+        "avt32@cam.ac.uk",
+        "dburt@mit.edu",
+        "a.artemev20@imperial.ac.uk",
+        "seth.flaxman@cs.ox.ac.uk",
+        "mark.vdwilk@cs.ox.ac.uk",
+        "cer54@cam.ac.uk",
+        "hg344@cam.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/awav/conjugate-gradient-sparse-gp"
+        ]
+    ],
+    "id": "22-1170",
+    "issue": 26,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Numerically Stable Sparse Gaussian Processes via Minimum Separation using Cover Trees",
+    "volume": 25,
+    "year": 2024
+}

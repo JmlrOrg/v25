@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a new method for estimating the minimizer $\\boldsymbol{x}^*$ and the minimum value $f^*$ of a smooth and strongly convex regression function $f$ from the observations contaminated by random noise. Our estimator $\\boldsymbol{z}_n$ of the minimizer $\\boldsymbol{x}^*$ is based on a version of the projected gradient descent with the gradient estimated by a regularized local polynomial algorithm. Next, we propose a two-stage procedure for estimation of the minimum value $f^*$ of regression function $f$. At the first stage, we construct an accurate enough estimator of $\\boldsymbol{x}^*$, which can be, for example, $\\boldsymbol{z}_n$. At the second stage, we estimate the function value at the point obtained in the first stage using a rate optimal nonparametric procedure. We derive non-asymptotic upper bounds for the quadratic risk and optimization risk of $\\boldsymbol{z}_n$, and for the risk of estimating $f^*$. We establish minimax lower bounds showing that, under certain choice of parameters, the proposed algorithms achieve the minimax optimal rates of convergence  on the class of smooth and strongly convex functions.",
+    "authors": [
+        "Arya Akhava",
+        "Davit Gogolashvili",
+        "Alexandre B. Tsybakov"
+    ],
+    "emails": [
+        "aria.akhavanfoomani@iit.it",
+        "davit.gogolashvili@eurecom.fr",
+        "alexandre.tsybakov@ensae.fr"
+    ],
+    "id": "22-1396",
+    "issue": 11,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Estimating the Minimizer and the Minimum Value of a Regression Function",
+    "volume": 25,
+    "year": 2024
+}

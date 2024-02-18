@@ -1,0 +1,26 @@
+{
+    "abstract": "The study of loss-function distributions is critical to characterize a model's behaviour on a given machine-learning problem. While model quality is commonly measured by the average loss assessed on a testing set, this quantity does not ascertain the existence of the mean of the loss distribution. Conversely, the existence of a distribution's statistical moments can be verified by examining the thickness of its tails. Cross-validation schemes determine a family of testing loss distributions conditioned on the training sets. By marginalizing across training sets, we can recover the overall (marginal) loss distribution, whose tail-shape we aim to estimate. Small sample-sizes diminish the reliability and efficiency of classical tail-estimation methods like Peaks-Over-Threshold, and we demonstrate that this effect is notably significant when estimating tails of marginal distributions composed of conditional distributions with substantial tail-location variability. We mitigate this problem by utilizing a result we prove: under certain conditions, the marginal-distribution's tail-shape parameter is the maximum tail-shape parameter across the conditional distributions underlying the marginal. We label the resulting approach as `cross-tail estimation (CTE)'. We test CTE in a series of experiments on simulated and real data showing the improved robustness and quality of tail estimation as compared to classical approaches.",
+    "authors": [
+        "Etrit Haxholli",
+        "Marco Lorenzi"
+    ],
+    "emails": [
+        "etrit.fr@gmail.com",
+        "marco.lorenzi@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ehaxholli/CTE"
+        ]
+    ],
+    "id": "22-0846",
+    "issue": 25,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "On Tail Decay Rate Estimation of Loss Function Distributions",
+    "volume": 25,
+    "year": 2024
+}

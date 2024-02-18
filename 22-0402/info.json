@@ -1,0 +1,28 @@
+{
+    "abstract": "In the graph matching problem we observe two graphs $G,H$ and the goal is to find an assignment (or matching) between their vertices such that some measure of edge agreement is maximized. We assume in this work that the observed pair $G,H$ has been drawn from the Correlated Gaussian Wigner (CGW) model -- a popular model for correlated weighted graphs -- where the entries of the adjacency matrices of $G$ and $H$ are independent Gaussians and each edge of $G$ is correlated with one edge of $H$ (determined by the unknown matching) with the edge correlation  described by a parameter $\\sigma \\in [0,1)$. In this paper, we analyse the performance of the projected power method (PPM) as a seeded graph matching algorithm where we are given an initial partially correct matching (called the seed) as side information. We prove that if the seed is close enough to the ground-truth matching, then with high probability, PPM iteratively improves the seed and recovers the ground-truth matching (either partially or exactly) in $O(\\log n)$ iterations. Our results prove that PPM works even in regimes of constant $\\sigma$, thus extending the analysis in (Mao et al., 2023) for the sparse Correlated Erdos-Renyi (CER) model to the (dense) CGW model. As a byproduct of our analysis, we see that the PPM framework generalizes some of the state-of-art algorithms for seeded graph matching. We support and complement our theoretical findings with numerical experiments on synthetic data.",
+    "authors": [
+        "Ernesto Araya",
+        "Guillaume Braun",
+        "Hemant Tyagi"
+    ],
+    "emails": [
+        "ernesto-javier.araya-valdivia@inria.fr",
+        "guillaume.braun@riken.jp",
+        "hemant.tyagi@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ErnestoArayaV/Graph-matching-PPMGM"
+        ]
+    ],
+    "id": "22-0402",
+    "issue": 5,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Seeded Graph Matching for the Correlated Gaussian Wigner Model via the Projected Power Method",
+    "volume": 25,
+    "year": 2024
+}

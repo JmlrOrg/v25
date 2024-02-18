@@ -1,0 +1,49 @@
+{
+    "abstract": "Graph matching aims to find node-to-node matching among multiple graphs, which is a fundamental yet challenging problem. To facilitate graph matching in scientific research and industrial applications, pygmtools is released, which is a Python graph matching toolkit that implements a comprehensive collection of two-graph matching and multi-graph matching solvers, covering both learning-free solvers as well as learning-based neural graph matching solvers. Our implementation supports numerical backends including Numpy, PyTorch, Jittor, Paddle, runs on Windows, MacOS and Linux, and is friendly to install and configure. Comprehensive documentations covering beginner's guide, API reference and examples are available online. pygmtools is open-sourced under Mulan PSL v2 license.",
+    "authors": [
+        "Runzhong Wang",
+        "Ziao Guo",
+        "Wenzheng Pan",
+        "Jiale Ma",
+        "Yikai Zhang",
+        "Nan Yang",
+        "Qi Liu",
+        "Longxuan Wei",
+        "Hanxue Zhang",
+        "Chang Liu",
+        "Zetian Jiang",
+        "Xiaokang Yang",
+        "Junchi Yan"
+    ],
+    "emails": [
+        "runzhong.wang@sjtu.edu.cn",
+        "ziao.guo@sjtu.edu.cn",
+        "pwz1121@sjtu.edu.cn",
+        "heatingma@sjtu.edu.cn",
+        "1065543666@sjtu.edu.cn",
+        "advancing-sheep@sjtu.edu.cn",
+        "purewhite@sjtu.edu.cn",
+        "weilongxuan189034@sjtu.edu.cn",
+        "zhx_jiaxue@sjtu.edu.cn",
+        "only-changer@sjtu.edu.cn",
+        "maple_jzt@sjtu.edu.cn",
+        "xkyang@sjtu.edu.cn",
+        "yanjunchi@sjtu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Thinklab-SJTU/pygmtools"
+        ]
+    ],
+    "id": "23-0572",
+    "issue": 33,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "Pygmtools: A Python Graph Matching Toolkit",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "Because of the widespread use of black box prediction methods such as random forests and neural nets, there is renewed interest in developing methods for quantifying variable importance as part of the broader goal of interpretable prediction. A popular approach is to define a variable importance parameter --- known as LOCO (Leave Out COvariates) --- based on dropping covariates from a regression model.  This is essentially a nonparametric version of $R^2$. This parameter is very general and can be estimated nonparametrically, but it can be hard to interpret because it is affected by correlation between covariates. We propose a method for mitigating the effect of correlation by defining a modified version of LOCO. This new parameter is difficult to estimate nonparametrically, but we show how to estimate it using semiparametric models.",
+    "authors": [
+        "Isabella Verdinelli",
+        "Larry Wasserman"
+    ],
+    "emails": [
+        "isabella@stat.cmu.edu",
+        "larry@stat.cmu.edu"
+    ],
+    "id": "22-0801",
+    "issue": 7,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Decorrelated Variable Importance",
+    "volume": 25,
+    "year": 2024
+}

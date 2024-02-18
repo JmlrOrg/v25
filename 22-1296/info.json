@@ -1,0 +1,18 @@
+{
+    "abstract": "In this note, we study how neural networks with a single hidden layer and ReLU activation interpolate data drawn from a radially symmetric distribution with target labels 1 at the origin and 0 outside the unit ball, if no labels are known inside the unit ball. With weight decay regularization and in the infinite neuron, infinite data limit, we prove that a unique radially symmetric minimizer exists, whose average parameters and Lipschitz constant grow as $d$ and $\\sqrt{d}$ respectively. We furthermore show that the average weight variable grows exponentially in $d$ if the label $1$ is imposed on a ball of radius $\\varepsilon$ rather than just at the origin. By comparison, a neural networks with two hidden layers can approximate the target function without encountering the curse of dimensionality.",
+    "authors": [
+        "Stephan Wojtowytsch"
+    ],
+    "emails": [
+        "s.woj@pitt.edu"
+    ],
+    "id": "22-1296",
+    "issue": 27,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Optimal Bump Functions for Shallow ReLU networks: Weight Decay, Depth Separation, Curse of Dimensionality",
+    "volume": 25,
+    "year": 2024
+}

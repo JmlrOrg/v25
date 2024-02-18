@@ -1,0 +1,20 @@
+{
+    "abstract": "Applying a stochastic gradient descent (SGD) method for minimizing an objective gives rise to a discrete-time process of estimated parameter values. In order to better understand the dynamics of the estimated values, many authors have considered continuous-time approximations of SGD. We refine existing results on the weak error of first-order ODE and SDE approximations to SGD for non-infinitesimal learning rates. In particular, we explicitly compute the linear term in the error expansion of gradient flow and two of its stochastic counterparts, with respect to a discretization parameter $h$. In the example of linear regression, we demonstrate the general inferiority of the deterministic gradient flow approximation in comparison to the stochastic ones, for batch sizes which are not too large. Further, we demonstrate that for Gaussian features an SDE approximation with state-independent noise (CC) is preferred over using a state-dependent coefficient (NCC). The same comparison holds true for features of low kurtosis or large batch sizes. However, the relationship reverses for highly leptokurtic features or small batch sizes.",
+    "authors": [
+        "Stefan Ankirchner",
+        "Stefan Perko"
+    ],
+    "emails": [
+        "s.ankirchner@uni-jena.de",
+        "stefan.perko@uni-jena.de"
+    ],
+    "id": "23-0237",
+    "issue": 13,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "A Comparison of Continuous-Time Approximations to Stochastic Gradient Descent",
+    "volume": 25,
+    "year": 2024
+}

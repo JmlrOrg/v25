@@ -1,0 +1,26 @@
+{
+    "abstract": "The low-rank MDP has emerged as an important model for studying representation learning and exploration in reinforcement learning. With a known representation, several model-free exploration strategies exist. In contrast, all algorithms for the unknown representation setting are model-based, thereby requiring the ability to model the full dynamics. In this work, we present the first model-free representation learning algorithms for low-rank MDPs. The key algorithmic contribution is a new minimax representation learning objective, for which we provide variants with differing tradeoffs in their statistical and computational properties. We interleave this representation learning step with an exploration strategy to cover the state space in a reward-free manner. The resulting algorithms are provably sample efficient and can accommodate general function approximation to scale to complex environments.",
+    "authors": [
+        "Aditya Modi",
+        "Jinglin Chen",
+        "Akshay Krishnamurthy",
+        "Nan Jiang",
+        "Alekh Agarwal"
+    ],
+    "emails": [
+        "admodi@umich.edu",
+        "jinglinc@illinois.edu",
+        "akshaykr@microsoft.com",
+        "nanjiang@illinois.edu",
+        "alekhagarwal@google.com"
+    ],
+    "id": "22-0687",
+    "issue": 6,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "Model-Free Representation Learning and Exploration in Low-Rank MDPs",
+    "volume": 25,
+    "year": 2024
+}

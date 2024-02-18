@@ -1,0 +1,24 @@
+{
+    "abstract": "Statistical inference based on lossy or incomplete samples is often needed in research areas such as signal/image processing, medical image storage, remote sensing, signal transmission.  In this paper, we propose a nonparametric testing procedure based on samples quantized to $B$ bits through a computationally efficient algorithm. Under mild technical conditions, we establish the asymptotic properties of the proposed test statistic and investigate how the testing power changes as $B$ increases. In particular, we show that if $B$ exceeds a certain threshold, the proposed nonparametric testing procedure achieves the classical minimax rate of testing (Shang and Cheng, 2015) for spline models. We further extend our theoretical investigations to a nonparametric linearity test and an adaptive nonparametric test, expanding the applicability of the proposed methods. Extensive simulation studies {together with a real-data analysis} are used to demonstrate the validity and effectiveness of the proposed tests.",
+    "authors": [
+        "Kexuan Li",
+        "Ruiqi Liu",
+        "Ganggang Xu",
+        "Zuofeng Shang"
+    ],
+    "emails": [
+        "kexuan.li.77@gmail.com",
+        "ruiqliu@ttu.edu",
+        "gangxu@bus.miami.edu",
+        "zshang@njit.edu"
+    ],
+    "id": "20-075",
+    "issue": 19,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Nonparametric Inference under B-bits Quantization",
+    "volume": 25,
+    "year": 2024
+}

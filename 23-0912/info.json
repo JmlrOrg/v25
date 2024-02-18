@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper explores the expressive power of deep neural networks for a diverse range of activation functions. An activation function set $\\mathscr{A}$ is defined to encompass the majority of commonly used activation functions, such as $\\mathtt{ReLU}$, $\\mathtt{LeakyReLU}$, $\\mathtt{ReLU}^2$, $\\mathtt{ELU}$, $\\mathtt{CELU}$, $\\mathtt{SELU}$, $\\mathtt{Softplus}$, $\\mathtt{GELU}$, $\\mathtt{SiLU}$, $\\mathtt{Swish}$, $\\mathtt{Mish}$, $\\mathtt{Sigmoid}$, $\\mathtt{Tanh}$, $\\mathtt{Arctan}$, $\\mathtt{Softsign}$, $\\mathtt{dSiLU}$, and $\\mathtt{SRS}$. We demonstrate that for any activation function $\\varrho\\in \\mathscr{A}$, a $\\mathtt{ReLU}$ network of width $N$ and depth $L$ can be approximated to arbitrary precision by a $\\varrho$-activated network of width $3N$ and depth $2L$ on any bounded set. This finding enables the extension of most approximation results achieved with $\\mathtt{ReLU}$ networks to a wide variety of other activation functions, albeit with slightly increased constants. Significantly,  we establish that the (width,$\\,$depth) scaling factors can be further reduced from $(3,2)$ to $(1,1)$  if $\\varrho$ falls within a specific subset of $\\mathscr{A}$. This subset includes activation functions such as $\\mathtt{ELU}$, $\\mathtt{CELU}$, $\\mathtt{SELU}$, $\\mathtt{Softplus}$, $\\mathtt{GELU}$, $\\mathtt{SiLU}$, $\\mathtt{Swish}$, and $\\mathtt{Mish}$.",
+    "authors": [
+        "Shijun Zhang",
+        "Jianfeng Lu",
+        "Hongkai Zhao"
+    ],
+    "emails": [
+        "shijun.zhang@duke.edu",
+        "jianfeng@math.duke.edu",
+        "zhao@math.duke.edu"
+    ],
+    "id": "23-0912",
+    "issue": 35,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Deep Network Approximation: Beyond ReLU to Diverse Activation Functions",
+    "volume": 25,
+    "year": 2024
+}

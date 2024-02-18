@@ -1,0 +1,34 @@
+{
+    "abstract": "The necessity for cooperation among intelligent machines has popularised cooperative multi-agent reinforcement learning (MARL) in AI research. However, many research endeavours heavily rely on parameter sharing among agents, which confines them to only homogeneous-agent setting and leads to training instability and lack of convergence guarantees. To achieve effective cooperation in the general heterogeneous-agent setting, we propose Heterogeneous-Agent Reinforcement Learning (HARL) algorithms that resolve the aforementioned issues. Central to our findings are the multi-agent advantage decomposition lemma and the sequential update scheme. Based on these, we develop the provably correct Heterogeneous-Agent Trust Region Learning (HATRL), and derive HATRPO and HAPPO by tractable approximations. Furthermore, we discover a novel framework named Heterogeneous-Agent Mirror Learning (HAML), which strengthens theoretical guarantees for HATRPO and HAPPO and provides a general template for cooperative MARL algorithmic designs. We prove that all algorithms derived from HAML inherently enjoy monotonic improvement of joint return and convergence to Nash Equilibrium. As its natural outcome, HAML validates more novel algorithms in addition to HATRPO and HAPPO, including HAA2C, HADDPG, and HATD3, which generally outperform their existing MA-counterparts. We comprehensively test HARL algorithms on six challenging benchmarks and demonstrate their superior effectiveness and stability for coordinating heterogeneous agents compared to strong baselines such as MAPPO and QMIX.",
+    "authors": [
+        "Yifan Zhong",
+        "Jakub Grudzien Kuba",
+        "Xidong Feng",
+        "Siyi Hu",
+        "Jiaming Ji",
+        "Yaodong Yang"
+    ],
+    "emails": [
+        "zhongyifan@stu.pku.edu.cn",
+        "jakub.grudzien@new.ox.ac.uk",
+        "xidong.feng.20@ucl.ac.uk",
+        "siyi.hu@student.uts.edu.au",
+        "jiamg.ji@stu.pku.edu.cn",
+        "yaodong.yang@pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PKU-MARL/HARL"
+        ]
+    ],
+    "id": "23-0488",
+    "issue": 32,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Heterogeneous-Agent Reinforcement Learning",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "The knockoff filter is a recent false discovery rate (FDR) control method for high-dimensional linear models. We point out that knockoff has three key components: ranking algorithm, augmented design, and symmetric statistic, and each component admits multiple choices. By considering various combinations of the three components, we obtain a collection of variants of knockoff. All these variants guarantee finite-sample FDR control, and our goal is to compare their power. We assume a Rare and Weak signal model on regression coeffi- cients and compare the power of different variants of knockoff by deriving explicit formulas of false positive rate and false negative rate. Our results provide new insights on how to improve power when controlling FDR at a targeted level. We also compare the power of knockoff with its propotype - a method that uses the same ranking algorithm but has access to an ideal threshold. The comparison reveals the additional price one pays by finding a data-driven threshold to control FDR.",
+    "authors": [
+        "Zheng Tracy Ke",
+        "Jun S. Liu",
+        "Yucong Ma"
+    ],
+    "emails": [
+        "zke@fas.harvard.edu",
+        "jliu@stat.harvard.edu",
+        "yucongmajong@gmail.com"
+    ],
+    "id": "21-1137",
+    "issue": 3,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Power of knockoff: The impact of ranking algorithm, augmented design, and symmetric statistic",
+    "volume": 25,
+    "year": 2024
+}

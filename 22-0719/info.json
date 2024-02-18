@@ -1,0 +1,26 @@
+{
+    "abstract": "Learning operators between infinitely dimensional spaces is an important learning task arising in machine learning, imaging science, mathematical modeling and simulations, etc. This paper studies the nonparametric estimation of Lipschitz operators using deep neural networks. Non-asymptotic upper bounds are derived for the generalization error of the empirical risk minimizer over a properly chosen network class.   Under the assumption that the target operator exhibits a low dimensional structure, our error bounds decay as the training sample size increases, with an attractive fast rate depending on the intrinsic dimension in our estimation. Our assumptions cover most scenarios in real applications and our results give rise to fast rates by exploiting low dimensional structures of data in operator estimation. We also investigate the influence of network structures (e.g., network width, depth, and sparsity) on the generalization error of the neural network estimator and propose a general suggestion on the choice of network structures to maximize the learning efficiency quantitatively.",
+    "authors": [
+        "Hao Liu",
+        "Haizhao Yang",
+        "Minshuo Chen",
+        "Tuo Zhao",
+        "Wenjing Liao"
+    ],
+    "emails": [
+        "haoliu@hkbu.edu.hk",
+        "hzyang@umd.edu",
+        "minshuochen@princeton.edu",
+        "tourzhao@gatech.edu",
+        "wliao60@gatech.edu"
+    ],
+    "id": "22-0719",
+    "issue": 24,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Deep Nonparametric Estimation of Operators between Infinite Dimensional Spaces",
+    "volume": 25,
+    "year": 2024
+}

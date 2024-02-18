@@ -1,0 +1,26 @@
+{
+    "abstract": "While momentum-based accelerated variants of stochastic gradient descent (SGD) are widely used when training machine learning models, there is little theoretical understanding on the generalization error of such methods. In this work, we first show that there exists a convex loss function for which the stability gap for multiple epochs of SGD with standard heavy-ball momentum (SGDM) becomes unbounded. Then, for smooth Lipschitz loss functions, we analyze a modified momentum-based update rule, i.e., SGD with early momentum (SGDEM) under a broad range of step-sizes, and show that it can train machine learning models for multiple epochs with a guarantee for generalization. Finally, for the special case of strongly convex loss functions, we find a range of momentum such that multiple epochs of standard SGDM, as a special form of SGDEM, also generalizes. Extending our results on generalization, we also develop an upper bound on the expected true risk, in terms of the number of training steps, sample size, and momentum. Our experimental evaluations verify the consistency between the numerical results and our theoretical bounds. SGDEM improves the generalization error of SGDM when training ResNet-18 on ImageNet in practical distributed settings.",
+    "authors": [
+        "Ali Ramezani-Kebrya",
+        "Kimon Antonakopoulos",
+        "Volkan Cevher",
+        "Ashish Khisti",
+        "Ben Liang"
+    ],
+    "emails": [
+        "ali@uio.no",
+        "kimon.antonakopoulos@epfl.ch",
+        "volkan.cevher@epfl.ch",
+        "akhisti@ece.utoronto.ca",
+        "liang@ece.utoronto.ca"
+    ],
+    "id": "22-0068",
+    "issue": 22,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "On the Generalization of Stochastic Gradient Descent with Momentum",
+    "volume": 25,
+    "year": 2024
+}

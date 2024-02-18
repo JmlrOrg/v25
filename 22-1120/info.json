@@ -1,0 +1,30 @@
+{
+    "abstract": "In this paper, we focus on the computation of the nonparametric maximum likelihood estimator (NPMLE) in multivariate mixture models. Our approach discretizes this infinite dimensional convex optimization problem by setting fixed support points for the NPMLE and optimizing over the mixing proportions. We propose an efficient and scalable semismooth Newton based augmented Lagrangian method (ALM). Our algorithm outperforms the state-of-the-art methods (Kim et al., 2020; Koenker and Gu, 2017), capable of handling $n \\approx 10^6$ data points with $m \\approx 10^4$ support points. A key advantage of our approach is its strategic utilization of the solution's sparsity, leading to structured sparsity in Hessian computations. As a result, our algorithm demonstrates better scaling in terms of $m$ when compared to the mixsqp method (Kim et al., 2020). The computed NPMLE can be directly applied to denoising the observations in the framework of empirical Bayes. We propose new denoising estimands in this context along with their consistent estimates. Extensive numerical experiments are conducted to illustrate the efficiency of our ALM. In particular, we employ our method to analyze two astronomy data sets: (i) Gaia-TGAS Catalog (Anderson et al., 2018) containing approximately $1.4 \\times 10^6$ data points in two dimensions, and (ii) a data set from the APOGEE survey (Majewski et al., 2017) with approximately $2.7 \\times 10^4$ data points.",
+    "authors": [
+        "Yangjing Zhang",
+        "Ying Cui",
+        "Bodhisattva Sen",
+        "Kim-Chuan Toh"
+    ],
+    "emails": [
+        "yangjing.zhang@amss.ac.cn",
+        "yingcui@berkeley.edu",
+        "bodhi@stat.columbia.edu",
+        "mattohkc@nus.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/YangjingZhang/Dual-ALM-for-NPMLE"
+        ]
+    ],
+    "id": "22-1120",
+    "issue": 8,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "On Efficient and Scalable Computation of the Nonparametric Maximum Likelihood Estimator in Mixture Models",
+    "volume": 25,
+    "year": 2024
+}

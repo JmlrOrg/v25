@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose new limiting dynamics for stochastic gradient descent in the small learning rate regime called stochastic modified flows. These SDEs are driven by a cylindrical Brownian motion and improve the so-called stochastic modified equations by having regular diffusion coefficients and by matching the multi-point statistics. As a second contribution, we introduce distribution dependent stochastic modified flows which we prove to describe the fluctuating limiting dynamics of stochastic gradient descent in the small learning rate - infinite width scaling regime.",
+    "authors": [
+        "Benjamin Gess",
+        "Sebastian Kassing",
+        "Vitalii Konarovskyi"
+    ],
+    "emails": [
+        "benjamin.gess@math.uni-bielefeld.de",
+        "sebastian.kassing@math.uni-bielefeld.de",
+        "vitalii.konarovskyi@uni-hamburg.de"
+    ],
+    "id": "23-0220",
+    "issue": 30,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Stochastic Modified Flows, Mean-Field Limits and Dynamics of Stochastic Gradient Descent",
+    "volume": 25,
+    "year": 2024
+}

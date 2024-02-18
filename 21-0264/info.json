@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper we study the lower complexity bounds for finite-sum optimization problems, where the objective is the average of $n$ individual component functions. We consider a so-called proximal incremental first-order oracle (PIFO) algorithm, which employs the individual component function's gradient and proximal information provided by PIFO to update the variable. To incorporate loopless methods, we also allow the PIFO algorithm to obtain the full gradient infrequently. We develop a novel approach to constructing the hard instances, which partitions the tridiagonal matrix of classical examples into $n$ groups. This construction is friendly to the analysis of PIFO algorithms. Based on this construction, we establish the lower complexity bounds for finite-sum minimax optimization problems when the objective is convex-concave or nonconvex-strongly-concave and the class of component functions is $L$-average smooth. Most of these bounds are nearly matched by existing upper bounds up to log factors. We also derive similar lower bounds for finite-sum minimization problems as previous work under both smoothness and average smoothness assumptions. Our lower bounds imply that proximal oracles for smooth functions are not much more powerful than gradient oracles.",
+    "authors": [
+        "Yuze Han",
+        "Guangzeng Xie",
+        "Zhihua Zhang"
+    ],
+    "emails": [
+        "hanyuze97@pku.edu.cn",
+        "smsxgz@pku.edu.cn",
+        "zhzhang@math.pku.edu.cn"
+    ],
+    "id": "21-0264",
+    "issue": 2,
+    "pages": [
+        1,
+        86
+    ],
+    "title": "Lower Complexity Bounds of Finite-Sum Optimization Problems: The Results and Construction",
+    "volume": 25,
+    "year": 2024
+}

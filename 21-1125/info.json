@@ -1,0 +1,32 @@
+{
+    "abstract": "We analyse and explain the increased generalisation performance of iterate averaging using a Gaussian process perturbation model between the true and batch risk surface on the high dimensional quadratic. We derive three phenomena from our theoretical results: (1) The importance of combining iterate averaging (IA) with large learning rates and regularisation for improved generalisation. (2) Justification for less frequent averaging. (3) That we expect adaptive gradient methods to work equally well, or better, with iterate averaging than their non-adaptive counterparts. Inspired by these results, together with empirical investigations of the importance of appropriate regularisation for the solution diversity of the iterates, we propose two adaptive algorithms with iterate averaging. These give significantly better results compared to stochastic gradient descent (SGD), require less tuning and do not require early stopping or validation set monitoring. We showcase the efficacy of our approach on the CIFAR-10/100, ImageNet and Penn Treebank datasets on a variety of modern and classical network architectures.",
+    "authors": [
+        "Diego Granziol",
+        "Nicholas P. Baskerville",
+        "Xingchen Wan",
+        "Samuel Albanie",
+        "Stephen Roberts"
+    ],
+    "emails": [
+        "diego@purestrength.ai",
+        "n.p.baskerville@bristol.ac.uk",
+        "xwan@robots.ox.ac.uk",
+        "samuel.albanie.academic@gmail.com",
+        "sjrob@robots.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/diegogranziol/Gadam"
+        ]
+    ],
+    "id": "21-1125",
+    "issue": 20,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Iterate Averaging in the Quest for Best Test Error",
+    "volume": 25,
+    "year": 2024
+}

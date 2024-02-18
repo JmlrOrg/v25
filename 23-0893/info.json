@@ -1,0 +1,20 @@
+{
+    "abstract": "We introduce a sufficient graphical model by applying the recently developed nonlinear sufficient dimension reduction techniques to the evaluation of conditional independence. The graphical model is nonparametric in nature, as it does not make distributional assumptions such as the Gaussian or copula Gaussian assumptions. However, unlike a fully nonparametric graphical model, which relies on the high-dimensional kernel to characterize conditional independence, our graphical model is based on conditional independence given a set of sufficient predictors with a substantially reduced dimension. In this way we avoid the curse of dimensionality that comes with a high-dimensional kernel. We develop the population-level properties, convergence rate, and variable selection consistency of our estimate. By simulation comparisons and an analysis of the DREAM 4 Challenge data set, we demonstrate that our method outperforms the existing methods when the Gaussian or copula Gaussian assumptions are violated, and its performance remains excellent in the high-dimensional setting.",
+    "authors": [
+        "Bing Li",
+        "Kyongwon Kim"
+    ],
+    "emails": [
+        "bxl9@psu.edu",
+        "kimk@ewha.ac.kr"
+    ],
+    "id": "23-0893",
+    "issue": 17,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "On Sufficient Graphical Models",
+    "volume": 25,
+    "year": 2024
+}

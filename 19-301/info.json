@@ -1,0 +1,18 @@
+{
+    "abstract": "Ideal supervised classification assumes known correct labels, but various truthing issues can arise in practice: noisy labels; multiple, conflicting labels for a sample; missing labels; and different labeler combinations for different samples. Previous work introduced a noisy-label model, which views the observed noisy labels as random variables conditioned on the unobserved correct labels. It has mainly focused on estimating the conditional distribution of the noisy labels and the class prior, as well as estimating the correct labels or training with noisy labels. In a complementary manner, given the conditional distribution and class prior, we apply estimation theory to classifier testing, training, and comparison of different combinations of labelers. First, for binary classification, we construct a testing model and derive approximate marginal posteriors for accuracy, precision, recall, probability of false alarm, and F-score, and joint posteriors for ROC and precision-recall analysis.  We propose minimum mean-square error (MMSE) testing, which employs empirical Bayes algorithms to estimate the testing-model parameters and then computes optimal point estimates and credible regions for the metrics. We extend the approach to multi-class classification to obtain optimal estimates of accuracy and individual confusion-matrix elements. Second, we present a unified view of training that covers probabilistic (i.e., discriminative or generative) and non-probabilistic models.  For the former, we adjust maximum-likelihood or maximum a posteriori training for truthing issues; for the latter, we propose MMSE training, which minimizes the MMSE estimate of the empirical risk. We also describe suboptimal training that is compatible with existing infrastructure. Third, we observe that mutual information lets one express any labeler combination as an equivalent single labeler, implying that multiple mediocre labelers can be as informative as, or more informative than, a single expert labeler.  Experiments demonstrate the effectiveness of the methods and confirm the implication.",
+    "authors": [
+        "Jonathan K. Su"
+    ],
+    "emails": [
+        "su@ll.mit.edu"
+    ],
+    "id": "19-301",
+    "issue": 1,
+    "pages": [
+        1,
+        91
+    ],
+    "title": "On Truthing Issues in Supervised Classification",
+    "volume": 25,
+    "year": 2024
+}

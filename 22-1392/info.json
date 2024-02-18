@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the problem of state estimation in general state-space models using variational inference. For a generic variational family defined using the same backward decomposition as the actual joint smoothing distribution, we establish under mixing assumptions that the variational approximation of expectations of additive state functionals induces an error which grows at most linearly in the number of observations. This guarantee is consistent with the known upper bounds for the approximation of smoothing distributions using standard Monte Carlo methods. We illustrate our theoretical result with state-of-the art variational solutions based both on the backward parameterization and on alternatives using forward decompositions. This numerical study proposes guidelines for variational inference based on neural networks in state-space models.",
+    "authors": [
+        "Mathis Chagneux",
+        "Elisabeth Gassiat",
+        "Pierre Gloaguen",
+        "Sylvain Le Corff"
+    ],
+    "emails": [
+        "m.chagneux@gmail.com",
+        "elisabeth.gassiat@universite-paris-saclay.fr",
+        "pierre.gloaguen@univ-ubs.fr",
+        "sylvain.le_corff@sorbonne-universite.fr"
+    ],
+    "id": "22-1392",
+    "issue": 28,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Additive smoothing error in backward variational inference for general state-space models",
+    "volume": 25,
+    "year": 2024
+}
