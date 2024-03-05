@@ -1,0 +1,20 @@
+{
+    "abstract": "Distributed estimation of a Gaussian mean under communication constraints is studied in a decision theoretical framework. Minimax rates of convergence, which characterize the tradeoff between communication costs and statistical accuracy, are established under the independent protocols. Communication-efficient and statistically optimal procedures are developed. In the univariate case, the optimal rate depends only on the total communication budget, so long as each local machine has at least one bit. However, in the multivariate case, the minimax rate depends on the specific allocations of the communication budgets among the local machines. Although optimal estimation of a Gaussian mean is relatively simple in the conventional setting, it is quite involved under communication constraints, both in terms of the optimal procedure design and the lower bound argument. An essential step is the decomposition of the minimax estimation problem into two stages, localization and refinement. This critical decomposition provides a framework for both the lower bound analysis and optimal procedure design. The optimality results and techniques developed in the present paper can be useful for solving other problems such as distributed nonparametric function estimation and sparse signal recovery.",
+    "authors": [
+        "T. Tony Cai",
+        "Hongji Wei"
+    ],
+    "emails": [
+        "tcai@wharton.upenn.edu",
+        "weihongji1206@gmail.com"
+    ],
+    "id": "21-0316",
+    "issue": 37,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Distributed Gaussian Mean Estimation under Communication Constraints: Optimal Rates and Communication-Efficient Algorithms",
+    "volume": 25,
+    "year": 2024
+}

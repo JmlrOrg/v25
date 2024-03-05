@@ -1,0 +1,26 @@
+{
+    "abstract": "We  consider  the  problem  of  sparse  nonnegative matrix factorization (NMF) using  archetypal  regularization. The goal is to represent a collection of data points as nonnegative linear combinations of  a  few  nonnegative  sparse  factors with appealing geometric properties, arising from the use of archetypal regularization.  We generalize the notion of robustness studied in Javadi and Montanari (2019) (without sparsity) to the notions of (a) strong robustness that implies each estimated archetype is close to the underlying archetypes and (b) weak robustness that  implies  there  exists  at  least  one  recovered  archetype  that  is  close  to  the  underlying archetypes.  Our theoretical results on robustness guarantees hold under minimal  assumptions on the underlying data, and applies to settings where the underlying archetypes need not be sparse. We present theoretical results and illustrative examples to strengthen the insights underlying the notions of robustness. We propose new algorithms for our optimization problem; and present numerical experiments on synthetic and real data sets that shed further insights into our proposed framework and theoretical developments.",
+    "authors": [
+        "Kayhan Behdin",
+        "Rahul Mazumder"
+    ],
+    "emails": [
+        "behdink@mit.edu",
+        "rahulmaz@mit.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/kayhanbehdin/SparseAA"
+        ]
+    ],
+    "id": "21-0233",
+    "issue": 36,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Sparse NMF with Archetypal Regularization: Computational and Robustness Properties",
+    "volume": 25,
+    "year": 2024
+}

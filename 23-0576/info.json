@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we present a comprehensive study on the convergence properties of Adam-family methods for nonsmooth optimization, especially in the training of nonsmooth neural networks. We introduce a novel two-timescale framework that adopts a two-timescale updating scheme, and prove its convergence properties under mild assumptions. Our proposed framework encompasses various popular Adam-family methods, providing convergence guarantees for these methods in training nonsmooth neural networks. Furthermore, we develop stochastic subgradient methods that incorporate gradient clipping techniques for training nonsmooth neural networks with heavy-tailed noise. Through our framework, we show that our proposed methods converge even when the evaluation noises are only assumed to be integrable. Extensive numerical experiments demonstrate the high efficiency and robustness of our proposed methods.",
+    "authors": [
+        "Nachuan Xiao",
+        "Xiaoyin Hu",
+        "Xin Liu",
+        "Kim-Chuan Toh"
+    ],
+    "emails": [
+        "xnc@lsec.cc.ac.cn",
+        "hxy@amss.ac.cn",
+        "liuxin@lsec.cc.ac.cn",
+        "mattohkc@nus.edu.sg"
+    ],
+    "id": "23-0576",
+    "issue": 48,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Adam-family Methods for Nonsmooth Optimization with Convergence Guarantees",
+    "volume": 25,
+    "year": 2024
+}

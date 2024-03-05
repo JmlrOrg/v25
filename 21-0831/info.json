@@ -1,0 +1,26 @@
+{
+    "abstract": "The alternating direction method of multipliers (ADMM) algorithm is a powerful and flexible tool for complex optimization problems of the form $\\min\\{f(x)+g(y) : Ax+By=c\\}$. ADMM exhibits robust empirical performance across a range of challenging settings including nonsmoothness and nonconvexity of the objective functions $f$ and $g$, and provides a simple and natural approach to the inverse problem of image reconstruction for computed tomography (CT) imaging. From the theoretical point of view, existing results for convergence in the nonconvex setting generally assume smoothness in at least one of the component functions in the objective. In this work, our new theoretical results provide convergence guarantees under a restricted strong convexity assumption without requiring smoothness or differentiability, while still allowing differentiable terms to be treated approximately if needed. We validate these theoretical results empirically, with a simulated example where both $f$ and $g$ are nondifferentiable---and thus outside the scope of existing theory---as well as a simulated CT image reconstruction problem.",
+    "authors": [
+        "Rina Foygel Barber",
+        "Emil Y. Sidky"
+    ],
+    "emails": [
+        "rina@uchicago.edu",
+        "sidky@uchicago.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/rinafb/ADMM_CT"
+        ]
+    ],
+    "id": "21-0831",
+    "issue": 38,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Convergence for nonconvex ADMM, with applications to CT imaging",
+    "volume": 25,
+    "year": 2024
+}

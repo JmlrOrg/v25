@@ -1,0 +1,29 @@
+{
+    "abstract": "Various data exhibit symmetry, including permutations in graphs and point clouds. Machine learning methods that utilize this symmetry have achieved considerable success. In this study, we explore learning models for data exhibiting group symmetry. Our focus is on transforming deep neural networks using Reynolds operators, which average over the group to convert a function into an invariant or equivariant form. While learning methods based on Reynolds operators are well-established, they often face computational complexity challenges. To address this, we introduce two new methods that reduce the computational burden associated with the Reynolds operator: (i) Although the Reynolds operator traditionally averages over the entire group, we demonstrate that it can be effectively approximated by averaging over specific subsets of the group, termed the Reynolds design. (ii) We reveal that the pre-model does not require all input variables. Instead, using a select number of partial inputs (Reynolds dimension) is sufficient to achieve a universally applicable model. Employing these methods, which hinge on the Reynolds design and Reynolds dimension concepts, allows us to construct universally applicable models with manageable computational complexity. Our experiments on benchmark data indicate that our approach is more efficient than existing methods.",
+    "authors": [
+        "Akiyoshi Sannai",
+        "Makoto Kawano",
+        "Wataru Kumagai"
+    ],
+    "emails": [
+        "sannai.akiyoshi.7z@kyoto-u.ac.jp",
+        "kawano@weblab.t.u-tokyo.ac.jp",
+        "kumagai@weblab.t.u-tokyo.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/makora9143/ReyNet"
+        ]
+    ],
+    "id": "22-0891",
+    "issue": 42,
+    "pages": [
+        1,
+        36
+    ],
+    "special_issue": "MLOSS",
+    "title": "Invariant and Equivariant Reynolds Networks",
+    "volume": 25,
+    "year": 2024
+}

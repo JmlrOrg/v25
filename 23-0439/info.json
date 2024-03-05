@@ -1,0 +1,26 @@
+{
+    "abstract": "Multimodal learning aims to learn from data of different modalities by fusing information from heterogeneous sources. Although it is beneficial to learn from more modalities, it is often infeasible to use all available modalities under limited computational resources. Modeling with all available modalities can also be inefficient and unnecessary when information across input modalities overlaps. In this paper, we study the modality selection problem, which aims to select the most useful subset of modalities for learning under a cardinality constraint. To that end, we propose a unified theoretical framework to quantify the learning utility of modalities, and we identify dependence assumptions to flexibly model the heterogeneous nature of multimodal data, which also allows efficient algorithm design. Accordingly, we derive a greedy modality selection algorithm via submodular maximization, which selects the most useful modalities with an optimality guarantee on learning performance. We also connect marginal-contribution-based feature importance scores, such as Shapley value, from the feature selection domain to the context of modality selection, to efficiently compute the importance of individual modality. We demonstrate the efficacy of our theoretical results and modality selection algorithms on 2 synthetic and 4 real-world data sets on a diverse range of multimodal data.",
+    "authors": [
+        "Yifei He",
+        "Runxiang Cheng",
+        "Gargi Balasubramaniam",
+        "Yao-Hung Hubert Tsai",
+        "Han Zhao"
+    ],
+    "emails": [
+        "yifeihe3@illinois.edu",
+        "rcheng12@illinois.edu",
+        "gargib2@illinois.edu",
+        "yaohungt@cs.cmu.edu",
+        "hanzhao@illinois.edu"
+    ],
+    "id": "23-0439",
+    "issue": 47,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Efficient Modality Selection in Multimodal Learning",
+    "volume": 25,
+    "year": 2024
+}

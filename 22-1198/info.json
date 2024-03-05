@@ -1,0 +1,24 @@
+{
+    "abstract": "We analyze the complexity of sampling from a class of heavy-tailed distributions by discretizing a natural class of It\u00f4 diffusions associated with weighted Poincar\u00e9 inequalities. Based on a mean-square analysis, we establish the iteration complexity for obtaining a sample whose distribution is $\\epsilon$ close to the target distribution in the Wasserstein-2 metric. In this paper, our results take the mean-square analysis to its limits, i.e., we invariably only require that the target density has finite variance, the minimal requirement for a mean-square analysis. To obtain explicit estimates, we compute upper bounds on certain moments associated with heavy-tailed targets under various assumptions. We also provide similar iteration complexity results for the case where only function evaluations of the unnormalized target density are available by estimating the gradients using a Gaussian smoothing technique. We provide illustrative examples based on the multivariate $t$-distribution.",
+    "authors": [
+        "Ye He",
+        "Tyler Farghly",
+        "Krishnakumar Balasubramanian",
+        "Murat A. Erdogdu"
+    ],
+    "emails": [
+        "leohe@ucdavis.edu",
+        "farghly@stats.ox.ac.uk",
+        "kbala@ucdavis.edu",
+        "erdogdu@cs.toronto.edu"
+    ],
+    "id": "22-1198",
+    "issue": 43,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Mean-Square Analysis of Discretized It\u00f4 Diffusions for Heavy-tailed Sampling",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "To learn partition-based index structures for approximate nearest neighbor (ANN) search, both supervised and unsupervised machine learning algorithms have been used. Existing supervised algorithms select all the points that belong to the same partition element as the query point as nearest neighbor candidates. Consequently, they formulate the learning task as finding a partition in which the nearest neighbors of a query point belong to the same partition element with it as often as possible. In contrast, we formulate the candidate set selection in ANN search directly as a multilabel classification problem where the labels correspond to the nearest neighbors of the query point. In the proposed framework,  partition-based index structures are interpreted as partitioning classifiers for solving this classification problem. Empirical results suggest that, when combined with any partitioning strategy, the natural classifier based on the proposed framework leads to a strictly improved performance compared to the earlier candidate set selection methods.  We also prove a sufficient condition for the consistency of a partitioning classifier for ANN search, and illustrate the result by verifying this condition for chronological $k$-d trees and (both dense and sparse) random projection trees.",
+    "authors": [
+        "Ville Hyv{\\\"o}}nen",
+        "Elias J{\\\"a}}{\\\"a}}saari",
+        "Teemu Roos"
+    ],
+    "emails": [
+        "ville.2.hyvonen@aalto.fi",
+        "ejaeaesa@andrew.cmu.edu",
+        "teemu.roos@helsinki.fi"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/vioshyvo/JMLR2024"
+        ]
+    ],
+    "id": "23-0286",
+    "issue": 46,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "A Multilabel Classification Framework for Approximate Nearest Neighbor Search",
+    "volume": 25,
+    "year": 2024
+}

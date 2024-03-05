@@ -1,0 +1,30 @@
+{
+    "abstract": "Probabilistic forecasting relies on past observations to provide a probability distribution for a future outcome, which is often evaluated against the realization using a scoring rule. Here, we perform probabilistic forecasting with generative neural networks, which parametrize distributions on high-dimensional spaces by transforming draws from a latent variable. Generative networks are typically trained in an adversarial framework. In contrast, we propose to train generative networks to minimize a predictive-sequential (or prequential) scoring rule on a recorded temporal sequence of the phenomenon of interest, which is appealing as it corresponds to the way forecasting systems are routinely evaluated. Adversarial-free minimization is possible for some scoring rules; hence, our framework avoids the cumbersome hyperparameter tuning and uncertainty underestimation due to unstable adversarial training, thus unlocking reliable use of generative networks in probabilistic forecasting. Further, we prove consistency of the minimizer of our objective with dependent data, while adversarial training assumes independence. We perform simulation studies on two chaotic dynamical models and a benchmark data set of global weather observations; for this last example, we define scoring rules for spatial data by drawing from the relevant literature. Our method outperforms state-of-the-art adversarial approaches, especially in probabilistic calibration, while requiring less hyperparameter tuning.",
+    "authors": [
+        "Lorenzo Pacchiardi",
+        "Rilwan A. Adewoyin",
+        "Peter Dueben",
+        "Ritabrata Dutta"
+    ],
+    "emails": [
+        "lorenzo.pacchiardi@gmail.com",
+        "rilwan.adewoyin@warwick.ac.uk",
+        "peter.dueben@ecmwf.int",
+        "ritabrata.dutta@warwick.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LoryPack/GenerativeNetworksScoringRulesProbabilisticForecasting"
+        ]
+    ],
+    "id": "23-0038",
+    "issue": 45,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Probabilistic Forecasting with Generative Networks via Scoring Rule Minimization",
+    "volume": 25,
+    "year": 2024
+}
