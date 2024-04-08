@@ -1,0 +1,20 @@
+{
+    "abstract": "Social media platforms (SMPs) leverage algorithmic filtering (AF) as a means of selecting the content that constitutes a user's feed with the aim of maximizing their rewards. Selectively choosing the contents to be shown on the user's feed may yield a certain extent of influence, either minor or major, on the user's decision-making, compared to what it would have been under a natural/fair content selection. As we have witnessed over the past decade, algorithmic filtering can cause detrimental side effects, ranging from biasing individual decisions to shaping those of society as a whole, for example, diverting users' attention from whether to get the COVID-19 vaccine or inducing the public to choose a presidential candidate. The government's constant attempts to regulate the adverse effects of AF are often complicated, due to bureaucracy, legal affairs, and financial considerations. On the other hand SMPs seek to monitor their own algorithmic activities to avoid being fined for exceeding the allowable threshold. In this paper, we mathematically formalize this framework and utilize it to construct a data-driven statistical auditing procedure to regulate AF from deflecting users' beliefs over time, along with sample complexity guarantees. This state-of-the-art algorithm can be used either by authorities acting as external regulators or by SMPs for self-auditing.",
+    "authors": [
+        "Wasim Huleihel",
+        "Yehonathan Refael"
+    ],
+    "emails": [
+        "wasimh@tauex.tau.ac.il",
+        "refaelkalim@mail.tau.ac.il"
+    ],
+    "id": "22-1112",
+    "issue": 64,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Mathematical Framework for Online Social Media Auditing",
+    "volume": 25,
+    "year": 2024
+}

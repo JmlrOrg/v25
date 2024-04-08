@@ -1,0 +1,34 @@
+{
+    "abstract": "Lipschitz-constrained neural networks have several advantages over unconstrained ones and can be applied to a variety of problems, making them a topic of attention in the deep learning community. Unfortunately, it has been shown both theoretically and empirically that they perform poorly when equipped with ReLU activation functions. By contrast, neural networks with learnable 1-Lipschitz linear splines are known to be more expressive. In this paper, we show that such networks correspond to global optima of a constrained functional optimization problem that consists of the training of a neural network composed of 1-Lipschitz linear layers and 1-Lipschitz freeform activation functions with second-order total-variation regularization. Further, we propose an efficient method to train these neural networks. Our numerical experiments show that our trained networks compare favorably with existing 1-Lipschitz neural architectures.",
+    "authors": [
+        "Stanislas Ducotterd",
+        "Alexis Goujon",
+        "Pakshal Bohra",
+        "Dimitris Perdios",
+        "Sebastian Neumayer",
+        "Michael Unser"
+    ],
+    "emails": [
+        "stanislas.ducotterd@epfl.ch",
+        "alexis.goujon@epfl.ch",
+        "pakshal.bohra@epfl.ch",
+        "dimitris.perdios@epfl.ch",
+        "sebastian.neumayer@epfl.ch",
+        "michael.unser@epfl.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/StanislasDucotterd/Lipschitz_DSNN"
+        ]
+    ],
+    "id": "22-1347",
+    "issue": 65,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Improving Lipschitz-Constrained Neural Networks by Learning Activation Functions",
+    "volume": 25,
+    "year": 2024
+}

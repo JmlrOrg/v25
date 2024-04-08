@@ -1,0 +1,26 @@
+{
+    "abstract": "Approximate inference methods like the Laplace method, Laplace approximations and variational methods, amongst others, are popular methods when exact inference is not feasible due to the complexity of the model or the abundance of data. In this paper we propose a hybrid approximate method called Low-Rank Variational Bayes correction (VBC), that uses the Laplace method and subsequently a Variational Bayes correction in a lower dimension, to the joint posterior mean. The cost is essentially that of the Laplace method which ensures scalability of the method, in both model complexity and data size. Models with fixed and unknown hyperparameters are considered, for simulated and real examples, for small and large data sets.",
+    "authors": [
+        "Janet van Niekerk",
+        "Haavard Rue"
+    ],
+    "emails": [
+        "janet.vanNiekerk@kaust.edu.sa",
+        "haavard.rue@kaust.edu.sa"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JanetVN1201/Code_for_papers/tree/main/Low-rank%20VB%20correction%20to%20GA"
+        ]
+    ],
+    "id": "21-1405",
+    "issue": 62,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Low-rank Variational Bayes correction to the Laplace method",
+    "volume": 25,
+    "year": 2024
+}

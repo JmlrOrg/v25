@@ -1,0 +1,26 @@
+{
+    "abstract": "In this work, we present a novel algorithm design methodology that finds the optimal algorithm as a function of inequalities. Specifically, we restrict convergence analyses of algorithms to use a prespecified subset of inequalities, rather than utilizing all true inequalities, and find the optimal algorithm subject to this restriction. This methodology allows us to design algorithms with certain desired characteristics. As concrete demonstrations of this methodology, we find new state-of-the-art accelerated first-order gradient methods using randomized coordinate updates and backtracking line searches.",
+    "authors": [
+        "Chanwoo Park",
+        "Ernest K. Ryu"
+    ],
+    "emails": [
+        "cpark97@mit.edu",
+        "ernestryu@snu.ac.kr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chanwoo-park-official/A-star-map/"
+        ]
+    ],
+    "id": "21-1256",
+    "issue": 51,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Optimal First-Order Algorithms as a Function of Inequalities",
+    "volume": 25,
+    "year": 2024
+}

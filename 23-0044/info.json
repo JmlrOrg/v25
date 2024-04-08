@@ -1,0 +1,20 @@
+{
+    "abstract": "In the context of sketching for compressive mixture modeling, we revisit existing proofs of the Restricted Isometry Property of sketching operators with respect to certain mixtures models. After examining the shortcomings of existing guarantees, we propose an alternative analysis that circumvents the need to assume importance sampling when drawing random Fourier features to build random sketching operators. Our analysis is based on new deterministic bounds on the restricted isometry constant that depend solely on the set of frequencies used to define the sketching operator; then we leverage these bounds to establish concentration inequalities for random sketching operators that lead to the desired RIP guarantees. Our analysis also opens the door to theoretical guarantees for structured sketching with frequencies associated to fast random linear operators.",
+    "authors": [
+        "Ayoub Belhadji",
+        "R\u00e9mi Gribonval"
+    ],
+    "emails": [
+        "ayoub.belhadji@gmail.com",
+        "remi.gribonval@inria.fr"
+    ],
+    "id": "23-0044",
+    "issue": 55,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Revisiting RIP Guarantees for Sketching Operators on Mixture Models",
+    "volume": 25,
+    "year": 2024
+}

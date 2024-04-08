@@ -1,0 +1,20 @@
+{
+    "abstract": "We present a new class of Langevin-based algorithms, which overcomes many of the known shortcomings of popular adaptive optimizers that are currently used for the fine tuning of deep learning models. Its underpinning theory relies on recent advances of  Euler-Krylov polygonal approximations for stochastic differential equations (SDEs) with monotone coefficients. As a result, it inherits the stability properties of tamed algorithms, while it addresses other known issues, e.g. vanishing gradients in deep learning. In particular, we provide a nonasymptotic analysis and full theoretical guarantees for the convergence properties of an algorithm of this novel class, which we named TH$\\varepsilon$O POULA (or, simply, TheoPouLa). Finally, several experiments are presented with different types of deep learning models, which show the superior performance of TheoPouLa over many popular adaptive optimization algorithms.",
+    "authors": [
+        "Dong-Young Lim",
+        "Sotirios Sabanis"
+    ],
+    "emails": [
+        "dlim@unist.ac.kr",
+        "S.Sabanis@ed.ac.uk"
+    ],
+    "id": "22-0796",
+    "issue": 53,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Polygonal Unadjusted Langevin Algorithms: Creating stable and efficient adaptive algorithms for neural networks",
+    "volume": 25,
+    "year": 2024
+}

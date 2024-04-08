@@ -1,0 +1,20 @@
+{
+    "abstract": "We prove existence, minimax, and complementary slackness theorems for adversarial surrogate risks in binary classification. These results extend recent work that established analogous minimax and existence theorems for the adversarial classification risk. We show that such statements continue to hold for a very general class of surrogate losses; moreover, we remove some of the technical restrictions present in prior work. Our results provide an explanation for the phenomenon of transfer attacks and inform new directions in algorithm development.",
+    "authors": [
+        "Natalie S. Frank",
+        "Jonathan Niles-Weed"
+    ],
+    "emails": [
+        "nf1066@nyu.edu",
+        "jnw@cims.nyu.edu"
+    ],
+    "id": "23-0456",
+    "issue": 58,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Existence and Minimax Theorems for Adversarial Surrogate Risks in Binary Classification",
+    "volume": 25,
+    "year": 2024
+}

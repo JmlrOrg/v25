@@ -1,0 +1,29 @@
+{
+    "abstract": "We consider a class of diffusion processes with finite-dimensional parameters and partially observed at discrete time instances. We propose a methodology to unbiasedly estimate the expectation of a given functional of the diffusion process conditional on parameters and data. When these unbiased estimators with appropriately chosen functionals are employed within an expectation-maximization algorithm or a stochastic gradient method, this enables statistical inference using the maximum likelihood or Bayesian framework. Compared to existing approaches, the use of our unbiased estimators allows one to remove any time-discretization bias and Markov chain Monte Carlo burn-in bias. Central to our methodology is a novel and natural combination of multilevel randomization schemes and unbiased Markov chain Monte Carlo methods, and the development of new couplings of multiple conditional particle filters. We establish under assumptions that our estimators are unbiased and have finite variance. We illustrate various aspects of our method on an Ornstein--Uhlenbeck model, a logistic diffusion model for population dynamics, and a neural network model for grid cells.",
+    "authors": [
+        "Jeremy Heng",
+        "Jeremie Houssineau",
+        "Ajay Jasra"
+    ],
+    "emails": [
+        "heng@essec.edu",
+        "jeremie.houssineau@ntu.edu.sg",
+        "ajayjasra@cuhk.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jeremyhengjm/UnbiasedScore"
+        ]
+    ],
+    "id": "23-0347",
+    "issue": 66,
+    "pages": [
+        1,
+        66
+    ],
+    "special_issue": "MLOSS",
+    "title": "On Unbiased Estimation for Partially Observed Diffusions",
+    "volume": 25,
+    "year": 2024
+}

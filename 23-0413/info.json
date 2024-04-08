@@ -1,0 +1,30 @@
+{
+    "abstract": "Learning anticipation in Multi-Agent Reinforcement Learning (MARL) is a reasoning paradigm where agents anticipate the learning steps of other agents to improve cooperation among themselves. As MARL uses gradient-based optimization, learning anticipation requires using Higher-Order Gradients (HOG), with so-called HOG methods. Existing HOG methods are based on policy parameter anticipation, i.e., agents anticipate the changes in policy parameters of other agents. Currently, however, these existing HOG methods have only been developed for differentiable games or games with small state spaces. In this work, we demonstrate that in the case of non-differentiable games with large state spaces, existing HOG methods do not perform well and are inefficient due to their inherent limitations related to policy parameter anticipation and multiple sampling stages. To overcome these problems, we propose Off-Policy Action Anticipation (OffPA2), a novel framework that approaches learning anticipation through action anticipation, i.e., agents anticipate the changes in actions of other agents, via off-policy sampling. We theoretically analyze our proposed OffPA2 and employ it to develop multiple HOG methods that are applicable to non-differentiable games with large state spaces. We conduct a large set of experiments and illustrate that our proposed HOG methods outperform the existing ones regarding efficiency and performance.",
+    "authors": [
+        "Ariyan Bighashdel",
+        "Daan de Geus",
+        "Pavol Jancura",
+        "Gijs Dubbelman"
+    ],
+    "emails": [
+        "a.bighashdel@tue.nl",
+        "d.c.d.geus@tue.nl",
+        "p.jancura@tue.nl",
+        "g.dubbelman@tue.nl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tue-mps/OffPA2"
+        ]
+    ],
+    "id": "23-0413",
+    "issue": 67,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Off-Policy Action Anticipation in Multi-Agent Reinforcement Learning",
+    "volume": 25,
+    "year": 2024
+}

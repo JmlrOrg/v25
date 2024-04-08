@@ -1,0 +1,41 @@
+{
+    "abstract": "Causal discovery aims at revealing causal relations from observational data, which is a fundamental task in science and engineering. We describe causal-learn, an open-source Python library for causal discovery. This library focuses on bringing a comprehensive collection of causal discovery methods to both practitioners and researchers. It provides easy-to-use APIs for non-specialists, modular building blocks for developers, detailed documentation for learners, and comprehensive methods for all. Different from previous packages in R or Java, causal-learn is fully developed in Python, which could be more in tune with the recent preference shift in programming languages within related communities. The library is available at https://github.com/py-why/causal-learn.",
+    "authors": [
+        "Yujia Zheng",
+        "Biwei Huang",
+        "Wei Chen",
+        "Joseph Ramsey",
+        "Mingming Gong",
+        "Ruichu Cai",
+        "Shohei Shimizu",
+        "Peter Spirtes",
+        "Kun Zhang"
+    ],
+    "emails": [
+        "yujiazh@cmu.edu",
+        "bih007@ucsd.edu",
+        "chenweidelight@gmail.com",
+        "jdramsey@andrew.cmu.edu",
+        "mingming.gong@unimelb.edu.au",
+        "cairuichu@gmail.com",
+        "shohei-shimizu@biwako.shiga-u.ac.jp",
+        "ps7z@andrew.cmu.edu",
+        "kunz1@cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/py-why/causal-learn"
+        ]
+    ],
+    "id": "23-0970",
+    "issue": 60,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "Causal-learn: Causal Discovery in Python",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We study effect propagation in a causal directed acyclic graph (DAG), with the goal of providing a flow-based decomposition of the effect (i.e., change in the outcome variable) as a result of changes in the source variables. We first compare various ideas on causality to quantify effect propagation, such as direct and indirect effects, path-specific effects, and degree of responsibility. We discuss the shortcomings of such approaches and propose a flow-based methodology, which we call recursive Shapley value (RSV). By considering a broader set of counterfactuals than existing methods, RSV obeys a unique adherence to four desirable flow-based axioms. Further, we provide a general path-based characterization of RSV for an arbitrary non-parametric structural equations model (SEM) defined on the underlying DAG. Interestingly, for the special class of linear SEMs, RSV exhibits a simple and tractable characterization (and hence, computation), which recovers the classical method of path coefficients and is equivalent to path-specific effects. For non-parametric SEMs, we use our general characterization to develop an unbiased Monte-Carlo estimation procedure with an exponentially decaying sample complexity. We showcase the application of RSV on two challenging problems on causality (causal overdetermination and causal unfairness).",
+    "authors": [
+        "Raghav Singal",
+        "George Michailidis"
+    ],
+    "emails": [
+        "singal@dartmouth.edu",
+        "gmichail@ucla.edu"
+    ],
+    "id": "22-0285",
+    "issue": 52,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Axiomatic effect propagation in structural causal models",
+    "volume": 25,
+    "year": 2024
+}

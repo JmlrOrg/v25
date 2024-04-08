@@ -1,0 +1,32 @@
+{
+    "abstract": "Learning interpretable representations of neural dynamics at a population level is a crucial first step to understanding how observed neural activity relates to perception and behavior. Models of neural dynamics often focus on either low-dimensional projections of neural activity or on learning dynamical systems that explicitly relate to the neural state over time. We discuss how these two approaches are interrelated by considering dynamical systems as representative of flows on a low-dimensional manifold. Building on this concept, we propose a new decomposed dynamical system model that represents complex non-stationary and nonlinear dynamics of time series data as a sparse combination of simpler, more interpretable components. Our model is trained through a dictionary learning procedure, where we leverage recent results in tracking sparse vectors over time. The decomposed nature of the dynamics is more expressive than previous switched approaches for a given number of parameters and enables modeling of overlapping and non-stationary dynamics. In both continuous-time and discrete-time instructional examples, we demonstrate that our model effectively approximates the original system, learns efficient representations, and captures smooth transitions between dynamical modes. Furthermore, we highlight our model\u2019s ability to efficiently capture and demix population dynamics generated from multiple independent subnetworks, a task that is computationally impractical for switched models. Finally, we apply our model to neural ``full brain'' recordings of C. elegans data, illustrating a diversity of dynamics that is obscured when classified into discrete states.",
+    "authors": [
+        "Noga Mudrik",
+        "Yenho Chen",
+        "Eva Yezerets",
+        "Christopher J. Rozell",
+        "Adam S. Charles"
+    ],
+    "emails": [
+        "nmudrik1@jhu.edu",
+        "yenho@gatech.edu",
+        "eyezere1@jhu.edu",
+        "crozell@gatech.edu",
+        "adamsc@jhu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dLDS-Decomposed-Linear-Dynamics"
+        ]
+    ],
+    "id": "23-0777",
+    "issue": 59,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Decomposed Linear Dynamical Systems (dLDS) for  learning the latent components of neural dynamics",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper aims to develop a Newton-type method to solve a class of nonconvex composite programs. In particular, the nonsmooth part is possibly nonconvex. To tackle the nonconvexity, we develop a notion of strong prox-regularity which is related to the singleton property and Lipschitz continuity of the associated proximal operator, and we verify it in various classes of functions, including weakly convex functions, indicator functions of proximally smooth sets, and two specific sphere-related nonconvex nonsmooth functions. In this case, the problem class we are concerned with covers smooth optimization problems on manifold and certain composite optimization problems on manifold. For the latter, the proposed algorithm is the first second-order type method. Combining with the semismoothness of the proximal operator, we design a projected semismooth Newton method to find a root of the natural residual induced by the proximal gradient method. Due to the possible nonconvexity of the feasible domain, an extra projection is added to the usual semismooth Newton step and  new criteria are proposed for the switching between the projected semismooth Newton step and the proximal step. The global convergence is then established under the strong prox-regularity. Based on the BD regularity condition, we establish local superlinear convergence. Numerical experiments demonstrate the effectiveness of our proposed method compared with state-of-the-art ones.",
+    "authors": [
+        "Jiang Hu",
+        "Kangkang Deng",
+        "Jiayuan Wu",
+        "Quanzheng Li"
+    ],
+    "emails": [
+        "hujiangopt@gmail.com",
+        "freedeng1208@gmail.com",
+        "1901110043@pku.edu.cn",
+        "li.quanzheng@mgh.harvard.edu"
+    ],
+    "id": "23-0371",
+    "issue": 56,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "A projected semismooth Newton method for a class of nonconvex composite programs with strong prox-regularity",
+    "volume": 25,
+    "year": 2024
+}

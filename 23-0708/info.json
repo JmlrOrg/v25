@@ -1,0 +1,28 @@
+{
+    "abstract": "We develop a notion of projections between sets of probability measures using the geometric properties of the $2$-Wasserstein space. In contrast to existing methods, it is designed for multivariate probability measures that need not be regular, and is computationally efficient to implement via regression. The idea is to work on tangent cones of the Wasserstein space using generalized geodesics. Its structure and computational properties make the method applicable in a variety of settings where probability measures need not be regular, from causal inference to the analysis of object data. An application to estimating causal effects yields a generalization of the synthetic controls method for systems with general heterogeneity described via multivariate probability measures.",
+    "authors": [
+        "Florian Gunsilius",
+        "Meng Hsuan Hsieh",
+        "Myung Jin Lee"
+    ],
+    "emails": [
+        "ffg@umich.edu",
+        "rexhsieh@umich.edu",
+        "leemjin@tamu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/menghsuanhsieh/tangential-wasserstein-projection"
+        ]
+    ],
+    "id": "23-0708",
+    "issue": 69,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Tangential Wasserstein Projections",
+    "volume": 25,
+    "year": 2024
+}

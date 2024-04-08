@@ -1,0 +1,32 @@
+{
+    "abstract": "Tight and efficient neural network bounding is crucial to the scaling of neural network verification systems. Many efficient bounding algorithms have been presented recently, but they are often too loose to verify more challenging properties. This is due to the weakness of the employed relaxation, which is usually a linear program of size linear in the number of neurons. While a tighter linear relaxation for piecewise-linear activations exists, it comes at the cost of exponentially many constraints and currently lacks an efficient customized solver. We alleviate this deficiency by presenting two novel dual algorithms: one operates a subgradient method on a small active set of dual variables, the other exploits the sparsity of Frank-Wolfe type optimizers to incur only a linear memory cost. Both methods recover the strengths of the new relaxation: tightness and a linear separation oracle. At the same time, they share the benefits of previous dual approaches for weaker relaxations: massive parallelism, GPU implementation, low cost per iteration and valid bounds at any time. As a consequence, we can obtain better bounds than off-the-shelf solvers in only a fraction of their running time, attaining significant formal verification speed-ups.",
+    "authors": [
+        "Alessandro De Palma",
+        "Harkirat Singh Behl",
+        "Rudy Bunel",
+        "Philip H.S. Torr",
+        "M. Pawan Kumar"
+    ],
+    "emails": [
+        "adepalma@robots.ox.ac.uk",
+        "harkirat@robots.ox.ac.uk",
+        "bunel.rudy@gmail.com",
+        "phst@robots.ox.ac.uk",
+        "pawan@robots.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/oval-group/oval-bab"
+        ]
+    ],
+    "id": "21-0076",
+    "issue": 61,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Scaling the Convex Barrier with Sparse Dual Algorithms",
+    "volume": 25,
+    "year": 2024
+}
