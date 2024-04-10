@@ -1,0 +1,31 @@
+{
+    "abstract": "The fast wavelet transform is an essential workhorse in signal processing. Wavelets are local in the spatial- or temporal- and the frequency-domain. This property enables frequency domain analysis while preserving some spatiotemporal information. Until recently, wavelets rarely appeared in the machine learning literature.  We provide the PyTorch Wavelet Toolbox to make wavelet methods more accessible to the deep learning community. Our PyTorch Wavelet Toolbox is well documented. A pip package is installable with `pip install ptwt`.",
+    "authors": [
+        "Moritz Wolter",
+        "Felix Blanke",
+        "Jochen Garcke",
+        "Charles Tapley Hoyt"
+    ],
+    "emails": [
+        "moritz.wolter@uni-bonn.de",
+        "felix.blanke@scai.fraunhofer.de",
+        "garcke@ins.uni-bonn.de",
+        "cthoyt@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/v0lta/PyTorch-Wavelet-Toolbox"
+        ]
+    ],
+    "id": "23-0636",
+    "issue": 80,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "ptwt - The PyTorch Wavelet Toolbox",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we propose a probabilistic framework for analyzing a multi-class majority vote classifier in the case where training data is partially labeled. First, we derive a multi-class transductive bound over the risk of the majority vote classifier, which is based on the classifier's vote distribution over each class. Then, we introduce a mislabeling error model to analyze the error of the majority vote classifier in the case of the pseudo-labeled training data. We derive a generalization bound over the majority vote error when  imperfect labels are given, taking into account the mean and the variance of the prediction margin. Finally, we demonstrate an application of the derived transductive bound for self-training to find automatically the confidence threshold used to determine unlabeled examples for pseudo-labeling. Empirical results on different data sets show the effectiveness of our framework compared to several state-of-the-art semi-supervised approaches.",
+    "authors": [
+        "Vasilii Feofanov",
+        "Emilie Devijver",
+        "Massih-Reza Amini"
+    ],
+    "emails": [
+        "vasilii.feofanov@huawei.com",
+        "emilie.devijver@univ-grenoble-alpes.fr",
+        "massih-reza.amini@univ-grenoble-alpes.fr"
+    ],
+    "id": "23-0121",
+    "issue": 104,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Multi-class Probabilistic Bounds for Majority Vote Classifiers with Partially Labeled Data",
+    "volume": 25,
+    "year": 2024
+}

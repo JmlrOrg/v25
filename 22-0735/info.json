@@ -1,0 +1,34 @@
+{
+    "abstract": "In recent years, there has been an exponentially increased amount of point clouds collected with irregular shapes in various areas. Motivated by the importance of solid modeling for point clouds, we develop a novel and efficient smoothing tool based on multivariate splines over the triangulation to extract the underlying signal and build up a 3D solid model from the point cloud. The proposed method can denoise or deblur the point cloud effectively, provide a multi-resolution reconstruction of the actual signal, and handle sparse and irregularly distributed point clouds to recover the underlying trajectory. In addition, our method provides a natural way of numerosity data reduction. We establish the theoretical guarantees of the proposed method, including the convergence rate and asymptotic normality of the estimator, and show that the convergence rate achieves optimal nonparametric convergence. We also introduce a bootstrap method to quantify the uncertainty of the estimators. Through extensive simulation studies and a real data example, we demonstrate the superiority of the proposed method over traditional smoothing methods in terms of estimation accuracy and efficiency of data reduction.",
+    "authors": [
+        "Xinyi Li",
+        "Shan Yu",
+        "Yueying Wang",
+        "Guannan Wang",
+        "Li Wang",
+        "Ming-Jun Lai"
+    ],
+    "emails": [
+        "lixinyi@clemson.edu",
+        "sy5jx@virginia.edu",
+        "yueyingw@amazon.com",
+        "gwang01@wm.edu",
+        "lwang41@gmu.edu",
+        "mjlai@uga.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/funstatpackages/TPST_matlab"
+        ]
+    ],
+    "id": "22-0735",
+    "issue": 102,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Nonparametric Regression for 3D Point Cloud Learning",
+    "volume": 25,
+    "year": 2024
+}

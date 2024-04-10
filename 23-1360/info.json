@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we present new high-probability PAC-Bayes bounds for different types of losses.  Firstly, for losses with a bounded range, we recover a strengthened version of Catoni's bound that holds uniformly for all parameter values. This leads to new fast-rate and mixed-rate bounds that are interpretable and tighter than previous bounds in the literature. In particular, the fast-rate bound is equivalent to the Seeger--Langford bound. Secondly, for losses with more general tail behaviors, we introduce two new parameter-free bounds: a PAC-Bayes Chernoff analogue when the loss' cumulative generating function is bounded, and a bound when the loss' second moment is bounded. These two bounds are obtained using a new technique based on a discretization of the space of possible events for the \"in probability\" parameter optimization problem. This technique is both simpler and more general than previous approaches optimizing over a grid on the parameters' space. Finally, using a simple technique that is applicable to any existing bound, we extend all previous results to anytime-valid bounds.",
+    "authors": [
+        "Borja Rodr{{\\'i}}guez-G{{\\'a}}lvez",
+        "Ragnar Thobaben",
+        "Mikael Skoglund"
+    ],
+    "emails": [
+        "borjarg@kth.se",
+        "ragnart@kth.se",
+        "skoglund@kth.se"
+    ],
+    "id": "23-1360",
+    "issue": 110,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "More PAC-Bayes bounds: From bounded losses, to losses with general tail behaviors, to anytime validity",
+    "volume": 25,
+    "year": 2024
+}

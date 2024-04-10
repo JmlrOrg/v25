@@ -1,0 +1,54 @@
+{
+    "abstract": "Expanding the language coverage of speech technology has the potential to improve access to information for many more people. However, current speech technology is restricted to about one hundred languages which is a small fraction of the over 7,000 languages spoken around the world. The Massively Multilingual Speech (MMS) project increases the number of supported languages by 10-40x, depending on the task while providing improved accuracy compared to prior work. The main ingredients are a new dataset based on readings of publicly available religious texts and effectively leveraging self-supervised learning. We built pre-trained wav2vec 2.0 models covering 1,406 languages, a single multilingual automatic speech recognition model for 1,107 languages, speech synthesis models for the same number of languages, as well as a language identification model for 4,017 languages. Experiments show that our multilingual speech recognition model more than halves the word error rate of Whisper on 54 languages of the FLEURS benchmark while being trained on a small fraction of the labeled data.",
+    "authors": [
+        "Vineel Pratap",
+        "Andros Tjandra",
+        "Bowen Shi",
+        "Paden Tomasello",
+        "Arun Babu",
+        "Sayani Kundu",
+        "Ali Elkahky",
+        "Zhaoheng Ni",
+        "Apoorv Vyas",
+        "Maryam Fazel-Zarandi",
+        "Alexei Baevski",
+        "Yossi Adi",
+        "Xiaohui Zhang",
+        "Wei-Ning Hsu",
+        "Alexis Conneau",
+        "Michael Auli"
+    ],
+    "emails": [
+        "vineelkpratap@gmail.com",
+        "andros.tjandra@gmail.com",
+        "bshi@ttic.com",
+        "pdtomasello@gmail.com",
+        "toarunbabu@gmail.com",
+        "sayani6kundu@gmail.com",
+        "alielkahky@gmail.com",
+        "zni@meta.com",
+        "apoorv2904@gmail.com",
+        "maryamfazel@meta.com",
+        "alexei.b@gmail.com",
+        "yossiadidrum@gmail.com",
+        "samuelzhang1104@gmail.com",
+        "wnhsu@meta.com",
+        "alexis.conneau@gmail.com",
+        "michael.auli@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/facebookresearch/fairseq/tree/main/examples/mms"
+        ]
+    ],
+    "id": "23-1318",
+    "issue": 97,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Scaling Speech Technology to 1,000+ Languages",
+    "volume": 25,
+    "year": 2024
+}

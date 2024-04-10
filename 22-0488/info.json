@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose a penalized nonparametric approach to estimating the quantile regression process (QRP) in a nonseparable model using rectifier quadratic unit (ReQU)  activated deep neural networks and introduce a novel penalty function to enforce non-crossing of quantile regression curves. We establish the non-asymptotic excess risk bounds for the estimated QRP and derive the mean integrated squared error for the estimated QRP under mild smoothness and regularity conditions. To establish these non-asymptotic risk and estimation error bounds, we also develop a new error bound for approximating $C^s$ smooth functions with $s >1$ and their derivatives using ReQU activated neural networks.  This is a new approximation result for ReQU networks and is of independent interest and may be useful in other problems. Our numerical experiments demonstrate that the proposed method is competitive with or outperforms two existing methods, including methods using reproducing kernels and random forests for nonparametric quantile regression.",
+    "authors": [
+        "Guohao Shen",
+        "Yuling Jiao",
+        "Yuanyuan Lin",
+        "Joel L. Horowitz",
+        "Jian Huang"
+    ],
+    "emails": [
+        "guohao.shen@polyu.edu.hk",
+        "yulingjiaomath@whu.edu.cn",
+        "ylin@sta.cuhk.edu.hk",
+        "joel-horowitz@northwestern.edu",
+        "j.huang@polyu.edu.hk"
+    ],
+    "id": "22-0488",
+    "issue": 88,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Nonparametric Estimation of Non-Crossing Quantile Regression Process with Deep ReQU Neural Networks",
+    "volume": 25,
+    "year": 2024
+}

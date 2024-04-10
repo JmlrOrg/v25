@@ -1,0 +1,18 @@
+{
+    "abstract": "To characterize the function space explored by neural networks (NNs) is an important aspect of learning theory. In this work, noticing that a multi-layer NN generates implicitly a hierarchy of reproducing kernel Hilbert spaces (RKHSs) -named a neural Hilbert ladder (NHL) - we define the function space as an infinite union of RKHSs, which generalizes the existing Barron space theory of two-layer NNs. We then establish several theoretical properties of the new space. First, we prove a correspondence between functions expressed by L-layer NNs and those belonging to L-level NHLs. Second, we prove generalization guarantees for learning an NHL with a controlled complexity measure. Third, we derive a non-Markovian dynamics of random fields that governs the evolution of the NHL which is induced by the training of multi-layer NNs in an infinite-width mean-field limit. Fourth, we show examples of depth separation in NHLs under the ReLU activation function. Finally, we perform numerical experiments to illustrate the feature learning aspect of NN training through the lens of NHLs.",
+    "authors": [
+        "Zhengdao Chen"
+    ],
+    "emails": [
+        "zhengdao.c3@gmail.com"
+    ],
+    "id": "23-1225",
+    "issue": 109,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Neural Hilbert Ladders: Multi-Layer Neural Networks in Function Space",
+    "volume": 25,
+    "year": 2024
+}

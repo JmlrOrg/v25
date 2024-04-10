@@ -1,0 +1,38 @@
+{
+    "abstract": "Comparing different AutoML frameworks is notoriously challenging and often done incorrectly. We introduce an open and extensible benchmark that follows best practices and avoids common mistakes when comparing AutoML frameworks. We conduct a thorough comparison of 9 well-known AutoML frameworks across 71 classification and 33 regression tasks. The differences between the AutoML frameworks are explored with a multi-faceted analysis, evaluating model accuracy, its trade-offs with inference time, and framework failures. We also use Bradley-Terry trees to discover subsets of tasks where the relative AutoML framework rankings differ. The benchmark comes with an open-source tool that integrates with many AutoML frameworks and automates the empirical evaluation process end-to-end: from framework installation and resource allocation to in-depth evaluation. The benchmark uses public data sets, can be easily extended with other AutoML frameworks and tasks, and has a website with up-to-date results.",
+    "authors": [
+        "Pieter Gijsbers",
+        "Marcos L. P. Bueno",
+        "Stefan Coors",
+        "Erin LeDell",
+        "S{{\\'e}}bastien Poirier",
+        "Janek Thomas",
+        "Bernd Bischl",
+        "Joaquin Vanschoren"
+    ],
+    "emails": [
+        "p.gijsbers@tue.nl",
+        "marcos.depaulabueno@donders.ru.nl",
+        "stefan.coors@stat.uni-muenchen.de",
+        "erin@h2o.ai",
+        "sebastien@h2o.ai",
+        "janek.thomas@stat.uni-muenchen.de",
+        "bernd.bischl@stat.uni-muenchen.de",
+        "j.vanschoren@tue.nl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/openml/automlbenchmark"
+        ]
+    ],
+    "id": "22-0493",
+    "issue": 101,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "AMLB: an AutoML Benchmark",
+    "volume": 25,
+    "year": 2024
+}

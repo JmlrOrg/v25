@@ -1,0 +1,20 @@
+{
+    "abstract": "Search algorithms for bandit problems are applicable in materials discovery. However, objectives of the conventional bandit problem are different from those of materials discovery. The conventional bandit problem aims to maximize the total rewards, whereas materials discovery aims to achieve breakthroughs in material properties. The max $K$-armed bandit (MKB) problem, which aims to acquire the single best reward, matches with the discovery tasks better than the conventional bandit. However, typical MKB algorithms are not directly applicable to materials discovery due to some difficulties. The typical algorithms have many hyperparameters and some difficulty in the directly implementation for the materials discovery. Thus, we propose a new MKB algorithm using  an upper confidence bound of expected improvement of the best reward. This approach is guaranteed to be asymptotic to greedy oracles, which does not depend on the time horizon. In addition, compared with other MKB algorithms, the proposed algorithm has only one hyperparameter, which is advantageous in materials discovery. We applied the proposed algorithm to synthetic problems and molecular-design demonstrations using a Monte Carlo tree search. According to the results, the proposed algorithm stably outperformed other bandit algorithms in the late stage of the search process, unless the optimal arm coincides in the MKB and conventional bandit settings.",
+    "authors": [
+        "Nobuaki Kikkawa",
+        "Hiroshi Ohno"
+    ],
+    "emails": [
+        "kikkawa@mosk.tytabs.co.jp",
+        "oono-h@mosk.tytlabs.co.jp"
+    ],
+    "id": "22-0186",
+    "issue": 100,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Materials Discovery using Max K-Armed Bandit",
+    "volume": 25,
+    "year": 2024
+}

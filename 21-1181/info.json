@@ -1,0 +1,24 @@
+{
+    "abstract": "In the application of instrumental variable analysis that conducts causal inference in the presence of unmeasured confounding, invalid instrumental variables and weak instrumental variables often exist which complicate the analysis. In this paper, we propose a model-free dimension reduction procedure to select the invalid instrumental variables and refine them into lower-dimensional linear combinations. The procedure also combines the weak instrumental variables into a few stronger instrumental variables that best condense their information. We then introduce the personalized dose-response function that incorporates the subject's personal characteristics into the conventional dose-response function, and use the reduced data from dimension reduction to propose a novel and easily implementable nonparametric estimator of this function. The proposed approach is suitable for both discrete and continuous treatment variables, and is robust to the dimensionality of data. Its effectiveness is illustrated by the simulation studies and the data analysis of ADNI-DoD study, where the causal relationship between depression and dementia is investigated.",
+    "authors": [
+        "Wei Luo",
+        "Yeying Zhu",
+        "Xuekui Zhang",
+        "Lin Lin"
+    ],
+    "emails": [
+        "weiluo@zju.edu.cn",
+        "yeying.zhu@uwaterloo.ca",
+        "xuekui@uvic.ca",
+        "l.lin@duke.edu"
+    ],
+    "id": "21-1181",
+    "issue": 86,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "A Semi-parametric Estimation of Personalized Dose-response Function Using Instrumental Variables",
+    "volume": 25,
+    "year": 2024
+}

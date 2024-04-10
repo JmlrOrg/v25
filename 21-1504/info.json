@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider statistical inference for single or low-dimensional parameters in a high-dimensional linear model under a semi-supervised setting, wherein the data are a combination of a labelled block-wise missing data set of a relatively small size and a large unlabelled data set. The proposed method utilises both labelled and unlabelled data without any imputation or removal of the missing observations. The asymptotic properties of the estimator are established under regularity conditions. Hypothesis testing for low-dimensional coefficients are also studied. Extensive simulations are conducted to examine the theoretical results. The method is evaluated on the Alzheimer\u2019s Disease Neuroimaging Initiative data.",
+    "authors": [
+        "Shanshan Song",
+        "Yuanyuan Lin",
+        "Yong Zhou"
+    ],
+    "emails": [
+        "songss@tongji.edu.cn",
+        "ylin@sta.cuhk.edu.hk",
+        "yzhou@fem.ecnu.edu.cn"
+    ],
+    "id": "21-1504",
+    "issue": 99,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Semi-supervised Inference for Block-wise Missing Data without Imputation",
+    "volume": 25,
+    "year": 2024
+}

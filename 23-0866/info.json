@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we provide a strategy to determine the eigenvalue decay rate (EDR) of a large class of kernel functions defined on a general domain rather than $\\mathbb{S}^{d}$. This class of kernel functions include but are not limited to the neural tangent kernel associated with neural networks with different depths and various activation functions. After proving that the dynamics of training the wide neural networks uniformly approximated that of the neural tangent kernel regression on general domains, we can further illustrate  the minimax optimality of the wide neural network provided that the underground truth function $f\\in [\\mathcal H_{\\mathrm{NTK}}]^{s}$, an interpolation space associated with the RKHS $\\mathcal{H}_{\\mathrm{NTK}}$ of NTK. We also showed that the overfitted neural network can not generalize well. We believe our approach for determining the EDR of kernels might be also of independent interests.",
+    "authors": [
+        "Yicheng Li",
+        "Zixiong Yu",
+        "Guhan Chen",
+        "Qian Lin"
+    ],
+    "emails": [
+        "liyc22@mails.tsinghua.edu.cn",
+        "yuzx19@mails.tsinghua.edu.cn",
+        "chen-gh23@mails.tsinghua.edu.cn",
+        "qianlin@tsinghua.edu.cn"
+    ],
+    "id": "23-0866",
+    "issue": 82,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "On the Eigenvalue Decay Rates of a Class of Neural-Network Related Kernel Functions Defined on General Domains",
+    "volume": 25,
+    "year": 2024
+}

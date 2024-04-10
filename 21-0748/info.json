@@ -1,0 +1,24 @@
+{
+    "abstract": "We investigate online convex optimization in non-stationary environments and choose dynamic regret as the performance measure, defined as the difference between cumulative loss incurred by the online algorithm and that of any feasible comparator sequence. Let $T$ be the time horizon and $P_T$ be the path length that essentially reflects the non-stationarity of environments, the state-of-the-art dynamic regret is $\\mathcal{O}(\\sqrt{T(1+P_T)})$. Although this bound is proved to be minimax optimal for convex functions, in this paper, we demonstrate that it is possible to further enhance the guarantee for some easy problem instances, particularly when online functions are smooth. Specifically, we introduce novel online algorithms that can exploit smoothness and replace the dependence on $T$ in dynamic regret with problem-dependent quantities: the variation in gradients of loss functions, the cumulative loss of the comparator sequence, and the minimum of these two terms. These quantities are at most $\\mathcal{O}(T)$ while could be much smaller in benign environments. Therefore, our results are adaptive to the intrinsic difficulty of the problem, since the bounds are tighter than existing results for easy problems and meanwhile safeguard the same rate in the worst case. Notably, our proposed algorithms can achieve favorable dynamic regret with only one gradient per iteration, sharing the same gradient query complexity as the static regret minimization methods. To accomplish this, we introduce the collaborative online ensemble framework. The proposed framework employs a two-layer online ensemble to handle non-stationarity, and uses optimistic online learning and further introduces crucial correction terms to enable effective collaboration within the meta-base two layers, thereby attaining adaptivity. We believe the framework can be useful for broader problems.",
+    "authors": [
+        "Peng Zhao",
+        "Yu-Jie Zhang",
+        "Lijun Zhang",
+        "Zhi-Hua Zhou"
+    ],
+    "emails": [
+        "zhaop@lamda.nju.edu.cn",
+        "zhangyj@lamda.nju.edu.cn",
+        "zhanglj@lamda.nju.edu.cn",
+        "zhouzh@lamda.nju.edu.cn"
+    ],
+    "id": "21-0748",
+    "issue": 98,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Adaptivity and Non-stationarity: Problem-dependent Dynamic Regret for Online Convex Optimization",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,32 @@
+{
+    "abstract": "Training deep  networks on  large-scale datasets is computationally challenging.  This work explores the problem of ``how to  accelerate  adaptive gradient algorithms in a general manner\", and  proposes an effective   Weight-decay-Integrated Nesterov acceleration (Win) to accelerate adaptive  algorithms. Taking AdamW and Adam as examples, per iteration, we construct a dynamical  loss  that combines the vanilla training loss and a dynamic regularizer inspired by proximal point method, and  respectively  minimize the  first- and second-order Taylor approximations of dynamical  loss  to  update  variable.  This yields  our Win acceleration that   uses  a conservative step  and an  aggressive step to update,  and  linearly combines these two updates for acceleration. Next,  we  extend  Win into Win2 which  uses  multiple aggressive  update steps  for faster  convergence.    Then we apply Win and Win2  to the popular LAMB and SGD optimizers. Our transparent  derivation  could  provide insights for  other accelerated methods and their integration into  adaptive  algorithms.  Besides, we theoretically    justify the faster  convergence  of Win- and Win2-accelerated AdamW, Adam and LAMB to their non-accelerated counterparts.  Experimental results demonstrates the faster convergence speed and superior performance of our Win- and Win2-accelerated AdamW, Adam, LAMB and SGD over their vanilla counterparts on vision classification  and  language modeling tasks.",
+    "authors": [
+        "Pan Zhou",
+        "Xingyu Xie",
+        "Zhouchen Lin",
+        "Kim-Chuan Toh",
+        "Shuicheng Yan"
+    ],
+    "emails": [
+        "panzhou@smu.edu.sg",
+        "xyxie@pku.edu.cn",
+        "zlin@pku.edu.cn",
+        "mattohkc@nus.edu.sg",
+        "shuicheng.yan@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sail-sg/win"
+        ]
+    ],
+    "id": "23-1073",
+    "issue": 83,
+    "pages": [
+        1,
+        74
+    ],
+    "title": "Win: Weight-Decay-Integrated Nesterov Acceleration for  Faster Network Training",
+    "volume": 25,
+    "year": 2024
+}

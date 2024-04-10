@@ -1,0 +1,22 @@
+{
+    "abstract": "We analyze a stochastic approximation algorithm for decision-dependent problems, wherein the data distribution used by the algorithm evolves along the iterate sequence. The primary examples of such problems appear in performative prediction and its multiplayer extensions. We show that under mild assumptions, the deviation between the average iterate of the algorithm and the solution is asymptotically normal, with a covariance that clearly decouples the effects of the gradient noise and the distributional shift. Moreover, building on the work of H\u00e1jek and Le Cam, we show that the asymptotic performance of the algorithm with averaging is locally minimax optimal.",
+    "authors": [
+        "Joshua Cutler",
+        "Mateo D{{\\'i}}az",
+        "Dmitriy Drusvyatskiy"
+    ],
+    "emails": [
+        "jocutler@uw.edu",
+        "mateodd@jhu.edu",
+        "ddruv@uw.edu"
+    ],
+    "id": "22-0832",
+    "issue": 90,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Stochastic Approximation with Decision-Dependent Distributions: Asymptotic Normality and Optimality",
+    "volume": 25,
+    "year": 2024
+}

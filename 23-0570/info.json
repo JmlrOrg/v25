@@ -1,0 +1,28 @@
+{
+    "abstract": "In this study we evaluate 33 unsupervised anomaly detection algorithms on 52 real-world multivariate tabular data sets, performing the largest comparison of unsupervised anomaly detection algorithms to date. On this collection of data sets, the EIF (Extended Isolation Forest) algorithm significantly outperforms the most other algorithms. Visualizing and then clustering the relative performance of the considered algorithms on all data sets, we identify two clear clusters: one with \"local'' data sets, and another with \"global'' data sets. \"Local'' anomalies occupy a region with low density when compared to nearby samples, while \"global'' occupy an overall low density region in the feature space. On the local data sets the $k$NN ($k$-nearest neighbor) algorithm comes out on top. On the global data sets, the EIF (extended isolation forest) algorithm performs the best. Also taking into consideration the algorithms' computational complexity, a toolbox with these two unsupervised anomaly detection algorithms suffices for finding anomalies in this representative collection of multivariate data sets. By providing access to code and data sets, our study can be easily reproduced and extended with more algorithms and/or data sets.",
+    "authors": [
+        "Roel Bouman",
+        "Zaharah Bukhsh",
+        "Tom Heskes"
+    ],
+    "emails": [
+        "roel.bouman@ru.nl",
+        "z.bukhsh@tue.nl",
+        "tom.heskes@ru.nl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/RoelBouman/outlierdetection"
+        ]
+    ],
+    "id": "23-0570",
+    "issue": 105,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Unsupervised Anomaly Detection Algorithms on Real-world Data: How Many Do We Need?",
+    "volume": 25,
+    "year": 2024
+}

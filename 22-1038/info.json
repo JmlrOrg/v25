@@ -1,0 +1,22 @@
+{
+    "abstract": "In this article, we introduce a new method to estimate a directed acyclic graph (DAG) from multivariate functional data. We build on the notion of faithfulness that relates a DAG with a set of conditional independences among the random functions. We develop two linear operators, the conditional covariance operator and the partial correlation operator, to characterize and evaluate the conditional independence. Based on these operators, we adapt and extend the PC-algorithm to estimate the functional directed graph, so that the computation time depends on the sparsity rather than the full size of the graph. We study the asymptotic properties of the two operators, derive their uniform convergence rates, and establish the uniform consistency of the estimated graph, all of which are obtained while allowing the graph size to diverge to infinity with the sample size. We demonstrate the efficacy of our method through both simulations and an application to a time-course proteomic dataset.",
+    "authors": [
+        "Kuang-Yao Lee",
+        "Lexin Li",
+        "Bing Li"
+    ],
+    "emails": [
+        "kuang-yao.lee@temple.edu",
+        "lexinli@berkeley.edu",
+        "bxl9@psu.edu"
+    ],
+    "id": "22-1038",
+    "issue": 78,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Functional Directed Acyclic Graphs",
+    "volume": 25,
+    "year": 2024
+}

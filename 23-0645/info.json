@@ -1,0 +1,22 @@
+{
+    "abstract": "Sparsity of a learning solution is a desirable feature in machine learning. Certain reproducing kernel Banach spaces (RKBSs) are appropriate hypothesis spaces for sparse learning methods. The goal of this paper is to understand what kind of RKBSs can promote sparsity for learning solutions. We consider two typical learning models in an RKBS: the minimum norm interpolation (MNI) problem and the regularization problem. We first establish an explicit representer theorem for solutions of these problems, which represents the extreme points of the solution set by a linear combination of the extreme points of the subdifferential set, of the norm function, which is data-dependent. We then propose sufficient conditions on the RKBS that can transform the explicit representation of the solutions to a sparse kernel representation having fewer terms than the number of the observed data. Under the proposed sufficient conditions, we investigate the role of the regularization parameter on sparsity of the regularized solutions. We further show that two specific RKBSs, the sequence space $\\ell_1(\\mathbb{N})$ and the measure space, can have sparse representer theorems for both MNI and regularization models.",
+    "authors": [
+        "Rui Wang",
+        "Yuesheng Xu",
+        "Mingsong Yan"
+    ],
+    "emails": [
+        "rwang11@jlu.edu.cn",
+        "y1xu@odu.edu",
+        "myan007@odu.edu"
+    ],
+    "id": "23-0645",
+    "issue": 93,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Sparse Representer Theorems for Learning in Reproducing Kernel Banach Spaces",
+    "volume": 25,
+    "year": 2024
+}

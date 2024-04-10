@@ -1,0 +1,34 @@
+{
+    "abstract": "Mitigating the climate crisis requires a rapid transition towards lower-carbon energy. Catalyst materials play a crucial role in the electrochemical reactions involved in numerous industrial processes key to this transition, such as renewable energy storage and electrofuel synthesis. To reduce the energy spent on such activities, we must quickly discover more efficient catalysts to drive electrochemical reactions. Machine learning (ML) holds the potential to efficiently model materials properties from large amounts of data, accelerating electrocatalyst design. The Open Catalyst Project OC20 dataset was constructed to that end. However, ML models trained on OC20 are still neither scalable nor accurate enough for practical applications. In this paper, we propose task-specific innovations applicable to most architectures, enhancing both computational efficiency and accuracy. This includes improvements in (1) the graph creation step, (2) atom representations, (3) the energy prediction head, and (4) the force prediction head. We describe these contributions, referred to as PhAST, and evaluate them thoroughly on multiple architectures. Overall, PhAST improves energy MAE by 4 to 42% while dividing compute time by 3 to 8\u00d7 depending on the targeted task/model. PhAST also enables CPU training, leading to 40\u00d7 speedups in highly parallelized settings. Python package: https://phast.readthedocs.io.",
+    "authors": [
+        "Alexandre Duval",
+        "Victor Schmidt",
+        "Santiago Miret",
+        "Yoshua Bengio",
+        "Alex Hern{{\\'a}}ndez-Garc{{\\'i}}a",
+        "David Rolnick"
+    ],
+    "emails": [
+        "alexandre.duval@mila.quebec",
+        "schmidtv@mila.quebec",
+        "santiago.miret@intel.com",
+        "yoshua.bengio@mila.quebec",
+        "alex.hernandez-garcia@mila.quebec",
+        "david.rolnick@mila.quebec"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/vict0rsch/PhAST"
+        ]
+    ],
+    "id": "23-0680",
+    "issue": 106,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "PhAST: Physics-Aware, Scalable, and Task-Specific GNNs for Accelerated Catalyst Design",
+    "volume": 25,
+    "year": 2024
+}

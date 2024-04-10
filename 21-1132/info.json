@@ -1,0 +1,24 @@
+{
+    "abstract": "The increasing availability of massive data sets poses various challenges for machine learning. Prominent among these is learning models under hardware or human resource constraints. In such resource-constrained settings, a simple yet powerful approach is operating on small subsets of the data. Coresets are weighted subsets of the data that provide approximation guarantees for the optimization objective. However, existing coreset constructions are highly model-specific and are limited to simple models such as linear regression, logistic regression, and k-means. In this work, we propose a generic coreset construction framework that formulates the coreset selection as a cardinality-constrained bilevel optimization problem. In contrast to existing approaches, our framework does not require model-specific adaptations and applies to any twice differentiable model, including neural networks. We show the effectiveness of our framework for a wide range of models in various settings, including training non-convex models online and batch active learning.",
+    "authors": [
+        "Zal{{\\'a}}n Borsos",
+        "Mojm\u00edr Mutn\u00fd",
+        "Marco Tagliasacchi",
+        "Andreas Krause"
+    ],
+    "emails": [
+        "zalan.borsos@gmail.com",
+        "mojmir.mutny@inf.ethz.ch",
+        "mtagliasacchi@google.com",
+        "krausea@ethz.ch"
+    ],
+    "id": "21-1132",
+    "issue": 73,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Data Summarization via Bilevel Optimization",
+    "volume": 25,
+    "year": 2024
+}

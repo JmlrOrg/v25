@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the problem of learning a Gaussian graphical model in the case where the observations come from two dependent groups sharing the same variables. We focus on a family of coloured Gaussian graphical models specifically suited for the paired data problem. Commonly, graphical models are ordered by the submodel relationship so that the search space is a lattice, called the model inclusion lattice. We introduce a novel order between models, named the twin order. We show that, embedded with this order, the model space is a lattice that, unlike the model inclusion lattice, is distributive. Furthermore, we provide the relevant rules for the computation of the neighbours of a model. The latter are more efficient than the same operations in the model inclusion lattice, and are then exploited to achieve a more efficient exploration of the search space. These results can be applied to improve the efficiency of both greedy and Bayesian model search procedures. Here, we implement a stepwise backward elimination procedure and evaluate its performance both on synthetic and real-world data.",
+    "authors": [
+        "Alberto Roverato",
+        "Dung Ngoc Nguyen"
+    ],
+    "emails": [
+        "alberto.roverato@unipd.it",
+        "ngocdung.nguyen@csiro.au"
+    ],
+    "id": "23-0295",
+    "issue": 92,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Exploration of the Search Space of Gaussian Graphical Models for Paired Data",
+    "volume": 25,
+    "year": 2024
+}

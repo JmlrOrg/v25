@@ -1,0 +1,20 @@
+{
+    "abstract": "Imagine a learner $L$ who tries to infer a hidden concept from a collection of observations. Building on the work of Ferri et al we assume the learner to be parameterized by priors $P(c)$ and by $c$-conditional likelihoods $P(z|c)$ where $c$ ranges over all concepts in a given class $C$ and $z$ ranges over all observations in an observation set $Z$. $L$ is called a MAP-learner (resp.~an MLE-learner) if it thinks of a collection $S$ of observations as a random sample and returns the concept with the maximum a-posteriori probability (resp.~the concept which maximizes the $c$-conditional likelihood of $S$). Depending on whether $L$ assumes that $S$ is obtained from ordered or unordered sampling resp.~from sampling with or without replacement, we can distinguish four different sampling modes. Given a target concept $c^* \\in C$, a teacher for a MAP-learner $L$ aims at finding a smallest collection of observations that causes $L$ to return $c^*$. This approach leads in a natural manner to various notions of a MAP- or MLE-teaching dimension of a concept class $C$. Our main results are as follows. First, we show that this teaching model has some desirable monotonicity properties. Second we clarify how the four sampling modes are related to each other. As for the (important!) special case, where concepts are subsets of a domain and observations are 0,1-labeled examples, we obtain some additional results. First of all, we characterize the MAP- and MLE-teaching dimension associated with an optimally parameterized MAP-learner graph-theoretically. From this central result, some other ones are easy to derive. It is shown, for instance, that the MLE-teaching dimension is either equal to the MAP-teaching dimension or exceeds the latter by $1$. It is shown furthermore that these dimensions can be bounded from above by the so-called antichain number, the VC-dimension and related combinatorial parameters. Moreover they can be computed in polynomial time.",
+    "authors": [
+        "Hans Ulrich Simon",
+        "Jan Arne Telle"
+    ],
+    "emails": [
+        "hsimon@mpi-inf.mpg.de",
+        "telle@ii.uib.no"
+    ],
+    "id": "23-1086",
+    "issue": 96,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "MAP- and MLE-Based Teaching",
+    "volume": 25,
+    "year": 2024
+}

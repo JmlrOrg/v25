@@ -1,0 +1,20 @@
+{
+    "abstract": "There have been exciting progresses in understanding the convergence of gradient descent (GD) and stochastic gradient descent (SGD) in overparameterized neural networks through the lens of neural tangent kernel (NTK). However, there remain two significant gaps between theory and practice. First, the existing convergence theory only takes into account the contribution of the NTK from the last hidden layer, while in practice the intermediate layers also play an instrumental role. Second, most existing works assume that the training data are provided a priori in a batch, while less attention has been paid to the important setting where the training data arrive in a stream. In this paper, we close these two gaps. We first show that with random initialization, the NTK function  converges to some deterministic function uniformly for all layers as the number of neurons tends to infinity. Then we apply the uniform convergence result to further prove that the prediction error of multi-layer neural networks under SGD converges in expectation in the streaming data setting. A key ingredient in our proof is to show the number of activation patterns of an $L$-layer neural network with width $m$ is only polynomial in $m$ although there are $mL$ neurons in total.",
+    "authors": [
+        "Jiaming Xu",
+        "Hanjing Zhu"
+    ],
+    "emails": [
+        "jx77@duke.edu",
+        "hz176@duke.edu"
+    ],
+    "id": "23-0740",
+    "issue": 94,
+    "pages": [
+        1,
+        83
+    ],
+    "title": "Overparametrized Multi-layer Neural Networks: Uniform Concentration of Neural Tangent Kernel and Convergence of Stochastic Gradient Descent",
+    "volume": 25,
+    "year": 2024
+}

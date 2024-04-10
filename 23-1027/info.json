@@ -1,0 +1,45 @@
+{
+    "abstract": "QDax is an open-source library with a streamlined and modular API for Quality-Diversity (QD) optimisation algorithms in Jax. The library serves as a versatile tool for optimisation purposes, ranging from black-box optimisation to continuous control. QDax offers implementations of popular QD, Neuroevolution, and Reinforcement Learning (RL) algorithms, supported by various examples. All the implementations can be just-in-time compiled with Jax, facilitating efficient execution across multiple accelerators, including GPUs and TPUs. These implementations effectively demonstrate the framework's flexibility and user-friendliness, easing experimentation for research purposes. Furthermore, the library is thoroughly documented and has 93% test coverage.",
+    "authors": [
+        "Felix Chalumeau",
+        "Bryan Lim",
+        "Rapha{{\\\"e}}l Boige",
+        "Maxime Allard",
+        "Luca Grillotti",
+        "Manon Flageat",
+        "Valentin Mac{{\\'e}}",
+        "Guillaume Richard",
+        "Arthur Flajolet",
+        "Thomas Pierrot",
+        "Antoine Cully"
+    ],
+    "emails": [
+        "f.chalumeau@instadeep.com",
+        "bryan.lim16@imperial.ac.uk",
+        "r.boige@instadeep.com",
+        "m.allard20@imperial.ac.uk",
+        "luca.grillotti16@imperial.ac.uk",
+        "manon.flageat18@imperial.ac.uk",
+        "v.mace@instadeep.com",
+        "g.richard@instadeep.com",
+        "a.flajolet@instadeep.com",
+        "t.pierrot@instadeep.com",
+        "a.cully@imperial.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/adaptive-intelligent-robotics/QDax"
+        ]
+    ],
+    "id": "23-1027",
+    "issue": 108,
+    "pages": [
+        1,
+        16
+    ],
+    "special_issue": "MLOSS",
+    "title": "QDax: A Library for Quality-Diversity and Population-based Algorithms with Hardware Acceleration",
+    "volume": 25,
+    "year": 2024
+}

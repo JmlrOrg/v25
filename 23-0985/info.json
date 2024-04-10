@@ -1,0 +1,20 @@
+{
+    "abstract": "Kernel-based tests provide a simple yet effective framework that uses the theory of reproducing kernel Hilbert spaces to design non-parametric testing procedures. In this paper, we propose new theoretical tools that can be used to study the asymptotic behaviour of kernel-based tests in various data scenarios and in different testing problems. Unlike current approaches, our methods avoid working with U and V-statistics expansions that usually lead to lengthy and tedious computations and asymptotic approximations. Instead, we work directly with random functionals on the Hilbert space to analyse kernel-based tests. By harnessing the use of random functionals, our framework leads to much cleaner analyses, involving less tedious computations. Additionally, it offers the advantage of accommodating pre-existing knowledge regarding test-statistics as many of the random functionals considered in applications are known statistics that have been studied comprehensively. To demonstrate the efficacy of our approach, we thoroughly examine two categories of kernel tests, along with three specific examples of kernel tests, including a novel kernel test for conditional independence testing.",
+    "authors": [
+        "Tamara Fern{{\\'a}}ndez",
+        "Nicol{{\\'a}}s Rivera"
+    ],
+    "emails": [
+        "tamara.fernandez@uai.cl",
+        "nicolas.rivera@uv.cl"
+    ],
+    "id": "23-0985",
+    "issue": 95,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "A General Framework for the Analysis of Kernel-based Tests",
+    "volume": 25,
+    "year": 2024
+}
