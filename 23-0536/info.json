@@ -1,0 +1,28 @@
+{
+    "abstract": "Bagging is an important technique for stabilizing machine learning models. In this paper, we derive a finite-sample guarantee on the stability of bagging for any model. Our result places no assumptions on the distribution of the data, on the properties of the base algorithm, or on the dimensionality of the covariates. Our guarantee applies to many variants of bagging and is optimal up to a constant. Empirical results validate our findings, showing that bagging successfully stabilizes even highly unstable base algorithms.",
+    "authors": [
+        "Jake A. Soloff",
+        "Rina Foygel Barber",
+        "Rebecca Willett"
+    ],
+    "emails": [
+        "soloff@uchicago.edu",
+        "rina@uchicago.edu",
+        "willett@uchicago.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jake-soloff/subbagging-experiments"
+        ]
+    ],
+    "id": "23-0536",
+    "issue": 131,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Bagging Provides Assumption-free Stability",
+    "volume": 25,
+    "year": 2024
+}

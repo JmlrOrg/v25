@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a spectral clustering algorithm for analyzing the dependence structure of multivariate extremes. More specifically, we focus on the asymptotic  dependence of multivariate extremes characterized by the angular or spectral measure  in extreme value theory. Our work studies the theoretical performance of spectral clustering based on a random $k$-nearest neighbor graph constructed from an extremal sample, i.e., the angular part of random vectors for which the radius exceeds a large threshold.  In particular, we derive the asymptotic distribution of extremes arising from a linear factor model and prove that,  under certain conditions, spectral clustering can consistently identify the clusters of extremes arising in this model. Leveraging this result we propose a simple consistent estimation strategy for learning the angular measure. Our theoretical findings are complemented with numerical experiments illustrating the finite sample performance of our methods.",
+    "authors": [
+        "Marco Avella Medina",
+        "Richard A Davis",
+        "Gennady Samorodnitsky"
+    ],
+    "emails": [
+        "marco.avella@columbia.edu",
+        "rdavis@stat.columbia.edu",
+        "gs18@cornell.edu"
+    ],
+    "id": "21-1367",
+    "issue": 124,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Spectral learning of multivariate extremes",
+    "volume": 25,
+    "year": 2024
+}

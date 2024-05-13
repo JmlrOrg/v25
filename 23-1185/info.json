@@ -1,0 +1,32 @@
+{
+    "abstract": "Node2vec is a graph embedding method that learns a vector representation for each node of a weighted graph while seeking to preserve relative proximity and global structure. Numerical experiments suggest Node2vec struggles to recreate the topology of the input graph. To resolve this we introduce a topological loss term to be added to the training loss of Node2vec which tries to align the persistence diagram (PD) of the resulting embedding as closely as possible to that of the input graph. Following results in computational optimal transport, we carefully adapt entropic regularization to PD metrics, allowing us to measure the discrepancy between PDs in a differentiable way. Our modified loss function can then be minimized through gradient descent to reconstruct both the geometry and the topology of the input graph. We showcase the benefits of this approach using demonstrative synthetic examples.",
+    "authors": [
+        "Yasuaki Hiraoka",
+        "Yusuke Imoto",
+        "Th\u00e9o Lacombe",
+        "Killian Meehan",
+        "Toshiaki Yachimura"
+    ],
+    "emails": [
+        "hiraoka.yasuaki.6z@kyoto-u.ac.jp",
+        "imoto.yusuke.4e@kyoto-u.ac.jp",
+        "theo.lacombe@univ-eiffel.fr",
+        "meehan.killianfrancis.8m@kyoto-u.ac.jp",
+        "toshiaki.yachimura.a4@tohoku.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/killianfmeehan/topological_node2vec"
+        ]
+    ],
+    "id": "23-1185",
+    "issue": 134,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Topological Node2vec: Enhanced Graph Embedding via Persistent Homology",
+    "volume": 25,
+    "year": 2024
+}

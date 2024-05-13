@@ -1,0 +1,24 @@
+{
+    "abstract": "The expense of acquiring labels in large-scale statistical machine learning makes partially and weakly-labeled data attractive, though it is not always apparent how to leverage such data for model fitting or validation. We present a methodology to bridge the gap between partial supervision and validation, developing a conformal prediction framework to provide valid predictive confidence sets---sets that cover a true label with a prescribed probability, independent of the underlying distribution---using weakly labeled data. To do so, we introduce a (necessary) new notion of coverage and predictive validity, then develop several application scenarios, providing efficient algorithms for classification and several large-scale structured prediction problems. We corroborate the hypothesis that the new coverage definition allows for tighter and more informative (but valid) confidence sets through several experiments.",
+    "authors": [
+        "Maxime Cauchois",
+        "Suyash Gupta",
+        "Alnur Ali",
+        "John C. Duchi"
+    ],
+    "emails": [
+        "maxime.cauchois@gmail.com",
+        "suyash028@gmail.com",
+        "alnurali@gmail.com",
+        "jduchi@stanford.edu"
+    ],
+    "id": "23-0253",
+    "issue": 118,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Predictive Inference with Weak Supervision",
+    "volume": 25,
+    "year": 2024
+}

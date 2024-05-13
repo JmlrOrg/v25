@@ -1,0 +1,28 @@
+{
+    "abstract": "Multivariate Hawkes processes (MHPs) are versatile probabilistic tools used to model various real-life phenomena: earthquakes, operations on stock markets, neuronal activity, virus propagation and many others. In this paper, we focus on MHPs with exponential decay kernels and estimate connectivity graphs, which represent the Granger causal relations between their components. We approach this inference problem by proposing an optimization criterion and model selection algorithm based on the minimum message length (MML) principle. MML compares Granger causal models using the Occam's razor principle in the following way: even when  models  have a comparable goodness-of-fit to the observed data, the one generating the most concise explanation of the data is preferred. While most of the state-of-art methods using lasso-type penalization tend to overfitting in scenarios with short time horizons, the proposed MML-based method achieves high F1 scores in these settings. We conduct a numerical study comparing the proposed algorithm to other related classical and state-of-art methods, where we achieve the highest F1 scores in specific sparse graph settings. We illustrate the proposed method also on G7 sovereign bond data and obtain causal connections, which are in agreement with the expert knowledge available in the literature.",
+    "authors": [
+        "Kate{\\v{r}}ina Hlav{\\'a}{\\v{c}}kov{\\'a}-Schindler",
+        "Anna Melnykova",
+        "Irene Tubikanec"
+    ],
+    "emails": [
+        "katerina.schindlerova@univie.ac.at",
+        "anna.melnykova@univ-avignon.fr",
+        "irene.tubikanec@aau.at"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/IreneTubikanec/MMLH"
+        ]
+    ],
+    "id": "23-1066",
+    "issue": 133,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Granger Causal Inference in Multivariate Hawkes Processes  by Minimum Message Length",
+    "volume": 25,
+    "year": 2024
+}

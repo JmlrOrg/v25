@@ -1,0 +1,22 @@
+{
+    "abstract": "The planted densest subgraph detection problem refers to the task of testing whether in a given (random) graph there is a subgraph that is unusually dense. Specifically, we observe an undirected and unweighted graph on $n$ vertices. Under the null hypothesis, the graph is a realization of an Erd{{\\\"o}}s-R{\\'e}nyi graph with edge probability (or, density) $q$. Under the alternative, there is a subgraph on $k$ vertices with edge probability $p>q$. The statistical as well as the computational barriers of this problem are well-understood for a wide range of the edge parameters $p$ and $q$. In this paper, we consider a natural variant of the above problem, where one can only observe a relatively small part of the graph using adaptive edge queries. For this model, we determine the number of queries necessary and sufficient (accompanied with a quasi-polynomial optimal algorithm) for detecting the presence of the planted subgraph. We also propose a polynomial-time algorithm which is able to detect the planted subgraph, albeit with more queries compared to the above lower bound. We conjecture that in the leftover regime, no polynomial-time algorithms exist. Our results resolve two open questions posed in the past literature.",
+    "authors": [
+        "Wasim Huleihel",
+        "Arya Mazumdar",
+        "Soumyabrata Pal"
+    ],
+    "emails": [
+        "wasimh@tauex.tau.ac.il",
+        "arya@ucsd.edu",
+        "soumyabratapal13@gmail.com"
+    ],
+    "id": "22-0395",
+    "issue": 126,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Random Subgraph Detection Using Queries",
+    "volume": 25,
+    "year": 2024
+}

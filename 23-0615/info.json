@@ -1,0 +1,32 @@
+{
+    "abstract": "A common assumption for real-world, learnable data is its possession of some low-dimensional structure, and one way to formalize this structure is through the manifold hypothesis: that learnable data lies near some low-dimensional manifold. Deep learning architectures often have a compressive autoencoder component, where data is mapped to a lower-dimensional latent space, but often many architecture design choices are done by hand, since such models do not inherently exploit mathematical structure of the data. To utilize this geometric data structure, we propose an iterative process in the style of a geometric flow for explicitly constructing a pair of neural networks layer-wise that linearize and reconstruct an embedded submanifold, from finite samples of this manifold. Our such-generated neural networks, called Flattening Networks (FlatNet), are theoretically interpretable, computationally feasible at scale, and generalize well to test data, a balance not typically found in manifold-based learning methods. We present empirical results and comparisons to other models on synthetic high-dimensional manifold data and 2D image data. Our code is publicly available.",
+    "authors": [
+        "Michael Psenka",
+        "Druv Pai",
+        "Vishal Raman",
+        "Shankar Sastry",
+        "Yi Ma"
+    ],
+    "emails": [
+        "psenka@eecs.berkeley.edu",
+        "druvpai@berkeley.edu",
+        "vraman@berkeley.edu",
+        "sastry@coe.berkeley.edu",
+        "yima@eecs.berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/michael-psenka/manifold-linearization"
+        ]
+    ],
+    "id": "23-0615",
+    "issue": 132,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Representation Learning via Manifold Flattening and Reconstruction",
+    "volume": 25,
+    "year": 2024
+}

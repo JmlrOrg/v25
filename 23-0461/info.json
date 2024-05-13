@@ -1,0 +1,32 @@
+{
+    "abstract": "We propose a new adversarial training framework -- generative adversarial ranking networks (GARNet) to learn from user preferences among a list of samples so as to generate data meeting user-specific criteria. Verbosely, GARNet consists of two modules: a ranker and a generator. The generator fools the ranker to raise generated samples to the top; while the ranker learns to rank generated samples at the bottom. Meanwhile, the ranker learns to rank samples regarding the interested property by training with preferences collected on real samples. The adversarial ranking game between the ranker and the generator enables an alignment between the generated data distribution and the user-preferred data distribution with theoretical guarantees and empirical verification. Specifically, we first prove that when training with full preferences on a discrete property, the learned distribution of GARNet rigorously coincides with the distribution specified by the given score vector based on user preferences. The theoretical results are then extended to partial preferences on a discrete property and further generalized to preferences on a continuous property. Meanwhile, numerous experiments show that GARNet can retrieve the distribution of user-desired data based on full/partial preferences in terms of various interested properties (i.e., discrete/continuous property, single/multiple properties). Code is available at https://github.com/EvaFlower/GARNet.",
+    "authors": [
+        "Yinghua Yao",
+        "Yuangang Pan",
+        "Jing Li",
+        "Ivor W. Tsang",
+        "Xin Yao"
+    ],
+    "emails": [
+        "eva.yh.yao@gmail.com",
+        "yuangang.pan@gmail.com",
+        "j.lee9383@gmail.com",
+        "ivor.tsang@gmail.com",
+        "xinyao@ln.edu.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/EvaFlower/GARNet"
+        ]
+    ],
+    "id": "23-0461",
+    "issue": 119,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Generative Adversarial Ranking Nets",
+    "volume": 25,
+    "year": 2024
+}

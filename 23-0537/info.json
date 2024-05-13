@@ -1,0 +1,39 @@
+{
+    "abstract": "Black-box optimization (BBO) has a broad range of applications, including automatic machine learning, experimental design, and database knob tuning. However, users still face challenges when applying BBO methods to their problems at hand with existing software packages in terms of applicability, performance, and efficiency. This paper presents OpenBox, an open-source BBO toolkit with improved usability. It implements user-friendly interfaces and visualization for users to define and manage their tasks. The modular design behind OpenBox facilitates its flexible deployment in existing systems. Experimental results demonstrate the effectiveness and efficiency of OpenBox over existing systems. The source code of OpenBox is available at https://github.com/PKU-DAIR/open-box.",
+    "authors": [
+        "Huaijun Jiang",
+        "Yu Shen",
+        "Yang Li",
+        "Beicheng Xu",
+        "Sixian Du",
+        "Wentao Zhang",
+        "Ce Zhang",
+        "Bin Cui"
+    ],
+    "emails": [
+        "jianghuaijun@pku.edu.cn",
+        "shenyu@pku.edu.cn",
+        "thomasyngli@tencent.com",
+        "beichengxu@stu.pku.edu.cn",
+        "dusixian@stu.pku.edu.cn",
+        "wentao.zhang@pku.edu.cn",
+        "ce.zhang@ethz.ch",
+        "bin.cui@pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PKU-DAIR/open-box"
+        ]
+    ],
+    "id": "23-0537",
+    "issue": 120,
+    "pages": [
+        1,
+        11
+    ],
+    "special_issue": "MLOSS",
+    "title": "OpenBox: A Python Toolkit for Generalized Black-box Optimization",
+    "volume": 25,
+    "year": 2024
+}

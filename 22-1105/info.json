@@ -1,0 +1,26 @@
+{
+    "abstract": "The group lasso penalty is widely used to introduce structured sparsity in statistical learning, characterized by its ability to eliminate predefined groups of parameters automatically. However, when the groups overlap, solving the group lasso problem can be time-consuming in high-dimensional settings due to groups\u2019 non-separability. This computational challenge  has limited the applicability of the overlapping group lasso penalty in cutting-edge areas, such as gene pathway selection and graphical model estimation. This paper introduces a non-overlapping and separable penalty designed to efficiently approximate the overlapping group lasso penalty. The approximation substantially enhances the computational efficiency in optimization, especially for large-scale and high-dimensional problems. We show that the proposed penalty is the tightest separable relaxation of the overlapping group lasso norm within the family of $\\ell_{q_1}/\\ell_{q_2}$ norms. Moreover, the estimators derived from our proposed norm are statistically equivalent to those derived from the overlapping group lasso penalty in terms of estimation error, support recovery, and minimax rate under the squared loss. The effectiveness of our method is demonstrated through extensive simulation examples and a predictive task of cancer tumors.",
+    "authors": [
+        "Mingyu Qi",
+        "Tianxi  Li"
+    ],
+    "emails": [
+        "mq3sq@virginia.edu",
+        "tianxili@umn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MingyuQi1995/Code-for-The-Non-Overlapping-Statistical-Approximation-to-Overlapping-Group-Lasso"
+        ]
+    ],
+    "id": "22-1105",
+    "issue": 115,
+    "pages": [
+        1,
+        70
+    ],
+    "title": "The Non-Overlapping Statistical Approximation to Overlapping Group Lasso",
+    "volume": 25,
+    "year": 2024
+}

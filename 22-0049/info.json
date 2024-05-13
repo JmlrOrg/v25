@@ -1,0 +1,22 @@
+{
+    "abstract": "Deep neural networks (DNNs) trained with the logistic loss (also known as the cross entropy loss) have made impressive advancements in various binary classification tasks. Despite the considerable success in practice, generalization analysis for binary classification with deep neural networks and the logistic loss remains scarce. The unboundedness of the target function for\r\nthe logistic loss in binary classification is the main obstacle to deriving satisfactory generalization bounds. In this paper, we aim to fill this gap by developing a novel theoretical analysis and using it to establish tight generalization bounds for training fully connected ReLU DNNs with logistic loss in binary classification. Our generalization analysis is based on an elegant oracle-type inequality which enables us to deal with the boundedness restriction of the target function. Using this oracle-type inequality, we establish generalization bounds for fully connected ReLU DNN  classifiers $\\hat{f}^{\\text{FNN}}_n$ trained by empirical logistic risk minimization with respect to i.i.d. samples of size $n$, which lead to sharp rates of convergence as $n\\to\\infty$.  In particular,  we obtain optimal convergence rates for $\\hat{f}^{\\text{FNN}}_n$ (up to some logarithmic factor) only requiring the H\u00f6lder smoothness of the conditional class probability $\\eta$ of data. Moreover, we consider a compositional assumption that requires $\\eta$ to be the composition of several vector-valued multivariate functions of which each component function is either a maximum value function or a H\u00f6lder smooth function only depending on a small number of its input variables. Under this assumption, we can even derive optimal convergence rates for $\\hat{f}^{\\text{FNN}}_n$ (up to some logarithmic factor) which are independent of the input dimension of data. This result explains why in practice DNN classifiers can overcome the curse of dimensionality and perform well in high-dimensional classification problems. Furthermore, we establish dimension-free rates of convergence under other circumstances such as when the decision boundary is piecewise smooth and the input data are bounded away from it. Besides the novel oracle-type inequality, the sharp convergence rates presented in our paper also owe to a tight error bound for approximating the natural logarithm function near zero (where it is unbounded) by ReLU DNNs. In addition, we justify our claims for the optimality of rates by proving corresponding minimax lower bounds.  All these results are new in the literature and will deepen our theoretical understanding of classification with deep neural networks.",
+    "authors": [
+        "Zihan Zhang",
+        "Lei Shi",
+        "Ding-Xuan Zhou"
+    ],
+    "emails": [
+        "zihanzhang19@fudan.edu.cn",
+        "leishi@fudan.edu.cn",
+        "dingxuan.zhou@sydney.edu.au"
+    ],
+    "id": "22-0049",
+    "issue": 125,
+    "pages": [
+        1,
+        117
+    ],
+    "title": "Classification with Deep Neural Networks and Logistic Loss",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We initiate a program of average smoothness analysis for efficiently learning real-valued functions on metric spaces. Rather than using the Lipschitz constant as the regularizer, we define a local slope at each point and gauge the function complexity as the average of these values. Since the mean can be dramatically smaller than the maximum, this complexity measure can yield considerably sharper generalization bounds --- assuming that these admit a refinement where the Lipschitz constant is replaced by our average of local slopes. Our first major contribution is to obtain just such distribution-sensitive bounds. This required overcoming a number of technical challenges, perhaps the most formidable of which was bounding the empirical covering numbers, which can be much worse-behaved than the ambient ones. Our combinatorial results are accompanied by efficient algorithms for smoothing the labels of the random sample, as well as guarantees that the extension from the sample to the whole space will continue to be, with high probability, smooth on average. Along the way we discover a surprisingly rich combinatorial and analytic structure in the function class we define.",
+    "authors": [
+        "Yair Ashlagi",
+        "Lee-Ad Gottlieb",
+        "Aryeh Kontorovich"
+    ],
+    "emails": [
+        "ashlagi@post.bgu.ac.il",
+        "leead@ariel.ac.il",
+        "karyeh@cs.bgu.ac.il"
+    ],
+    "id": "23-0182",
+    "issue": 117,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Functions with average smoothness: structure, algorithms, and learning",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Algorithmic Fairness is an established area of machine learning, willing to reduce the influence of hidden bias in the data. Yet, despite its wide range of applications, very few works consider the multi-class classification setting from the fairness perspective. We focus on this question and extend the definition of approximate fairness in the case of Demographic Parity to multi-class classification. We specify the corresponding expressions of the optimal fair classifiers in the attribute-aware case and both for binary and multi-categorical sensitive attributes. This suggests a plug-in data-driven procedure, for which we establish theoretical guarantees. The enhanced estimator is proved to mimic the behavior of the optimal rule both in terms of fairness and risk. Notably, fairness guarantees are distribution-free. The approach is evaluated on both synthetic and real datasets and reveals very effective in decision making with a preset level of unfairness. In addition, our method is competitive (if not better) with the state-of-the-art in binary and multi-class tasks.",
+    "authors": [
+        "Christophe Denis",
+        "Romuald Elie",
+        "Mohamed Hebiri",
+        "Fran\u00e7ois Hu"
+    ],
+    "emails": [
+        "christophe.denis@univ-eiffel.fr",
+        "romuald.elie@univ-eiffel.fr",
+        "mohamed.hebiri@univ-eiffel.fr",
+        "francois.hu@milliman.com"
+    ],
+    "id": "23-0322",
+    "issue": 130,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Fairness guarantees in multi-class classification with demographic parity",
+    "volume": 25,
+    "year": 2024
+}

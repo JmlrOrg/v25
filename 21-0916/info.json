@@ -1,0 +1,28 @@
+{
+    "abstract": "We consider nonstationary multi-armed bandit problems where the model parameters of the arms change over time. We introduce the adaptive resetting bandit (ADR-bandit), a bandit algorithm class that leverages adaptive windowing techniques from literature on data streams. We first provide new guarantees on the quality of estimators resulting from adaptive windowing techniques, which are of independent interest. Furthermore, we conduct a finite-time analysis of ADR-bandit in two typical environments: an abrupt environment where changes occur instantaneously and a gradual environment where changes occur progressively. We demonstrate that ADR-bandit has nearly optimal performance when abrupt or gradual changes occur in a coordinated manner that we call global changes. We demonstrate that forced exploration is unnecessary when we assume such global changes. Unlike the existing nonstationary bandit algorithms, ADR-bandit has optimal performance in stationary environments as well as nonstationary environments with global changes. Our experiments show that the proposed algorithms outperform the existing approaches in synthetic and real-world environments.",
+    "authors": [
+        "Junpei Komiyama",
+        "Edouard Fouch{\\'e}",
+        "Junya Honda"
+    ],
+    "emails": [
+        "junpei@komiyama.info",
+        "edouard.fouche@gmail.com",
+        "honda@i.kyoto-u.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/edouardfouche/G-NS-MAB"
+        ]
+    ],
+    "id": "21-0916",
+    "issue": 112,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Finite-time Analysis of Globally Nonstationary Multi-Armed Bandits",
+    "volume": 25,
+    "year": 2024
+}

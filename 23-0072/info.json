@@ -1,0 +1,24 @@
+{
+    "abstract": "Dynamic treatment regimens (DTRs) aim at tailoring individualized sequential treatment rules that maximize cumulative beneficial outcomes by accommodating patients' heterogeneity in decision-making. For many chronic diseases including type 2 diabetes mellitus (T2D), treatments are usually multifaceted in the sense that aggressive treatments with a higher expected reward are also likely to elevate the risk of acute adverse events. In this paper, we propose a new weighted learning framework, namely benefit-risk dynamic treatment regimens (BR-DTRs), to address the benefit-risk trade-off. The new framework relies on a backward learning procedure by restricting the induced risk of the treatment rule to be no larger than a pre-specified risk constraint at each treatment stage. Computationally, the estimated treatment rule solves a weighted support vector machine problem with a modified smooth constraint. Theoretically, we show that the proposed DTRs are Fisher consistent, and we further obtain the convergence rates for both the value and risk functions. Finally, the performance of the proposed method is demonstrated via extensive simulation studies and application to a real study for T2D patients.",
+    "authors": [
+        "Mochuan Liu",
+        "Yuanjia Wang",
+        "Haoda Fu",
+        "Donglin Zeng"
+    ],
+    "emails": [
+        "mochuan@live.unc.edu",
+        "yw2016@cumc.columbia.edu",
+        "fu_haoda@lilly.com",
+        "dzeng@umich.edu"
+    ],
+    "id": "23-0072",
+    "issue": 128,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Learning Optimal Dynamic Treatment Regimens Subject to Stagewise Risk Controls",
+    "volume": 25,
+    "year": 2024
+}

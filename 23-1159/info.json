@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the complexity of producing $(\\delta,\\epsilon)$-stationary points of Lipschitz objectives which are possibly neither smooth nor convex, using only noisy function evaluations. Recent works proposed several stochastic zero-order algorithms that solve this task, all of which suffer from a dimension-dependence of $\\Omega(d^{3/2})$ where $d$ is the dimension of the problem, which was conjectured to be optimal. We refute this conjecture by providing a faster algorithm that has complexity $O(d\\delta^{-1}\\epsilon^{-3})$, which is optimal (up to numerical constants) with respect to $d$ and also optimal with respect to the accuracy parameters $\\delta,\\epsilon$, thus solving an open question due to Lin et al. (2022). Moreover, the convergence rate achieved by our algorithm is also optimal for smooth objectives, proving that in the nonconvex stochastic zero-order setting, nonsmooth optimization is as easy as smooth optimization. We provide algorithms that achieve the aforementioned convergence rate in expectation as well as with high probability. Our analysis is based on a simple yet powerful lemma regarding the Goldstein-subdifferential set, which allows utilizing recent advancements in first-order nonsmooth nonconvex optimization.",
+    "authors": [
+        "Guy Kornowski",
+        "Ohad Shamir"
+    ],
+    "emails": [
+        "guy.kornowski@weizmann.ac.il",
+        "ohad.shamir@weizmann.ac.il"
+    ],
+    "id": "23-1159",
+    "issue": 122,
+    "pages": [
+        1,
+        14
+    ],
+    "title": "An Algorithm with Optimal Dimension-Dependence for Zero-Order Nonsmooth Nonconvex Stochastic Optimization",
+    "volume": 25,
+    "year": 2024
+}

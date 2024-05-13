@@ -1,0 +1,24 @@
+{
+    "abstract": "We study active learning of multiclass classifiers, focusing on the realizable transductive setting. The input is a finite subset $X$ of some metric space, and the concept to be learned is a partition $\\mathcal{C}$ of $X$ into $k$ classes. The goal is to learn $\\mathcal{C}$ by querying the labels of as few elements of $X$ as possible. This is a useful subroutine in pool-based active learning, and is motivated by applications where labels are expensive to obtain. Our main result is that, in very different settings, there exist interesting notions of margin that yield efficient active learning algorithms. First, we consider the case $X \\subset \\mathbb{R}^m$, assuming that each class has an unknown \"personalized\" margin separating it from the rest. Second, we consider the case where $X$ is a finite metric space, and the classes are convex with margin according to the geodesic distances in the thresholded connectivity graph. In both cases, we give algorithms that learn $\\mathcal{C}$ exactly, in polynomial time, using $\\mathcal{O}(\\log n)$ label queries, where $\\mathcal{O}(\\cdot)$ hides a near-optimal dependence on the dimension of the metric spaces. Our results actually hold for or can be adapted to more general settings, such as pseudometric and semimetric spaces.",
+    "authors": [
+        "Marco Bressan",
+        "Nicol{\\`o} Cesa-Bianchi",
+        "Silvio Lattanzi",
+        "Andrea Paudice"
+    ],
+    "emails": [
+        "marco.bressan@unimi.it",
+        "nicolo.cesa-bianchi@unimi.it",
+        "silviol@google.com",
+        "andrea.paudice@unimi.it"
+    ],
+    "id": "22-1127",
+    "issue": 127,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Margin-Based Active Learning of Classifiers",
+    "volume": 25,
+    "year": 2024
+}

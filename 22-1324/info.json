@@ -1,0 +1,24 @@
+{
+    "abstract": "Differential privacy is a particular data privacy-preserving technology which enables synthetic data or statistical analysis results to be released with a minimum disclosure of private information from individual records. The tradeoff between privacy-preserving and utility guarantee is always a challenge for differential privacy technology, especially for synthetic data generation. In this paper, we propose a differentially private data synthesis algorithm for mixed-type data with correlation based on latent factor models. The proposed method can add a relatively small amount of noise to synthetic data under a given level of privacy protection while capturing correlation information. Moreover, the proposed algorithm can generate synthetic data preserving the same data type as mixed-type original data, which greatly improves the utility of synthetic data. The key idea of our method is to perturb the factor matrix and factor loading matrix to construct a synthetic data generation model, and to utilize link functions with privacy protection to ensure consistency of synthetic data type with original data. The proposed method can generate privacy-preserving synthetic data at low computation cost even when the original data is high-dimensional. In theory, we establish differentially private properties of the proposed method. Our numerical studies also demonstrate superb performance of the proposed method on the utility guarantee of the statistical analysis based on privacy-preserved synthetic data.",
+    "authors": [
+        "Yanqing Zhang",
+        "Qi Xu",
+        "Niansheng Tang",
+        "Annie Qu"
+    ],
+    "emails": [
+        "zyqznl2010@126.com",
+        "qxu6@uci.edu",
+        "nstang@ynu.edu.cn",
+        "aqu2@uci.edu"
+    ],
+    "id": "22-1324",
+    "issue": 116,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Differentially Private Data Release for Mixed-type Data via Latent Factor Models",
+    "volume": 25,
+    "year": 2024
+}

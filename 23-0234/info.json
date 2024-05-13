@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider nonparametric classification with smooth regression functions, where it is well known that notions of margin in $\\mathbb{P}(Y=y|X=x)$ determine fast or slow rates in both active and passive learning. Here we elucidate a striking distinction---most relevant in multi-class settings---between active and passive learning. Namely, we show that some seemingly benign nuances in notions of margin---involving the uniqueness of the Bayes classes, which have no apparent effect on rates in passive learning---determine whether or not any active learner can outperform passive learning rates. While a shorter conference version of this work already alluded to these nuances, it focused on the binary case and thus failed to be conclusive as to the source of difficulty in the multi-class setting: we show here that it suffices that the Bayes classifier fails to be unique, as opposed to needing all classes to be Bayes optimal, for active learning to yield no gain over passive learning.",
+    "authors": [
+        "Gan Yuan",
+        "Yunfan Zhao",
+        "Samory Kpotufe"
+    ],
+    "emails": [
+        "gy2277@columbia.edu",
+        "yz3685@columbia.edu",
+        "skk2175@columbia.edu"
+    ],
+    "id": "23-0234",
+    "issue": 129,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Regimes of No Gain in Multi-class Active Learning",
+    "volume": 25,
+    "year": 2024
+}
