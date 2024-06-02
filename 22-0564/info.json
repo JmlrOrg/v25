@@ -1,0 +1,14 @@
+{
+    "title": "Robust Black-Box Optimization for Stochastic Search and Episodic Reinforcement Learning",
+    "abstract": "Black-box optimization is a versatile approach to solve complex problems where the objective function is not explicitly known and no higher order information is available. Due to its general nature, it finds widespread applications in function optimization as well as machine learning, especially episodic reinforcement learning tasks. While traditional black-box optimizers like CMA-ES may falter in noisy scenarios due to their reliance on ranking-based transformations, a promising alternative emerges in the form of the Model-based Relative Entropy Stochastic Search (MORE) algorithm. MORE can be derived from natural policy gradients and compatible function approximation and directly optimizes the expected fitness without resorting to rankings. However, in its original formulation, MORE often cannot achieve state of the art performance. In this paper, we improve MORE by decoupling the update of the search distribution's mean and covariance and an improved entropy scheduling technique based on an evolution path resulting in faster convergence, and a simplified model learning approach in comparison to the original paper. We show that our algorithm performs comparable to state-of-the-art black-box optimizers on standard benchmark functions. Further, it clearly outperforms ranking-based methods and other policy-gradient based black-box algorithms as well as state of the art deep reinforcement learning algorithms when used for episodic reinforcement learning tasks.",
+    "authors":
+    [
+        "Maximilian H{{\\\"u}}ttenrauch",
+        "Gerhard Neumann"
+    ],
+    "emails":
+    [
+        "maximilian.huettenrauch@kit.edu",
+        "gerhard.neumann@kit.edu"
+    ]
+}

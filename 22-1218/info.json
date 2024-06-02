@@ -1,0 +1,21 @@
+{
+    "title": "Conformal Inference for Online Prediction with Arbitrary Distribution Shifts",
+    "abstract": "We consider the problem of forming prediction sets in an online setting where the distribution generating the data is allowed to vary over time. Previous approaches to this problem suffer from over-weighting historical data and thus may fail to quickly react to the underlying dynamics. Here, we correct this issue and develop a novel procedure with provably small regret over all local time intervals of a given width. We achieve this by modifying the adaptive conformal inference (ACI) algorithm of Gibbs and Candès (2021) to contain an additional step in which the step-size parameter of ACI's gradient descent update is tuned over time. Crucially, this means that unlike ACI, which requires knowledge of the rate of change of the data-generating mechanism, our new procedure is adaptive to both the size and type of the distribution shift. Our methods are highly flexible and can be used in combination with any baseline predictive algorithm that produces point estimates or estimated quantiles of the target without the need for distributional assumptions. We test our techniques on two real-world datasets aimed at predicting stock market volatility and COVID-19 case counts and find that they are robust and adaptive to real-world distribution shifts.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/isgibbs/DtACI"
+        ]
+    ],
+    "authors":
+    [
+        "Isaac Gibbs",
+        "Emmanuel J. Cand{{\\`e}}s"
+    ],
+    "emails":
+    [
+        "igibbs@stanford.edu",
+        "candes@stanford.edu"
+    ]
+}

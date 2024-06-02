@@ -1,0 +1,16 @@
+{
+    "title": "Variational Estimators of the Degree-corrected Latent Block Model for Bipartite Networks",
+    "abstract": "Bipartite graphs are ubiquitous across various scientific and engineering fields. Simultaneously grouping the two types of nodes in a bipartite graph via biclustering represents a fundamental challenge in network analysis for such graphs. The latent block model (LBM) is a commonly used model-based tool for biclustering. However, the effectiveness of the LBM is often limited by the influence of row and column sums in the data matrix. To address this limitation, we introduce the degree-corrected latent block model (DC-LBM), which accounts for the varying degrees in row and column clusters, significantly enhancing performance on real-world data sets and simulated data. We develop an efficient variational expectation-maximization algorithm by creating closed-form solutions for parameter estimates in the M steps. Furthermore, we prove the label consistency and the rate of convergence of the variational estimator under the DC-LBM, allowing the expected graph density to approach zero as long as the average expected degrees of rows and columns approach infinity when the size of the graph increases.",
+    "authors":
+    [
+        "Yunpeng Zhao",
+        "Ning Hao",
+        "Ji Zhu"
+    ],
+    "emails":
+    [
+        "Yunpeng.Zhao@colostate.edu",
+        "nhao@math.arizona.edu",
+        "jizhu@umich.edu"
+    ]
+}

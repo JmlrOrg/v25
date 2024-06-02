@@ -1,0 +1,14 @@
+{
+    "title": "Nonparametric Regression Using Over-parameterized Shallow ReLU Neural Networks",
+    "abstract": "It is shown that over-parameterized neural networks can achieve minimax optimal rates of convergence (up to logarithmic factors) for learning functions from certain smooth function classes, if the weights are suitably constrained or regularized. Specifically, we consider the nonparametric regression of estimating an unknown $d$-variate function by using shallow ReLU neural networks. It is assumed that the regression function is from the H\\\"older space with smoothness $\\alpha<(d+3)/2$ or a variation space corresponding to shallow neural networks, which can be viewed as an infinitely wide neural network. In this setting, we prove that least squares estimators based on shallow neural networks with certain norm constraints on the weights are minimax optimal, if the network width is sufficiently large. As a byproduct, we derive a new size-independent bound for the local Rademacher complexity of shallow ReLU neural networks, which may be of independent interest.",
+    "authors":
+    [
+        "Yunfei Yang",
+        "Ding-Xuan Zhou"
+    ],
+    "emails":
+    [
+        "yunfyang@cityu.edu.hk",
+        "dingxuan.zhou@sydney.edu.au"
+    ]
+}

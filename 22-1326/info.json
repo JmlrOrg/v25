@@ -1,0 +1,14 @@
+{
+    "title": "Statistical Optimality of Divide and Conquer Kernel-based Functional Linear Regression",
+    "abstract": "Previous analysis of regularized functional linear regression in a reproducing kernel Hilbert space (RKHS) typically requires the target function to be contained in this kernel space. This paper studies the convergence performance of divide-and-conquer estimators in the scenario that the target function does not necessarily reside in the underlying RKHS. As a decomposition-based scalable approach, the divide-and-conquer estimators of functional linear regression can substantially reduce the algorithmic complexities in time and memory. We develop an integral operator approach to establish sharp finite sample upper bounds for prediction with divide-and-conquer estimators under various regularity conditions of explanatory variables and target function. We also prove the asymptotic optimality of the derived rates by building the mini-max lower bounds. Finally, we consider the convergence of noiseless estimators and show that the rates can be arbitrarily fast under mild conditions.",
+    "authors":
+    [
+        "Jiading Liu",
+        "Lei Shi"
+    ],
+    "emails":
+    [
+        "20210180088@fudan.edu.cn",
+        "leishi@fudan.edu.cn"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Unified Binary and Multiclass Margin-Based Classification",
+    "abstract": "The notion of margin loss has been central to the development and analysis of algorithms for binary classification. To date, however, there remains no consensus as to the analogue of the margin loss for multiclass classification. In this work, we show that a broad range of multiclass loss functions, including many popular ones, can be expressed in the relative margin form, a generalization of the margin form of binary losses. The relative margin form is broadly useful for understanding and analyzing multiclass losses as shown by our prior work (Wang and Scott, 2020, 2021). To further demonstrate the utility of this way of expressing multiclass losses, we use it to extend the seminal result of Bartlett et al. (2006) on classification-calibration of binary margin losses to multiclass. We then analyze the class of Fenchel-Young losses, and expand the set of these losses that are known to be classification-calibrated.",
+    "authors":
+    [
+        "Yutong Wang",
+        "Clayton Scott"
+    ],
+    "emails":
+    [
+        "yutongw@umich.edu",
+        "clayscot@umich.edu"
+    ]
+}

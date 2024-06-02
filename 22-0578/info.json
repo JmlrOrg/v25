@@ -1,0 +1,16 @@
+{
+    "title": "More Efficient Estimation of Multivariate Additive Models Based on Tensor Decomposition and Penalization",
+    "abstract": "We consider parsimonious modeling of high-dimensional multivariate additive models using regression splines, with or without sparsity assumptions. The approach is based on treating the coefficients in the spline expansions as a third-order tensor. Note the data does not have tensor predictors or tensor responses, which distinguishes our study from the existing ones. A Tucker decomposition is used to reduce the number of parameters in the tensor. We also combined the Tucker decomposition with penalization to enable variable selection. The proposed method can avoid the statistical inefficiency caused by estimating a large number of nonparametric functions. We provide sufficient conditions under which the proposed tensor-based estimators achieve the optimal rate of convergence for the nonparametric regression components. We conduct simulation studies to demonstrate the effectiveness of the proposed novel approach in fitting high-dimensional multivariate additive models and illustrate its application on a breast cancer copy number variation and gene expression data set.",
+    "authors":
+    [
+        "Xu Liu",
+        "Heng Lian",
+        "Jian Huang"
+    ],
+    "emails":
+    [
+        "liu.xu@sufe.edu.cn",
+        "henglian@cityu.edu.hk",
+        "j.huang@polyu.edu.hk"
+    ]
+}

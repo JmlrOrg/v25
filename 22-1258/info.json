@@ -1,0 +1,28 @@
+{
+    "title": "DoWhy-GCM: An Extension of DoWhy for Causal Inference in Graphical Causal Models",
+    "abstract": "We present DoWhy-GCM, an extension of the DoWhy Python library, which leverages graphical causal models. Unlike existing causality libraries, which mainly focus on effect estimation, DoWhy-GCM addresses diverse causal queries, such as identifying the root causes of outliers and distributional changes, attributing causal influences to the data generating process of each node, or diagnosis of causal structures. With DoWhy-GCM, users typically specify cause-effect relations via a causal graph, fit causal mechanisms, and pose causal queries---all with just a few lines of code. The general documentation is available at https://www.pywhy.org/dowhy and the DoWhy-GCM specific code at https://github.com/py-why/dowhy/tree/main/dowhy/gcm.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/py-why/dowhy"
+        ]
+    ],
+    "special_issue": "MLOSS",
+    "authors":
+    [
+        "Patrick Bl{{\\\"o}}baum",
+        "Peter G{{\\\"o}}tz",
+        "Kailash Budhathoki",
+        "Atalanti A. Mastakouri",
+        "Dominik Janzing"
+    ],
+    "emails":
+    [
+        "bloebp@amazon.com",
+        "pego@amazon.com",
+        "kaibud@amazon.com",
+        "atalanti@amazon.com",
+        "janzind@amazon.com"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Adaptive Latent Feature Sharing for Piecewise Linear Dimensionality Reduction",
+    "abstract": "Linear Gaussian exploratory tools such as principal component analysis (PCA) and factor analysis (FA) are widely used for exploratory analysis, pre-processing, data visualization, and related tasks. Because the linear-Gaussian assumption is restrictive, for very high dimensional problems, they have been replaced by robust, sparse extensions or more flexible discrete-continuous latent feature models. Discrete-continuous latent feature models specify a dictionary of features dependent on subsets of the data and then infer the likelihood that each data point shares any of these features. This is often achieved using rich-get-richer assumptions about the feature allocation process where the dictionary tries to couple the feature frequency with the portion of total variance that it explains. In this work, we propose an alternative approach that allows for better control over the feature to data point allocation. This new approach is based on two-parameter discrete distribution models which decouple feature sparsity and dictionary size, hence capturing both common and rare features in a parsimonious way. The new framework is used to derive a novel adaptive variant of factor analysis (aFA), as well as an adaptive probabilistic principal component analysis (aPPCA) capable of flexible structure discovery and dimensionality reduction in a wide variety of scenarios. We derive both standard Gibbs sampling, as well as efficient expectation-maximisation inference approximations converging orders of magnitude faster, to a reasonable point estimate solution. The utility of the proposed aPPCA and aFA models is demonstrated on standard tasks such as feature learning, data visualization, and data whitening. We show that aPPCA and aFA can extract interpretable, high-level features for raw MNIST or COLI-20 images, or when applied to the analysis of autoencoder features. We also demonstrate that replacing common PCA pre-processing pipelines in the analysis of functional magnetic resonance imaging (fMRI) data with aPPCA, leads to more robust and better-localised blind source separation of neural activity.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://colab.research.google.com/drive/1KrrHmAu6mV7tutZtYnpEbVibxs4GCwIo?usp=sharing"
+        ]
+    ],
+    "authors":
+    [
+        "Adam Farooq",
+        "Yordan P. Raykov",
+        "Petar Raykov",
+        "Max A. Little"
+    ],
+    "emails":
+    [
+        "farooq.adam@outlook.com",
+        "yordan.raykov@nottingham.ac.uk",
+        "petar.raykov@mrc-cbu.cam.ac.uk",
+        "maxl@mit.edu"
+    ]
+}
