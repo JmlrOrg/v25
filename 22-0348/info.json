@@ -1,21 +1,26 @@
 {
-    "title": "A Variational Approach to Bayesian Phylogenetic Inference",
     "abstract": "Bayesian phylogenetic inference is currently done via Markov chain Monte Carlo with simple proposal mechanisms. This hinders exploration efficiency and often requires long runs to deliver accurate posterior estimates. In this paper, we present an alternative approach: a variational framework for Bayesian phylogenetic analysis. We propose combining subsplit Bayesian networks, an expressive graphical model for tree topology distributions, and a structured amortization of the branch lengths over tree topologies for a suitable variational family of distributions. We train the variational approximation via stochastic gradient ascent and adopt gradient estimators for continuous and discrete variational parameters separately to deal with the composite latent space of phylogenetic models. We show that our variational approach provides competitive performance to MCMC, while requiring much fewer (though more costly) iterations due to a more efficient exploration mechanism enabled by variational inference. Experiments on a benchmark of challenging real data Bayesian phylogenetic inference problems demonstrate the effectiveness and efficiency of our methods.",
-    "extra_links":
-    [
+    "authors": [
+        "Cheng Zhang",
+        "Frederick A. Matsen IV"
+    ],
+    "emails": [
+        "chengzhang@math.pku.edu.cn",
+        "matsen@fredhutch.org"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/zcrabbit/vbpi-torch"
         ]
     ],
-    "authors":
-    [
-        "Cheng Zhang",
-        "Frederick A. Matsen IV"
+    "id": "22-0348",
+    "issue": 145,
+    "pages": [
+        1,
+        56
     ],
-    "emails":
-    [
-        "chengzhang@math.pku.edu.cn",
-        "matsen@fredhutch.org"
-    ]
+    "title": "A Variational Approach to Bayesian Phylogenetic Inference",
+    "volume": 25,
+    "year": 2024
 }

@@ -1,21 +1,26 @@
 {
-    "title": "Optimal Locally Private Nonparametric Classification with Public Data",
     "abstract": "In this work, we investigate the problem of public data assisted non-interactive Local Differentially Private (LDP) learning with a focus on non-parametric classification. Under the posterior drift assumption, we for the first time derive the mini-max optimal convergence rate with LDP constraint. Then, we present a novel approach, the locally differentially private classification tree, which attains the mini-max optimal convergence rate. Furthermore, we design a data-driven pruning procedure that avoids parameter tuning and provides a fast converging estimator. Comprehensive experiments conducted on synthetic and real data sets show the superior performance of our proposed methods. Both our theoretical and experimental findings demonstrate the effectiveness of public data compared to private data, which leads to practical suggestions for prioritizing non-private data collection.",
-    "extra_links":
-    [
+    "authors": [
+        "Yuheng Ma",
+        "Hanfang Yang"
+    ],
+    "emails": [
+        "yma@ruc.edu.cn",
+        "hyang@ruc.edu.cn"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/Karlmyh/LPCT"
         ]
     ],
-    "authors":
-    [
-        "Yuheng Ma",
-        "Hanfang Yang"
+    "id": "23-1563",
+    "issue": 167,
+    "pages": [
+        1,
+        62
     ],
-    "emails":
-    [
-        "yma@ruc.edu.cn",
-        "hyang@ruc.edu.cn"
-    ]
+    "title": "Optimal Locally Private Nonparametric Classification with Public Data",
+    "volume": 25,
+    "year": 2024
 }

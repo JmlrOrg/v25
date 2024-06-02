@@ -1,8 +1,6 @@
 {
-    "title": "Identifiability and Asymptotics in Learning Homogeneous Linear ODE Systems from Discrete Observations",
     "abstract": "Ordinary Differential Equations (ODEs) have recently gained a lot of attention in machine learning. However, the theoretical aspects, for example, identifiability and asymptotic properties of statistical estimation are still obscure. This paper derives a sufficient condition for the identifiability of homogeneous linear ODE systems from a sequence of equally-spaced error-free observations sampled from a single trajectory. When observations are disturbed by measurement noise, we prove that under mild conditions, the parameter estimator based on the Nonlinear Least Squares (NLS) method is consistent and asymptotic normal with $n^{-1/2}$ convergence rate. Based on the asymptotic normality property, we construct confidence sets for the unknown system parameters and propose a new method to infer the causal structure of the ODE system, that is, inferring whether there is a causal link between system variables. Furthermore, we extend the results to degraded observations, including aggregated and time-scaled ones. To the best of our knowledge, our work is the first systematic study of the identifiability and asymptotic properties in learning linear ODE systems. We also construct simulations with various system dimensions to illustrate the established theoretical results.",
-    "authors":
-    [
+    "authors": [
         "Yuanyuan Wang",
         "Wei Huang",
         "Mingming Gong",
@@ -11,8 +9,7 @@
         "Kun Zhang",
         "Dacheng Tao"
     ],
-    "emails":
-    [
+    "emails": [
         "yuanyuanw2@student.unimelb.edu.au",
         "wei.huang@unimelb.edu.au",
         "mingming.gong@unimelb.edu.au",
@@ -20,5 +17,14 @@
         "tongliang.liu@sydney.edu.au",
         "kunz1@cmu.edu",
         "dacheng.tao@sydney.edu.au"
-    ]
+    ],
+    "id": "22-1159",
+    "issue": 154,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Identifiability and Asymptotics in Learning Homogeneous Linear ODE Systems from Discrete Observations",
+    "volume": 25,
+    "year": 2024
 }

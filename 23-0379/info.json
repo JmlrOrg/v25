@@ -1,14 +1,20 @@
 {
-    "title": "Adjusted Wasserstein Distributionally Robust Estimator in Statistical Learning",
     "abstract": "We propose an adjusted Wasserstein distributionally robust estimator---based on a nonlinear transformation of the Wasserstein distributionally robust (WDRO) estimator in statistical learning. The classic WDRO estimator is asymptotically biased, while our adjusted WDRO estimator is asymptotically unbiased, resulting in a smaller asymptotic mean squared error. Further, under certain conditions, our proposed adjustment technique provides a general principle to de-bias asymptotically biased estimators. Specifically, we will investigate how the adjusted WDRO estimator is developed in the generalized linear model, including logistic regression, linear regression, and Poisson regression. Numerical experiments demonstrate the favorable practical performance of the adjusted estimator over the classic one.",
-    "authors":
-    [
+    "authors": [
         "Yiling Xie",
         "Xiaoming Huo"
     ],
-    "emails":
-    [
+    "emails": [
         "yxie350@gatech.edu",
         "huo@gatech.edu"
-    ]
+    ],
+    "id": "23-0379",
+    "issue": 148,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Adjusted Wasserstein Distributionally Robust Estimator in Statistical Learning",
+    "volume": 25,
+    "year": 2024
 }

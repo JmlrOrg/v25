@@ -1,27 +1,32 @@
 {
-    "title": "Transport-based Counterfactual Models",
     "abstract": "Counterfactual frameworks have grown popular in machine learning for both explaining algorithmic decisions but also defining individual notions of fairness, more intuitive than typical group fairness conditions. However, state-of-the-art models to compute counterfactuals are either unrealistic or unfeasible. In particular, while Pearl's causal inference provides appealing rules to calculate counterfactuals, it relies on a model that is unknown and hard to discover in practice. We address the problem of designing realistic and feasible counterfactuals in the absence of a causal model. We define transport-based counterfactual models as collections of joint probability distributions between observable distributions, and show their connection to causal counterfactuals. More specifically, we argue that optimal-transport theory defines relevant transport-based counterfactual models, as they are numerically feasible, statistically-faithful, and can coincide under some assumptions with causal counterfactual models. Finally, these models make counterfactual approaches to fairness feasible, and we illustrate their practicality and efficiency on fair learning. With this paper, we aim at laying out the theoretical foundations for a new, implementable approach to counterfactual thinking.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/lucasdelara/PI-Fair"
-        ]
-    ],
-    "authors":
-    [
+    "authors": [
         "Lucas De Lara",
         "Alberto Gonz{{\\'a}}lez-Sanz",
         "Nicholas Asher",
         "Laurent Risser",
         "Jean-Michel Loubes"
     ],
-    "emails":
-    [
+    "emails": [
         "lucas.de_lara@math.univ-toulouse.fr",
         "ag4855@columbia.edu",
         "nicholas.asher@irit.fr",
         "laurent.risser@math.univ-toulouse.fr",
         "loubes@math.univ-toulouse.fr"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lucasdelara/PI-Fair"
+        ]
+    ],
+    "id": "21-1440",
+    "issue": 136,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Transport-based Counterfactual Models",
+    "volume": 25,
+    "year": 2024
 }

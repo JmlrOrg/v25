@@ -1,14 +1,20 @@
 {
-    "title": "A Survey on Multi-player Bandits",
     "abstract": "Due mostly to its application to cognitive radio networks, multiplayer bandits gained a lot of interest in the last decade. A considerable progress has been made on its theoretical aspect. However, the current algorithms are far from applicable and many obstacles remain between these theoretical results and a possible implementation of multiplayer bandits algorithms in real communication networks. This survey contextualizes and organizes the rich multiplayer bandits literature. In light of the existing works, some clear directions for future research appear. We believe that a further study of these different directions might lead to theoretical algorithms adapted to real-world situations.",
-    "authors":
-    [
+    "authors": [
         "Etienne Boursier",
         "Vianney Perchet"
     ],
-    "emails":
-    [
+    "emails": [
         "etienne.boursier1@gmail.com",
         "vianney.perchet@normalesup.org"
-    ]
+    ],
+    "id": "22-0643",
+    "issue": 137,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "A Survey on Multi-player Bandits",
+    "volume": 25,
+    "year": 2024
 }

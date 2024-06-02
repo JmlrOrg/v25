@@ -1,23 +1,28 @@
 {
-    "title": "A Kernel Test for Causal Association via Noise Contrastive Backdoor Adjustment",
     "abstract": "Causal inference grows increasingly complex as the dimension of confounders increases. Given treatments $X$, outcomes $Y$, and measured confounders $Z$, we develop a non-parametric method to test the do-null hypothesis that, after an intervention on $X$, there is no marginal dependence of $Y$ on $X$, against the general alternative. Building on the Hilbert-Schmidt Independence Criterion (HSIC) for marginal independence testing, we propose backdoor-HSIC (bd-HSIC), an importance weighted HSIC which combines density ratio estimation with kernel methods. Experiments on simulated data verify the correct size and that the estimator has power for both binary and continuous treatments under a large number of confounding variables. Additionally, we establish convergence properties of the estimators of covariance operators used in bd-HSIC. We investigate the advantages and disadvantages of bd-HSIC against parametric tests as well as the importance of using the do-null testing in contrast to marginal or conditional independence testing. A complete implementation can be found at https://github.com/MrHuff/kgformula.",
-    "extra_links":
-    [
+    "authors": [
+        "Robert Hu",
+        "Dino Sejdinovic",
+        "Robin J. Evans"
+    ],
+    "emails": [
+        "robyhu@amazon.co.uk",
+        "dino.sejdinovic@adelaide.edu.au",
+        "evans@stats.ox.ac.uk"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/MrHuff/kgformula"
         ]
     ],
-    "authors":
-    [
-        "Robert Hu",
-        "Dino Sejdinovic",
-        "Robin J. Evans"
+    "id": "21-1409",
+    "issue": 160,
+    "pages": [
+        1,
+        56
     ],
-    "emails":
-    [
-        "robyhu@amazon.co.uk",
-        "dino.sejdinovic@adelaide.edu.au",
-        "evans@stats.ox.ac.uk"
-    ]
+    "title": "A Kernel Test for Causal Association via Noise Contrastive Backdoor Adjustment",
+    "volume": 25,
+    "year": 2024
 }

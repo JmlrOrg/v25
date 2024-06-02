@@ -1,21 +1,26 @@
 {
-    "title": "Statistical Inference for Fairness Auditing",
-    "abstract": "Before deploying a black-box model in high-stakes problems, it is important to evaluate the model’s performance on sensitive subpopulations. For example, in a recidivism prediction task, we may wish to identify demographic groups for which our prediction model has unacceptably high false positive rates or certify that no such groups exist. In this paper, we frame this task, often referred to as ``fairness auditing,''  in terms of multiple hypothesis testing. We show how the bootstrap can be used to simultaneously bound performance disparities over a collection of groups with statistical guarantees. Our methods can be used to flag subpopulations affected by model underperformance, and certify subpopulations for which the model performs adequately. Crucially, our audit is model-agnostic and applicable to nearly any performance metric or group fairness criterion. Our methods also accommodate extremely rich---even infinite---collections of subpopulations. Further, we generalize beyond subpopulations by showing how to assess performance over certain distribution shifts. We test the proposed methods on benchmark datasets in predictive inference and algorithmic fairness and find that our audits can provide interpretable and trustworthy guarantees.",
-    "extra_links":
-    [
+    "abstract": "Before deploying a black-box model in high-stakes problems, it is important to evaluate the model\u2019s performance on sensitive subpopulations. For example, in a recidivism prediction task, we may wish to identify demographic groups for which our prediction model has unacceptably high false positive rates or certify that no such groups exist. In this paper, we frame this task, often referred to as ``fairness auditing,''  in terms of multiple hypothesis testing. We show how the bootstrap can be used to simultaneously bound performance disparities over a collection of groups with statistical guarantees. Our methods can be used to flag subpopulations affected by model underperformance, and certify subpopulations for which the model performs adequately. Crucially, our audit is model-agnostic and applicable to nearly any performance metric or group fairness criterion. Our methods also accommodate extremely rich---even infinite---collections of subpopulations. Further, we generalize beyond subpopulations by showing how to assess performance over certain distribution shifts. We test the proposed methods on benchmark datasets in predictive inference and algorithmic fairness and find that our audits can provide interpretable and trustworthy guarantees.",
+    "authors": [
+        "John J. Cherian",
+        "Emmanuel J. Cand{{\\`e}}s"
+    ],
+    "emails": [
+        "jcherian@stanford.edu",
+        "candes@stanford.edu"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/jjcherian/fairaudit"
         ]
     ],
-    "authors":
-    [
-        "John J. Cherian",
-        "Emmanuel J. Cand{{\\`e}}s"
+    "id": "23-0739",
+    "issue": 149,
+    "pages": [
+        1,
+        49
     ],
-    "emails":
-    [
-        "jcherian@stanford.edu",
-        "candes@stanford.edu"
-    ]
+    "title": "Statistical Inference for Fairness Auditing",
+    "volume": 25,
+    "year": 2024
 }

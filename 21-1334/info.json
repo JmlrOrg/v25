@@ -1,21 +1,26 @@
 {
-    "title": "Kernel Thinning",
     "abstract": "We introduce kernel thinning, a new procedure for compressing a distribution $\\mathbb{P}$ more effectively than i.i.d. sampling or standard thinning. Given a suitable reproducing kernel $\\mathbf{k}_{\\star}$ and $O(n^2)$ time, kernel thinning compresses an $n$-point approximation to $\\mathbb{P}$ into a $\\sqrt{n}$-point approximation with comparable worst-case integration error across the associated reproducing kernel Hilbert space. The maximum discrepancy in integration error is $O_d(n^{-1/2}\\sqrt{\\log n})$ \r\nin probability  for compactly supported $\\mathbb{P}$ and $O_d(n^{-\\frac{1}{2}} (\\log n)^{(d+1)/2}\\sqrt{\\log\\log n})$ for sub-exponential $\\mathbb{P}$ on $\\mathbb{R}^d$. In contrast, an equal-sized i.i.d. sample from $\\mathbb{P}$ suffers  $\\Omega(n^{-1/4})$ integration error. Our sub-exponential guarantees resemble the classical quasi-Monte Carlo error rates for uniform $\\mathbb{P}$ on $[0,1]^d$ but apply to general distributions on $\\mathbb{R}^d$ and a wide range of common kernels. Moreover, the same construction delivers near-optimal $L^\\infty$ coresets in $O(n^2)$ time.  We use our results to derive explicit non-asymptotic maximum mean discrepancy bounds for Gaussian, Mat\\'ern, and B-spline kernels and present two vignettes illustrating the practical benefits of kernel thinning over i.i.d. sampling and standard Markov chain Monte Carlo thinning, in dimensions $d=2$ through $100$.",
-    "extra_links":
-    [
+    "authors": [
+        "Raaz Dwivedi",
+        "Lester Mackey"
+    ],
+    "emails": [
+        "dwivedi@cornell.edu",
+        "lmackey@microsoft.com"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/microsoft/goodpoints"
         ]
     ],
-    "authors":
-    [
-        "Raaz Dwivedi",
-        "Lester Mackey"
+    "id": "21-1334",
+    "issue": 152,
+    "pages": [
+        1,
+        77
     ],
-    "emails":
-    [
-        "dwivedi@cornell.edu",
-        "lmackey@microsoft.com"
-    ]
+    "title": "Kernel Thinning",
+    "volume": 25,
+    "year": 2024
 }

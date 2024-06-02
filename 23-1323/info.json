@@ -1,16 +1,22 @@
 {
-    "title": "Optimal Algorithms for Stochastic Bilevel Optimization under Relaxed Smoothness Conditions",
     "abstract": "We consider stochastic bilevel optimization problems involving minimizing an upper-level ($\\texttt{UL}$) function that is dependent on the arg-min of a strongly-convex lower-level ($\\texttt{LL}$) function. Several algorithms utilize Neumann series to approximate certain matrix inverses involved in estimating the implicit gradient of the $\\texttt{UL}$ function (hypergradient). The state-of-the-art StOchastic Bilevel Algorithm ($\\texttt{SOBA}$) instead uses stochastic gradient descent steps to solve the linear system associated with the explicit matrix inversion. This modification enables $\\texttt{SOBA}$ to obtain a sample complexity of $\\mathcal{O}(1/\\epsilon^{2})$ for finding an $\\epsilon$-stationary point. Unfortunately, the current analysis of $\\texttt{SOBA}$ relies on the assumption of higher-order smoothness for the $\\texttt{UL}$ and $\\texttt{LL}$ functions to achieve optimality. In this paper, we introduce a novel fully single-loop and Hessian-inversion-free algorithmic framework for stochastic bilevel optimization and present a tighter analysis under standard smoothness assumptions (first-order Lipschitzness of the $\\texttt{UL}$ function and second-order Lipschitzness of the $\\texttt{LL}$ function). Furthermore, we show that a slight modification of our algorithm can handle a more general multi-objective robust bilevel optimization problem. For this case, we obtain the state-of-the-art oracle complexity results demonstrating the generality of both the proposed algorithmic and analytic frameworks. Numerical experiments demonstrate the performance gain of the proposed algorithms over existing ones.",
-    "authors":
-    [
+    "authors": [
         "Xuxing Chen",
         "Tesi Xiao",
         "Krishnakumar Balasubramanian"
     ],
-    "emails":
-    [
+    "emails": [
         "xuxchen@ucdavis.edu",
         "tesixiao.stats@gmail.com",
         "kbala@ucdavis.edu"
-    ]
+    ],
+    "id": "23-1323",
+    "issue": 151,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Optimal Algorithms for Stochastic Bilevel Optimization under Relaxed Smoothness Conditions",
+    "volume": 25,
+    "year": 2024
 }

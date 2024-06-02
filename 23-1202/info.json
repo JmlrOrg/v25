@@ -1,21 +1,26 @@
 {
-    "title": "Neural Feature Learning in Function Space",
     "abstract": "We present a novel framework for learning system design with neural feature extractors. First, we introduce the feature geometry, which unifies statistical dependence and feature representations in a function space equipped with inner products. This connection defines function-space concepts on statistical dependence, such as norms, orthogonal projection, and spectral decomposition, exhibiting clear operational meanings. In particular, we associate each learning setting with a dependence component and formulate learning tasks as finding corresponding feature approximations. We propose a nesting technique, which provides systematic algorithm designs for learning the optimal features from data samples with off-the-shelf network architectures and optimizers. We further demonstrate multivariate learning applications, including conditional inference and multimodal learning, where we present the optimal features and reveal their connections to classical approaches.",
-    "extra_links":
-    [
+    "authors": [
+        "Xiangxiang Xu",
+        "Lizhong Zheng"
+    ],
+    "emails": [
+        "xuxx@mit.edu",
+        "lizhong@mit.edu"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/XiangxiangXu/NFE"
         ]
     ],
-    "authors":
-    [
-        "Xiangxiang Xu",
-        "Lizhong Zheng"
+    "id": "23-1202",
+    "issue": 142,
+    "pages": [
+        1,
+        76
     ],
-    "emails":
-    [
-        "xuxx@mit.edu",
-        "lizhong@mit.edu"
-    ]
+    "title": "Neural Feature Learning in Function Space",
+    "volume": 25,
+    "year": 2024
 }

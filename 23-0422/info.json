@@ -1,14 +1,20 @@
 {
-    "title": "Generalization and Stability of Interpolating Neural Networks with Minimal Width",
     "abstract": "We investigate the generalization and optimization properties of shallow neural-network classifiers trained by gradient descent in the interpolating regime. Specifically, in a realizable scenario where model weights can achieve arbitrarily small training error $\\epsilon$ and their distance from initialization is $g(\\epsilon)$, we demonstrate that gradient descent with $n$ training data  achieves training error $O(g(1/T)^2\\big/T)$ and generalization error $O(g(1/T)^2\\big/n)$ at iteration $T$, provided there are at least $m=\\Omega(g(1/T)^4)$ hidden neurons. We then show that our realizable setting encompasses a special case where data are separable by the model's neural tangent kernel. For this and logistic-loss minimization, we prove  the training loss decays at a rate of $\\tilde O(1/ T)$ given polylogarithmic number of neurons $m=\\Omega(\\log^4 (T))$. Moreover, with $m=\\Omega(\\log^{4} (n))$ neurons and $T\\approx n$ iterations, we bound the test loss by $\\tilde{O}(1/ n)$. Our results differ from existing generalization outcomes using the algorithmic-stability framework, which necessitate polynomial width and yield suboptimal generalization rates. Central to our analysis is the use of a new self-bounded weak-convexity property, which leads to a generalized local quasi-convexity property for sufficiently parameterized neural-network classifiers. Eventually, despite the objective's non-convexity, this leads to convergence and generalization-gap bounds that resemble those found in the convex setting of linear logistic regression.",
-    "authors":
-    [
+    "authors": [
         "Hossein Taheri",
         "Christos Thrampoulidis"
     ],
-    "emails":
-    [
+    "emails": [
         "hossein@ucsb.edu",
         "cthrampo@ece.ubc.ca"
-    ]
+    ],
+    "id": "23-0422",
+    "issue": 156,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Generalization and Stability of Interpolating Neural Networks with Minimal Width",
+    "volume": 25,
+    "year": 2024
 }

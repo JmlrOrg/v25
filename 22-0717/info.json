@@ -1,14 +1,20 @@
 {
-    "title": "Flexible Bayesian Product Mixture Models for Vector Autoregressions",
     "abstract": "Bayesian non-parametric methods based on Dirichlet process mixtures have seen tremendous success in various domains and are appealing in being able to borrow information by clustering samples that share identical parameters. However, such methods can face hurdles in heterogeneous settings where objects are expected to cluster only along a subset of axes or where clusters of samples share only a subset of identical parameters. We overcome such limitations by developing a novel class of product of Dirichlet process location-scale mixtures that enables independent clustering at multiple scales, which results in varying levels of information sharing across samples. First, we develop the approach for independent multivariate data. Subsequently we generalize it to multivariate time-series data under the framework of multi-subject Vector Autoregressive (VAR) models that is our primary focus, which go beyond parametric single-subject VAR models. We establish posterior consistency and develop efficient posterior computation for implementation. Extensive numerical studies involving VAR models show distinct advantages over competing methods in terms of estimation, clustering, and feature selection accuracy. Our resting state fMRI analysis from the Human Connectome Project reveals biologically interpretable connectivity differences between distinct intelligence groups, while another air pollution application illustrates the superior forecasting accuracy compared to alternate methods.",
-    "authors":
-    [
+    "authors": [
         "Suprateek Kundu",
         "Joshua Lukemire"
     ],
-    "emails":
-    [
+    "emails": [
         "skundu2@mdanderson.org",
         "joshua.lukemire@emory.edu"
-    ]
+    ],
+    "id": "22-0717",
+    "issue": 146,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Flexible Bayesian Product Mixture Models for Vector Autoregressions",
+    "volume": 25,
+    "year": 2024
 }

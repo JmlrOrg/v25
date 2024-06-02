@@ -1,16 +1,22 @@
 {
-    "title": "Learning with Norm Constrained, Over-parameterized, Two-layer Neural Networks",
     "abstract": "Recent studies show that a reproducing kernel Hilbert space (RKHS) is not a suitable space to model functions by neural networks as the curse of dimensionality (CoD) cannot be evaded when trying to approximate even a single ReLU neuron. In this paper, we study a suitable function space for over-parameterized two-layer neural networks with bounded norms (e.g., the path norm, the Barron norm) in the perspective of sample complexity and generalization properties. First, we show that the path norm (as well as the Barron norm) is able to obtain width-independence sample complexity bounds, which allows for uniform convergence guarantees. Based on this result, we derive the improved result of metric entropy for $\\epsilon$-covering up to $O(\\epsilon^{-\\frac{2d}{d+2}})$ ($d$ is the input dimension and the depending constant is at most polynomial order of $d$) via the convex hull technique, which demonstrates the separation with kernel methods with $\\Omega(\\epsilon^{-d})$ to learn the target function in a Barron space. Second, this metric entropy result allows for building a sharper generalization bound under a general moment hypothesis setting, achieving the rate at $O(n^{-\\frac{d+2}{2d+2}})$. Our analysis is novel in that it offers a sharper and refined estimation for metric entropy (with a clear dependence relationship on the dimension $d$) and unbounded sampling in the estimation of the sample error and the output error.",
-    "authors":
-    [
+    "authors": [
         "Fanghui Liu",
         "Leello Dadi",
         "Volkan Cevher"
     ],
-    "emails":
-    [
+    "emails": [
         "fanghui.liu@warwick.ac.uk",
         "leello.dadi@epfl.ch",
         "volkan.cevher@epfl.ch"
-    ]
+    ],
+    "id": "22-1250",
+    "issue": 138,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Learning with Norm Constrained, Over-parameterized, Two-layer Neural Networks",
+    "volume": 25,
+    "year": 2024
 }

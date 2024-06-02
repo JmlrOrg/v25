@@ -1,21 +1,26 @@
 {
-    "title": "Assessing the Overall and Partial Causal Well-Specification of Nonlinear Additive Noise Models",
     "abstract": "We propose a method to detect model misspecifications in nonlinear causal additive and potentially heteroscedastic noise models. We aim to identify predictor variables for which we can infer the causal effect even in cases of such misspecification. We develop a general framework based on knowledge of the multivariate observational data distribution. We then propose an algorithm for finite sample data, discuss its asymptotic properties, and illustrate its performance on simulated and real data.",
-    "extra_links":
-    [
+    "authors": [
+        "Christoph Schultheiss",
+        "Peter B{{\\\"u}}hlmann"
+    ],
+    "emails": [
+        "christoph.schultheiss@stat.math.ethz.ch",
+        "peter.buehlmann@stat.math.ethz.ch"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/cschultheiss/nl_GOF"
         ]
     ],
-    "authors":
-    [
-        "Christoph Schultheiss",
-        "Peter B{{\\\"u}}hlmann"
+    "id": "23-1397",
+    "issue": 159,
+    "pages": [
+        1,
+        41
     ],
-    "emails":
-    [
-        "christoph.schultheiss@stat.math.ethz.ch",
-        "peter.buehlmann@stat.math.ethz.ch"
-    ]
+    "title": "Assessing the Overall and Partial Causal Well-Specification of Nonlinear Additive Noise Models",
+    "volume": 25,
+    "year": 2024
 }

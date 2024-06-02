@@ -1,23 +1,28 @@
 {
-    "title": "Fixed points of nonnegative neural networks",
     "abstract": "We use fixed point theory to analyze nonnegative neural networks, which we define as neural networks that map nonnegative vectors to nonnegative vectors. We first show that nonnegative neural networks with nonnegative weights and biases can be recognized as monotonic and (weakly) scalable mappings within the framework of nonlinear Perron-Frobenius theory. This fact enables us to provide conditions for the existence of fixed points of nonnegative neural networks having inputs and outputs of the same dimension, and these conditions are weaker than those recently obtained  using arguments in convex analysis. Furthermore, we prove that the shape of the fixed point set of nonnegative neural networks with nonnegative weights and biases is an interval, which under mild conditions degenerates to a point. These results are then used to obtain the existence of fixed points of more general nonnegative neural networks. From a practical perspective, our results contribute to the understanding of the behavior of autoencoders, and we also offer valuable mathematical machinery for future developments in deep equilibrium models.",
-    "extra_links":
-    [
+    "authors": [
+        "Tomasz J. Piotrowski",
+        "Renato L. G. Cavalcante",
+        "Mateusz Gabor"
+    ],
+    "emails": [
+        "tpiotrowski@umk.pl",
+        "renato.cavalcante@hhi.fraunhofer.de",
+        "mateusz.gabor@pwr.edu.pl"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/mateuszgabor/nn_networks"
         ]
     ],
-    "authors":
-    [
-        "Tomasz J. Piotrowski",
-        "Renato L. G. Cavalcante",
-        "Mateusz Gabor"
+    "id": "23-0167",
+    "issue": 139,
+    "pages": [
+        1,
+        40
     ],
-    "emails":
-    [
-        "tpiotrowski@umk.pl",
-        "renato.cavalcante@hhi.fraunhofer.de",
-        "mateusz.gabor@pwr.edu.pl"
-    ]
+    "title": "Fixed points of nonnegative neural networks",
+    "volume": 25,
+    "year": 2024
 }

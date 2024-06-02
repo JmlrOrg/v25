@@ -1,14 +1,20 @@
 {
-    "title": "On the Computational Complexity of Metropolis-Adjusted Langevin Algorithms for Bayesian Posterior Sampling",
     "abstract": "In this paper, we examine the computational complexity of sampling from a Bayesian posterior (or pseudo-posterior) using the Metropolis-adjusted Langevin algorithm (MALA). MALA first employs a discrete-time Langevin SDE to propose a new state, and then adjusts the proposed state using Metropolis-Hastings rejection. Most existing theoretical analyses of MALA rely on the smoothness and strong log-concavity properties of the target distribution, which are often lacking in practical Bayesian problems. Our analysis hinges on statistical large sample theory, which constrains the deviation of the Bayesian posterior from being smooth and log-concave in a very specific way. In particular, we introduce a new technique for bounding the mixing time of a Markov chain with a continuous state space via the $s$-conductance profile, offering improvements over existing techniques in several aspects. By employing this new technique, we establish the optimal parameter dimension dependence of $d^{1/3}$ and condition number dependence of $\\kappa$ in the non-asymptotic mixing time upper bound for MALA after the burn-in period, under a standard Bayesian setting where the target posterior distribution is close to a $d$-dimensional Gaussian distribution with a covariance matrix having a condition number $\\kappa$. We also prove a matching mixing time lower bound for sampling from a multivariate Gaussian via MALA to complement the upper bound.",
-    "authors":
-    [
+    "authors": [
         "Rong Tang",
         "Yun Yang"
     ],
-    "emails":
-    [
+    "emails": [
         "martang@ust.hk",
         "yy84@illinois.edu"
-    ]
+    ],
+    "id": "23-0783",
+    "issue": 157,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "On the Computational Complexity of Metropolis-Adjusted Langevin Algorithms for Bayesian Posterior Sampling",
+    "volume": 25,
+    "year": 2024
 }

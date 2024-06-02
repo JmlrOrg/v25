@@ -1,14 +1,20 @@
 {
-    "title": "Fat-Shattering Dimension of k-fold Aggregations",
     "abstract": "We provide estimates on the fat-shattering dimension of aggregation rules of real-valued function classes. The latter consists of all ways of choosing k functions, one from each of the k classes, and computing pointwise an \"aggregate\" function of these, such as the median, mean, and maximum. The bounds are stated in terms of the fat-shattering dimensions of the component classes. For linear and affine function classes, we provide a considerably sharper upper bound and a matching lower bound, achieving, in particular, an optimal dependence on k. Along the way, we improve several known results in addition to pointing out and correcting a number of erroneous claims in the literature.",
-    "authors":
-    [
+    "authors": [
         "Idan Attias",
         "Aryeh Kontorovich"
     ],
-    "emails":
-    [
+    "emails": [
         "idanatti@post.bgu.ac.il",
         "karyeh@cs.bgu.ac.il"
-    ]
+    ],
+    "id": "21-1193",
+    "issue": 144,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Fat-Shattering Dimension of k-fold Aggregations",
+    "volume": 25,
+    "year": 2024
 }

@@ -1,21 +1,26 @@
 {
-    "title": "Nonparametric Copula Models for Multivariate, Mixed, and Missing Data",
     "abstract": "Modern data sets commonly feature both substantial missingness and many variables of mixed data types, which present significant challenges for estimation and inference. Complete case analysis, which proceeds using only the observations with fully-observed variables, is often severely biased, while model-based imputation of missing values is limited by the ability of the model to capture complex dependencies among (possibly many) variables of mixed data types. To address these challenges, we develop a novel Bayesian mixture copula for joint and nonparametric modeling of multivariate count, continuous, ordinal, and unordered categorical variables, and deploy this model for inference, prediction, and imputation of missing data. Most uniquely, we introduce a new and  computationally efficient  strategy for marginal distribution estimation that eliminates the need to specify any marginal models yet delivers  posterior consistency for each marginal distribution and the copula parameters under missingness-at-random. Extensive simulation studies demonstrate exceptional modeling and imputation capabilities relative to competing methods, especially with mixed data types, complex missingness mechanisms, and nonlinear dependencies. We conclude with a  data analysis that highlights how improper treatment of missing data can distort a statistical analysis, and how the proposed approach offers a resolution.",
-    "extra_links":
-    [
+    "authors": [
+        "Joseph Feldman",
+        "Daniel R. Kowal"
+    ],
+    "emails": [
+        "joseph.feldman@duke.edu",
+        "dan.kowal@cornell.edu"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/jfeldman396/GMCImpute"
         ]
     ],
-    "authors":
-    [
-        "Joseph Feldman",
-        "Daniel R. Kowal"
+    "id": "23-0495",
+    "issue": 164,
+    "pages": [
+        1,
+        50
     ],
-    "emails":
-    [
-        "joseph.feldman@duke.edu",
-        "dan.kowal@cornell.edu"
-    ]
+    "title": "Nonparametric Copula Models for Multivariate, Mixed, and Missing Data",
+    "volume": 25,
+    "year": 2024
 }
