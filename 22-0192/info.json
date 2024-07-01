@@ -1,0 +1,24 @@
+{
+    "abstract": "The performance of A/B testing in both online and offline experimental settings hinges on mitigating network interference and achieving covariate balancing. These experiments often involve an observable network with identifiable clusters, and measurable cluster-level and  individual-level attributes. Exploiting these inherent characteristics holds potential for refining experimental design and subsequent statistical analyses. In this article, we propose a novel cluster-adaptive network A/B testing procedure,  which contains a cluster-adaptive randomization (CLAR) and a cluster-adjusted estimator (CAE)  to facilitate the design of the experiment and enhance the performance of ATE estimation. The CLAR sequentially assigns clusters to minimize the Mahalanobis distance, which further leads to the balance of the cluster-level covariates and the within-cluster-averaged individual-level covariates. The cluster-adjusted estimator (CAE) is tailored to offset biases caused by network interference.  The proposed procedure has the following two folds of the desirable properties. First, we show that the Malanobis distance calculated for the two levels of covariates is $O_p(m^{-1})$, where $m$ represents the number of clusters. This result justifies the simultaneous balance of the cluster-level and individual-level covariates. Under mild conditions, we derive the asymptotic normality of CAE and demonstrate the benefit of covariate balancing on improving the precision for estimating ATE. The proposed A/B testing procedure is easy to calculate, consistent, and achieves higher accuracy.  Extensive numerical studies are conducted to demonstrate the finite sample property of the proposed network A/B testing procedure.",
+    "authors": [
+        "Yang Liu",
+        "Yifan Zhou",
+        "Ping Li",
+        "Feifang Hu"
+    ],
+    "emails": [
+        "yangliu2022@ruc.edu.cn",
+        "yzhou92@gwu.edu",
+        "pingli98@gmail.com",
+        "feifang@gwu.edu"
+    ],
+    "id": "22-0192",
+    "issue": 170,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Cluster-Adaptive Network A/B Testing: From Randomization to Estimation",
+    "volume": 25,
+    "year": 2024
+}

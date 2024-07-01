@@ -1,0 +1,26 @@
+{
+    "abstract": "Neural Collapse (NC) is a fascinating phenomenon that arises during the terminal phase of training (TPT) of deep neural networks (DNNs). Specifically, for balanced training datasets (each class shares the same number of samples), it is observed that the feature vectors of samples from the same class converge to their corresponding in-class mean features and their pairwise angles are the same. In this paper, we study the extension of the NC phenomenon to imbalanced datasets under cross-entropy loss function in the context of the unconstrained feature model (UFM). Our contribution is multi-fold compared with the state-of-the-art results: (a) we show that the feature vectors within the same class still collapse to the same mean vector; (b) the mean feature vectors no longer share the same pairwise angle. Instead, those angles depend on sample sizes; (c) we also characterize the sharp threshold on which the minority collapse (the feature vectors of the minority groups collapse to one single vector) will happen; (d) finally, we argue that the effect of the imbalance in datasets diminishes as the sample size grows. Our results provide a complete picture of the NC under the cross-entropy loss for imbalanced datasets. Numerical experiments confirm our theories.",
+    "authors": [
+        "Wanli Hong",
+        "Shuyang Ling"
+    ],
+    "emails": [
+        "wh992@nyu.edu",
+        "sl3635@nyu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/WanliHongC/Neural-Collapse"
+        ]
+    ],
+    "id": "23-1215",
+    "issue": 192,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Neural Collapse for Unconstrained Feature Model under Cross-entropy Loss with Imbalanced Data",
+    "volume": 25,
+    "year": 2024
+}

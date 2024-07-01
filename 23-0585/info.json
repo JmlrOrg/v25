@@ -1,0 +1,30 @@
+{
+    "abstract": "This paper is the first to attempt differentially private (DP) topological data analysis (TDA), producing near-optimal private persistence diagrams. We analyze the sensitivity of persistence diagrams in terms of the bottleneck distance, and we show that the commonly used Cech complex has sensitivity that does not decrease as the sample size $n$ increases. This makes it challenging for the persistence diagrams of Cech complexes to be privatized. As an alternative, we show that the persistence diagram obtained by the $L^1$-distance to measure (DTM) has sensitivity $O(1/n)$. Based on the sensitivity analysis, we propose using the exponential mechanism whose utility function is defined in terms of the bottleneck distance of the $L^1$-DTM persistence diagrams. We also derive upper and lower bounds of the accuracy of our privacy mechanism; the obtained bounds indicate that the privacy error of our mechanism is near-optimal. We demonstrate the performance of our privatized persistence diagrams through simulations as well as on a real data set tracking human movement.",
+    "authors": [
+        "Taegyu Kang",
+        "Sehwan Kim",
+        "Jinwon Sohn",
+        "Jordan Awan"
+    ],
+    "emails": [
+        "kang426@purdue.edu",
+        "sehwan_kim@harvardpilgrim.org",
+        "sohn24@purdue.edu",
+        "jawan@purdue.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jwsohn612/DPTDA"
+        ]
+    ],
+    "id": "23-0585",
+    "issue": 189,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Differentially Private Topological Data Analysis",
+    "volume": 25,
+    "year": 2024
+}

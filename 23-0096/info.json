@@ -1,0 +1,18 @@
+{
+    "abstract": "Machine learning, the predominant approach in the field of artificial intelligence, enables computers to learn from data and experience. In the supervised learning framework, accurate and efficient learning of dependencies between data instances and their corresponding labels requires auxiliary information about the data distribution and the target function. This central concept aligns with the notion of regularization in statistical learning theory. Real-world datasets are often characterized by multiscale data instance distributions and well-behaved, smooth target functions. Scale-invariant probability distributions, such as power-law distributions, provide notable examples of multiscale data instance distributions in various contexts. This paper introduces a hierarchical learning model that leverages such a multiscale data structure with a multiscale entropy-based training procedure and explores its statistical and computational advantages. The hierarchical learning model is inspired by the logical progression in human learning from easy to complex tasks and features interpretable levels. In this model, the logarithm of any data instance\u2019s norm can be construed as the data instance's complexity, and the allocation of computational resources is tailored to this complexity, resulting in benefits such as increased inference speed. Furthermore, our multiscale analysis of the statistical risk yields stronger guarantees compared to conventional uniform convergence bounds.",
+    "authors": [
+        "Amir R. Asadi"
+    ],
+    "emails": [
+        "asadi@statslab.cam.ac.uk"
+    ],
+    "id": "23-0096",
+    "issue": 187,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "An Entropy-Based Model for Hierarchical Learning",
+    "volume": 25,
+    "year": 2024
+}

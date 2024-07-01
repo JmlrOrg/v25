@@ -1,0 +1,24 @@
+{
+    "abstract": "Deep residual network architectures have been shown to achieve superior accuracy over classical feed-forward networks, yet their success is still not fully understood. Focusing on massively over-parameterized, fully connected residual networks with ReLU activation through their respective neural tangent kernels (ResNTK), we provide here a spectral analysis of these kernels. Specifically, we show that, much like NTK for fully connected networks (FC-NTK), for input distributed uniformly on the hypersphere $S^d$, the eigenvalues of ResNTK corresponding to their spherical harmonics eigenfunctions decay polynomially with frequency $k$ as $k^{-d}$. These in turn imply that the set of functions in their Reproducing Kernel Hilbert Space are identical to those of both FC-NTK as well as the standard Laplace kernel. Our spectral analysis allows us to highlight several additional properties of ResNTK, which depend on the choice of a hyper-parameter that balances between the skip and residual connections. Specifically, (1) with no bias, deep ResNTK is significantly biased toward even frequency functions; (2) unlike FC-NTK for deep networks, which is spiky and therefore yields poor generalization, ResNTK is stable and yields small generalization errors. We finally demonstrate these with experiments showing further that these phenomena arise in real networks.",
+    "authors": [
+        "Yuval Belfer",
+        "Amnon Geifman",
+        "Meirav Galun",
+        "Ronen Basri"
+    ],
+    "emails": [
+        "yuval.belfer@weizmann.ac.il",
+        "amnon.geifman@weizmann.ac.il",
+        "meirav.galun@weizmann.ac.il",
+        "ronen.basri@weizmann.ac.il"
+    ],
+    "id": "22-0597",
+    "issue": 184,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Spectral Analysis of the Neural Tangent Kernel for Deep Residual Networks",
+    "volume": 25,
+    "year": 2024
+}

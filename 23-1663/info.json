@@ -1,0 +1,24 @@
+{
+    "abstract": "We present the first optimal rates for infinite-dimensional vector-valued ridge regression on a continuous scale of norms that interpolate between L2 and the hypothesis space, which we consider as a vector-valued reproducing kernel Hilbert space. These rates allow to treat the misspecified case in which the true regression function is not contained in the hypothesis space. We combine standard assumptions on the capacity of the hypothesis space with a novel tensor product construction of vector-valued interpolation spaces in order to characterize the smoothness of the regression function. Our upper bound not only attains the same rate as real-valued kernel ridge regression, but also removes the assumption that the target regression function is bounded. For the lower bound, we reduce the problem to the scalar setting using a projection argument. We show that these rates are optimal in most cases and independent of the dimension of the output space. We illustrate our results for the special case of vector-valued Sobolev spaces.",
+    "authors": [
+        "Zhu Li",
+        "Dimitri Meunier",
+        "Mattes Mollenhauer",
+        "Arthur Gretton"
+    ],
+    "emails": [
+        "zhu.li@ucl.ac.uk",
+        "dimitri.meunier.21@ucl.ac.uk",
+        "mattes.mollenhauer@merantix-momentum.com",
+        "arthur.gretton@gmail.com"
+    ],
+    "id": "23-1663",
+    "issue": 181,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Towards Optimal Sobolev Norm Rates for the Vector-Valued Regularized Least-Squares Algorithm",
+    "volume": 25,
+    "year": 2024
+}

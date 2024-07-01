@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider solving the low-rank matrix sensing problem with the Factorized Gradient Descent (FGD) method when the specified rank is larger than the true rank. We refer to this as over-parameterized matrix sensing.\r\nIf the ground truth signal $\\mathbf{X}^* \\in \\mathbb{R}^{d \\times d}$ is of rank $r$, but we try to recover it using $\\mathbf{F} \\mathbf{F}^\\top$ where $\\mathbf{F} \\in \\mathbb{R}^{d \\times k}$ and $k>r$, the existing statistical analysis either no longer holds or produces a vacuous statistical error upper bound (infinity) due to the flat local curvature of the loss function around the global maxima.\r\nBy decomposing the factorized matrix $\\mathbf{F}$ into separate column spaces to capture the impact of using $k > r$, we show that $\\left\\| {\\mathbf{F}_t \\mathbf{F}_t - \\mathbf{X}^*} \\right\\|_F^2$ converges sub-linearly to a statistical error of $\\tilde{\\mathcal{O}} (k d \\sigma^2/n)$ after $\\tilde{\\mathcal{O}}(\\frac{\\sigma_{r}}{\\sigma}\\sqrt{\\frac{n}{d}})$ iterations, where $\\mathbf{F}_t$ is the output of FGD after $t$ iterations, $\\sigma^2$ is the variance of the observation noise, $\\sigma_{r}$ is the $r$-th largest eigenvalue of $\\mathbf{X}^*$, and $n$ is the number of samples.\r\nWith a precise characterization of the convergence behavior and the statistical error, our results, therefore, offer a comprehensive picture of the statistical and computational complexity if we solve the over-parameterized matrix sensing problem with FGD.",
+    "authors": [
+        "Jiacheng Zhuo",
+        "Jeongyeol Kwon",
+        "Nhat Ho",
+        "Constantine Caramanis"
+    ],
+    "emails": [
+        "jzhuo@utexas.edu",
+        "jeongyeol.kwon@wisc.edu",
+        "minhnhat@utexas.edu",
+        "constantine@utexas.edu"
+    ],
+    "id": "21-1437",
+    "issue": 169,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "On the Computational and Statistical Complexity of Over-parameterized Matrix Sensing",
+    "volume": 25,
+    "year": 2024
+}

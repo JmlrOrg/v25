@@ -1,0 +1,26 @@
+{
+    "abstract": "Recent experiments have shown that, often, when training a neural network with gradient descent (GD) with a step size $\\eta$, the operator norm of the Hessian of the loss grows until it approximately reaches $2/\\eta$, after which it fluctuates around this value. The quantity $2/\\eta$ has been called the ``edge of stability'' based on consideration of a local quadratic approximation of the loss. We perform a similar calculation to arrive at an ``edge of stability'' for Sharpness-Aware Minimization (SAM), a variant of GD which has been shown to improve its generalization. Unlike the case for GD, the resulting SAM-edge depends on the norm of the gradient. Using three deep learning training tasks, we see empirically that SAM operates on the edge of stability identified by this analysis.",
+    "authors": [
+        "Philip M. Long",
+        "Peter L. Bartlett"
+    ],
+    "emails": [
+        "plong@google.com",
+        "peterbartlett@google.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/google-deepmind/sam_edge"
+        ]
+    ],
+    "id": "23-1285",
+    "issue": 179,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "Sharpness-Aware Minimization and the Edge of Stability",
+    "volume": 25,
+    "year": 2024
+}

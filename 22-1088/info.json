@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper considers the problem of online clustering with bandit feedback. A set of arms (or items) can be partitioned into various groups that are unknown. Within each group, the observations associated to each of the arms follow the same distribution with the same mean vector. At each time step, the agent queries or pulls an arm and obtains an independent  observation from the distribution it is associated to. Subsequent pulls depend on previous ones as well as the previously obtained samples. The agent's task is to uncover the underlying partition of the arms with the least number of arm pulls and with a probability of error not exceeding a prescribed constant $\\delta$. The problem proposed finds numerous applications from clustering of variants of viruses to online market segmentation. We present an instance-dependent information-theoretic lower bound on the expected sample complexity for this task, and design a computationally efficient and asymptotically optimal algorithm, namely Bandit Online Clustering  (BOC). The algorithm includes a novel stopping rule for adaptive sequential testing that circumvents the need to exactly solve any NP-hard weighted clustering problem as its subroutines.  We show through extensive simulations on synthetic and real-world datasets that BOC's performance matches the lower bound asymptotically, and significantly outperforms a non-adaptive baseline algorithm.",
+    "authors": [
+        "Junwen Yang",
+        "Zixin Zhong",
+        "Vincent Y. F. Tan"
+    ],
+    "emails": [
+        "junwen_yang@u.nus.edu",
+        "zixinzhong@hkust-gz.edu.cn",
+        "vtan@nus.edu.sg"
+    ],
+    "id": "22-1088",
+    "issue": 186,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Optimal Clustering with Bandit Feedback",
+    "volume": 25,
+    "year": 2024
+}

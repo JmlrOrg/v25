@@ -1,0 +1,20 @@
+{
+    "abstract": "We investigate the power iteration algorithm for the tensor PCA model introduced in Richard and Montanari (2014). Previous work studying the properties of tensor power iteration is either limited to a constant number of iterations, or requires a non-trivial data-independent initialization. In this paper, we move beyond these limitations and analyze the dynamics of randomly initialized tensor power iteration up to polynomially many steps. Our contributions are threefold: First, we establish sharp bounds on the number of iterations required for power method to converge to the planted signal, for a broad range of the signal-to-noise ratios. Second, our analysis reveals that the actual algorithmic threshold for power iteration is smaller than the one conjectured in the literature by a $\\mathrm{polylog}(n)$ factor, where $n$ is the ambient dimension. Finally, we propose a simple and effective stopping criterion for power iteration, which provably outputs a solution that is highly correlated with the true signal. Extensive numerical experiments verify our theoretical results.",
+    "authors": [
+        "Yuchen Wu",
+        "Kangjie Zhou"
+    ],
+    "emails": [
+        "wuyc14@wharton.upenn.edu",
+        "kangjie@stanford.edu"
+    ],
+    "id": "24-0006",
+    "issue": 195,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Sharp analysis of power iteration for tensor PCA",
+    "volume": 25,
+    "year": 2024
+}

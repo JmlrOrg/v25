@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper presents a new optimization approach to causal estimation. Given data that contains covariates and an outcome, which covariates are causes of the outcome, and what is the strength of the causality? In classical machine learning (ML), the goal of optimization is to maximize predictive accuracy. However, some covariates might exhibit a non-causal association with the outcome. Such spurious associations provide predictive power for classical ML, but they prevent us from causally interpreting the result. This paper proposes CoCo, an optimization algorithm that bridges the gap between pure prediction and causal inference. CoCo leverages the recently-proposed idea of environments, datasets of covariates/response where the causal relationships remain invariant but where the distribution of the covariates changes from environment to environment. Given datasets from multiple environments\u2014and ones that exhibit sufficient heterogeneity\u2014CoCo maximizes an objective for which the only solution is the causal solution. We describe the theoretical foundations of this approach and demonstrate its effectiveness on simulated and real datasets. Compared to classical ML and existing methods, CoCo provides more accurate estimates of the causal model and more accurate predictions under interventions.",
+    "authors": [
+        "Mingzhang Yin",
+        "Yixin Wang",
+        "David M. Blei"
+    ],
+    "emails": [
+        "mingzhang.yin@warrington.ufl.edu",
+        "yixinw@umich.edu",
+        "david.blei@columbia.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mingzhang-yin/CoCo"
+        ]
+    ],
+    "id": "21-1028",
+    "issue": 168,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Optimization-based Causal Estimation from Heterogeneous Environments",
+    "volume": 25,
+    "year": 2024
+}

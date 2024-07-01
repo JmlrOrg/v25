@@ -1,0 +1,23 @@
+{
+    "abstract": "In the misspecified spectral algorithms problem, researchers usually assume the underground true function $f_{\\rho}^{*} \\in [\\mathcal{H}]^{s}$, a less-smooth interpolation space of a reproducing kernel Hilbert space (RKHS) $\\mathcal{H}$ for some $s\\in (0,1)$. The existing minimax optimal results require $\\|f_{\\rho}^{*}\\|_{L^{\\infty}}<\\infty$ which implicitly requires  $s > \\alpha_{0}$ where $\\alpha_{0}\\in (0,1)$ is the embedding index, a constant depending on $\\mathcal{H}$. Whether the spectral algorithms are optimal for all $s\\in (0,1)$ is an outstanding problem lasting for years. In this paper, we show that spectral algorithms are minimax optimal for any $\\alpha_{0}-\\frac{1}{\\beta} < s < 1$, where $\\beta$ is the eigenvalue decay rate of $\\mathcal{H}$. We also give several classes of RKHSs whose embedding index satisfies $ \\alpha_0 = \\frac{1}{\\beta} $. Thus, the spectral algorithms are minimax optimal for all $s\\in (0,1)$ on these RKHSs.",
+    "authors": [
+        "Haobo Zhang",
+        "Yicheng Li",
+        "Qian Lin"
+    ],
+    "emails": [
+        "zhang-hb21@mails.tsinghua.edu.cn",
+        "liyc22@mails.tsinghua.edu.cn",
+        "qianlin@tsinghua.edu.cn"
+    ],
+    "id": "23-0383",
+    "issue": 188,
+    "pages": [
+        1,
+        50
+    ],
+    "special_issue": "MLOSS",
+    "title": "On the Optimality of Misspecified Spectral Algorithms",
+    "volume": 25,
+    "year": 2024
+}

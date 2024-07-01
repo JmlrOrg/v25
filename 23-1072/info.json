@@ -1,0 +1,26 @@
+{
+    "abstract": "The stochastically extended adversarial (SEA) model, introduced by Sachs et al. (2022), serves as an interpolation between stochastic and adversarial online convex optimization. Under the smoothness condition on expected loss functions, it is shown that the expected static regret of optimistic follow-the-regularized-leader (FTRL) depends on the cumulative stochastic variance $\\sigma_{1:T}^2$ and the cumulative adversarial variation $\\Sigma_{1:T}^2$ for convex functions. Sachs et al. (2022) also provide a regret bound based on the maximal stochastic variance $\\sigma_{\\max}^2$ and the maximal adversarial variation $\\Sigma_{\\max}^2$ for strongly convex functions. Inspired by their work, we investigate the theoretical guarantees of optimistic online mirror descent (OMD) for the SEA model with smooth expected loss functions. For convex and smooth functions, we obtain the same $\\mathcal{O}(\\sqrt{\\sigma_{1:T}^2}+\\sqrt{\\Sigma_{1:T}^2})$ regret bound, but with a relaxation of the convexity requirement from individual functions to expected functions. For strongly convex and smooth functions, we establish an $\\mathcal{O}\\left(\\frac{1}{\\lambda}\\left(\\sigma_{\\max}^2+\\Sigma_{\\max}^2\\right)\\log \\left(\\left(\\sigma_{1:T}^2 + \\Sigma_{1:T}^2\\right)/\\left(\\sigma_{\\max}^2+\\Sigma_{\\max}^2\\right)\\right)\\right)$ bound, better than their $\\mathcal{O}((\\sigma_{\\max}^2$ $ + \\Sigma_{\\max}^2) \\log T)$ result. For exp-concave and smooth functions, our approach yields a new $\\mathcal{O}(d\\log(\\sigma_{1:T}^2+\\Sigma_{1:T}^2))$ bound. Moreover, we introduce the first expected dynamic regret guarantee for the SEA model with convex and smooth expected functions, which is more favorable than static regret bounds in non-stationary environments. Furthermore, we expand our investigation to scenarios with non-smooth expected loss functions and propose novel algorithms built upon optimistic OMD with an implicit update, successfully attaining both static and dynamic regret guarantees.",
+    "authors": [
+        "Sijia Chen",
+        "Yu-Jie Zhang",
+        "Wei-Wei Tu",
+        "Peng Zhao",
+        "Lijun Zhang"
+    ],
+    "emails": [
+        "chensj@lamda.nju.edu.cn",
+        "yujie.zhang@ms.k.u-tokyo.ac.jp",
+        "tuwwcn@gmail.com",
+        "zhaop@lamda.nju.edu.cn",
+        "zhanglj@lamda.nju.edu.cn"
+    ],
+    "id": "23-1072",
+    "issue": 178,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Optimistic Online Mirror Descent for Bridging Stochastic and Adversarial Online Convex Optimization",
+    "volume": 25,
+    "year": 2024
+}

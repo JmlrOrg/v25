@@ -1,0 +1,30 @@
+{
+    "abstract": "We introduce a new empirical Bayes approach for large-scale multiple linear regression. Our approach combines two key ideas: (i) the use of flexible \"adaptive shrinkage\" priors, which approximate the nonparametric family of scale mixture of normal distributions by a finite mixture of normal distributions; and (ii) the use of variational approximations to efficiently estimate prior hyperparameters and compute approximate posteriors. Combining these two ideas results in fast and flexible methods, with computational speed comparable to fast penalized regression methods such as the Lasso, and with competitive prediction accuracy across a wide range of scenarios. Further, we provide new results that establish conceptual connections between our empirical Bayes methods and penalized methods. Specifically, we show that the posterior mean from our method solves a penalized regression problem, with the form of the penalty function being learned from the data by directly solving an optimization problem (rather than being tuned by cross-validation). Our methods are implemented in an R package, mr.ash.alpha, available from https://github.com/stephenslab/mr.ash.alpha.",
+    "authors": [
+        "Youngseok Kim",
+        "Wei Wang",
+        "Peter Carbonetto",
+        "Matthew Stephens"
+    ],
+    "emails": [
+        "youngseok@uchicago.edu",
+        "weiwang@galton.uchicago.edu",
+        "pcarbo@uchicago.edu",
+        "mstephens@uchicago.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/stephenslab/mr.ash.alpha"
+        ]
+    ],
+    "id": "22-0953",
+    "issue": 185,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "A flexible empirical Bayes approach to multiple linear regression and connections with penalized regression",
+    "volume": 25,
+    "year": 2024
+}

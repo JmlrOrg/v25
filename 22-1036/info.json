@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper studies a policy optimization problem arising from collaborative multi-agent reinforcement learning in a decentralized setting where agents communicate with their neighbors over an undirected graph to maximize the sum of their cumulative rewards. A novel decentralized natural policy gradient method, dubbed Momentum-based Decentralized Natural Policy Gradient (MDNPG), is proposed, which incorporates natural gradient, momentum-based variance reduction, and gradient tracking into the decentralized stochastic gradient ascent framework. The  $\\mathcal{O}(n^{-1}\\epsilon^{-3})$ sample complexity for  MDNPG to converge to an $\\epsilon$-stationary point has been established under standard assumptions, where $n$ is the number of agents. It indicates that  MDNPG can achieve the optimal convergence rate for decentralized policy gradient methods and possesses a linear speedup in contrast to  centralized optimization methods. Moreover, superior empirical performance of MDNPG over other state-of-the-art algorithms has been demonstrated by extensive numerical experiments.",
+    "authors": [
+        "Jinchi Chen",
+        "Jie Feng",
+        "Weiguo Gao",
+        "Ke Wei"
+    ],
+    "emails": [
+        "jcchen@ecust.edu.cn",
+        "19110980001@fudan.edu.cn",
+        "wggao@fudan.edu.cn",
+        "kewei@fudan.edu.cn"
+    ],
+    "id": "22-1036",
+    "issue": 172,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Decentralized Natural Policy Gradient with Variance Reduction for Collaborative Multi-Agent Reinforcement Learning",
+    "volume": 25,
+    "year": 2024
+}

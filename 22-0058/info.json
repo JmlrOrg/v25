@@ -1,0 +1,20 @@
+{
+    "abstract": "Suppose that we have a regression problem with response variable $Y \\in \\mathbb{R}^d$ and predictor $X \\in \\mathbb{R}^d$, for $d \\ge 1$. In permuted or unlinked regression we have access to separate unordered data on $X$ and $Y$, as opposed to data on $(X,Y)$-pairs in usual regression. So far in the literature the case $d=1$ has received attention, see e.g., the recent papers by Rigollet and Weed [Information & Inference, 8, 619-717] and Balabdaoui et al. [J. Mach. Learn. Res., 22 (172), 1-60]. In this paper, we consider the general multivariate setting with $d \\geq 1$. We show that the notion of cyclical monotonicity of the regression function is sufficient for identification and estimation in the permuted/unlinked regression model. We study permutation recovery in the permuted regression setting and develop a computationally efficient and easy-to-use algorithm for denoising based on the Kiefer-Wolfowitz [Ann. Math. Statist., 27, 887-906] nonparametric maximum likelihood estimator and techniques from the theory of optimal transport. We provide explicit upper bounds on the associated mean squared denoising error for Gaussian noise. As in previous work on the case $d = 1$, the permuted/unlinked setting involves slow (logarithmic) rates of convergence rooted in the underlying deconvolution problem. We also provide an extension to a certain class of elliptic noise distributions that includes a multivariate generalization of the Laplace distribution, for which polynomial rates can be obtained.  Numerical studies complement our theoretical analysis and show that the proposed approach performs at least on par with the methods in the aforementioned prior work in the case $d = 1$ while achieving substantial reductions in terms of computational complexity.",
+    "authors": [
+        "Martin Slawski",
+        "Bodhisattva Sen"
+    ],
+    "emails": [
+        "mslawsk3@gmu.edu",
+        "bodhi@stat.columbia.edu"
+    ],
+    "id": "22-0058",
+    "issue": 183,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Permuted and Unlinked Monotone Regression in R^d: an approach based on mixture modeling and optimal transport",
+    "volume": 25,
+    "year": 2024
+}

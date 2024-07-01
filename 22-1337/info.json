@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we construct a shrinkage estimator of the global minimum variance (GMV) portfolio by combining two techniques: Tikhonov regularization and direct shrinkage of portfolio weights. More specifically, we employ a double shrinkage approach, where the covariance matrix and portfolio weights are shrunk simultaneously. The ridge parameter controls the stability of the covariance matrix, while the portfolio shrinkage intensity shrinks the regularized portfolio weights to a predefined target. Both parameters simultaneously minimize, with probability one, the out-of-sample variance as the number of assets $p$ and the sample size $n$ tend to infinity, while their ratio $p/n$ tends to a constant $c > 0$. This method can also be seen as the optimal combination of the well-established linear shrinkage approach of Ledoit and Wolf (2004) and the shrinkage of the portfolio weights by Bodnar, Parolya and Schmid (2018). No specific distribution is assumed for the asset returns, except for the assumption of finite moments of order $4 + \\varepsilon$ for $\\varepsilon > 0$. The performance of the double shrinkage estimator is investigated via extensive simulation and empirical studies. The suggested method significantly outperforms its predecessor (without regularization) and the nonlinear shrinkage approach in terms of the out-of-sample variance, Sharpe ratio, and other empirical measures in the majority of scenarios. Moreover, it maintains the most stable portfolio weights with uniformly smallest turnover.",
+    "authors": [
+        "Taras Bodnar",
+        "Nestor Parolya",
+        "Erik Thorsen"
+    ],
+    "emails": [
+        "taras.bodnar@liu.se",
+        "n.parolya@tudelft.nl",
+        "erik.thorsen@math.su.se"
+    ],
+    "id": "22-1337",
+    "issue": 173,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Two is Better Than One: Regularized Shrinkage of Large Minimum Variance Portfolios",
+    "volume": 25,
+    "year": 2024
+}

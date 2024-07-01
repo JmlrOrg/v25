@@ -1,0 +1,30 @@
+{
+    "abstract": "We analyze the convergence properties of Fermat distances, a family of density-driven metrics defined on Riemannian manifolds with an associated probability measure.  Fermat distances may be defined either on discrete samples from the underlying measure, in which case they are random, or in the continuum setting, where they are induced by geodesics under a density-distorted Riemannian metric.  We prove that discrete, sample-based Fermat distances converge to their continuum analogues in small neighborhoods with a precise rate that depends on the intrinsic dimensionality of the data and the parameter governing the extent of density weighting in Fermat distances.  This is done by leveraging novel geometric and statistical arguments in percolation theory that allow for non-uniform densities and curved domains.  Our results are then used to prove that discrete graph Laplacians based on discrete, sample-driven Fermat distances converge to corresponding continuum operators.  In particular, we show the discrete eigenvalues and eigenvectors converge to their continuum analogues at a dimension-dependent rate, which allows us to interpret the efficacy of discrete spectral clustering using Fermat distances in terms of the resulting continuum limit.  The perspective afforded by our discrete-to-continuum Fermat distance analysis leads to new clustering algorithms for data and related insights into efficient computations associated to density-driven spectral clustering.  Our theoretical analysis is supported with numerical simulations and experiments on synthetic and real image data.",
+    "authors": [
+        "Nicol{{\\'a}}s Garc{{\\'i}}a Trillos",
+        "Anna Little",
+        "Daniel McKenzie",
+        "James M. Murphy"
+    ],
+    "emails": [
+        "garciatrillo@wisc.edu",
+        "little@math.utah.edu",
+        "dmckenzie@mines.edu",
+        "jm.murphy@tufts.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JamesMMurphy11/FermatDistances"
+        ]
+    ],
+    "id": "23-0939",
+    "issue": 176,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Fermat Distances: Metric Approximation, Spectral Convergence, and Clustering Algorithms",
+    "volume": 25,
+    "year": 2024
+}

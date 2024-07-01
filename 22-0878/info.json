@@ -1,0 +1,30 @@
+{
+    "abstract": "Optimizing noisy functions online, when evaluating the objective requires experiments on a deployed system, is a crucial task arising in manufacturing, robotics and various other domains. Often, constraints on safe inputs are unknown ahead of time, and we only obtain noisy information, indicating how close we are to violating the constraints. Yet, safety must be guaranteed at all times, not only for the final output of the algorithm. We introduce a general approach for seeking a stationary point in high dimensional non-linear stochastic optimization problems in which maintaining safety during learning is crucial.  Our approach called LB-SGD, is based on applying stochastic gradient descent (SGD) with a carefully chosen adaptive step size to a logarithmic barrier approximation of the original problem. We provide a complete convergence analysis of non-convex, convex, and strongly-convex smooth constrained problems, with first-order and zeroth-order feedback. Our approach yields efficient updates and scales better with dimensionality compared to existing approaches. We empirically compare the sample complexity and the computational cost of our method with existing safe learning approaches. Beyond synthetic benchmarks, we demonstrate the effectiveness of our approach on minimizing constraint violation in policy search tasks in safe reinforcement learning (RL).",
+    "authors": [
+        "Ilnura Usmanova",
+        "Yarden As",
+        "Maryam Kamgarpour",
+        "Andreas Krause"
+    ],
+    "emails": [
+        "ilnura.usmanova@psi.ch",
+        "yarden.as@inf.ethz.ch",
+        "maryam.kamgarpour@epfl.ch",
+        "krausea@ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lasgroup/lbsgd-rl"
+        ]
+    ],
+    "id": "22-0878",
+    "issue": 171,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Log Barriers for Safe Black-box Optimization with Application to Safe Reinforcement Learning",
+    "volume": 25,
+    "year": 2024
+}
