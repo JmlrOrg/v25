@@ -1,27 +1,32 @@
 {
-    "title": "From Small Scales to Large Scales: Distance-to-Measure Density based Geometric Analysis of Complex Data",
     "abstract": "How can we tell complex point clouds with different small scale characteristics apart, while disregarding global features? Can we find a suitable transformation of such data in a way that allows to discriminate between differences in this sense with statistical guarantees? In this paper, we consider the analysis and classification of complex point clouds as they are obtained, e.g., via single molecule localization microscopy. We focus on the task of identifying differences between noisy point clouds based on small scale characteristics, while disregarding large scale information such as overall size. We propose an approach based on a transformation of the data via the so-called Distance-to-Measure (DTM) function, a transformation which is based on the average of nearest neighbor distances. For each data set, we estimate the probability density of average local distances of all data points and use the estimated densities for classification. While the applicability is immediate and the practical performance of the proposed methodology is very good, the theoretical study of the density estimators is quite challenging, as they are based on non-i.i.d. observations that have been obtained via a complicated transformation. In fact, the transformed data are stochastically dependent in a non-local way that is not captured by commonly considered dependence measures. Nonetheless, we show that the asymptotic behaviour of the density estimator is driven by a kernel density estimator of certain i.i.d. random variables by using theoretical properties of $U$-statistics, which allows to handle the dependencies via a Hoeffding decomposition.  We show via a numerical study and in an application to simulated single molecule localization microscopy data of chromatin fibers that unsupervised classification tasks based on estimated DTM-densities achieve excellent separation results.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/cweitkamp3/DTMdemo"
-        ]
-    ],
-    "authors":
-    [
+    "authors": [
         "Katharina Proksch",
         "Christoph Alexander Weikamp",
         "Thomas Staudt",
         "Benoit Lelandais",
         "Christophe Zimmer"
     ],
-    "emails":
-    [
+    "emails": [
         "k.proksch@utwente.nl",
         "cweitka@mathematik.uni-goettingen.de",
         "thomas.staudt@uni-goettingen.de",
         "benoit.lelandais@pasteur.fr",
         "czimmer@pasteur.fr"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/cweitkamp3/DTMdemo"
+        ]
+    ],
+    "id": "22-1344",
+    "issue": 210,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "From Small Scales to Large Scales: Distance-to-Measure Density based Geometric Analysis of Complex Data",
+    "volume": 25,
+    "year": 2024
 }

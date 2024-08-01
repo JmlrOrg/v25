@@ -1,25 +1,30 @@
 {
-    "title": "An Algorithmic Framework for the Optimization of Deep Neural Networks Architectures and Hyperparameters",
     "abstract": "In this paper, we propose DRAGON (for DiRected Acyclic Graph OptimizatioN), an algorithmic framework to automatically generate efficient deep neural networks architectures and optimize their associated hyperparameters. The framework is based on evolving Directed Acyclic Graphs (DAGs), defining a more flexible search space than the existing ones in the literature. It allows mixtures of different classical operations: convolutions, recurrences and dense layers, but also more newfangled operations such as self-attention. Based on this search space we propose neighbourhood and evolution search operators to optimize both the architecture and hyper-parameters of our networks. These search operators can be used with any metaheuristic capable of handling mixed search spaces. We tested our algorithmic framework with an asynchronous evolutionary algorithm on a time series forecasting benchmark. The results demonstrate that DRAGON outperforms state-of-the-art handcrafted models and AutoML techniques for time series forecasting on numerous datasets. DRAGON has been implemented as a python open-source package.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/JulieKeisler/DRAGON"
-        ]
-    ],
-    "authors":
-    [
+    "authors": [
         "Julie Keisler",
         "El-Ghazali Talbi",
         "Sandra Claudel",
         "Gilles Cabriel"
     ],
-    "emails":
-    [
+    "emails": [
         "julie.keisler@edf.fr",
         "el-ghazali.talbi@univ-lille.fr",
         "sandra.claudel@edf.fr",
         "gilles.cabriel@edf.fr"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JulieKeisler/DRAGON"
+        ]
+    ],
+    "id": "23-0166",
+    "issue": 201,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "An Algorithmic Framework for the Optimization of Deep Neural Networks Architectures and Hyperparameters",
+    "volume": 25,
+    "year": 2024
 }

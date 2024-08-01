@@ -1,14 +1,20 @@
 {
-    "title": "Linear Regression With Unmatched Data: A Deconvolution Perspective",
     "abstract": "Consider the regression problem where the response $Y\\in\\mathbb{R}$ and the covariate $X\\in\\mathbb{R}^d$ for $d\\geq 1$ are unmatched.  Under this scenario, we do not have access to pairs of observations from the distribution of $(X, Y)$, but instead, we have separate data sets $\\{Y_i\\}_{i=1}^{n_Y}$ and $\\{X_j\\}_{j=1}^{n_X}$, possibly collected from different sources. We study this problem assuming that the regression function is linear and the noise distribution is known, an assumption that we relax in the applications we consider. We introduce an estimator of the regression vector based on deconvolution and demonstrate its consistency and asymptotic normality under identifiability. Even when identifiability does not hold, we show in some cases that our estimator, the DLSE (Deconvolution Least Squared Estimator), is consistent in terms of an extended $\\ell_2$ norm. Using this observation, we devise a method for semi-supervised learning, i.e., when we have access to a small sample of matched pairs $\\{(X_k, Y_k)\\}_{k=1}^m$. Several applications with synthetic and real data sets are considered to illustrate the theory.",
-    "authors":
-    [
+    "authors": [
         "Mona Azadkia",
         "Fadoua Balabdaoui"
     ],
-    "emails":
-    [
+    "emails": [
         "m.azadkia@lse.ac.uk",
         "fadoua.balabdaoui@stat.math.ethz.ch"
-    ]
+    ],
+    "id": "22-0930",
+    "issue": 197,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Linear Regression With Unmatched Data: A Deconvolution Perspective",
+    "volume": 25,
+    "year": 2024
 }

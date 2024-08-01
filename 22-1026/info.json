@@ -1,26 +1,31 @@
 {
-    "title": "PAMI: An Open-Source Python Library for Pattern Mining",
     "abstract": "Crucial information that can empower users with competitive information to achieve socio-economic development lies hidden in big data. Pattern mining aims to discover this needy information by finding user interest-based patterns in big data. Unfortunately, existing pattern mining libraries are limited to finding a few types of patterns in transactional and sequence databases. This paper tackles this problem by providing a cross-platform open-source Python library called PAttern MIning (PAMI). PAMI provides several algorithms to discover different types of patterns hidden in various types of databases across multiple computing architectures. PAMI also contains algorithms to generate various types of synthetic databases. PAMI offers a command line interface, Jupyter Notebook support, and easy maintenance through the Python Package Index. Furthermore, the source code is available under the GNU General Public License, version 3. Finally, PAMI offers several resources, such as a user's guide, a developer's guide,  datasets, and a bug report.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/UdayLab/PAMI"
-        ]
-    ],
-    "special_issue": "MLOSS",
-    "authors":
-    [
+    "authors": [
         "Uday Kiran Rage",
         "Veena Pamalla",
         "Masashi Toyoda",
         "Masaru Kitsuregawa"
     ],
-    "emails":
-    [
+    "emails": [
         "uday.rage@gmail.com",
         "rage.vinny@gmail.com",
         "toyoda@tkl.iis.u-tokyo.ac.jp",
         "kitsure@tkl.iis.u-tokyo.ac.jp"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/UdayLab/PAMI"
+        ]
+    ],
+    "id": "22-1026",
+    "issue": 209,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "PAMI: An Open-Source Python Library for Pattern Mining",
+    "volume": 25,
+    "year": 2024
 }

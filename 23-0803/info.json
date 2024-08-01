@@ -1,16 +1,22 @@
 {
-    "title": "Dropout Regularization Versus l2-Penalization in the Linear Model",
     "abstract": "We investigate the statistical behavior of gradient descent iterates with dropout in the linear regression model. In particular, non-asymptotic bounds for the convergence of expectations and covariance matrices of the iterates are derived. The results shed more light on the widely cited connection between dropout and $\\ell_2$-regularization in the linear model. We indicate a more subtle relationship, owing to interactions between the gradient descent dynamics and the additional randomness induced by dropout. Further, we study a simplified variant of dropout which does not have a regularizing effect and converges to the least squares estimator.",
-    "authors":
-    [
+    "authors": [
         "Gabriel Clara",
         "Sophie Langer",
         "Johannes Schmidt-Hieber"
     ],
-    "emails":
-    [
+    "emails": [
         "g.clara@utwente.nl",
         "s.langer@utwente.nl",
         "a.j.schmidt-hieber@utwente.nl"
-    ]
+    ],
+    "id": "23-0803",
+    "issue": 204,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Dropout Regularization Versus l2-Penalization in the Linear Model",
+    "volume": 25,
+    "year": 2024
 }

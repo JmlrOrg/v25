@@ -1,23 +1,28 @@
 {
-    "title": "Training Integrable Parameterizations of Deep Neural Networks in the Infinite-Width Limit",
-    "abstract": "To theoretically understand the behavior of trained deep neural networks, it is necessary to study the dynamics induced by gradient methods from a random initialization. However, the nonlinear and compositional structure of these models make these dynamics difficult to analyze. To overcome these challenges, large-width asymptotics have recently emerged as a fruitful viewpoint and led to practical insights on real-world deep networks. For two-layer neural networks, it has been understood via these asymptotics that the nature of the trained model radically changes depending on the scale of the initial random weights, ranging from a kernel regime (for large initial variance) to a feature learning regime (for small initial variance). For deeper networks more regimes are possible, and in this paper we study in detail a specific choice of \"small\" initialization corresponding to \"mean-field\" limits of neural networks, which we call integrable parameterizations (IPs). First, we show that under standard i.i.d. zero-mean initialization, integrable parameterizations of neural networks with more than four layers start at a stationary point in the infinite-width limit and no learning occurs. We then propose various methods to avoid this trivial behavior and analyze in detail the resulting dynamics. In particular, one of these methods consists in using large initial learning rates, and we show that it is equivalent to a modification of the recently proposed maximal update parameterization µP. We confirm our results with numerical experiments on image classification tasks, which additionally show a strong difference in behavior between various choices of activation functions that is not yet captured by theory.",
-    "extra_links":
-    [
+    "abstract": "To theoretically understand the behavior of trained deep neural networks, it is necessary to study the dynamics induced by gradient methods from a random initialization. However, the nonlinear and compositional structure of these models make these dynamics difficult to analyze. To overcome these challenges, large-width asymptotics have recently emerged as a fruitful viewpoint and led to practical insights on real-world deep networks. For two-layer neural networks, it has been understood via these asymptotics that the nature of the trained model radically changes depending on the scale of the initial random weights, ranging from a kernel regime (for large initial variance) to a feature learning regime (for small initial variance). For deeper networks more regimes are possible, and in this paper we study in detail a specific choice of \"small\" initialization corresponding to \"mean-field\" limits of neural networks, which we call integrable parameterizations (IPs). First, we show that under standard i.i.d. zero-mean initialization, integrable parameterizations of neural networks with more than four layers start at a stationary point in the infinite-width limit and no learning occurs. We then propose various methods to avoid this trivial behavior and analyze in detail the resulting dynamics. In particular, one of these methods consists in using large initial learning rates, and we show that it is equivalent to a modification of the recently proposed maximal update parameterization \u00b5P. We confirm our results with numerical experiments on image classification tasks, which additionally show a strong difference in behavior between various choices of activation functions that is not yet captured by theory.",
+    "authors": [
+        "Karl Hajjar",
+        "L{{\\'e}}na{{\\\"i}}c Chizat",
+        "Christophe Giraud"
+    ],
+    "emails": [
+        "hajjarkarl@gmail.com",
+        "lenaic.chizat@epfl.ch",
+        "christophe.giraud@universite-paris-saclay.fr"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/karl-hajjar/wide-networks"
         ]
     ],
-    "authors":
-    [
-        "Karl Hajjar",
-        "L{{\\'e}}na{{\\\"i}}c Chizat",
-        "Christophe Giraud"
+    "id": "21-1260",
+    "issue": 196,
+    "pages": [
+        1,
+        130
     ],
-    "emails":
-    [
-        "hajjarkarl@gmail.com",
-        "lenaic.chizat@epfl.ch",
-        "christophe.giraud@universite-paris-saclay.fr"
-    ]
+    "title": "Training Integrable Parameterizations of Deep Neural Networks in the Infinite-Width Limit",
+    "volume": 25,
+    "year": 2024
 }

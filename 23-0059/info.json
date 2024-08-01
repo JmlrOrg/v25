@@ -1,18 +1,24 @@
 {
-    "title": "Heterogeneity-aware Clustered Distributed Learning for Multi-source Data Analysis",
     "abstract": "In diverse fields ranging from finance to omics, it is increasingly common that data is distributed with multiple individual sources (referred to as ``clients'' in some studies). Integrating raw data, although powerful, is often not feasible, for example, when there are considerations on privacy protection. Distributed learning techniques have been developed to integrate summary statistics as opposed to raw data. In many existing distributed learning studies, it is stringently assumed that all the clients have the same model. To accommodate data heterogeneity, some federated learning methods allow for client-specific models. In this article, we consider the scenario that clients form clusters, those in the same cluster have the same model, and different clusters have different models. Further considering the clustering structure can lead to a better understanding of the ``interconnections'' among clients and reduce the number of parameters. To this end, we develop a novel penalization approach. Specifically, group penalization is imposed for regularized estimation and selection of important variables, and fusion penalization is imposed to automatically cluster clients. An effective ADMM algorithm is developed, and the estimation, selection, and clustering consistency properties are established under mild conditions. Simulation and data analysis further demonstrate the practical utility and superiority of the proposed approach.",
-    "authors":
-    [
+    "authors": [
         "Yuanxing Chen",
         "Qingzhao Zhang",
         "Shuangge Ma",
         "Kuangnan Fang"
     ],
-    "emails":
-    [
+    "emails": [
         "yxchen_research@163.com",
         "qzzhang@xmu.edu.cn",
         "shuangge.ma@yale.edu",
         "xmufkn@163.com"
-    ]
+    ],
+    "id": "23-0059",
+    "issue": 211,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Heterogeneity-aware Clustered Distributed Learning for Multi-source Data Analysis",
+    "volume": 25,
+    "year": 2024
 }

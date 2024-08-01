@@ -1,25 +1,30 @@
 {
-    "title": "Manifold Learning by Mixture Models of VAEs for Inverse Problems",
     "abstract": "Representing a manifold of very high-dimensional data with generative models has been shown to be computationally efficient in practice. However, this requires that the data manifold admits a global parameterization. In order to represent manifolds of arbitrary topology, we propose to learn a mixture model of variational autoencoders. Here, every encoder-decoder pair represents one chart of a manifold. We propose a loss function for maximum likelihood estimation of the model weights and choose an architecture that provides us the analytical expression of the charts and of their inverses. Once the manifold is learned, we use it for solving inverse problems by minimizing a data fidelity term restricted to the learned manifold. To solve the arising minimization problem we propose a Riemannian gradient descent algorithm on the learned manifold. We demonstrate the performance of our method for low-dimensional toy examples as well as for deblurring and electrical impedance tomography on certain image manifolds.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/johertrich/Manifold_Mixture_VAEs"
-        ]
-    ],
-    "authors":
-    [
+    "authors": [
         "Giovanni S. Alberti",
         "Johannes Hertrich",
         "Matteo Santacesaria",
         "Silvia Sciutto"
     ],
-    "emails":
-    [
+    "emails": [
         "giovanni.alberti@unige.it",
         "j.hertrich@ucl.ac.uk",
         "matteo.santacesaria@unige.it",
         "silvia.sciutto@edu.unige.it"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/johertrich/Manifold_Mixture_VAEs"
+        ]
+    ],
+    "id": "23-0396",
+    "issue": 202,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Manifold Learning by Mixture Models of VAEs for Inverse Problems",
+    "volume": 25,
+    "year": 2024
 }
