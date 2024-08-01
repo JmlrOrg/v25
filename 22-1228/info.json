@@ -1,7 +1,7 @@
 {
     "abstract": "We discuss two solvable grokking (generalisation beyond overfitting) models in a rule-learning scenario. We show that grokking is a phase transition and find exact analytic expressions for the critical exponents, grokking probability, and grokking time distribution. Further, we introduce a tensor network map that connects the proposed grokking setup with the standard (perceptron) statistical learning theory and provide evidence that grokking is a consequence of the locality of the teacher model. We analyze the rule-30 cellular automaton learning task, numerically determine the critical exponent and the grokking time distribution, and compare them with the prediction of the proposed grokking model. Finally, we numerically study the connection between structure formation and grokking.",
     "authors": [
-        "Bojan {{\\v{Z}}}unkovi{{\\v{c}}}",
+        "Bojan {\\v{Z}}unkovi{\\v{c}}",
         "Enej Ilievski"
     ],
     "emails": [
