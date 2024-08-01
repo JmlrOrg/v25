@@ -1,0 +1,18 @@
+{
+    "title": "Interpretable algorithmic fairness in structured and unstructured data",
+    "abstract": "Systemic bias with respect to gender and race is prevalent in datasets, making it challenging to train classification models that are accurate and alleviate bias. We propose a unified method for alleviating bias in structured and unstructured data, based on a novel optimization approach for optimally flipping outcome labels and training classification models simultaneously. In the case of structured data, we introduce constraints on selected objective measures of meritocracy, and present four case studies, demonstrating that our approach often outperforms state-of the art methods in terms of fairness and meritocracy. In the case of unstructured data, we present two case studies on image classification, demonstrating that our method outperforms state-of-the-art approaches in terms of fairness. Moreover, we note that the decrease in accuracy over the nominal model is $3.31 \\%$ on structured data and $0.65 \\%$ on unstructured data. Finally, we leverage Optimal Classification Trees (OCTs), to provide insights on which attributes of individuals lead to flipping of their labels and apply it to interpret the flipping decisions on structured data. Utilizing OCTs with auxiliary tabular data as well as Gradient-weighted Class Activation Mapping (Grad-CAM), we provide insights on the flipping decisions for unstructured data.",
+    "authors":
+    [
+        "Hari Bandi",
+        "Dimitris Bertsimas",
+        "Thodoris Koukouvinos",
+        "Sofie Kupiec"
+    ],
+    "emails":
+    [
+        "hbandi@mit.edu",
+        "dbertsim@mit.edu",
+        "tkoukouv@mit.edu",
+        "skupiec@mit.edu"
+    ]
+}

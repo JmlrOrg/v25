@@ -1,0 +1,23 @@
+{
+    "title": "Efficient Convex Algorithms for Universal Kernel Learning",
+    "abstract": "The accuracy and complexity of machine learning algorithms based on kernel optimization are determined by the set of kernels over which they are able to optimize. An ideal set of kernels should: admit a linear parameterization (for tractability); be dense in the set of all kernels (for robustness); be universal (for accuracy). Recently, a framework was proposed for using positive matrices to parameterize a class of positive semi-separable kernels. Although this class can be shown to meet all three criteria, previous algorithms for optimization of such kernels were limited to classification and furthermore relied on computationally complex Semidefinite Programming (SDP) algorithms. In this paper, we pose the problem of learning semiseparable kernels as a minimax optimization problem and propose a SVD-QCQP primal-dual algorithm which dramatically reduces the computational complexity as compared with previous SDP-based approaches. Furthermore, we provide an efficient implementation of this algorithm for both classification and regression -- an implementation which enables us to solve problems with 100 features and up to 30,000 datums. Finally, when applied to benchmark data, the algorithm demonstrates the potential for significant improvement in accuracy over typical (but non-convex) approaches such as Neural Nets and Random Forest with similar or better computation time.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/CyberneticSCL/TKL-version-0.9"
+        ]
+    ],
+    "authors":
+    [
+        "Aleksandr Talitckii",
+        "Brendon Colbert",
+        "Matthew M. Peet"
+    ],
+    "emails":
+    [
+        "atalitck@asu.edu",
+        "bkcolbe1@asu.edu",
+        "mpeet@asu.edu"
+    ]
+}

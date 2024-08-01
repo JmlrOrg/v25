@@ -1,0 +1,21 @@
+{
+    "title": "Unsupervised Tree Boosting for Learning Probability Distributions",
+    "abstract": "We propose an unsupervised tree boosting algorithm for inferring the underlying sampling distribution of an i.i.d. sample based on fitting additive tree ensembles in a manner analogous to supervised tree boosting. Integral to the algorithm is a new notion of \"addition\" on probability distributions that leads to a coherent notion of \"residualization\", i.e., subtracting a probability distribution from an observation to remove the distributional structure from the sampling distribution of the latter. We show that these notions arise naturally for univariate distributions through cumulative distribution function (CDF) transforms and compositions due to several \"group-like\" properties of univariate CDFs. While the traditional multivariate CDF does not preserve these properties, a new definition of multivariate CDF can restore these properties, thereby allowing the notions of \"addition\" and \"residualization\" to be formulated for multivariate settings as well. This then gives rise to the unsupervised boosting algorithm based on forward-stagewise fitting of an additive tree ensemble, which sequentially reduces the Kullback-Leibler divergence from the truth. The algorithm allows analytic evaluation of the fitted density and outputs a generative model that can be readily sampled from. We enhance the algorithm with scale-dependent shrinkage and a two-stage strategy that separately fits the marginals and the copula. The algorithm then performs competitively with state-of-the-art deep-learning approaches in multivariate density estimation on multiple benchmark data sets.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/MaStatLab/boostPM"
+        ]
+    ],
+    "authors":
+    [
+        "Naoki Awaya",
+        "Li Ma"
+    ],
+    "emails":
+    [
+        "nawaya@waseda.jp",
+        "li.ma@duke.edu"
+    ]
+}

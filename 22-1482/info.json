@@ -1,0 +1,21 @@
+{
+    "title": "Distributionally Robust Model-Based Offline Reinforcement Learning with Near-Optimal Sample Complexity",
+    "abstract": "This paper concerns the central issues of model robustness and sample efficiency in offline reinforcement learning (RL), which aims to learn to perform decision making from history data without active exploration. Due to uncertainties and variabilities of the environment, it is critical to learn a robust policy---with as few samples as possible---that performs well even when the deployed environment deviates from the nominal one used to collect the history dataset. We consider a distributionally robust formulation of offline RL, focusing on tabular robust Markov decision processes with an uncertainty set specified by the Kullback-Leibler divergence in both finite-horizon and infinite-horizon settings. To combat with sample scarcity, a model-based algorithm that combines distributionally robust value iteration with the principle of pessimism in the face of uncertainty is proposed, by penalizing the robust value estimates with a carefully designed data-driven penalty term. Under a mild and tailored assumption of the history dataset that measures distribution shift without requiring full coverage of the state-action space, we establish the finite-sample complexity of the proposed algorithms. We further develop an information-theoretic lower bound, which suggests that learning RMDPs is at least as hard as the standard MDPs when the uncertainty level is sufficient small, and corroborates the tightness of our upper bound up to polynomial factors of the (effective) horizon length for a range of uncertainty levels. To the best our knowledge, this provides the first provably near-optimal robust offline RL algorithm that learns under model uncertainty and partial coverage.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/Laixishi/Robust-RL-with-KL-divergence"
+        ]
+    ],
+    "authors":
+    [
+        "Laixi Shi",
+        "Yuejie Chi"
+    ],
+    "emails":
+    [
+        "laixis@caltech.edu",
+        "yuejiechi@cmu.edu"
+    ]
+}

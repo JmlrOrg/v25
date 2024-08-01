@@ -1,0 +1,14 @@
+{
+    "title": "Risk Measures and Upper Probabilities: Coherence and Stratification",
+    "abstract": "Machine learning typically presupposes classical probability theory which implies that aggregation is built upon expectation. There are now multiple reasons to motivate looking at richer alternatives to classical probability theory as a mathematical foundation for machine learning. We systematically examine a powerful and rich class of alternative aggregation functionals, known variously as spectral risk measures, Choquet integrals or Lorentz norms. We present a range of characterization results, and demonstrate what makes this spectral family so special. In doing so we arrive at a natural stratification of all coherent risk measures in terms of the upper probabilities that they induce by exploiting results from the theory of rearrangement invariant Banach spaces. We empirically demonstrate how this new approach to uncertainty helps tackling practical machine learning problems.",
+    "authors":
+    [
+        "Christian Fr{{\\\"o}}hlich",
+        "Robert C. Williamson"
+    ],
+    "emails":
+    [
+        "christian.froehlich@uni-tuebingen.de",
+        "bob.williamson@uni-tuebingen.de"
+    ]
+}

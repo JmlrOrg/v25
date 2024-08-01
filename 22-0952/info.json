@@ -1,0 +1,18 @@
+{
+    "title": "Law of Large Numbers and Central Limit Theorem for Wide Two-layer Neural Networks: The Mini-Batch and Noisy Case",
+    "abstract": "In this work, we consider a wide two-layer neural network and study the behavior of its empirical weights under a dynamics set by a stochastic gradient descent along the quadratic loss with mini-batches and noise. Our goal is to prove a trajectorial law of large number as well as a central limit theorem for their evolution. When the noise is scaling as $1/N^\\beta$ and $1/2<\\beta\\le\\infty$, we rigorously derive and generalize the LLN obtained for example by Rotskoff and Van den Injden (Com. Pure. Appl. Math, 2022), Mei and Montanari and Nguyen (Pnas 2018) or Sirignano and Spiliopoulos (Siam. J. Appl. Math. 2020). When $3/4<\\beta\\le\\infty$, we also generalize the CLT of Sirignano and Spiliopoulos (Stoch. Proc. Appl. 2020) and further exhibit the effect of mini-batching on the asymptotic variance which leads the fluctuations. The case $\\beta=3/4$ is trickier and we give an example showing the divergence with time of the variance thus establishing the instability of the predictions of the neural network in this case. It is illustrated by simple numerical examples.",
+    "authors":
+    [
+        "Arnaud Descours",
+        "Arnaud Guillin",
+        "Manon Michel",
+        "Boris Nectoux"
+    ],
+    "emails":
+    [
+        "arnaud.descours@uca.fr",
+        "arnaud.guillin@uca.fr",
+        "manon.michel@uca.fr",
+        "boris.nectoux@uca.fr"
+    ]
+}
