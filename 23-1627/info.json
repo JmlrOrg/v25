@@ -1,0 +1,26 @@
+{
+    "abstract": "We study repeated bilateral trade where an adaptive $\\sigma$-smooth adversary generates the valuations of sellers and buyers. We completely characterize the regret regimes for fixed-price mechanisms under different feedback models in the two cases where the learner can post the same or different prices to buyers and sellers. We begin by showing that, in the full-feedback scenario, the minimax regret after $T$ rounds is of order $\\sqrt{T}$. Under partial feedback, any algorithm that has to post the same price to buyers and sellers suffers worst-case linear regret. However, when the learner can post two different prices at each round, we design an algorithm enjoying regret of order $T^{3/4}$, ignoring log factors. We prove that this rate is optimal by presenting a surprising $T^{3/4}$ lower bound, which is the paper's main technical contribution.",
+    "authors": [
+        "Nicol{{\\`o}} Cesa-Bianchi",
+        "Tommaso Cesari",
+        "Roberto Colomboni",
+        "Federico Fusco",
+        "Stefano Leonardi"
+    ],
+    "emails": [
+        "nicolo.cesa-bianchi@unimi.it",
+        "tcesari@uottawa.ca",
+        "roberto.colomboni@unimi.it",
+        "fuscof@diag.uniroma1.it",
+        "leonardi@diag.uniroma1.it"
+    ],
+    "id": "23-1627",
+    "issue": 234,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Regret Analysis of Bilateral Trade with a Smoothed Adversary",
+    "volume": 25,
+    "year": 2024
+}

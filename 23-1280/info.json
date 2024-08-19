@@ -1,0 +1,24 @@
+{
+    "abstract": "Ordinary differential equations (ODEs), via their induced flow maps, provide a powerful framework to parameterize invertible transformations for representing complex probability distributions. While such models have achieved enormous success in machine learning, little is known about their statistical properties. This work establishes the first general nonparametric statistical convergence analysis for distribution learning via ODE models trained through likelihood maximization. We first prove a convergence theorem applicable to arbitrary velocity field classes $\\mathcal{F}$ satisfying certain simple boundary constraints. This general result captures the trade-off between the approximation error and complexity of the ODE model. We show that the latter can be quantified via the $C^1$-metric entropy of the class $\\mathcal{F}$. We then apply this general framework to the setting of $C^k$-smooth target densities, and establish nearly minimax-optimal convergence rates for two relevant velocity field classes $\\mathcal{F}$: $C^k$ functions and neural networks. The latter is the practically important case of neural ODEs. Our results also provide insight on how the choice of velocity field class, and the dependence of this choice on sample size (e.g., the scaling of neural network classes), impact statistical performance.",
+    "authors": [
+        "Youssef Marzouk",
+        "Zhi (Robert) Ren",
+        "Sven Wang",
+        "Jakob Zech"
+    ],
+    "emails": [
+        "ymarz@mit.edu",
+        "zren@mit.edu",
+        "sven.wang@hu-berlin.de",
+        "jakob.zech@uni-heidelberg.de"
+    ],
+    "id": "23-1280",
+    "issue": 232,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Distribution Learning via Neural Differential Equations: A Nonparametric Statistical Perspective",
+    "volume": 25,
+    "year": 2024
+}

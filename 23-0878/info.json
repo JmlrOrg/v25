@@ -1,0 +1,20 @@
+{
+    "abstract": "Time-series datasets are central in machine learning with applications in numerous fields of science and engineering, such as biomedicine, Earth observation, and network analysis. Extensive research exists on state-space models (SSMs), which are powerful mathematical tools that allow for probabilistic and interpretable learning on time series. Learning the model parameters in SSMs is arguably one of the most complicated tasks, and the inclusion of prior knowledge is known to both ease the interpretation but also to complicate the inferential tasks. Very recent works have attempted to incorporate a graphical perspective on some of those model parameters, but they present notable limitations that this work addresses. More generally, existing graphical modeling tools are designed to incorporate either static information, focusing on statistical dependencies among independent random variables (e.g., graphical Lasso approach), or dynamic information, emphasizing causal relationships among time series samples (e.g., graphical Granger approaches). However, there are no joint approaches combining static and dynamic graphical modeling within the context of SSMs. This work proposes a novel approach to fill this gap by introducing a joint graphical modeling framework that bridges the graphical Lasso model and a causal-based graphical approach for the linear-Gaussian SSM. We present DGLASSO (Dynamic Graphical Lasso), a new inference method within this framework that implements an efficient block alternating majorization-minimization algorithm. The algorithm's convergence is established by departing from modern tools from nonlinear analysis. Experimental validation on various synthetic data showcases the effectiveness of the proposed model and inference algorithm. This work will significantly contribute to the understanding and utilization of time-series data in diverse scientific and engineering applications where incorporating a graphical approach is essential to perform the inference.",
+    "authors": [
+        "Emilie Chouzenoux",
+        "Victor Elvira"
+    ],
+    "emails": [
+        "emilie.chouzenoux@inria.fr",
+        "victor.elvira@ed.ac.uk"
+    ],
+    "id": "23-0878",
+    "issue": 223,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Sparse Graphical Linear Dynamical Systems",
+    "volume": 25,
+    "year": 2024
+}

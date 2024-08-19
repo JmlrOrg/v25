@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider a general trace regression model with multiple structural changes and propose a universal approach for simultaneous exact or near-low-rank matrix recovery and change-point detection. It incorporates nuclear norm penalized least-squares minimization into a grid search scheme that determines the potential structural break. Under a set of general conditions, we establish the non-asymptotic error bounds with a nearly-oracle rate for the matrix estimators as well as the super-consistency rate for the change-point localization. We use concrete random design instances to justify the appropriateness of the proposed conditions. Numerical results demonstrate the validity and effectiveness of the proposed scheme.",
+    "authors": [
+        "Lei Shi",
+        "Guanghui Wang",
+        "Changliang Zou"
+    ],
+    "emails": [
+        "leishi@berkeley.edu",
+        "ghwang.nk@gmail.com",
+        "nk.chlzou@gmail.com"
+    ],
+    "id": "22-0852",
+    "issue": 220,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Low-Rank Matrix Estimation in the Presence of Change-Points",
+    "volume": 25,
+    "year": 2024
+}

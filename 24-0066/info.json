@@ -1,0 +1,26 @@
+{
+    "abstract": "Policy gradient methods equipped with deep neural networks have achieved great success in solving high-dimensional reinforcement learning (RL) problems. However, current analyses cannot explain why they are resistant to the curse of dimensionality. \r\nIn this work, we study the sample complexity of the neural policy mirror descent (NPMD) algorithm with deep convolutional neural networks (CNN). Motivated by the empirical observation that many high-dimensional environments have state spaces possessing low-dimensional structures, such as those taking images as states, we consider the state space to be a $d$-dimensional manifold embedded in the $D$-dimensional Euclidean space with intrinsic dimension $d\\ll D$. \r\nWe show that in each iteration of NPMD, both the value function and the policy can be well approximated by CNNs. The approximation errors are controlled by the size of the networks, and the smoothness of the previous networks can be inherited. \r\nAs a result, by properly choosing the network size and hyperparameters, NPMD can find an $\\epsilon$-optimal policy with $\\tilde{O}(\\epsilon^{-\\frac{d}{\\alpha}-2})$ samples in expectation, where $\\alpha\\in(0,1]$ indicates the smoothness of environment. \r\nCompared to previous work, our result exhibits that NPMD can leverage the low-dimensional structure of state space to escape from the curse of dimensionality, explaining the efficacy of deep policy gradient algorithms.",
+    "authors": [
+        "Zhenghao Xu",
+        "Xiang Ji",
+        "Minshuo Chen",
+        "Mengdi Wang",
+        "Tuo Zhao"
+    ],
+    "emails": [
+        "zhenghaoxu@gatech.edu",
+        "xiangj@princeton.edu",
+        "minshuochen@princeton.edu",
+        "mengdiw@princeton.edu",
+        "tourzhao@gatech.edu"
+    ],
+    "id": "24-0066",
+    "issue": 226,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Sample Complexity of Neural Policy Mirror Descent for Policy Optimization on Low-Dimensional Manifolds",
+    "volume": 25,
+    "year": 2024
+}

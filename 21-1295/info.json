@@ -1,0 +1,24 @@
+{
+    "abstract": "Generative Adversarial Networks (GANs) are a popular method for learning distributions from data by modeling the target distribution as a function of a known distribution. The function, often referred to as the generator, is optimized to minimize a chosen distance measure between the generated and target distributions. One commonly used measure for this purpose is the Wasserstein distance. However, Wasserstein distance is hard to compute and optimize, and in practice entropic regularization techniques are used to facilitate its computation and improve numerical convergence. The influence of regularization on the learned solution, however, remains not well-understood. In this paper, we study how several popular entropic regularizations of Wasserstein distance impact the solution learned by a Wasserstein GAN in a simple benchmark setting where the generator is linear and the target distribution is high-dimensional Gaussian. We show that entropy regularization of Wasserstein distance promotes sparsification of the solution, while replacing the Wasserstein distance with the Sinkhorn divergence recovers the unregularized solution. The significant benefit of both regularization techniques is that they remove the curse of dimensionality suffered by Wasserstein distance. We show that in both cases the optimal generator can be learned to accuracy $\\epsilon$ with $O(1/\\epsilon^2)$ samples from the target distribution without requiring to constrain the discriminator. We thus conclude that these regularization techniques can improve the quality of the generator learned from empirical data in a way that is applicable for a large class of distributions.",
+    "authors": [
+        "Daria Reshetova",
+        "Yikun Bai",
+        "Xiugang Wu",
+        "Ayfer {{\\\"O}}zg{{\\\"u}}r"
+    ],
+    "emails": [
+        "resh@stanford.edu",
+        "bai@udel.edu",
+        "xwu@udel.edu",
+        "aozgur@stanford.edu"
+    ],
+    "id": "21-1295",
+    "issue": 218,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Understanding Entropic Regularization in GANs",
+    "volume": 25,
+    "year": 2024
+}

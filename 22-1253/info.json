@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the regret guarantee for risk-sensitive reinforcement learning (RSRL) via distributional reinforcement learning (DRL) methods. In particular, we consider finite episodic Markov decision processes whose objective is the entropic risk measure (EntRM) of return. By leveraging a key property of the EntRM, the independence property, we establish the risk-sensitive distributional dynamic programming framework. We then propose two novel DRL algorithms that implement optimism through two different schemes, including a model-free one and a model-based one. \r\n\r\nWe prove that they both attain $\\tilde{\\mathcal{O}}\\left(\\frac{\\exp(|\\beta| H)-1}{|\\beta|}H\\sqrt{S^2AK}\\right)$ regret upper bound, where $S$, $A$, $K$, $H$, $T=KH$, and $\\beta$ represent the number of states, actions, episodes, time horizon, number of total time-steps, and risk parameter respectively. It matches RSVI2, with novel distributional analysis that focuses on the distributions of returns rather than the risk values associated with these returns. To the best of our knowledge, this is the first regret analysis that bridges DRL and RSRL in terms of sample complexity. \r\n\r\nTo address the computational inefficiencies inherent in the model-free DRL algorithm, we propose an alternative DRL algorithm with distribution representation. This approach effectively represents any bounded distribution using a refined distribution class. It significantly amplifies computational efficiency while maintaining the established regret bounds.\r\n\r\nWe also prove a tighter minimax lower bound of $\\Omega\\left(\\frac{\\exp(\\beta H/6)-1}{\\beta }\\sqrt{SAT}\\right)$ for the $\\beta>0$ case, which recovers the tight lower bound $\\Omega(H\\sqrt{SAT})$ in the risk-neutral setting.",
+    "authors": [
+        "Hao Liang",
+        "Zhi-Quan Luo"
+    ],
+    "emails": [
+        "haoliang1@link.cuhk.edu.cn",
+        "luozq@cuhk.edu.cn"
+    ],
+    "id": "22-1253",
+    "issue": 221,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Bridging Distributional and Risk-sensitive Reinforcement Learning with Provable Regret Bounds",
+    "volume": 25,
+    "year": 2024
+}

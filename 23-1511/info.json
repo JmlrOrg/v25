@@ -1,0 +1,22 @@
+{
+    "abstract": "Physics-informed neural networks have emerged as a prominent new method for solving differential equations. While conceptually straightforward, they often suffer training difficulties that lead to relatively large discretization errors or the failure to obtain correct solutions. In this paper we introduce invariant physics-informed neural networks for ordinary differential equations that admit a finite-dimensional group of Lie point symmetries. Using the method of equivariant moving frames, a differential equation is invariantized to obtain a, generally, simpler equation in the space of differential invariants. A solution to the invariantized equation is then mapped back to a solution of the original differential equation by solving the reconstruction equations for the left moving frame. The invariantized differential equation together with the reconstruction equations are solved using a physics-informed neural network, and form what we call an invariant physics-informed neural network. We illustrate the method with several examples, all of which considerably outperform standard non-invariant physics-informed neural networks.",
+    "authors": [
+        "Shivam Arora",
+        "Alex Bihlo",
+        "Francis Valiquette"
+    ],
+    "emails": [
+        "sarora17@mun.ca",
+        "abihlo@mun.ca",
+        "fvalique@monmouth.edu"
+    ],
+    "id": "23-1511",
+    "issue": 233,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Invariant Physics-Informed Neural Networks for Ordinary Differential Equations",
+    "volume": 25,
+    "year": 2024
+}

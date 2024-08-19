@@ -1,0 +1,22 @@
+{
+    "abstract": "Prediction with experts' advice is one of the most fundamental problems in online learning and captures many of its technical challenges. A recent line of work has looked at online learning through the lens of differential equations and continuous-time analysis. This viewpoint has yielded optimal results for several problems in online learning.  \r\n\r\nIn this paper, we employ continuous-time stochastic calculus in order to study the discrete-time experts' problem. We use these tools to design a continuous-time, parameter-free algorithm with improved guarantees on the quantile regret. We then develop an analogous discrete-time algorithm with a very similar analysis and identical quantile regret bounds. Finally, we design an anytime continuous-time algorithm with regret matching the optimal fixed-time rate when the gains are independent Brownian motions; in many settings, this is the most difficult case. This gives some evidence that, even with adversarial gains, the optimal anytime and fixed-time regrets may coincide.",
+    "authors": [
+        "Nicholas J. A. Harvey",
+        "Christopher Liaw",
+        "Victor S. Portella"
+    ],
+    "emails": [
+        "nickhar@cs.ubc.ca",
+        "cvliaw@google.com",
+        "victorsp@cs.ubc.ca"
+    ],
+    "id": "22-0803",
+    "issue": 228,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Continuous Prediction with Experts' Advice",
+    "volume": 25,
+    "year": 2024
+}

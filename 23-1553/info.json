@@ -1,0 +1,30 @@
+{
+    "abstract": "Split conformal prediction (CP) is arguably the most popular CP method for uncertainty quantification, enjoying both academic interest and widespread deployment. However, the original theoretical analysis of split CP makes the crucial assumption of data exchangeability, which hinders many real-world applications. In this paper, we present a novel theoretical framework based on concentration inequalities and decoupling properties of the data, proving that split CP remains valid for many non-exchangeable processes by adding a small coverage penalty. Through experiments with both real and synthetic data, we show that our theoretical results translate to good empirical performance under non-exchangeability, e.g., for time series and spatiotemporal data. Compared to recent conformal algorithms designed to counter specific exchangeability violations, we show that split CP is competitive in terms of coverage and interval size, with the benefit of being extremely simple and orders of magnitude faster than alternatives.",
+    "authors": [
+        "Roberto I. Oliveira",
+        "Paulo Orenstein",
+        "Thiago Ramos",
+        "Joao Vitor Romano"
+    ],
+    "emails": [
+        "rimfo@impa.br",
+        "pauloo@impa.br",
+        "thiagorr@impa.br",
+        "joao.vitor@impa.br"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jv-rv/split-conformal-nonexchangeable"
+        ]
+    ],
+    "id": "23-1553",
+    "issue": 225,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Split Conformal Prediction and Non-Exchangeable Data",
+    "volume": 25,
+    "year": 2024
+}

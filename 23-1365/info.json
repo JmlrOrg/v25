@@ -1,0 +1,30 @@
+{
+    "abstract": "We consider dynamic pricing strategies in a streamed longitudinal data set-up where the objective is to maximize, over time, the cumulative profit across a large number of customer segments. We consider a dynamic model with the consumers\u2019 preferences as well as price sensitivity varying over time. Building on the well-known finding that consumers sharing similar characteristics act in similar ways, we consider a global shrinkage structure, which assumes that the consumers\u2019 preferences across the different segments can be well approximated by a spatial autoregressive (SAR) model. In such a streamed longitudinal setup, we measure the performance of a dynamic pricing policy via regret, which is the expected revenue loss compared to a clairvoyant that knows the sequence of model parameters in advance. We propose a pricing policy based on penalized stochastic gradient descent (PSGD) and explicitly characterize its regret as functions of time, the temporal variability in the model parameters as well as the strength of the auto-correlation network structure spanning the varied customer segments. Our regret analysis results not only demonstrate asymptotic optimality of the proposed policy but also show that for policy planning it is essential to incorporate available structural information as policies based on unshrunken models are highly sub-optimal in the aforementioned set-up. We conduct simulation experiments across a wide range of regimes as well as real-world networks based studies and report encouraging performance for our proposed method.",
+    "authors": [
+        "Rashmi Ranjan Bhuyan",
+        "Adel Javanmard",
+        "Sungchul Kim",
+        "Gourab Mukherjee",
+        "Ryan A. Rossi",
+        "Tong Yu",
+        "Handong Zhao"
+    ],
+    "emails": [
+        "bhuyanr@usc.edu",
+        "ajavanma@usc.edu",
+        "sukim@adobe.com",
+        "gourab@usc.edu",
+        "ryrossi@adobe.com",
+        "tyu@adobe.com",
+        "hazhao@adobe.com"
+    ],
+    "id": "23-1365",
+    "issue": 224,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Structured Dynamic Pricing: Optimal Regret in a Global Shrinkage Model",
+    "volume": 25,
+    "year": 2024
+}

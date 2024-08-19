@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper develops a memory-efficient approach for Sequential Pattern Mining (SPM), a fundamental topic in knowledge discovery that faces a well-known memory bottleneck for large data sets. Our methodology involves a novel hybrid trie data structure that exploits recurring patterns to compactly store the data set in memory; and a corresponding mining algorithm designed to effectively extract patterns from this compact representation. Numerical results on small to medium-sized real-life test instances show an average improvement of 85% in memory consumption and 49% in computation time compared to the state of the art. For large data sets, our algorithm stands out as the only capable SPM approach within 256GB of system memory, potentially saving 1.7TB in memory consumption.",
+    "authors": [
+        "Amin Hosseininasab",
+        "Willem-Jan van Hoeve",
+        "Andre A. Cire"
+    ],
+    "emails": [
+        "amin.hosseininasab@warrington.ufl.edu",
+        "vanhoeve@andrew.cmu.edu",
+        "andre.cire@rotman.utoronto.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/aminhn/HTMiner"
+        ]
+    ],
+    "id": "22-0125",
+    "issue": 227,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Memory-Efficient Sequential Pattern Mining with Hybrid Tries",
+    "volume": 25,
+    "year": 2024
+}

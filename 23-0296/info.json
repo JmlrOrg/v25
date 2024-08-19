@@ -1,0 +1,22 @@
+{
+    "abstract": "The expectation-maximization (EM) algorithm and its variants are widely used in statistics. In high-dimensional mixture linear regression, the model is assumed to be a finite mixture of linear regression and the number of predictors is much larger than the sample size. The standard EM algorithm, which attempts to find the maximum likelihood estimator, becomes infeasible for such model. We devise a group lasso penalized EM algorithm and study its statistical properties. Existing theoretical results of regularized EM algorithms often rely on dividing the sample into many independent batches and employing a fresh batch of sample in each iteration of the algorithm. Our algorithm and theoretical analysis do not require sample-splitting, and can be extended to multivariate response cases. The proposed methods also have encouraging performances in numerical studies.",
+    "authors": [
+        "Ning Wang",
+        "Xin Zhang",
+        "Qing Mai"
+    ],
+    "emails": [
+        "ningwangbnu@bnu.edu.cn",
+        "henry@stat.fsu.edu",
+        "qmai@fsu.edu"
+    ],
+    "id": "23-0296",
+    "issue": 222,
+    "pages": [
+        1,
+        85
+    ],
+    "title": "Statistical analysis for a penalized EM algorithm in high-dimensional mixture linear regression model",
+    "volume": 25,
+    "year": 2024
+}

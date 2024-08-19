@@ -1,0 +1,28 @@
+{
+    "abstract": "Negative control variables are increasingly used to adjust for unmeasured confounding bias in causal inference using observational data. They are typically identified by subject matter knowledge and there is currently a severe lack of data-driven methods to find negative controls. In this paper, we present a statistical test for discovering negative controls of a special type---disconnected negative controls---that can serve as surrogates of the unmeasured confounder, and we incorporate that test into the Data-driven Automated Negative Control Estimation (DANCE) algorithm. DANCE first uses the new validation test to identify subsets of a set of candidate negative control variables that satisfy the assumptions of disconnected negative controls.  It then applies a negative control method to each pair of these validated negative control variables, and aggregates the output to produce an unbiased point estimate and confidence interval for a causal effect in the presence of unmeasured confounding. We (1) prove the correctness of this validation test, and thus of DANCE; (2) demonstrate via simulation experiments that DANCE outperforms both naive analysis ignoring unmeasured confounding and negative control method with randomly selected candidate negative controls; and (3) demonstrate the effectiveness of DANCE on a challenging real-world problem.",
+    "authors": [
+        "Erich Kummerfeld",
+        "Jaewon Lim",
+        "Xu Shi"
+    ],
+    "emails": [
+        "erichk@umn.edu",
+        "imjaewon@uw.edu",
+        "shixu@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/imjaewon07/DANCE"
+        ]
+    ],
+    "id": "22-1062",
+    "issue": 229,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Data-driven Automated Negative Control Estimation (DANCE): Search for, Validation of, and Causal Inference with Negative Controls",
+    "volume": 25,
+    "year": 2024
+}

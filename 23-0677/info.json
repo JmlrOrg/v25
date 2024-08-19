@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper introduces a novel theoretical framework for the analysis of vector-valued neural networks through the development of vector-valued variation spaces, a new class of reproducing kernel Banach spaces. These spaces emerge from studying the regularization effect of weight decay in training networks with activation functions like the rectified linear unit (ReLU). This framework offers a deeper understanding of multi-output networks and their function-space characteristics. A key contribution of this work is the development of a representer theorem for the vector-valued variation spaces. This representer theorem establishes that shallow vector-valued neural networks are the solutions to data-fitting problems over these infinite-dimensional spaces, where the network widths are bounded by the square of the number of training data. This observation reveals that the norm associated with these vector-valued variation spaces encourages the learning of features that are useful for multiple tasks, shedding new light on multi-task learning with neural networks. Finally, this paper develops a connection between weight-decay regularization and the multi-task lasso problem. This connection leads to novel bounds for layer widths in deep networks that depend on the intrinsic dimensions of the training data representations. This insight not only deepens the understanding of the deep network architectural requirements, but also yields a simple convex optimization method for deep neural network compression. The performance of this compression procedure is evaluated on various architectures.",
+    "authors": [
+        "Joseph Shenouda",
+        "Rahul Parhi",
+        "Kangwook Lee",
+        "Robert D. Nowak"
+    ],
+    "emails": [
+        "jshenouda@wisc.edu",
+        "rparhi@ucsd.edu",
+        "kangwook.lee@wisc.edu",
+        "rdnowak@wisc.edu"
+    ],
+    "id": "23-0677",
+    "issue": 231,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Variation Spaces for Multi-Output Neural Networks: Insights on Multi-Task Learning and Network Compression",
+    "volume": 25,
+    "year": 2024
+}
