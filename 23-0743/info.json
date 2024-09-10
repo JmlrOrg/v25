@@ -1,0 +1,26 @@
+{
+    "abstract": "We consider sequential state and parameter learning in state-space models with intractable state transition and observation processes. By exploiting low-rank tensor train (TT) decompositions, we propose new sequential learning methods for joint parameter and state estimation under the Bayesian framework. Our key innovation is the introduction of scalable function approximation tools such as TT for recursively learning the sequentially updated posterior distributions. The function approximation perspective of our methods offers tractable error analysis and potentially alleviates the particle degeneracy faced by many particle-based methods. In addition to the new insights into the algorithmic design, our methods complement conventional particle-based methods. Our TT-based approximations naturally define conditional Knothe--Rosenblatt (KR) rearrangements that lead to parameter estimation, filtering, smoothing and path estimation accompanying our sequential learning algorithms, which open the door to removing potential approximation bias. We also explore several preconditioning techniques based on either linear or nonlinear KR rearrangements to enhance the approximation power of TT for practical problems. We demonstrate the efficacy and efficiency of our proposed methods on several state-space models, in which our methods achieve state-of-the-art estimation accuracy and computational performance.",
+    "authors": [
+        "Yiran Zhao",
+        "Tiangang Cui"
+    ],
+    "emails": [
+        "yiran.zhao@sydney.edu.au",
+        "tiangang.cui@sydney.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DeepTransport/tensor-ssm-paper-demo"
+        ]
+    ],
+    "id": "23-0743",
+    "issue": 244,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Tensor-train methods for sequential state and parameter learning in state-space models",
+    "volume": 25,
+    "year": 2024
+}

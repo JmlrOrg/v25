@@ -1,0 +1,20 @@
+{
+    "abstract": "Kernel mean embeddings and maximum mean discrepancies (MMD) associated with positive definite kernels are important tools in machine learning that allow to compare probability measures and sample distributions. We provide a full characterization of translation invariant MMDs on $\\mathbb{R}^d$ that are parametrized by a spectral measure and a semi-definite positive symmetric matrix. Furthermore, we investigate the connections between translation invariant MMDs and Wasserstein distances on $\\mathbb{R}^d$. We show in particular that convergence with respect to the MMD associated with the Energy Kernel of order $\\alpha\\in(0,1)$ implies convergence with respect to the Wasserstein distance of order $\\beta<\\alpha$. We also provide examples of kernels metrizing the Wasserstein space of order $\\alpha\\geq 1$. A short numerical experiment illustrates our findings in the framework of the one-sample-test.",
+    "authors": [
+        "Thibault Modeste",
+        "Cl{{\\'e}}ment Dombry"
+    ],
+    "emails": [
+        "thibault.modeste@univ-pau.fr",
+        "clement.dombry@univ-fcomte.fr"
+    ],
+    "id": "22-1338",
+    "issue": 237,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Characterization of translation invariant MMD on Rd and connections with Wasserstein distances",
+    "volume": 25,
+    "year": 2024
+}

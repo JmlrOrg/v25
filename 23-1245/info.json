@@ -1,0 +1,22 @@
+{
+    "abstract": "We study here a Gaussian mixture model (GMM) with rare events data. In this case, the commonly used Expectation-Maximization (EM) algorithm exhibits extremely slow numerical convergence rate. To theoretically understand this phenomenon, we formulate the numerical convergence problem of the EM algorithm with rare events data as a problem about a contraction operator. Theoretical analysis reveals that the spectral radius of the contraction operator in this case could be arbitrarily close to 1 asymptotically. This theoretical finding explains the empirical slow numerical convergence of the EM algorithm with rare events data. To overcome this challenge, a Mixed EM (MEM) algorithm is developed, which utilizes the information provided by partially labeled data. As compared with the standard EM algorithm, the key feature of the MEM algorithm is that it requires additionally labeled data. We find that MEM algorithm significantly improves the numerical convergence rate as compared with the standard EM algorithm. The finite sample performance of the proposed method is illustrated by both simulation studies and a real-world dataset of Swedish traffic signs.",
+    "authors": [
+        "Xuetong Li",
+        "Jing Zhou",
+        "Hansheng Wang"
+    ],
+    "emails": [
+        "2001110929@stu.pku.edu.cn",
+        "jing.zhou@ruc.edu.cn",
+        "hansheng@gsm.pku.edu.cn"
+    ],
+    "id": "23-1245",
+    "issue": 252,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Gaussian Mixture Models with Rare Events",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Numerical evaluations of the memory capacity (MC) of recurrent neural networks reported in the literature often contradict well-established theoretical bounds. In this paper, we study the case of linear echo state networks, for which the total memory capacity has been proven to be equal to the rank of the corresponding Kalman controllability matrix. We shed light on various reasons for the inaccurate numerical estimations of the memory, and we show that these issues, often overlooked in the recent literature, are of an exclusively numerical nature. More explicitly, we prove that when the Krylov structure of the linear MC is ignored, a gap between the theoretical MC and its empirical counterpart is introduced. As a solution, we develop robust numerical approaches by exploiting a result of MC neutrality with respect to the input mask matrix. Simulations show that the memory curves that are recovered using the proposed methods fully agree with the theory.",
+    "authors": [
+        "Giovanni Ballarin",
+        "Lyudmila Grigoryeva",
+        "Juan-Pablo Ortega"
+    ],
+    "emails": [
+        "Giovanni.Ballarin@gess.uni-mannheim.de",
+        "Lyudmila.Grigoryeva@unisg.ch",
+        "Juan-Pablo.Ortega@ntu.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Learning-of-Dynamic-Processes/memorycapacity"
+        ]
+    ],
+    "id": "23-0568",
+    "issue": 243,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Memory of recurrent networks: Do we compute it right?",
+    "volume": 25,
+    "year": 2024
+}

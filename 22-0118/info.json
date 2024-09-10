@@ -1,0 +1,28 @@
+{
+    "abstract": "Dot product kernels, such as polynomial and exponential (softmax) kernels, are among the most widely used kernels in machine learning, as they enable modeling the interactions between input features, which is crucial in applications like computer vision, natural language processing, and recommender systems. We make several novel contributions for  improving the efficiency of random feature approximations for dot product kernels, to make these kernels more useful in large scale learning. First, we present a generalization of existing random feature approximations for polynomial kernels, such as Rademacher and Gaussian sketches and TensorSRHT, using complex-valued random features. We show empirically that the use of complex features can significantly reduce the variances of these approximations. Second, we provide a theoretical analysis for understanding the factors affecting the efficiency of various random feature approximations, by deriving closed-form expressions for their variances. These variance formulas elucidate conditions under which certain approximations (e.g., TensorSRHT) achieve lower variances than others (e.g., Rademacher sketches), and conditions under which the use of complex features leads to lower variances than real features. Third, by using these variance formulas, which can be evaluated in practice, we develop a data-driven optimization approach to improve random feature approximations for general dot product kernels, which is also applicable to the Gaussian kernel. We describe the improvements brought by these contributions with extensive experiments on a variety of tasks and datasets.",
+    "authors": [
+        "Jonas Wacker",
+        "Motonobu Kanagawa",
+        "Maurizio Filippone"
+    ],
+    "emails": [
+        "jonas.wacker@gmail.com",
+        "motonobu.kanagawa@eurecom.fr",
+        "maurizio.filippone@kaust.edu.sa"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/joneswack/dp-rfs"
+        ]
+    ],
+    "id": "22-0118",
+    "issue": 235,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Improved Random Features for Dot Product Kernels",
+    "volume": 25,
+    "year": 2024
+}

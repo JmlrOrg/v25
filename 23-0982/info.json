@@ -1,0 +1,28 @@
+{
+    "abstract": "The numerical approximation of partial differential equations (PDEs) poses formidable challenges in high dimensions since classical grid-based methods suffer from the so-called curse of dimensionality. Recent attempts rely on a combination of Monte Carlo methods and variational formulations, using neural networks for function approximation. Extending previous work (Richter et al., 2021), we argue that tensor trains provide an appealing framework for parabolic PDEs: The combination of reformulations in terms of backward stochastic differential equations and regression-type methods holds the promise of leveraging latent low-rank structures, enabling both compression and efficient computation. Emphasizing a continuous-time viewpoint, we develop iterative schemes, which differ in terms of computational efficiency and robustness. We demonstrate both theoretically and numerically that our methods can achieve a favorable trade-off between accuracy and computational efficiency. While previous methods have been either accurate or fast, we have identified a novel numerical strategy that can often combine both of these aspects.",
+    "authors": [
+        "Lorenz Richter",
+        "Leon Sallandt",
+        "Nikolas N{{\\\"u}}sken"
+    ],
+    "emails": [
+        "richter@zib.de",
+        "leon.sallandt@gmail.com",
+        "nikolas.nusken@kcl.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lorenzrichter/PDE-backward-solver"
+        ]
+    ],
+    "id": "23-0982",
+    "issue": 248,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "From continuous-time formulations to discretization schemes: tensor trains and robust regression for BSDEs and parabolic PDEs",
+    "volume": 25,
+    "year": 2024
+}

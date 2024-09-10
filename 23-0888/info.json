@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose a general approach for encouraging fairness in survival analysis models that is based on minimizing a worst-case error across all subpopulations that are ``large enough'' (occurring with at least a user-specified probability threshold). This approach can be used to convert a wide variety of existing survival analysis models into ones that simultaneously encourage fairness, without requiring the user to specify which attributes or features to treat as sensitive in the training loss function. From a technical standpoint, our approach applies recent methodological developments of distributionally robust optimization (DRO) to survival analysis. The complication is that existing DRO theory uses a training loss function that decomposes across contributions of individual data points, i.e., any term that shows up in the loss function depends only on a single training point. This decomposition does not hold for commonly used survival loss functions, including for the standard Cox proportional hazards model, its deep neural network variants, and many other recently developed survival analysis models that use loss functions involving ranking or similarity score calculations. We address this technical hurdle using a sample splitting strategy. We demonstrate our sample splitting DRO approach by using it to create fair versions of a diverse set of existing survival analysis models including the classical Cox model (and its deep neural network variant DeepSurv), the discrete-time model DeepHit, and the neural ODE model SODEN. We also establish a finite-sample theoretical guarantee to show what our sample splitting DRO loss converges to. Specifically for the Cox model, we further derive an exact DRO approach that does not use sample splitting. For all the survival models that we convert into DRO variants, we show that the DRO variants often score better on recently established fairness metrics (without incurring a significant drop in accuracy) compared to existing survival analysis fairness regularization techniques, including ones which directly use sensitive demographic information in their training loss functions.",
+    "authors": [
+        "Shu Hu",
+        "George H. Chen"
+    ],
+    "emails": [
+        "hu968@purdue.edu",
+        "georgechen@cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/discovershu/DRO_survival"
+        ]
+    ],
+    "id": "23-0888",
+    "issue": 246,
+    "pages": [
+        1,
+        85
+    ],
+    "title": "Fairness in Survival Analysis with Distributionally Robust Optimization",
+    "volume": 25,
+    "year": 2024
+}

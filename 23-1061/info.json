@@ -1,0 +1,18 @@
+{
+    "abstract": "We study the problem of variance estimation in general graph-structured problems. First, we develop a linear time estimator for the homoscedastic case that can consistently estimate the variance in general graphs. We show that our estimator attains minimax rates for the chain and 2D grid graphs when the mean signal has total variation with canonical scaling. Furthermore, we provide general upper bounds on the mean squared error performance of the fused lasso estimator in general graphs under a moment condition and a bound on the tail behavior of the errors. These upper bounds allow us to generalize for broader classes of distributions, such as sub-Exponential,  many existing results on the fused lasso that are only known to hold with the assumption that errors are sub-Gaussian random variables. Exploiting our upper bounds, we then study a simple total variation regularization estimator for estimating the signal of variances in the heteroscedastic case. We also provide lower bounds showing that our heteroscedastic variance estimator attains minimax rates for estimating signals of bounded variation in grid graphs, and $K$-nearest neighbor graphs, and the estimator is consistent for estimating the variances in any connected graph.",
+    "authors": [
+        "Oscar Hernan Madrid Padilla"
+    ],
+    "emails": [
+        "oscar.madrid@stat.ucla.edu"
+    ],
+    "id": "23-1061",
+    "issue": 250,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Variance estimation in graphs with the fused lasso",
+    "volume": 25,
+    "year": 2024
+}

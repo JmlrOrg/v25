@@ -1,0 +1,36 @@
+{
+    "abstract": "We present Fortuna, an open-source library for uncertainty quantification in deep learning. Fortuna supports a range of calibration techniques, such as conformal prediction that can be applied to any trained neural network to generate reliable uncertainty estimates, and scalable Bayesian inference methods that can be applied to deep neural networks trained from scratch for improved uncertainty quantification and accuracy. By providing a coherent framework for advanced uncertainty quantification methods, Fortuna simplifies the process of benchmarking and helps practitioners build robust AI systems.",
+    "authors": [
+        "Gianluca Detommaso",
+        "Alberto Gasparin",
+        "Michele Donini",
+        "Matthias Seeger",
+        "Andrew Gordon Wilson",
+        "Cedric Archambeau"
+    ],
+    "emails": [
+        "detomma@amazon.de",
+        "albgas@amazon.de",
+        "donini@amazon.de",
+        "matthis@amazon.de",
+        "wilsmman@amazon.com",
+        "cedrica@amazon.de"
+    ],
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/awslabs/fortuna"
+        ]
+    ],
+    "id": "23-0145",
+    "issue": 238,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "Fortuna: A Library for Uncertainty Quantification in Deep Learning",
+    "volume": 25,
+    "year": 2024
+}

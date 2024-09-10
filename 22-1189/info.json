@@ -1,0 +1,18 @@
+{
+    "abstract": "Following the same routine as Shi et al. (2023), we continue to present the theoretical analysis for stochastic gradient descent with momentum (SGD with momentum) in this paper. Differently, for SGD with momentum, we demonstrate that the two hyperparameters together, the learning rate and the momentum coefficient, play a significant role in the linear convergence rate in non-convex optimizations. Our analysis is based on using a hyperparameters-dependent stochastic differential equation (hp-dependent SDE) that serves as a continuous surrogate for SGD with momentum. Similarly, we establish the linear convergence for the continuous-time formulation of SGD with momentum and obtain an explicit expression for the optimal linear rate by analyzing the spectrum of the Kramers-Fokker-Planck operator. By comparison, we demonstrate how the optimal linear rate of convergence and the final gap for SGD only about the learning rate varies with the momentum coefficient increasing from zero to one when the momentum is introduced. Then, we propose a mathematical interpretation of why, in practice, SGD with momentum converges faster and is more robust in the learning rate than standard stochastic gradient descent (SGD). Finally, we show the Nesterov momentum under the presence of noise has no essential difference from the traditional momentum.",
+    "authors": [
+        "Bin Shi"
+    ],
+    "emails": [
+        "shibin@lsec.cc.ac.cn"
+    ],
+    "id": "22-1189",
+    "issue": 236,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "On the Hyperparameters in Stochastic Gradient Descent with Momentum",
+    "volume": 25,
+    "year": 2024
+}

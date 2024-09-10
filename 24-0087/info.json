@@ -1,0 +1,34 @@
+{
+    "abstract": "Discount regularization, using a shorter planning horizon when calculating the optimal policy, is a popular choice to avoid overfitting when faced with sparse or noisy data. It is commonly interpreted as de-emphasizing or ignoring delayed effects. In this paper, we prove two alternative views of discount regularization that expose unintended consequences and motivate novel regularization methods. In model-based RL, planning under a lower discount factor acts like a prior with stronger regularization on state-action pairs with more transition data. This leads to poor performance when the transition matrix is estimated from data sets with uneven amounts of data across state-action pairs. In model-free RL, discount regularization equates to planning using a weighted average Bellman update, where the agent plans as if the values of all state-action pairs are closer than implied by the data. Our equivalence theorems motivate simple methods that generalize discount regularization by setting parameters locally for individual state-action pairs rather than globally. We demonstrate the failures of discount regularization and how we remedy them using our state-action-specific methods across empirical examples with both tabular and continuous state spaces.",
+    "authors": [
+        "Sarah Rathnam",
+        "Sonali Parbhoo",
+        "Siddharth Swaroop",
+        "Weiwei Pan",
+        "Susan A. Murphy",
+        "Finale Doshi-Velez"
+    ],
+    "emails": [
+        "sarah_rathnam@g.harvard.edu",
+        "s.parbhoo@imperial.ac.uk",
+        "siddharth@seas.harvard.edu",
+        "weiweipan@g.harvard.edu",
+        "samurphy@g.harvard.edu",
+        "finale@seas.harvard.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dtak/rethinking_discount_reg_public"
+        ]
+    ],
+    "id": "24-0087",
+    "issue": 255,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Rethinking Discount Regularization: New Interpretations, Unintended Consequences, and Solutions for Regularization in Reinforcement Learning",
+    "volume": 25,
+    "year": 2024
+}

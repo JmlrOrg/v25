@@ -1,0 +1,26 @@
+{
+    "abstract": "In this article, we study Euler characteristic techniques in topological data analysis. Pointwise computing the Euler characteristic of a family of simplicial complexes built from data gives rise to the so-called Euler characteristic profile. We show that this simple descriptor achieves state-of-the-art performance in supervised tasks at a meagre computational cost. Inspired by signal analysis, we compute hybrid transforms of Euler characteristic profiles. These integral transforms mix Euler characteristic techniques with Lebesgue integration to provide highly efficient compressors of topological signals. As a consequence, they show remarkable performances in unsupervised settings. On the qualitative side, we provide numerous heuristics on the topological and geometric information captured by Euler profiles and their hybrid transforms. Finally, we prove stability results for these descriptors as well as asymptotic guarantees in random settings.",
+    "authors": [
+        "Olympio Hacquard",
+        "Vadim Lebovici"
+    ],
+    "emails": [
+        "hacquard.olympio.47i@st.kyoto-u.ac.jp",
+        "vadim.lebovici@maths.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/vadimlebovici/eulearning"
+        ]
+    ],
+    "id": "23-0353",
+    "issue": 240,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Euler Characteristic Tools for Topological Data Analysis",
+    "volume": 25,
+    "year": 2024
+}

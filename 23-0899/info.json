@@ -1,0 +1,36 @@
+{
+    "abstract": "Recent work has highlighted the label alignment property (LAP) in supervised learning, where the vector of all labels in the dataset is mostly in the span of the top few singular vectors of the data matrix. Drawing inspiration from this observation, we propose a regularization method for unsupervised domain adaptation that encourages alignment between the predictions in the target domain and its top singular vectors. Unlike conventional domain adaptation approaches that focus on regularizing representations, we instead regularize the classifier to align with the unsupervised target data, guided by the LAP in both the source and target domains. Theoretical analysis demonstrates that, under certain assumptions, our solution resides within the span of the top right singular vectors of the target domain data and aligns with the optimal solution. By removing the reliance on the commonly used optimal joint risk assumption found in classic domain adaptation theory, we showcase the effectiveness of our method on addressing problems where traditional domain adaptation methods often fall short due to high joint error. Additionally, we report improved performance over domain adaptation baselines in well-known tasks such as MNIST-USPS domain adaptation and cross-lingual sentiment analysis. An implementation is available at https://github.com/EhsanEI/lar/.",
+    "authors": [
+        "Ehsan Imani",
+        "Guojun Zhang",
+        "Runjia Li",
+        "Jun Luo",
+        "Pascal Poupart",
+        "Philip H.S. Torr",
+        "Yangchen Pan"
+    ],
+    "emails": [
+        "imani@ualberta.ca",
+        "guojun.zhang@huawei.com",
+        "runjia@robots.ox.ac.uk",
+        "jun.luo1@huawei.com",
+        "ppoupart@uwaterloo.ca",
+        "philip.torr@eng.ox.ac.uk",
+        "yangchen.pan@eng.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/EhsanEI/lar/"
+        ]
+    ],
+    "id": "23-0899",
+    "issue": 247,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Label Alignment Regularization for Distribution Shift",
+    "volume": 25,
+    "year": 2024
+}

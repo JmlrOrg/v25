@@ -1,0 +1,33 @@
+{
+    "abstract": "The evaluation of large language models (LLMs) is crucial to assess their performance and mitigate potential security risks. In this paper, we introduce PromptBench, a unified library to evaluate LLMs. It consists of several key components that can be easily used and extended by researchers: prompt construction, prompt engineering, dataset and model loading, adversarial prompt attack, dynamic evaluation protocols, and analysis tools. PromptBench is designed as an open, general, and flexible codebase for research purpose. It aims to facilitate original study in creating new benchmarks, deploying downstream applications, and designing new evaluation protocols. The code is available at: https://github.com/microsoft/promptbench and will be continuously supported.",
+    "authors": [
+        "Kaijie Zhu",
+        "Qinlin Zhao",
+        "Hao Chen",
+        "Jindong Wang",
+        "Xing Xie"
+    ],
+    "emails": [
+        "kaijiezhu11@gmail.com",
+        "ac99@mail.ustc.edu.cn",
+        "haoc3@andrew.cmu.edu",
+        "Jindong.Wang@microsoft.com",
+        "xingx@microsoft.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/microsoft/promptbench"
+        ]
+    ],
+    "id": "24-0023",
+    "issue": 254,
+    "pages": [
+        1,
+        22
+    ],
+    "special_issue": "MLOSS",
+    "title": "PromptBench: A Unified Library for Evaluation of Large Language Models",
+    "volume": 25,
+    "year": 2024
+}

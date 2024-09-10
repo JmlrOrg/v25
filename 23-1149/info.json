@@ -1,0 +1,18 @@
+{
+    "abstract": "Obtaining guarantees on the convergence of the minimizers of empirical risks to the ones of the true risk is a fundamental matter in statistical learning. Instead of deriving guarantees on the usual estimation error, the goal of this paper is to provide concentration inequalities on the distance between the sets of minimizers of the risks for a broad spectrum of estimation problems. In particular, the risks are defined on metric spaces through probability measures that are also supported on metric spaces. A particular attention will therefore be given to include unbounded spaces and non-convex cost functions that might also be unbounded. This work identifies a set of high-level assumptions allowing to describe a regime that seems to govern the concentration in many estimation problems, where the empirical minimizers are stable. This stability can then be leveraged to prove parametric concentration rates in probability and in expectation. The assumptions are verified, and the bounds showcased, on a selection of estimation problems such as barycenters on metric space with positive or negative curvature, subspaces of covariance matrices, regression problems and entropic-Wasserstein barycenters.",
+    "authors": [
+        "Paul Escande"
+    ],
+    "emails": [
+        "paul.escande@math.univ-toulouse.fr"
+    ],
+    "id": "23-1149",
+    "issue": 251,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "On the Concentration of the Minimizers of Empirical Risks",
+    "volume": 25,
+    "year": 2024
+}

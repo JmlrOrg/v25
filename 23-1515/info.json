@@ -1,0 +1,22 @@
+{
+    "abstract": "Gaussian denoising has emerged as a powerful method for constructing simulation-free continuous normalizing flows for generative modeling. Despite their empirical successes, theoretical properties of these flows and the regularizing effect of Gaussian denoising have remained largely unexplored. In this work, we aim to address this gap by investigating the well-posedness of simulation-free continuous normalizing flows built on Gaussian denoising. Through a unified framework termed Gaussian interpolation flow, we establish the Lipschitz regularity of the flow velocity field, the existence and uniqueness of the flow, and the Lipschitz continuity of the flow map and the time-reversed flow map for several rich classes of target distributions. This analysis also sheds light on the auto-encoding and cycle consistency properties of Gaussian interpolation flows. Additionally, we study the stability of these flows in source distributions and perturbations of the velocity field, using the quadratic Wasserstein distance as a metric. Our findings offer valuable insights into the learning techniques employed in Gaussian interpolation flows for generative modeling, providing a solid theoretical foundation for end-to-end error analyses of learning Gaussian interpolation flows with empirical observations.",
+    "authors": [
+        "Yuan Gao",
+        "Jian Huang",
+        "and Yuling Jiao"
+    ],
+    "emails": [
+        "yuan0.gao@connect.polyu.hk",
+        "j.huang@polyu.edu.hk",
+        "yulingjiaomath@whu.edu.cn"
+    ],
+    "id": "23-1515",
+    "issue": 253,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Gaussian Interpolation Flows",
+    "volume": 25,
+    "year": 2024
+}
