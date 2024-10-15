@@ -1,0 +1,20 @@
+{
+    "abstract": "The concentration of measure phenomenon serves an essential role in statistics and machine learning. This paper gives bounded difference-type concentration and moment inequalities for general functions of independent random variables with heavy tails. A general framework is presented, which can be used to prove inequalities for general functions once the moment inequality for sums of independent random variables is established. We illustrate the power of the framework by showing how it can be used to derive novel concentration and moment inequalities for bounded, Bernstein's moment condition, weak-exponential, and polynomial-moment random variables. Furthermore, we give potential applications of these inequalities to statistical learning theory.",
+    "authors": [
+        "Shaojie Li",
+        "Yong Liu"
+    ],
+    "emails": [
+        "lishaojie95@ruc.edu.cn",
+        "liuyonggsai@ruc.edu.cn"
+    ],
+    "id": "23-0744",
+    "issue": 268,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Concentration and Moment Inequalities for General Functions of Independent Random Variables with Heavy Tails",
+    "volume": 25,
+    "year": 2024
+}

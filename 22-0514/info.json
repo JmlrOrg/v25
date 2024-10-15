@@ -1,0 +1,30 @@
+{
+    "abstract": "We consider a latent space model for dynamic networks, where our objective is to estimate the pairwise inner products plus the intercept of the latent positions. To balance posterior inference and computational scalability, we consider a structured mean-field variational inference framework, where the time-dependent properties of the dynamic networks are exploited to facilitate computation and inference. Additionally, an easy-to-implement block coordinate ascent algorithm is developed with message-passing type updates in each block, whereas the complexity per iteration is linear with the number of nodes and time points. To certify the optimality, we demonstrate that the variational risk of the proposed variational inference approach attains the minimax optimal rate with only a logarithm factor under certain conditions. To this end,  we first derive the minimax lower bound, which might be of independent interest. In addition, we show that the posterior under commonly adopted Gaussian random walk priors can achieve the minimax lower bound with only a logarithm factor. To the best of our knowledge, this is the first such a throughout theoretical analysis of Bayesian dynamic latent space models. Simulations and real data analysis demonstrate the efficacy of our methodology and the efficiency of our algorithm.",
+    "authors": [
+        "Peng Zhao",
+        "Anirban Bhattacharya",
+        "Debdeep Pati",
+        "Bani K. Mallick"
+    ],
+    "emails": [
+        "pzhao@udel.edu",
+        "anirbanb@stat.tamu.edu",
+        "debdeep@stat.tamu.edu",
+        "bmallick@stat.tamu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/pengzhaostat/SMF-structured-variational-inference"
+        ]
+    ],
+    "id": "22-0514",
+    "issue": 259,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Structured Optimal Variational Inference for Dynamic Latent Space Models",
+    "volume": 25,
+    "year": 2024
+}

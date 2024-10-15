@@ -1,0 +1,22 @@
+{
+    "abstract": "We discuss the problem of estimating Radon-Nikodym derivatives. This problem appears in various applications, such as covariate shift adaptation, likelihood-ratio testing, mutual information estimation, and conditional probability estimation. However, in many of the above applications one is interested in the pointwise evaluation of the Radon-Nikodym derivatives rather than in their approximation as elements of some spaces of functions, and this aspect has been left unexplored in the previous studies. To address the above problem, we employ the general regularization scheme in reproducing kernel Hilbert spaces. The convergence rate of the corresponding regularized algorithm is established by taking into account both the smoothness of the derivative and the capacity of the space in which it is estimated. This is done in terms of general source conditions and the regularized Christoffel functions. We also find that the reconstruction of Radon-Nikodym derivatives at any particular point can be done with higher order of accuracy as compared to the reported work available so far. Our theoretical results are illustrated by numerical simulations.",
+    "authors": [
+        "Duc Hoan Nguyen",
+        "Werner Zellinger",
+        "Sergei Pereverzyev"
+    ],
+    "emails": [
+        "duc.nguyen@ricam.oeaw.ac.at",
+        "werner.zellinger@ricam.oeaw.ac.at",
+        "sergei.pereverzyev@oeaw.ac.at"
+    ],
+    "id": "23-0567",
+    "issue": 266,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "On Regularized Radon-Nikodym Differentiation",
+    "volume": 25,
+    "year": 2024
+}

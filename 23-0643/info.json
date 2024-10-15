@@ -1,0 +1,18 @@
+{
+    "abstract": "We study the distribution of fully connected neural networks with Gaussian random weights/biases and L hidden layers, each of width proportional to a large parameter n. For polynomially bounded non-linearities we give sharp estimates in powers of 1/n for the joint cumulants of the network output and its derivatives. We further show that network cumulants form a perturbatively solvable hierarchy in powers of 1/n. That is, the k-th order cumulants in each layer are determined to leading order in 1/n by cumulants of order at most k computed at the previous layer. By explicitly deriving and then solving several such recursions, we find that the depth-to-width ratio L/n plays the role of an effective network depth, controlling both the distance to Gaussianity and the size of inter-neuron correlations.",
+    "authors": [
+        "Boris Hanin"
+    ],
+    "emails": [
+        "bhanin@princeton.edu"
+    ],
+    "id": "23-0643",
+    "issue": 267,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies",
+    "volume": 25,
+    "year": 2024
+}

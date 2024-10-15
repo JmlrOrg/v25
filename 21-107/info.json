@@ -1,0 +1,26 @@
+{
+    "abstract": "Representation learning constructs low-dimensional representations tosummarize essential features of high-dimensional data. This learningproblem is often approached by describing various desiderataassociated with learned representations; e.g., that they benon-spurious, efficient, or disentangled. It can be challenging,however, to turn these intuitive desiderata into formal criteria thatcan be measured and enhanced based on observed data. In this paper,we take a causal perspective on representation learning, formalizingnon-spuriousness and efficiency (in supervised representationlearning) and disentanglement (in unsupervised representationlearning) using counterfactual quantities and observable consequencesof causal assertions. This yields computable metrics that can be usedto assess the degree to which representations satisfy the desiderataof interest and learn non-spurious and disentangled representationsfrom single observational datasets.",
+    "authors": [
+        "Yixin Wang",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "yixinw@umich.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/yixinwang/representation-causal-public"
+        ]
+    ],
+    "id": "21-107",
+    "issue": 275,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Desiderata for Representation Learning: A Causal Perspective",
+    "volume": 25,
+    "year": 2024
+}

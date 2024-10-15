@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the constrained sampling problem where the goal is to sample from a target distribution $\\pi(x)\\propto e^{-f(x)}$ when $x$ is constrained to lie on a convex body $C\\subset \\mathbb{R}^d$. Motivated by penalty methods from continuous optimization, we propose and study penalized Langevin Dynamics (PLD) and penalized underdamped Langevin Monte Carlo (PULMC) methods for constrained sampling that convert the constrained sampling problem into an unconstrained sampling problem by introducing a penalty function for constraint violations. When $f$ is smooth and gradients of $f$ are available, we show ${\\tilde{O}}(d/\\varepsilon^{10})$ iteration complexity for PLD to sample the target up to an $\\varepsilon$-error where the error is measured in terms of the total variation distance and $\\tilde{O}(\\cdot)$ hides some logarithmic factors. For PULMC, we improve this result to $\\tilde{O}(\\sqrt{d}/\\varepsilon^{7})$ when the Hessian of $f$ is Lipschitz and the boundary of $C$ is sufficiently smooth. To our knowledge, these are the first convergence rate results for underdamped Langevin Monte Carlo methods in the constrained sampling setting that can handle non-convex choices of $f$ and can provide guarantees with the best dimension dependency among existing methods for constrained sampling when the gradients are deterministically available. We then consider the setting where only unbiased stochastic estimates of the gradients of $f$ are available, motivated by applications to large-scale Bayesian learning problems. We propose PSGLD and PSGULMC methods that are variants of PLD and PULMC that can handle stochastic gradients and that are scaleable to large datasets without requiring Metropolis-Hasting correction steps. For PSGLD and PSGULMC, when $f$ is strongly convex and smooth, we obtain an iteration complexity of $\\tilde{O}(d/\\varepsilon^{18})$ and $\\tilde{O}(d\\sqrt{d}/\\varepsilon^{39})$ respectively in the 2-Wasserstein distance. For the more general case, when $f$ is smooth and $f$ can be non-convex, we also provide finite-time performance bounds and iteration complexity results. Finally, we illustrate the performance of our algorithms on Bayesian LASSO regression and Bayesian constrained deep learning problems.",
+    "authors": [
+        "Mert Gurbuzbalaban",
+        "Yuanhan Hu",
+        "Lingjiong Zhu"
+    ],
+    "emails": [
+        "mg1366@rutgers.edu",
+        "yh586@scarletmail.rutgers.edu",
+        "zhu@math.fsu.edu"
+    ],
+    "id": "22-1443",
+    "issue": 263,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Penalized Overdamped and Underdamped Langevin Monte Carlo Algorithms for Constrained Sampling",
+    "volume": 25,
+    "year": 2024
+}

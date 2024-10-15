@@ -1,0 +1,53 @@
+{
+    "abstract": "Reinforcement learning (RL) is a versatile framework for optimizing long-term goals. Although many real-world problems can be formalized with RL, learning and deploying a performant RL policy requires a system designed to address several important challenges, including the exploration-exploitation dilemma, partial observability, dynamic action spaces, and safety concerns. While the importance of these challenges has been well recognized, existing open-source RL libraries do not explicitly address them. This paper introduces Pearl, a Production-Ready RL software package designed to embrace these challenges in a modular way. In addition to presenting benchmarking results, we also highlight examples of Pearl's ongoing industry adoption to demonstrate its advantages for production use cases. Pearl is open sourced on GitHub at github.com/facebookresearch/pearl and its official website is pearlagent.github.io.",
+    "authors": [
+        "Zheqing Zhu",
+        "Rodrigo de Salvo Braz",
+        "Jalaj Bhandari",
+        "Daniel Jiang",
+        "Yi Wan",
+        "Yonathan Efroni",
+        "Liyuan Wang",
+        "Ruiyang Xu",
+        "Hongbo Guo",
+        "Alex Nikulkov",
+        "Dmytro Korenkevych",
+        "Urun Dogan",
+        "Frank Cheng",
+        "Zheng Wu",
+        "Wanqiao Xu"
+    ],
+    "emails": [
+        "billzhu@meta.com",
+        "rodrigobraz@meta.com",
+        "jalajbhandari@meta.com",
+        "drjiang@meta.com",
+        "yiwan@meta.com",
+        "yonathane@meta.com",
+        "wangliyuan316@meta.com",
+        "ruiyangxu@meta.com",
+        "hongbog@meta.com",
+        "alexnik@meta.com",
+        "dkorenkevych@meta.com",
+        "urundogan@meta.com",
+        "frankcheng@meta.com",
+        "zhengwu07@meta.com",
+        "wanqiaoxu@meta.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "http://github.com/facebookresearch/pearl"
+        ]
+    ],
+    "id": "24-0196",
+    "issue": 273,
+    "pages": [
+        1,
+        30
+    ],
+    "special_issue": "MLOSS",
+    "title": "Pearl: A Production-Ready Reinforcement Learning Agent",
+    "volume": 25,
+    "year": 2024
+}

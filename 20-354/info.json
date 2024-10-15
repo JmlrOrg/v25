@@ -1,0 +1,24 @@
+{
+    "abstract": "Estimation of Gaussian graphical models is important in natural science when modeling the statistical relationships between variables in the form of a graph. The sparsity and clustering structure of the concentration matrix is enforced to reduce model complexity and describe inherent regularities. We propose a model to estimate the sparse Gaussian graphical models with hidden clustering structure, which also allows additional linear constraints to be imposed on the concentration matrix. We design an efficient two-phase algorithm for solving the proposed model. Specifically, we develop a symmetric Gauss-Seidel based alternating direction method of multipliers (sGS-ADMM) to generate an initial point to warm start the second phase algorithm, which is a proximal augmented Lagrangian method (pALM), to get a solution with high accuracy. Numerical experiments on both synthetic data and real data demonstrate the good performance of our model, as well as the efficiency and robustness of our proposed algorithm.",
+    "authors": [
+        "Meixia Lin",
+        "Defeng Sun",
+        "Kim-Chuan Toh",
+        "Chengjing Wang"
+    ],
+    "emails": [
+        "meixia_lin@sutd.edu.sg",
+        "defeng.sun@polyu.edu.hk",
+        "mattohkc@nus.edu.sg",
+        "renascencewang@hotmail.com"
+    ],
+    "id": "20-354",
+    "issue": 256,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Estimation of Sparse Gaussian Graphical Models with Hidden Clustering Structure",
+    "volume": 25,
+    "year": 2024
+}

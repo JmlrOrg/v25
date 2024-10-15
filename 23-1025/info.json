@@ -1,0 +1,22 @@
+{
+    "abstract": "We provide new nonasymptotic false discovery proportion (FDP) confidence envelopes in several multiple testing settings relevant for modern high dimensional-data methods. We revisit the multiple testing scenarios considered in the recent work of  Katsevich and Ramdas (2020): top-$k$, preordered (including knockoffs), online. Our emphasis is on obtaining FDP confidence bounds that both have non-asymptotical coverage and are asymptotically accurate in a specific sense, as the number $m$ of tested hypotheses grows. Namely, we introduce and study the property (which we call $m$-consistency) that the confidence bound converges to or below the desired level $\\alpha$ when applied to a specific reference $\\alpha$-level false discovery rate (FDR) controlling procedure. In this perspective, we derive new bounds that provide improvements over existing ones, both theoretically and practically, and are suitable for situations where at least a moderate number of rejections is expected. These improvements are illustrated with numerical experiments and real data examples. In particular, the improvement is significant in the knockoffs setting, which shows the impact of the method for a practical use. As side results, we introduce a new confidence envelope for the empirical cumulative distribution function of i.i.d. uniform variables, and we provide new power results in sparse cases, both being of independent interest.",
+    "authors": [
+        "Meah Iqraa",
+        "Blanchard Gilles",
+        "Roquain Etienne"
+    ],
+    "emails": [
+        "iqraa.meah@inserm.fr",
+        "gilles.blanchard@universite-paris-saclay.fr",
+        "etienne.roquain@sorbonne-universite.fr"
+    ],
+    "id": "23-1025",
+    "issue": 270,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "False discovery proportion envelopes with m-consistency",
+    "volume": 25,
+    "year": 2024
+}

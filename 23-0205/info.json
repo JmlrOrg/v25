@@ -1,0 +1,28 @@
+{
+    "abstract": "Multilayer networks describe the rich ways in which nodes are related by accounting for different relationships in separate layers. These multiple relationships are naturally represented by an adjacency tensor. In this work we study the use of the nonnegative Tucker decomposition (NNTuck) of such tensors under a KL loss as an expressive factor model that naturally generalizes existing stochastic block models of multilayer networks. Quantifying interdependencies between layers can identify redundancies in the structure of a network, indicate relationships between disparate layers, and potentially inform survey instruments for collecting social network data. We propose definitions of layer independence, dependence, and redundancy based on likelihood ratio tests between nested nonnegative Tucker decompositions. Using both synthetic and real-world data, we evaluate the use and interpretation of the NNTuck as a model of multilayer networks. Algorithmically, we show that using expectation maximization (EM) to maximize the log-likelihood under the NNTuck is step-by-step equivalent to tensorial multiplicative updates for the NNTuck under a KL loss, extending a previously known equivalence from nonnegative matrices to nonnegative tensors.",
+    "authors": [
+        "Izabel Aguiar",
+        "Dane Taylor",
+        "Johan Ugander"
+    ],
+    "emails": [
+        "izabel.p.aguiar@gmail.com",
+        "dane.taylor@uwyo.edu",
+        "jugander@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/izabelaguiar/NNTuck"
+        ]
+    ],
+    "id": "23-0205",
+    "issue": 282,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "A tensor factorization model of multilayer network interdependence",
+    "volume": 25,
+    "year": 2024
+}

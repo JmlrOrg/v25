@@ -1,0 +1,27 @@
+{
+    "abstract": "Bayesian Networks (BNs) are used in various fields for modeling, prediction, and decision making. pgmpy is a python package that provides a collection of algorithms and tools to work with BNs and related models. It implements algorithms for structure learning, parameter estimation, approximate and exact inference, causal inference, and simulations. These implementations focus on modularity and easy extensibility to allow users to quickly modify/add to existing algorithms, or to implement new algorithms for different use cases. pgmpy is released under the MIT License; the source code is available at: https://github.com/pgmpy/pgmpy, and the documentation at: https://pgmpy.org.",
+    "authors": [
+        "Ankur Ankan",
+        "Johannes Textor"
+    ],
+    "emails": [
+        "ankur.ankan@ru.nl",
+        "johannes.textor@ru.nl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/pgmpy"
+        ]
+    ],
+    "id": "23-0487",
+    "issue": 265,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "pgmpy: A Python Toolkit for Bayesian Networks",
+    "volume": 25,
+    "year": 2024
+}

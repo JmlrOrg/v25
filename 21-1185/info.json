@@ -1,0 +1,26 @@
+{
+    "abstract": "We consider the degree-Rips construction from topological data analysis, which provides a density-sensitive, multiparameter hierarchical clustering algorithm. We analyze its stability to perturbations of the input data using the correspondence-interleaving distance, a metric for hierarchical clusterings that we introduce. Taking certain one-parameter slices of degree-Rips recovers well-known methods for density-based clustering, but we show that these methods are unstable. However, we prove that degree-Rips, as a multiparameter object, is stable, and we propose an alternative approach for taking slices of degree-Rips, which yields a one-parameter hierarchical clustering algorithm with better stability properties. We prove that this algorithm is consistent, using the correspondence-interleaving distance. We provide an algorithm for extracting a single clustering from one-parameter hierarchical clusterings, which is stable with respect to the correspondence-interleaving distance. And, we integrate these methods into a pipeline for density-based clustering, which we call Persistable. Adapting tools from multiparameter persistent homology, we propose visualization tools that guide the selection of all parameters of the pipeline. We demonstrate Persistable on benchmark data sets, showing that it identifies multi-scale cluster structure in data.",
+    "authors": [
+        "Alexander Rolle",
+        "Luis Scoccola"
+    ],
+    "emails": [
+        "alexander.rolle@tum.de",
+        "luis.scoccola@maths.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LuisScoccola/persistable"
+        ]
+    ],
+    "id": "21-1185",
+    "issue": 258,
+    "pages": [
+        1,
+        74
+    ],
+    "title": "Stable and Consistent Density-Based Clustering via Multiparameter Persistence",
+    "volume": 25,
+    "year": 2024
+}

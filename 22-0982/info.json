@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the approximation of functions which are invariant with respect to certain permutations of the input indices using flow maps of dynamical systems.  Such invariant functions include the much studied translation-invariant ones involving image tasks, but also encompasses many permutation-invariant functions that find emerging applications in science and engineering.  We prove sufficient conditions for universal approximation of these functions by a controlled dynamical system, which can be viewed as a general abstraction of deep residual networks with symmetry constraints. These results not only imply the universal approximation for a variety of commonly employed neural network architectures for symmetric function approximation, but also guide the design of architectures with approximation guarantees for applications involving new symmetry requirements.",
+    "authors": [
+        "Qianxiao Li",
+        "Ting Lin",
+        "Zuowei Shen"
+    ],
+    "emails": [
+        "qianxiao@nus.edu.sg",
+        "lintingsms@pku.edu.cn",
+        "matzuows@nus.edu.sg"
+    ],
+    "id": "22-0982",
+    "issue": 278,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Deep Neural Network Approximation of Invariant Functions through Dynamical Systems",
+    "volume": 25,
+    "year": 2024
+}

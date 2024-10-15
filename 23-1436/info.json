@@ -1,0 +1,20 @@
+{
+    "abstract": "The vast majority of convergence rates analysis for stochastic gradient methods in the literature focus on convergence in expectation, whereas trajectory-wise almost sure convergence is clearly important to ensure that any instantiation of the stochastic algorithms would converge with probability one. Here we provide a unified almost sure convergence rates analysis for stochastic gradient descent (SGD), stochastic heavy-ball (SHB), and stochastic Nesterov's accelerated gradient (SNAG) methods.  We show, for the first time, that the almost sure convergence rates obtained for these stochastic gradient methods on strongly convex functions, are arbitrarily close to their optimal convergence rates possible. For non-convex objective functions, we not only show that a weighted average of the squared gradient norms converges to zero almost surely, but also the last iterates of the algorithms. We further provide last-iterate almost sure convergence rates analysis for stochastic gradient methods on general convex smooth functions, in contrast with most existing results in the literature that only provide convergence in expectation for a weighted average of the iterates. The last-iterate almost sure convergence results also enable us to obtain almost sure avoidance of any strict saddle manifold by stochastic gradient methods with or without momentum. To the best of our knowledge, this is the first time such results are obtained for SHB and SNAG methods.",
+    "authors": [
+        "Jun Liu",
+        "Ye Yuan"
+    ],
+    "emails": [
+        "j.liu@uwaterloo.ca",
+        "yye@hust.edu.cn"
+    ],
+    "id": "23-1436",
+    "issue": 271,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Almost Sure Convergence Rates Analysis and Saddle Avoidance of Stochastic Gradient Methods",
+    "volume": 25,
+    "year": 2024
+}

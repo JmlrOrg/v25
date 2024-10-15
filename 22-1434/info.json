@@ -1,0 +1,30 @@
+{
+    "abstract": "Gaussian processes are arguably the most important class of spatiotemporal models within machine learning. They encode prior information about the modeled function and can be used for exact or approximate Bayesian learning. In many applications, particularly in physical sciences and engineering, but also in areas such as geostatistics and neuroscience, invariance to symmetries is one of the most fundamental forms of prior information one can consider. The invariance of a Gaussian process' covariance to such symmetries gives rise to the most natural generalization of the concept of stationarity to such spaces. In this work, we develop constructive and practical techniques for building stationary Gaussian processes on a very large class of non-Euclidean spaces arising in the context of symmetries. Our techniques make it possible to (i) calculate covariance kernels and (ii) sample from prior and posterior Gaussian processes defined on such spaces, both in a practical manner. This work is split into two parts, each involving different technical considerations: part I studies compact spaces, while part II studies non-compact spaces possessing certain structure. Our contributions make the non-Euclidean Gaussian process models we study compatible with well-understood computational techniques available in standard Gaussian process software packages, thereby making them accessible to practitioners.",
+    "authors": [
+        "Iskander Azangulov",
+        "Andrei Smolensky",
+        "Alexander Terenin",
+        "Viacheslav Borovitskiy"
+    ],
+    "emails": [
+        "iska.azn@gmail.com",
+        "andrei.smolensky@gmail.com",
+        "avt28@cornell.edu",
+        "viacheslav.borovitskiy@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/imbirik/LieStationaryKernels"
+        ]
+    ],
+    "id": "22-1434",
+    "issue": 280,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Stationary Kernels and Gaussian Processes on Lie Groups and their Homogeneous Spaces I: the compact case",
+    "volume": 25,
+    "year": 2024
+}

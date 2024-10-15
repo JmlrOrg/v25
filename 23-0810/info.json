@@ -1,0 +1,28 @@
+{
+    "abstract": "Models with intractable normalizing functions have numerous applications. Because the normalizing constants are functions of the parameters of interest, standard Markov chain Monte Carlo cannot be used for Bayesian inference for these models. A number of algorithms have been developed for such models. Some have the posterior distribution as their asymptotic distribution. Other \"asymptotically inexact\" algorithms do not possess this property. There is limited guidance for evaluating approximations based on these algorithms. Hence it is very hard to tune them. We propose two new diagnostics that address these problems for intractable normalizing function models. Our first diagnostic, inspired by the second Bartlett identity, is in principle broadly applicable to Monte Carlo approximations beyond the normalizing function problem. We develop an approximate version of this diagnostic that is applicable to intractable normalizing function problems. Our second diagnostic is a Monte Carlo approximation to a kernel Stein discrepancy-based diagnostic introduced by Gorham and Mackey (2017). We provide theoretical justification for our methods and apply them to several algorithms in challenging simulated and real data examples including an Ising model, an exponential random graph model, and a Conway-Maxwell-Poisson regression model, obtaining interesting insights about the algorithms in these contexts.",
+    "authors": [
+        "Bokgyeong Kang",
+        "John Hughes",
+        "Murali Haran"
+    ],
+    "emails": [
+        "bokgyeong.kang@duke.edu",
+        "joh621@lehigh.edu",
+        "murali.haran@psu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bokgyeong/Diagnostics"
+        ]
+    ],
+    "id": "23-0810",
+    "issue": 286,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Measuring Sample Quality in Algorithms for Intractable Normalizing Function Problems",
+    "volume": 25,
+    "year": 2024
+}

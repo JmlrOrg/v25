@@ -1,0 +1,24 @@
+{
+    "abstract": "Compressed sensing is a signal processing technique used to efficiently acquire and reconstruct signals across various fields, including science, engineering, and business. A critical research challenge in compressed sensing is constructing a sensing matrix with desirable reconstruction properties. For optimal performance, the reconstruction process requires the sensing matrix to have low coherence. Several methods have been proposed to create deterministic sensing matrices. We propose a new statistical method to construct deterministic sensing matrices by intelligently sampling rows of Walsh-Hadamard matrices. Compared to existing methods, our approach yields sensing matrices with lower coherence, accommodates a more flexible number of measurements, and entails lower computational cost.",
+    "authors": [
+        "Youran Qi",
+        "Xu He",
+        "Tzu-Hsiang Hung",
+        "Peter Chien"
+    ],
+    "emails": [
+        "yqi28@wisc.edu",
+        "hexu@amss.ac.cn",
+        "thung6@wisc.edu",
+        "peter.chien@wisc.edu"
+    ],
+    "id": "22-0760",
+    "issue": 277,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "A Statistical Experimental Design Method for Constructing Deterministic Sensing Matrices for Compressed Sensing",
+    "volume": 25,
+    "year": 2024
+}

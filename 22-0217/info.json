@@ -1,0 +1,34 @@
+{
+    "abstract": "We introduce a formulation of regularized optimal transport problem for distributions on function spaces, where the stochastic map between functional domains can be approximated in terms of an (infinite-dimensional) Hilbert-Schmidt operator mapping a Hilbert space of functions to another. For numerous machine learning applications, data can be naturally viewed as samples drawn from spaces of functions, such as curves and surfaces, in high dimensions. Optimal transport for functional data analysis provides a useful framework of treatment for such domains. Since probability measures in infinite dimensional spaces generally lack absolute continuity (i.e., with respect to non-degenerate Gaussian measures), the Monge map in the standard optimal transport theory for finite dimensional spaces typically does not exist in the functional settings arising in such machine learning applications. This necessitates a suitable notion of approximation for the best pushforward measure to be obtained via a transport map. Indeed, our approach to the transportation problem in functional spaces is by a suitable regularization technique --- we restrict the class of transport maps to be a Hilbert-Schmidt space of operators.Within this regularization framework, we develop an efficient algorithm for finding the stochastic transport map between functional domains and provide theoretical guarantees on the existence, uniqueness, and consistency of our estimate for the Hilbert-Schmidt space of compact linear operators. We validate our method on synthetic datasets and examine the functional properties of the transport map. Experiments on real-world datasets of robot arm trajectories further demonstrate the effectiveness of our method on applications in domain adaptation.",
+    "authors": [
+        "Jiacheng Zhu",
+        "Aritra Guha",
+        "Dat Do",
+        "Mengdi Xu",
+        "XuanLong Nguyen",
+        "Ding Zhao"
+    ],
+    "emails": [
+        "jzhu.zjc@gmail.com",
+        "ag997x@att.com",
+        "dodat@umich.edu",
+        "mengdixu@andrew.cmu.edu",
+        "xuanlong@umich.edu",
+        "dingzhao@cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Jiacheng-Zhu-AIML/FOT"
+        ]
+    ],
+    "id": "22-0217",
+    "issue": 276,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Functional optimal transport: regularized map estimation and domain adaptation for functional data",
+    "volume": 25,
+    "year": 2024
+}

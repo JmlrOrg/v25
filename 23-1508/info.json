@@ -1,0 +1,30 @@
+{
+    "abstract": "We introduce a framework for designing boundary constrained Gaussian process (BCGP) priors for exact enforcement of linear boundary conditions, and apply it to the machine learning of (initial) boundary value problems involving linear partial differential equations (PDEs).In contrast to existing work, we illustrate how to design boundary constrained mean and kernel functions for all classes of boundary conditions typically used in PDE modelling, namely Dirichlet, Neumann, Robin and mixed conditions. Importantly, this is done in a manner which allows for both forward and inverse problems to be naturally accommodated. We prove that the BCGP kernel has a universal representational capacity under Dirichlet conditions, and establish a formal equivalence between BCGPs and boundary-constrained neural networks (BCNNs) of infinite width.Finally, extensive numerical experiments are performed involving several linear PDEs, the results of which demonstrate the effectiveness and robustness of BCGP inference in the presence of sparse, noisy data.",
+    "authors": [
+        "David Dalton",
+        "Alan Lazarus",
+        "Hao Gao",
+        "Dirk Husmeier"
+    ],
+    "emails": [
+        "david.dalton@glasgow.ac.uk",
+        "alan.lazarus@glasgow.ac.uk",
+        "hao.gao@glasgow.ac.uk",
+        "dirk.husmeier@glasgow.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dodaltuin/jax-pigp/tree/main/examples/BCGPs"
+        ]
+    ],
+    "id": "23-1508",
+    "issue": 272,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Boundary constrained Gaussian processes for robust physics-informed machine learning of linear partial differential equations",
+    "volume": 25,
+    "year": 2024
+}

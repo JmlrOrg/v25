@@ -1,0 +1,24 @@
+{
+    "abstract": "In this work, we investigate the $K$-sample clustering of populations subject to contamination phenomena. A contamination model is a two-component mixture model where one component is known (standard behaviour) and the second component, modeling a departure from the standard behaviour, is unknown.When $K$ populations from such a model are observed we propose a semiparametric clustering methodology to detect which populations are impacted by the same type of contamination, with the aim of faciliting coordinated diagnosis and best practices sharing. We prove the consistency of our approach under the assumption of the existence of true clusters and demonstrate the performances of our methodology through an extensive Monte Carlo study. Finally, we apply our methodology, implemented in the R admix package, to a European countries COVID-19 excess of mortality dataset, aiming to cluster countries similarly impacted by the pandemic across different age groups.",
+    "authors": [
+        "Xavier Milhaud",
+        "Denys Pommeret",
+        "Yahia Salhi",
+        "Pierre Vandekerkhove"
+    ],
+    "emails": [
+        "xavier.milhaud@univ-amu.fr",
+        "denys.pommeret@univ-amu.fr",
+        "yahia.salhi@univ-lyon1.fr",
+        "pierre.vandekerkhove@univ-eiffel.fr"
+    ],
+    "id": "23-0914",
+    "issue": 287,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Contamination-source based K-sample clustering",
+    "volume": 25,
+    "year": 2024
+}

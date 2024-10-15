@@ -1,0 +1,26 @@
+{
+    "abstract": "Recent advancements in unsupervised domain adaptation (UDA) and semi-supervised learning (SSL), particularly incorporating causality, have led to significant methodological improvements in these learning problems. However, a formal theory that explains the role of causality in the generalization performance of UDA/SSL is still lacking. In this paper, we consider the UDA/SSL scenarios where we access $m$ labelled source data and $n$ unlabelled target data as training instances under different causal settings with a parametric probabilistic model. We study the learning performance (e.g., excess risk) of prediction in the target domain from an information-theoretic perspective. Specifically, we distinguish two scenarios: the learning problem is called causal learning if the feature is the cause and the label is the effect, and is called anti-causal learning otherwise.  We show that in causal learning, the excess risk depends on the size of the source sample at a rate of $O(\\frac{1}{m})$ only if the labelling distribution between the source and target domains remains unchanged. In anti-causal learning, we show that the unlabelled data dominate the performance at a rate of typically $O(\\frac{1}{n})$. These results bring out the relationship between the data sample size and the hardness of the learning problem with different causal mechanisms.",
+    "authors": [
+        "Xuetong Wu",
+        "Mingming Gong",
+        "Jonathan H. Manton",
+        "Uwe Aickelin",
+        "Jingge Zhu"
+    ],
+    "emails": [
+        "xuetongw1@student.unimelb.edu.au",
+        "mingming.gong@unimelb.edu.au",
+        "jmanton@unimelb.edu.au",
+        "uwe.aickelin@unimelb.edu.au",
+        "jingge.zhu@unimelb.edu.au"
+    ],
+    "id": "22-1024",
+    "issue": 261,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "On Causality in Domain Adaptation and Semi-Supervised Learning: an Information-Theoretic Analysis for Parametric Models",
+    "volume": 25,
+    "year": 2024
+}

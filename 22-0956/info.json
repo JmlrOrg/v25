@@ -1,0 +1,22 @@
+{
+    "abstract": "Mean-Field Control (MFC) has recently been proven to be a scalable tool to approximately solve large-scale multi-agent reinforcement learning (MARL) problems. However, these studies are typically limited to unconstrained cumulative reward maximization framework. In this paper, we show that one can use the MFC approach to approximate the MARL problem even in the presence of constraints. Specifically, we prove that, an $N$-agent constrained MARL problem, with state, and action spaces of each individual agents being of sizes $|\\mathcal{X}|$, and $|\\mathcal{U}|$ respectively, can be approximated by an associated constrained MFC problem with an error, $e\\triangleq \\mathcal{O}\\left([\\sqrt{|\\mathcal{X}|}+\\sqrt{|\\mathcal{U}|}]/\\sqrt{N}\\right)$. In a special case where the reward, cost, and state transition functions are independent of the action distribution of the population, we prove that the error can be improved to $e=\\mathcal{O}(\\sqrt{|\\mathcal{X}|}/\\sqrt{N})$. Also, we provide a Natural Policy Gradient based algorithm, and prove that it can solve the constrained MARL problem within an error of $\\mathcal{O}(e)$ with a sample complexity of $\\mathcal{O}(e^{-6})$.",
+    "authors": [
+        "Washim Uddin Mondal",
+        "Vaneet Aggarwal",
+        "Satish V. Ukkusuri"
+    ],
+    "emails": [
+        "wmondal@iitk.ac.in",
+        "vaneet@purdue.edu",
+        "sukkusur@purdue.edu"
+    ],
+    "id": "22-0956",
+    "issue": 260,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Mean-Field Approximation of Cooperative Constrained Multi-Agent Reinforcement Learning (CMARL)",
+    "volume": 25,
+    "year": 2024
+}

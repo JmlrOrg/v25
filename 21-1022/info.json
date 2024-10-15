@@ -1,0 +1,20 @@
+{
+    "abstract": "Recent literature has advocated the use of randomized methods foraccelerating the solution of various matrix problems arising inmachine learning and data science. One popular strategy for leveraging randomization in numerical linear algebra is to use it as a way to reduce problem size. However, methods based on this strategy lack sufficient accuracy for some applications. Randomized preconditioning is another approach for leveraging randomization in numerical linear algebra, which provides higher accuracy. The main challenge in using randomized preconditioning is the need for an underlying iterative method, thus randomized preconditioning so far has been applied almost exclusively to solving regression problems and linear systems. In this article, we show how to expand the application of randomized preconditioning to another important set of problems prevalent in machine learning: optimization problems with (generalized) orthogonality constraints. We demonstrate our approach, which is based on the framework of Riemannian optimization and Riemannian preconditioning, on the problem of computing the dominant canonical correlations and on the Fisher linear discriminant analysis problem. More broadly, our method is designed for problems with input matrices featuring one dimension much larger than the other (e.g., the number of samples much larger than the number of features). For both problems, we evaluate the effect of preconditioning on the computational costs and asymptotic convergenceand demonstrate empirically the utility of our approach.",
+    "authors": [
+        "Boris Shustin",
+        "Haim Avron"
+    ],
+    "emails": [
+        "borisshy@gmail.com",
+        "haimav@tauex.tau.ac.il"
+    ],
+    "id": "21-1022",
+    "issue": 257,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Faster Randomized Methods for Orthogonality Constrained Problems",
+    "volume": 25,
+    "year": 2024
+}

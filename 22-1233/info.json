@@ -1,0 +1,28 @@
+{
+    "abstract": "Due to concerns about parametric model misspecification, there is interest in using machine learning to adjust for confounding when evaluating the causal effect of an exposure on an outcome. Unfortunately, exposure effect estimators that rely on machine learning predictions are generally subject to so-called plug-in bias, which can render naive p-values and confidence intervals invalid. Progress has been made via proposals like targeted minimum loss estimation and more recently double machine learning, which rely on learning the conditional mean of both the outcome and exposure. Valid inference can then be obtained so long as both predictions converge (sufficiently fast) to the truth. Focusing on partially linear regression models, we show that a specific implementation of the machine learning techniques can yield exposure effect estimators that have small bias even when one of the first-stage predictions does not converge to the truth. The resulting tests and confidence intervals are doubly robust.  We also show that the proposed estimators may fail to be regular when only one nuisance parameter is consistently estimated;  nevertheless, we observe in simulation studies that our proposal can lead to reduced bias and improved confidence interval coverage in moderate-to-large samples.",
+    "authors": [
+        "Oliver Dukes",
+        "Stijn Vansteelandt",
+        "David Whitney"
+    ],
+    "emails": [
+        "oliver.dukes@ugent.be",
+        "stijn.vansteelandt@ugent.be",
+        "david.e.whitney@gsk.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ordukes/DRInference/tree/main"
+        ]
+    ],
+    "id": "22-1233",
+    "issue": 279,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "On Doubly Robust Inference for Double Machine Learning in Semiparametric Regression",
+    "volume": 25,
+    "year": 2024
+}

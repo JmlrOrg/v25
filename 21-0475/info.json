@@ -1,0 +1,20 @@
+{
+    "abstract": "Decentralized optimization over time-varying graphs has been increasingly common in modern machine learning with massive data stored on millions of mobile devices, such as in federated learning. This paper revisits the widely used accelerated gradient tracking and extends it to time-varying graphs. We prove that the practical single loop accelerated gradient tracking needs $O((\\frac{\\gamma}{1-\\sigma_{\\gamma}})^2\\sqrt{\\frac{L}{\\epsilon}})$ and $O((\\frac{\\gamma}{1-\\sigma_{\\gamma}})^{1.5}\\sqrt{\\frac{L}{\\mu}}\\log\\frac{1}{\\epsilon})$ iterations to reach an $\\epsilon$-optimal solution over time-varying graphs when the problems are nonstrongly convex and strongly convex, respectively, where $\\gamma$ and $\\sigma_{\\gamma}$ are two common constants charactering the network connectivity, $L$ and $\\mu$ are the smoothness and strong convexity constants, respectively, and one iteration corresponds to one gradient oracle call and one communication round. Our convergence rates improve significantly over the ones of $O(\\frac{1}{\\epsilon^{5/7}})$ and $O((\\frac{L}{\\mu})^{5/7}\\frac{1}{(1-\\sigma)^{1.5}}\\log\\frac{1}{\\epsilon})$, respectively, which were proved in the original literature of accelerated gradient tracking only for static graphs, where $\\frac{\\gamma}{1-\\sigma_{\\gamma}}$ equals $\\frac{1}{1-\\sigma}$ when the network is time-invariant. When combining with a multiple consensus subroutine, the dependence on the network connectivity constants can be further improved to $O(1)$ and $O(\\frac{\\gamma}{1-\\sigma_{\\gamma}})$ for the gradient oracle and communication round complexities, respectively. When the network is static, by employing the Chebyshev acceleration, our complexities exactly match the lower bounds without hiding any poly-logarithmic factor for both nonstrongly convex and strongly convex problems.",
+    "authors": [
+        "Huan Li",
+        "Zhouchen Lin"
+    ],
+    "emails": [
+        "lihuanss@nankai.edu.cn",
+        "zlin@pku.edu.cn"
+    ],
+    "id": "21-0475",
+    "issue": 274,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Accelerated Gradient Tracking over Time-varying Graphs for Decentralized Optimization",
+    "volume": 25,
+    "year": 2024
+}
