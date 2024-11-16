@@ -1,0 +1,30 @@
+{
+    "abstract": "With observational data alone, causal structure learning is a challenging problem. The task becomes easier when having access to data collected from perturbations of the underlying system, even when the nature of these is unknown. Existing methods either do not allow for the presence of latent variables or assume that these remain unperturbed. However, these assumptions are hard to justify if the nature of the perturbations is unknown. We provide results that enable scoring causal structures in the setting with additive, but unknown interventions. Specifically, we propose a maximum-likelihood estimator in a structural equation model that exploits system-wide invariances to output an equivalence class of causal structures from perturbation data. Furthermore, under certain structural assumptions on the population model, we provide a simple graphical characterization of all the DAGs in the interventional equivalence class. We illustrate the utility of our framework on synthetic data as well as real data involving California reservoirs and protein expressions. The software implementation is available as the Python package utlvce.",
+    "authors": [
+        "Armeen Taeb",
+        "Juan L. Gamella",
+        "Christina Heinze-Deml",
+        "Peter B{{\\\"u}}hlmann"
+    ],
+    "emails": [
+        "ataeb@uw.edu",
+        "juan.gamella@stat.math.ethz.ch",
+        "heinzedeml@stat.math.ethz.ch",
+        "peter.buehlmann@stat.math.ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/juangamella/ut-lvce-paper"
+        ]
+    ],
+    "id": "22-0979",
+    "issue": 293,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Learning and scoring Gaussian latent variable causal models with unknown additive interventions",
+    "volume": 25,
+    "year": 2024
+}

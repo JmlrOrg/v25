@@ -1,0 +1,26 @@
+{
+    "abstract": "Change point estimation is often formulated as a search for the maximum of a gain function describing improved fits when segmenting the data. Searching one change point through all candidates requires $O(n)$ evaluations of the gain function for an interval with $n$ observations. If each evaluation is computationally demanding (e.g. in high-dimensional models), this can become infeasible. Instead, we propose optimistic search, a methodology that only requires $O(\\log n)$ evaluations of the gain function, leading to huge computational gains for massive (large-scale, high-dimensional) data for single and multiple change point estimation. Towards solid understanding of our strategy, we investigate in detail the $p$-dimensional Gaussian changing means setup, including high-dimensional scenarios. For some of our proposals, we prove asymptotic minimax optimality for detecting change points and derive sharp asymptotic rates for localizing change points. Our search strategy generalizes far beyond the theoretically analyzed setup. We illustrate, as an example, massive computational speedup in change point detection for high-dimensional Gaussian graphical models.",
+    "authors": [
+        "Solt Kov{{\\'a}}cs",
+        "Housen Li",
+        "Lorenz Haubner",
+        "Axel Munk",
+        "Peter B{{\\\"u}}hlmann"
+    ],
+    "emails": [
+        "kovacssolt@gmail.com",
+        "housen.li@mathematik.uni-goettingen.de",
+        "lorenz.haubner@gmail.com",
+        "munk@math.uni-goettingen.de",
+        "peter.buehlmann@stat.math.ethz.ch"
+    ],
+    "id": "23-0871",
+    "issue": 297,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Optimistic Search: Change Point Estimation for Large-scale Data via Adaptive Logarithmic Queries",
+    "volume": 25,
+    "year": 2024
+}

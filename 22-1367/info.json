@@ -1,0 +1,32 @@
+{
+    "abstract": "Modern technology has contributed to the rise of high-dimensional data in various domains such as bio-informatics, chemometrics, and face recognition. In the recent literature, random projections and, in particular, randomly-projected ensembles based on the classical Linear Discriminant Analysis (LDA), have been proposed for classification problems involving such high-dimensional data. In this work, we study the two main classes of randomly-projected LDA ensemble classifiers, namely discriminant averaging and vote averaging. Through asymptotic analysis in a growth regime where the problem dimensions are assumed to grow at constant rates to each other for a fixed ensemble size, we determine the exact mechanism through which the ensemble size affects the classification performance. Furthermore, we investigate whether projection selection truly matters in an ensemble setting, and, ultimately, derive the optimal form of the randomly-projected LDA ensemble. Motivated by these findings, we propose a framework for efficient tuning of the optimal classifier's ensemble size and projection dimension based on an estimator of the classifier probability of misclassification which is consistent under the assumed growth regime. The proposed framework is shown to outperform the existing rule-of-thumb, as well as other methods for parameter tuning, on both real and synthetic data.",
+    "authors": [
+        "Lama B. Niyazi",
+        "Abla Kammoun",
+        "Hayssam Dahrouj",
+        "Mohamed-Slim Alouini",
+        "Tareq Y. Al-Naffouri"
+    ],
+    "emails": [
+        "lama.niyazi@kaust.edu.sa",
+        "abla.kammoun@kaust.edu.sa",
+        "hayssam.dahrouj@gmail.com",
+        "slim.alouini@kaust.edu.sa",
+        "tareq.alnaffouri@kaust.edu.sa"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/niyazil/DA-RP-ensemble_tuning"
+        ]
+    ],
+    "id": "22-1367",
+    "issue": 294,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "An Asymptotic Study of Discriminant and Vote-Averaging Schemes for Randomly-Projected Linear Discriminants",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Stochastic majorization-minimization (SMM) is a class of stochastic optimization algorithms that proceed by sampling new data points and minimizing a  recursive average of surrogate functions of an objective function. The surrogates are required to be strongly convex and the existing convergence rate analysis for the general non-convex setting was not available.  In this paper, we propose an extension of SMM where surrogates are allowed to be only weakly convex or block multi-convex, and the averaged surrogates are approximately minimized with proximal regularization or block-minimized within diminishing radii, respectively. For the general nonconvex constrained setting with non-i.i.d. data samples,  we show that the first-order optimality gap of the proposed algorithm decays at the rate $\\widetilde{O}(n^{-1/4})$ for the empirical loss and $\\widetilde{O}(n^{-1/8})$ for the expected loss, where $n$ denotes the number of data samples processed. Under some additional assumption, the latter convergence rate can be improved to $\\widetilde{O}(n^{-1/4})$. As a corollary, we obtain the first convergence rate bounds for various optimization methods under general nonconvex non-i.i.d. data setting: Double-averaging projected gradient descent and its generalizations, proximal point empirical risk minimization,  and online matrix/tensor decomposition algorithms. We also provide experimental validation of our results.",
+    "authors": [
+        "Hanbaek Lyu"
+    ],
+    "emails": [
+        "hlyu@math.wisc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/HanbaekLyu/SRMM"
+        ]
+    ],
+    "id": "23-0349",
+    "issue": 306,
+    "pages": [
+        1,
+        83
+    ],
+    "title": "Stochastic Regularized Majorization-Minimization with weakly convex and multi-convex surrogates",
+    "volume": 25,
+    "year": 2024
+}

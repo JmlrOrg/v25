@@ -1,0 +1,30 @@
+{
+    "abstract": "Instrumental variable (IV) regression relies on instruments to infer causal e\ufb00ects from observational data with unobserved confounding. We consider IV regression in time series models, such as vector auto-regressive (VAR) processes. Direct applications of i.i.d. techniques are generally inconsistent as they do not correctly adjust for dependencies in the past. In this paper, we outline the di\ufb03culties that arise due to time structure and propose methodology for constructing identifying equations that can be used for consistent parametric estimation of causal e\ufb00ects in time series data. One method uses extra nuisance covariates to obtain identifiability (an idea that can be of interest even in the i.i.d. case). We further propose a graph marginalization framework that allows us to apply nuisance IV and other IV methods in a principled way to time series. Our methods make use of a version of the global Markov property, which we prove holds for VAR(p) processes. For VAR(1) processes, we prove identifiability conditions that relate to Jordan forms and are di\ufb00erent from the well-known rank conditions in the i.i.d. case (they do not require as many instruments as covariates, for example). We provide methods, prove their consistency, and show how the inferred causal e\ufb00ect can be used for distribution generalization. Simulation experiments corroborate our theoretical results. We provide ready-to-use Python code.",
+    "authors": [
+        "Nikolaj Thams",
+        "Rikke S{{\\o}}ndergaard",
+        "Sebastian Weichwald",
+        "Jonas Peters"
+    ],
+    "emails": [
+        "thams@math.ku.dk",
+        "rsn@math.ku.dk",
+        "sweichwald@math.ku.dk",
+        "jonas.peters@math.ku.dk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nikolajthams/its-time/"
+        ]
+    ],
+    "id": "22-0262",
+    "issue": 302,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Identifying Causal E\ufb00ects using Instrumental Time Series: Nuisance IV and Correcting for the Past",
+    "volume": 25,
+    "year": 2024
+}

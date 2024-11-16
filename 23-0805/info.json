@@ -1,0 +1,24 @@
+{
+    "abstract": "While monotone operator theory is often studied on Hilbert spaces, many interesting problems in machine learning and optimization arise naturally in finite-dimensional vector spaces endowed with non-Euclidean norms, such as diagonally-weighted $\\ell_{1}$ or $\\ell_{\\infty}$ norms. This paper provides a natural generalization of monotone operator theory to finite-dimensional non-Euclidean spaces. The key tools are weak pairings and logarithmic norms. We show that the resolvent and reflected resolvent operators of non-Euclidean monotone mappings exhibit similar properties to their counterparts in Hilbert spaces. Furthermore, classical iterative methods and splitting methods for finding zeros of monotone operators are shown to converge in the non-Euclidean case. We apply our theory to equilibrium computation and Lipschitz constant estimation of recurrent neural networks, obtaining novel iterations and tighter upper bounds via forward-backward splitting.",
+    "authors": [
+        "Alexander Davydov",
+        "Saber Jafarpour",
+        "Anton V. Proskurnikov",
+        "Francesco Bullo"
+    ],
+    "emails": [
+        "davydov@ucsb.edu",
+        "saber.jafarpour@colorado.edu",
+        "anton.p.1982@ieee.org",
+        "bullo@ucsb.edu"
+    ],
+    "id": "23-0805",
+    "issue": 307,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Non-Euclidean Monotone Operator Theory and Applications",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "Many existing mechanisms for achieving differential privacy (DP) on infinite-dimensional functional summaries typically involve embedding these functional summaries into finite-dimensional subspaces and applying traditional multivariate DP techniques. These mechanisms generally treat each dimension uniformly and struggle with complex, structured summaries. This work introduces a novel mechanism to achieve pure DP for functional summaries in a separable infinite-dimensional Hilbert space, named the Independent Component Laplace Process (ICLP) mechanism. This mechanism treats the summaries of interest as truly infinite-dimensional functional objects, thereby addressing several limitations of the existing mechanisms. Several statistical estimation problems are considered, and we demonstrate how one can enhance the utility of private summaries by oversmoothing the non-private counterparts. Numerical experiments on synthetic and real datasets demonstrate the effectiveness of the proposed mechanism.",
+    "authors": [
+        "Haotian Lin",
+        "Matthew Reimherr"
+    ],
+    "emails": [
+        "hzl435@psu.edu",
+        "mreimherr@psu.edu"
+    ],
+    "id": "22-1384",
+    "issue": 305,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Pure Differential Privacy for Functional Summaries with a Laplace-like Process",
+    "volume": 25,
+    "year": 2024
+}

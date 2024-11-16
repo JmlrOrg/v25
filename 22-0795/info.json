@@ -1,0 +1,24 @@
+{
+    "abstract": "The Neyman-Pearson (NP) binary classification paradigm constrains the more severe type of error (e.g., the type I error) under a preferred level while minimizing the other (e.g., the type II error). This paradigm is suitable for applications such as severe disease diagnosis, fraud detection, among others. A series of NP classifiers have been developed to guarantee the type I error control with high probability.  However, these existing classifiers involve a sample splitting step: a mixture of class 0 and class 1 observations to construct a scoring function and some left-out class 0 observations to construct a threshold. This splitting enables classifier threshold construction built upon independence, but it amounts to insufficient use of data for training and a potentially higher type II error.  Leveraging a canonical linear discriminant analysis (LDA) model, we derive a quantitative CLT for a certain functional of quadratic forms of the inverse of sample and population covariance matrices,  and based on this result,  develop for the first time NP classifiers without splitting the training sample.  Numerical experiments have confirmed the advantages of our new non-splitting parametric strategy.",
+    "authors": [
+        "Jingming Wang",
+        "Lucy Xia",
+        "Zhigang Bao",
+        "Xin Tong"
+    ],
+    "emails": [
+        "pdw9qv@virginia.edu",
+        "lucyxia@ust.hk",
+        "zgbao@hku.hk",
+        "xint@marshall.usc.edu"
+    ],
+    "id": "22-0795",
+    "issue": 292,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Non-splitting Neyman-Pearson Classifiers",
+    "volume": 25,
+    "year": 2024
+}

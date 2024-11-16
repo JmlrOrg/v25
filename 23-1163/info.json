@@ -1,0 +1,18 @@
+{
+    "abstract": "In this paper, we study the commutativity of infinite width and depth limits in deep neural networks. Our aim is to understand the behavior of neural functions (functions that depend on a neural network model) as width and depth go to infinity (in some sense), and eventually identify settings under which commutativity holds, i.e. the neural function tends to the same limit no matter how width and depth limits are taken. In this paper, we formally introduce and define the commutativity framework, and discuss its implications on neural network design and scaling. We study commutativity for the neural covariance kernel which reflects how network layers separate data. Our findings extend previous results established in Hayou and Yang (2023) by showing that taking the width and depth to infinity in a deep neural network with skip connections, when branches are suitably scaled to avoid exploding behavior, result in the same covariance structure no matter how that limit is taken. This has a number of theoretical and practical implications that we discuss in the paper. The proof techniques in this paper are new and rely on tools that are more accessible to readers who are not familiar with stochastic calculus (used in the proofs of Hayou and Yang (2023)).",
+    "authors": [
+        "Soufiane Hayou"
+    ],
+    "emails": [
+        "hayou@berkeley.edu"
+    ],
+    "id": "23-1163",
+    "issue": 299,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Commutative Scaling of Width and Depth in Deep Neural Networks",
+    "volume": 25,
+    "year": 2024
+}

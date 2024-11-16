@@ -1,0 +1,24 @@
+{
+    "abstract": "Information-theoretic measures have been widely adopted for machine learning (ML) feature design. Inspired by this, we look at the relationship between information loss in the Shannon sense and the operation loss in the minimum probability of error (MPE) sense when considering a family of lossy representations. Our first result offers a lower bound on a weak form of information loss as a function of its respective operation loss when adopting a discrete encoder. When considering a general family of lossy continuous representations, we show that a form of vanishing information loss (a weak informational sufficiency (WIS)) implies a vanishing MPE loss. Our findings support the observation that selecting/designing representations that capture informational sufficiency is appropriate for learning. However, this selection is rather conservative if the intended goal is achieving MPE in classification. Supporting this, we show that it is possible to adopt an alternative notion of informational sufficiency (strictly weaker than pure sufficiency in the mutual information sense) to achieve operational sufficiency in learning. Furthermore, our new WIS condition is used to demonstrate the expressive power of digital encoders and the capacity of two existing compression-based algorithms to achieve lossless prediction in ML.",
+    "authors": [
+        "Jorge F. Silva",
+        "Felipe Tobar",
+        "Mario Vicu{\\~{n}}a",
+        "Felipe Cordova"
+    ],
+    "emails": [
+        "jorgesil.edu@gmail.com",
+        "f.tobar@imperial.ac.uk",
+        "mario.vicuna@ing.uchile.cl",
+        "felipecordova@ug.uchile.cl"
+    ],
+    "id": "21-1551",
+    "issue": 291,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Studying the Interplay between Information Loss and Operation Loss in Representations for Classification",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,32 @@
+{
+    "abstract": "Quantifying uncertainty about a policy's long-term performance is important to solve sequential decision-making tasks. We study the problem from a model-based Bayesian reinforcement learning perspective, where the goal is to learn the posterior distribution over value functions induced by parameter (epistemic) uncertainty of the Markov decision process. Previous work restricts the analysis to a few moments of the distribution over values or imposes a particular distribution shape, e.g., Gaussians. Inspired by distributional reinforcement learning, we introduce a Bellman operator whose fixed-point is the value distribution function. Based on our theory, we propose Epistemic Quantile-Regression (EQR), a model-based algorithm that learns a value distribution function. We combine EQR with soft actor-critic (SAC) for policy optimization with an arbitrary differentiable objective function of the learned value distribution. Evaluation across several continuous-control tasks shows performance benefits with respect to both model-based and model-free algorithms. The code is available at https://github.com/boschresearch/dist-mbrl.",
+    "authors": [
+        "Carlos E. Luis",
+        "Alessandro G. Bottero",
+        "Julia Vinogradska",
+        "Felix Berkenkamp",
+        "Jan Peters"
+    ],
+    "emails": [
+        "carlos@robot-learning.de",
+        "alessandrogiacomo.bottero@bosch.com",
+        "julia.vinogradska@bosch.com",
+        "felix.berkenkamp@bosch.com",
+        "jan.peters@tu-darmstadt.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/boschresearch/dist-mbrl"
+        ]
+    ],
+    "id": "23-0913",
+    "issue": 298,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Value-Distributional Model-Based Reinforcement Learning",
+    "volume": 25,
+    "year": 2024
+}

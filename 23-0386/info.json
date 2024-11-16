@@ -1,0 +1,43 @@
+{
+    "abstract": "In this paper, we present an open-source pure-Python library called PyPop7 for black-box optimization (BBO). As population-based methods (e.g., evolutionary algorithms, swarm intelligence, and pattern search) become increasingly popular for BBO, the design goal of PyPop7 is to provide a unified API and elegant implementations for them, particularly in challenging high-dimensional scenarios. Since these population-based methods easily suffer from the notorious curse of dimensionality owing to random sampling as one of core operations for most of them, recently various improvements and enhancements have been proposed to alleviate this issue more or less mainly via exploiting possible problem structures: such as, decomposition of search distribution or space, low-memory approximation, low-rank metric learning, variance reduction, ensemble of random subspaces, model self-adaptation, and fitness smoothing. These novel sampling strategies could better exploit different problem structures in high-dimensional search space and therefore they often result in faster rates of convergence and/or better qualities of solution for large-scale BBO. Now PyPop7 has covered many of these important advances on a set of well-established BBO algorithm families and also provided an open-access interface to adding the latest or missed black-box optimizers for further functionality extensions. Its well-designed source code (under GPL-3.0 license) and full-fledged online documents (under CC-BY 4.0 license) have been freely available at https://github.com/Evolutionary-Intelligence/pypop and https://pypop.readthedocs.io, respectively.",
+    "authors": [
+        "Qiqi Duan",
+        "Guochen Zhou",
+        "Chang Shao",
+        "Zhuowei Wang",
+        "Mingyang Feng",
+        "Yuwei Huang",
+        "Yajing Tan",
+        "Yijun Yang",
+        "Qi Zhao",
+        "Yuhui Shi"
+    ],
+    "emails": [
+        "11749325@mail.sustech.edu.cn",
+        "12132378@mail.sustech.edu.cn",
+        "chang.shao@student.uts.edu.au",
+        "zhuowei.wang@csiro.au",
+        "11856010@mail.sustech.edu.cn",
+        "12332473@mail.sustech.edu.cn",
+        "12332416@mail.sustech.edu.cn",
+        "altmanyang@tencent.com",
+        "zhaoq@sustech.edu.cn",
+        "shiyh@sustech.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Evolutionary-Intelligence/pypop"
+        ]
+    ],
+    "id": "23-0386",
+    "issue": 296,
+    "pages": [
+        1,
+        28
+    ],
+    "special_issue": "MLOSS",
+    "title": "PyPop7: A Pure-Python Library for Population-Based Black-Box Optimization",
+    "volume": 25,
+    "year": 2024
+}

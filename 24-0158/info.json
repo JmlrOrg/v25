@@ -1,0 +1,18 @@
+{
+    "abstract": "A fundamental question in machine learning is: \"What are the chances that a statistically significant result will replicate?\" The standard framework of null hypothesis significance testing, however, cannot answer this question directly. In this work, we derive formulas for estimating the replication probability that are applicable in two of the most widely used experimental designs in machine learning: the comparison of two classifiers over multiple benchmark datasets and the comparison of two classifiers in k-fold cross-validation. Using simulation studies, we show that p-values just below the common significance threshold of 0.05 are insufficient to warrant a high confidence in the replicability of significant results, as such p-values are barely more informative than the flip of a coin. If a replication probability of around 0.95 is desired, then the significance threshold should be lowered to at least 0.003. This observation might explain, at least in part, why many published research findings fail to replicate.",
+    "authors": [
+        "Daniel Berrar"
+    ],
+    "emails": [
+        "daniel.berrar@open.ac.uk"
+    ],
+    "id": "24-0158",
+    "issue": 311,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Estimating the Replication Probability of Significant Classification Benchmark Experiments",
+    "volume": 25,
+    "year": 2024
+}

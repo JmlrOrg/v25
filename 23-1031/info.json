@@ -1,0 +1,22 @@
+{
+    "abstract": "Maximum mean discrepancy (MMD) has enjoyed a lot of success in many machine learning and statistical applications, including non-parametric hypothesis testing, because of its ability to handle non-Euclidean data. Recently, it has been demonstrated in Balasubramanian et al. (2021) that the goodness-of-fit test based on MMD is not minimax optimal while a Tikhonov regularized version of it is, for an appropriate choice of the regularization parameter. However, the results in Balasubramanian et al. (2021) are obtained under the restrictive assumptions of the mean element being zero, and the uniform boundedness condition on the eigenfunctions of the integral operator. Moreover, the test proposed in Balasubramanian et al. (2021) is not practical as it is not computable for many kernels. In this paper, we address these shortcomings and extend the results to general spectral regularizers that include Tikhonov regularization.",
+    "authors": [
+        "Omar Hagrass",
+        "Bharath K. Sriperumbudur",
+        "Bing Li"
+    ],
+    "emails": [
+        "oih3@psu.edu",
+        "bks18@psu.edu",
+        "bxl9@psu.edu"
+    ],
+    "id": "23-1031",
+    "issue": 309,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Spectral Regularized Kernel Goodness-of-Fit Tests",
+    "volume": 25,
+    "year": 2024
+}

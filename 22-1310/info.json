@@ -1,0 +1,22 @@
+{
+    "abstract": "Multistage design has been utilized across a variety of scientific fields, enabling the adaptive allocation of sensing resources to effectively eliminate null locations and localize signals. We present a decision-theoretic framework for multi-stage adaptive testing that minimizes the total number of measurements while ensuring pre-specified constraints on both the false positive rate (FPR) and the missed discovery rate (MDR). Our method, SMART, explicitly addresses the often-overlooked aspect of uncertainty quantification in machine learning algorithms, incorporating it at every decision stage. This enables SMART to respond adaptively to important patterns in the data streams, adjusting its decisions based on the strength of evidence at specific locations. By leveraging technical tools and key concepts from multiple testing, adaptive thresholding, and compound decision theory, SMART not only enhances the aggregation of information across individual tests but also allows for varying thresholds tailored to the observed data, thereby ensuring effective error rate control and resulting in significant savings on total study costs. Through comprehensive analyses of large-scale A/B tests, high-throughput screening, and image analysis, we demonstrate that our approach yields substantial efficiency gains and improved control over error rates compared to existing methodologies.",
+    "authors": [
+        "Weinan Wang",
+        "Bowen Gang",
+        "Wenguang Sun"
+    ],
+    "emails": [
+        "wwang@snap.com",
+        "bgang@fudan.edu.cn",
+        "wgsun@zju.edu.cn"
+    ],
+    "id": "22-1310",
+    "issue": 304,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Sparse Recovery With Multiple Data Streams: An Adaptive Sequential Testing Approach",
+    "volume": 25,
+    "year": 2024
+}

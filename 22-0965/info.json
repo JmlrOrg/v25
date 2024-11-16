@@ -1,0 +1,30 @@
+{
+    "abstract": "In offline reinforcement learning (RL) an optimal policy is learned solely from a priori collected observational data. However, in observational data, actions are often confounded by unobserved variables. Instrumental variables (IVs), in the context of RL, are the variables whose influence on the state variables is all mediated by the action. When a valid instrument is present, we can recover the confounded transition dynamics through observational data. We study a confounded Markov decision process where the transition dynamics admit an additive nonlinear functional form. Using IVs, we derive a conditional moment restriction through which we can identify transition dynamics based on observational data. We propose a provably efficient IV-aided Value Iteration (IVVI) algorithm based on a primal-dual reformulation of the conditional moment restriction. To our knowledge, this is the first provably efficient algorithm for instrument-aided offline RL.",
+    "authors": [
+        "Luofeng Liao",
+        "Zuyue Fu",
+        "Zhuoran Yang",
+        "Yixin Wang",
+        "Dingli Ma",
+        "Mladen Kolar",
+        "Zhaoran Wang"
+    ],
+    "emails": [
+        "ll3530@columbia.edu",
+        "zuyuefu2022@u.northwestern.edu",
+        "zhuoran.yang@yale.edu",
+        "yixinw@umich.edu",
+        "dingli98@uw.edu",
+        "mkolar@marshall.usc.edu",
+        "zhaoranwang@gmail.com"
+    ],
+    "id": "22-0965",
+    "issue": 303,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Instrumental Variable Value Iteration for Causal Offline Reinforcement Learning",
+    "volume": 25,
+    "year": 2024
+}

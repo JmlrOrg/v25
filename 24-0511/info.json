@@ -1,0 +1,28 @@
+{
+    "abstract": "We study the problem of estimating the stationary mass---also called the unigram mass---that is missing from a single trajectory of a discrete-time, ergodic Markov chain. This problem has several applications---for example, estimating the stationary missing mass is critical for accurately smoothing probability estimates in sequence models. While the classical Good--Turing estimator from the 1950s has appealing properties for i.i.d. data, it is known to be biased in the Markovian setting, and other heuristic estimators do not come equipped with guarantees. Operating in the general setting in which the size of the state space may be much larger than the length $n$ of the trajectory, we develop a linear-runtime estimator called Windowed Good--Turing (WingIt) and show that its risk decays as $\\widetilde{O}(\\mathsf{T_{mix}}/n)$, where $\\mathsf{T_{mix}}$ denotes the mixing time of the chain in total variation distance. Notably, this rate is independent of the size of the state space and minimax-optimal up to a logarithmic factor in $n / \\mathsf{T_{mix}}$. We also present an upper bound on the variance of the missing mass random variable, which may be of independent interest. We extend our estimator to approximate the stationary mass placed on elements occurring with small frequency in the trajectory.  Finally, we demonstrate the efficacy of our estimators both in simulations on canonical chains and on sequences constructed from natural language text.",
+    "authors": [
+        "Ashwin Pananjady",
+        "Vidya Muthukumar",
+        "Andrew Thangaraj"
+    ],
+    "emails": [
+        "ashwinpm@gatech.edu",
+        "vmuthukumar8@gatech.edu",
+        "andrew@ee.iitm.ac.in"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/andrewthan/Missing-Mass"
+        ]
+    ],
+    "id": "24-0511",
+    "issue": 312,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Just Wing It: Near-Optimal Estimation of Missing Mass in a Markovian Sequence",
+    "volume": 25,
+    "year": 2024
+}

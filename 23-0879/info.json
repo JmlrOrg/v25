@@ -1,0 +1,20 @@
+{
+    "abstract": "A novel Policy Gradient (PG) algorithm, called Matryoshka Policy Gradient (MPG), is introduced and studied, in the context of fixed-horizon max-entropy reinforcement learning, where an agent aims at maximizing entropy bonuses additional to its cumulative rewards.\r\nIn the linear function approximation setting with softmax policies, we prove uniqueness and characterize the optimal policy of the entropy regularized objective, together with global convergence of MPG.\r\nThese results are proved in the case of continuous state and action space.\r\nMPG is intuitive, theoretically sound and we furthermore show that the optimal policy of the infinite horizon max-entropy objective can be approximated arbitrarily well by the optimal policy of the MPG framework.\r\nFinally, we provide a criterion for global optimality when the policy is parametrized by a neural network in terms of the neural tangent kernel at convergence.\r\nAs a proof of concept, we evaluate numerically MPG on standard test benchmarks.",
+    "authors": [
+        "Fran{\\c{c}}ois G. Ged",
+        "Maria Han Veiga"
+    ],
+    "emails": [
+        "fged.math@gmail.com",
+        "hanveiga.1@osu.edu"
+    ],
+    "id": "23-0879",
+    "issue": 308,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Matryoshka Policy Gradient for Entropy-Regularized RL: Convergence and Global Optimality",
+    "volume": 25,
+    "year": 2024
+}
