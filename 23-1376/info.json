@@ -1,0 +1,28 @@
+{
+    "abstract": "In practice, deep neural networks are often able to easily interpolate their training data. To understand this phenomenon, many works have aimed to quantify the memorization capacity of a neural network architecture: the largest number of points such that the architecture can interpolate any placement of these points with any assignment of labels. For real-world data, however, one intuitively expects the presence of a benign structure so that interpolation already occurs at a smaller network size than suggested by memorization capacity. In this paper, we investigate interpolation by adopting an instance-specific viewpoint. We introduce a simple randomized algorithm that, given a fixed finite data set with two classes, with high probability constructs an interpolating three-layer neural network in polynomial time. The required number of parameters is linked to geometric properties of the two classes and their mutual arrangement. As a result, we obtain guarantees that are independent of the number of samples and hence move beyond worst-case memorization capacity bounds. We verify our theoretical result with numerical experiments and additionally investigate the effectiveness of the algorithm on MNIST and CIFAR-10.",
+    "authors": [
+        "Sjoerd Dirksen",
+        "Patrick Finke",
+        "Martin Genzel"
+    ],
+    "emails": [
+        "s.dirksen@uu.nl",
+        "p.g.finke@uu.nl",
+        "martin.genzel@merantix-momentum.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/patrickfinke/memo"
+        ]
+    ],
+    "id": "23-1376",
+    "issue": 347,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Memorization With Neural Nets: Going Beyond the Worst Case",
+    "volume": 25,
+    "year": 2024
+}

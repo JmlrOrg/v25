@@ -1,0 +1,28 @@
+{
+    "abstract": "We consider the task of evaluating a policy for a Markov decision process (MDP). The standard unbiased technique for evaluating a policy is to deploy the policy and observe its performance. We show that the data collected from deploying a different policy, commonly called the behavior policy, can be used to produce unbiased estimates with lower mean squared error than this standard technique. We derive an analytic expression for a minimal variance behavior policy -- a behavior policy that minimizes the mean squared error of the resulting estimates. Because this expression depends on terms that are unknown in practice, we propose a novel policy evaluation sub-problem, behavior policy search: searching for a behavior policy that reduces mean squared error. We present two behavior policy search algorithms and empirically demonstrate their effectiveness in lowering the mean squared error of policy performance estimates.",
+    "authors": [
+        "Josiah P. Hanna",
+        "Yash Chandak",
+        "Philip S. Thomas",
+        "Martha White",
+        "Peter Stone",
+        "Scott Niekum"
+    ],
+    "emails": [
+        "jphanna@cs.wisc.edu",
+        "ychandak@cs.umass.edu",
+        "pthomas@cs.umass.edu",
+        "whitem@ualberta.ca",
+        "pstone@cs.utexas.edu",
+        "sniekum@cs.umass.edu"
+    ],
+    "id": "21-0346",
+    "issue": 313,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Data-Efficient Policy Evaluation Through Behavior Policy Search",
+    "volume": 25,
+    "year": 2024
+}

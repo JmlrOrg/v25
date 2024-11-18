@@ -1,0 +1,26 @@
+{
+    "abstract": "Student learners typically engage in an iterative process of actively updating its hypotheses, like active learning. While this behavior can be advantageous, there is an inherent risk of introducing mistakes through incremental updates including weak initialization, inaccurate or insignificant history states, resulting in expensive convergence cost. In this work, rather than solely monitoring the update of the learner's status, we propose monitoring the disagreement w.r.t. $\\mathcal{F}^\\mathcal{T}(\\cdot)$ between the learner and teacher, and call this new paradigm ``Mentored Learning'', which consists of `how to teach' and `how to learn'. By actively incorporating feedback that deviates from the learner's current hypotheses,  convergence will be much easier to analyze without strict assumptions on learner's historical status, then deriving tighter generalization bounds on error and label complexity. Formally, we introduce an approximately optimal teaching hypothesis, $h^\\mathcal{T}$,    incorporating a tighter slack term $\\left(1+\\mathcal{F}^{\\mathcal{T}}(\\widehat{h}_t)\\right)\\Delta_t$ to replace the typical $2\\Delta_t$ used in hypothesis pruning.  Theoretically, we demonstrate that, guided by this teaching hypothesis, the learner can converge to  tighter generalization bounds on error and label complexity compared to non-educated learners who lack guidance from a teacher: 1)   the generalization error upper bound can be reduced from $R(h^*)+4\\Delta_{T-1}$ to approximately $R(h^{\\mathcal{T}})+2\\Delta_{T-1}$, and 2)  the label complexity upper bound can be decreased from $4 \\theta\\left(TR(h^{*})+2O(\\sqrt{T})\\right)$ to approximately $2\\theta\\left(2TR(h^{\\mathcal{T}})+3 O(\\sqrt{T})\\right)$. To adhere strictly to our assumption, self-improvement of teaching is proposed when $h^\\mathcal{T}$ loosely approximates $h^*$. In the context of learning, we further consider two teaching scenarios: instructing a white-box and black-box learner. Experiments validate this teaching concept and demonstrate superior generalization performance compared to fundamental active learning strategies, such as IWAL, IWAL-D, etc.",
+    "authors": [
+        "Xiaofeng Cao",
+        "Yaming Guo",
+        "Heng Tao Shen",
+        "Ivor W. Tsang",
+        "James T. Kwok"
+    ],
+    "emails": [
+        "xiaofeng.cao.uts@gmail.com",
+        "guoym21@mails.jlu.edu.cn",
+        "shenhengtao@hotmail.com",
+        "ivor_tsang@ihpc.a-star.edu.sg",
+        "jamesk@cse.ust.hk"
+    ],
+    "id": "23-1213",
+    "issue": 325,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Mentored Learning: Improving Generalization and Convergence of Student Learner",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "We study the robustness of conformal prediction, a powerful tool for uncertainty quantification, to label noise. Our analysis tackles both regression and classification problems, characterizing when and how it is possible to construct uncertainty sets that correctly cover the unobserved noiseless ground truth labels. We further extend our theory and formulate the requirements for correctly controlling a general loss function, such as the false negative proportion, with noisy labels. Our theory and experiments suggest that conformal prediction and risk-controlling techniques with noisy labels attain conservative risk over the clean ground truth labels whenever the noise is dispersive and increases variability. In other adversarial cases, we can also correct for noise of bounded size in the conformal prediction algorithm in order to ensure achieving the correct risk of the ground truth labels without score or data regularity.",
+    "authors": [
+        "Bat-Sheva Einbinder",
+        "Shai Feldman",
+        "Stephen Bates",
+        "Anastasios N. Angelopoulos",
+        "Asaf Gendler",
+        "Yaniv Romano"
+    ],
+    "emails": [
+        "bat-shevab@campus.technion.ac.il",
+        "shai.feldman@cs.technion.ac.il",
+        "stephenbates@mit.edu",
+        "angelopoulos@berkeley.edu",
+        "asafgendler@campus.technion.ac.il",
+        "yromano@technion.ac.il"
+    ],
+    "id": "23-1549",
+    "issue": 328,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Label Noise Robustness of Conformal Prediction",
+    "volume": 25,
+    "year": 2024
+}

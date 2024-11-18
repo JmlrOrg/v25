@@ -1,0 +1,22 @@
+{
+    "abstract": "Hamiltonian Monte Carlo (HMC) is a Markov chain algorithm for sampling from a high-dimensional distribution with density $e^{-f(x)}$, given access to the gradient of $f$. A particular case of interest is that of a $d$-dimensional Gaussian distribution with covariance matrix $\\Sigma$, in which case $f(x) = x^\\top \\Sigma^{-1} x$. We show that Metropolis-adjusted HMC can sample from a distribution that is $\\varepsilon$-close to a Gaussian in total variation distance using $\\widetilde{O}(\\sqrt{\\kappa} d^{1/4} \\log(1/\\varepsilon))$ gradient queries, where $\\varepsilon>0$ and $\\kappa$ is the condition number of $\\Sigma$.\r\n\r\nOur algorithm uses long and random integration times for the Hamiltonian dynamics, and it creates a warm start by first running HMC without a Metropolis adjustment. This contrasts with (and was motivated by) recent results that give an $\\widetilde\\Omega(\\kappa d^{1/2})$ query lower bound for HMC with a fixed integration times or from a cold start, even for the Gaussian case.",
+    "authors": [
+        "Simon Apers",
+        "Sander Gribling",
+        "D{{\\'a}}niel Szil{{\\'a}}gyi"
+    ],
+    "emails": [
+        "apers@irif.fr",
+        "s.j.gribling@tilburguniversity.edu",
+        "szilagyi.d@gmail.com"
+    ],
+    "id": "23-1521",
+    "issue": 348,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Hamiltonian Monte Carlo for efficient Gaussian sampling: long and random steps",
+    "volume": 25,
+    "year": 2024
+}

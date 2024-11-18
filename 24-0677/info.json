@@ -1,0 +1,39 @@
+{
+    "abstract": "Aequitas Flow is an open-source framework and toolkit for end-to-end Fair Machine Learning (ML) experimentation, and benchmarking in Python. This package fills integration gaps that exist in other fair ML packages. In addition to the existing audit capabilities in Aequitas, the Aequitas Flow module provides a pipeline for fairness-aware model training, hyperparameter optimization, and evaluation, enabling easy-to-use and rapid experiments and analysis of results. Aimed at ML practitioners and researchers, the framework offers implementations of methods, datasets, metrics, and standard interfaces for these components to improve extensibility. By facilitating the development of fair ML practices, Aequitas Flow hopes to enhance the incorporation of fairness concepts in AI systems making AI systems more robust and fair.",
+    "authors": [
+        "S{{\\'e}}rgio Jesus",
+        "Pedro Saleiro",
+        "In{{\\^e}}s Oliveira e Silva",
+        "Beatriz M. Jorge",
+        "Rita P. Ribeiro",
+        "Jo{{\\~a}}o Gama",
+        "Pedro Bizarro",
+        "Rayid Ghani"
+    ],
+    "emails": [
+        "sergio.jesus@feedzai.com",
+        "pedro.saleiro@feedzai.com",
+        "ines.silva@feedzai.com",
+        "beatriz.jorge@feedzai.com",
+        "rpribeiro@fc.up.com",
+        "jgama@fep.up.com",
+        "pedro.bizarro@feedzai.com",
+        "rayid@cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dssg/aequitas"
+        ]
+    ],
+    "id": "24-0677",
+    "issue": 354,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "Aequitas Flow: Streamlining Fair ML Experimentation",
+    "volume": 25,
+    "year": 2024
+}

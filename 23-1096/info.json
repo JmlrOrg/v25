@@ -1,0 +1,22 @@
+{
+    "abstract": "Principal component analysis (PCA) is a widely employed statistical tool used primarily for dimensionality reduction. However, it is known to be adversely affected by the presence of outlying observations in the sample, which is quite common. Robust PCA methods using M-estimators have theoretical benefits, but their robustness drop substantially for high dimensional data. On the other end of the spectrum, robust PCA algorithms solving principal component pursuit or similar optimization problems have high breakdown, but lack theoretical richness and demand high computational power compared to the M-estimators. We introduce a novel robust PCA estimator based on the minimum density power divergence estimator. This combines the theoretical strength of the M-estimators and the minimum divergence estimators with a high breakdown guarantee regardless of data dimension. We present a computationally efficient algorithm for this estimate. Our theoretical findings are supported by extensive simulations and comparisons with existing robust PCA methods. We also showcase the proposed algorithm's applicability on two benchmark data sets and a credit card transactions data set for fraud detection.",
+    "authors": [
+        "Subhrajyoty Roy",
+        "Ayanendranath Basu",
+        "Abhik Ghosh"
+    ],
+    "emails": [
+        "roysubhra98@gmail.com",
+        "ayanbasu@isical.ac.in",
+        "abhik.ghosh@isical.ac.in"
+    ],
+    "id": "23-1096",
+    "issue": 324,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Robust Principal Component Analysis using Density Power Divergence",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Simple random sampling has been widely used in traditional stochastic optimization algorithms. Although the gradient sampled by simple random sampling is a descent direction in expectation, it may have a relatively high variance which will cause the descent curve wiggling and slow down the optimization process. In this paper, we propose a novel stochastic optimization method called grafting gradient descent (GGD), which combines the strength from minibatching and importance sampling, and provide the convergence results of GGD. We show that the grafting gradient possesses a doubly robust property which ensures that the performance of GGD method is superior to the worse one of SGD with importance sampling method and mini-batch SGD method. Combined with advanced variance reduction techniques such as stochastic variance reduced gradient and adaptive stepsize methods such as Adam, these composite GGD-based methods and their theoretical bounds are provided. The real data studies also show that GGD achieves an intermediate performance among SGD with importance sampling and mini-batch SGD, and outperforms original SGD method. Then the proposed GGD is a better and more robust stochastic optimization framework in practice.",
+    "authors": [
+        "Yanjing Feng",
+        "Yongdao Zhou"
+    ],
+    "emails": [
+        "yjfeng@mail.nankai.edu.cn",
+        "ydzhou@nankai.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/oo0mmmm/GGD"
+        ]
+    ],
+    "id": "22-1236",
+    "issue": 316,
+    "pages": [
+        1,
+        87
+    ],
+    "title": "GGD: Grafting Gradient Descent",
+    "volume": 25,
+    "year": 2024
+}

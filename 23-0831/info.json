@@ -1,0 +1,26 @@
+{
+    "abstract": "We study training one-hidden-layer ReLU networks in the neural tangent kernel (NTK) regime, where the networks' biases are initialized to some constant rather than zero.\r\nWe prove that under such initialization, the neural network will have sparse activation throughout the entire training process, which enables fast training procedures via some sophisticated computational methods. With such initialization, we show that the neural networks possess a different limiting kernel which we call bias-generalized NTK, and we study various properties of the neural networks with this new kernel.\r\nWe first characterize the gradient descent dynamics. \r\nIn particular, we show that the network in this case can achieve as fast convergence as the dense network, as opposed to the previous work suggesting that the sparse networks converge slower. \r\nIn addition, our result improves the previous required width to ensure convergence.\r\nSecondly, we study the networks' generalization: we show a width-sparsity dependence, which yields a sparsity-dependent Rademacher complexity and generalization bound. \r\nTo our knowledge, this is the first sparsity-dependent generalization result via Rademacher complexity. \r\nLastly, we study the smallest eigenvalue of this new kernel.\r\nWe identify a data-dependent region where we can derive a much sharper lower bound on the NTK's smallest eigenvalue than the worst-case bound previously known. This can lead to improvement in the generalization bound.",
+    "authors": [
+        "Hongru Yang",
+        "Ziyu Jiang",
+        "Ruizhe Zhang",
+        "Yingbin Liang",
+        "Zhangyang Wang"
+    ],
+    "emails": [
+        "hy6385@utexas.edu",
+        "jiangziyu@tamu.edu",
+        "rzzhang@berkeley.edu",
+        "liang.889@osu.edu",
+        "atlaswang@utexas.edu"
+    ],
+    "id": "23-0831",
+    "issue": 321,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Neural Networks with Sparse Activation Induced by Large Bias: Tighter Analysis with Bias-Generalized NTK",
+    "volume": 25,
+    "year": 2024
+}

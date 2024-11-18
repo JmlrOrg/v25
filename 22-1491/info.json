@@ -1,0 +1,24 @@
+{
+    "abstract": "Kernels effectively represent nonlocal dependencies and are extensively employed in formu- lating operators between function spaces. Thus, learning kernels in operators from data is an inverse problem of general interest. Due to the nonlocal dependence, the inverse prob- lem is often severely ill-posed with a data-dependent normal operator. Traditional Bayesian methods address the ill-posedness by a non-degenerate prior, which may result in an unsta- ble posterior mean in the small noise regime, especially when data induces a perturbation in the null space of the normal operator. We propose a new data-adaptive Reproducing Kernel Hilbert Space (RKHS) prior, which ensures the stability of the posterior mean in the small noise regime. We analyze this adaptive prior and showcase its efficacy through applications on Toeplitz matrices and integral operators. Numerical experiments reveal that fixed non-degenerate priors can produce divergent posterior means under errors from discretization, model inaccuracies, partial observations, or erroneous noise assumptions. In contrast, our data-adaptive RKHS prior consistently yields convergent posterior means.",
+    "authors": [
+        "Neil K. Chada",
+        "Quanjun Lang",
+        "Fei Lu",
+        "Xiong Wang"
+    ],
+    "emails": [
+        "neilchada123@gmail.com",
+        "quanjun.lang@duke.edu",
+        "feilu@math.jhu.edu",
+        "xiongwang@jhu.edu"
+    ],
+    "id": "22-1491",
+    "issue": 317,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "A Data-Adaptive RKHS Prior for Bayesian Learning of Kernels in Operators",
+    "volume": 25,
+    "year": 2024
+}

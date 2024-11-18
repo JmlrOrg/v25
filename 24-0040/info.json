@@ -1,0 +1,32 @@
+{
+    "abstract": "This paper investigates a new approach to model-based reinforcement learning using background planning: mixing (approximate) dynamic programming updates and model-free updates, similar to the Dyna architecture. Background planning with learned models is often worse than model-free alternatives, such as Double DQN, even though the former uses significantly more memory and computation. The fundamental problem is that learned models can be inaccurate and often generate invalid states, especially when iterated many steps. In this paper, we avoid this limitation by constraining background planning to a given set of (abstract) subgoals and learning only local, subgoal-conditioned models. This goal-space planning (GSP) approach is more computationally efficient, naturally incorporates temporal abstraction for faster long-horizon planning, and avoids learning the transition dynamics entirely. We show that our GSP algorithm can propagate value from an abstract space in a manner that helps a variety of base learners learn significantly faster in different domains.",
+    "authors": [
+        "Chunlok Lo",
+        "Kevin Roice",
+        "Parham Mohammad Panahi",
+        "Scott M. Jordan",
+        "Adam White",
+        "Gabor Mihucz",
+        "Farzane Aminmansour",
+        "Martha White"
+    ],
+    "emails": [
+        "chunlok@ualberta.ca",
+        "roice@ualberta.ca",
+        "parham1@ualberta.ca",
+        "sjordan@ualberta.ca",
+        "amw8@ualberta.ca",
+        "mihucz@ualberta.ca",
+        "aminmans@ualberta.ca",
+        "whitem@ualberta.ca"
+    ],
+    "id": "24-0040",
+    "issue": 330,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Goal-Space Planning with Subgoal Models",
+    "volume": 25,
+    "year": 2024
+}

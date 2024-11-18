@@ -1,0 +1,22 @@
+{
+    "abstract": "Motivated by inferring causal relationships among neurons using ensemble spike train data, this paper introduces a new technique for learning the structure of a directed acyclic graph (DAG) within a large network of events, applicable to diverse multi-dimensional temporal point process (MuTPP) data. At the core of MuTPP lie the conditional intensity functions, for which we construct a generative model parameterized by the graph parameters of a DAG and develop an equality-constrained estimator, departing from exhaustive search-based methods. We present a novel, flexible augmented Lagrangian (Flex-AL) optimization scheme that ensures provable global convergence and computational efficiency gains over the classical AL algorithm. Additionally, we explore causal structure learning by integrating acyclicity-constraints and sparsity-regularization. We demonstrate: (i) in cases without regularization, the incorporation of the acyclicity constraint is essential for ensuring DAG recovery consistency; (ii) with suitable regularization, the DAG-constrained estimator achieves both parameter estimation and DAG reconstruction consistencies similar to the unconstrained counterpart, but significantly enhances empirical performance. Furthermore, simulation studies indicate that our proposed DAG-constrained estimator, when appropriately penalized, yields more accurate graphs compared to unconstrained or unregularized estimators. Finally, we apply the proposed method to two real MuTPP datasets.",
+    "authors": [
+        "Chunming Zhang",
+        "Muhong Gao",
+        "Shengji Jia"
+    ],
+    "emails": [
+        "cmzhang@stat.wisc.edu",
+        "gaomh@amss.ac.cn",
+        "20200026@lixin.edu.cn"
+    ],
+    "id": "24-0067",
+    "issue": 352,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "DAG-Informed Structure Learning from Multi-Dimensional Point Processes",
+    "volume": 25,
+    "year": 2024
+}

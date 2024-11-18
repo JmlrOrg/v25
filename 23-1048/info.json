@@ -1,0 +1,34 @@
+{
+    "abstract": "We consider the problem of clustering grouped data with possibly non-exchangeable groups whose dependencies can be characterized by a known directed acyclic graph. To allow the sharing of clusters among the non-exchangeable groups, we propose a Bayesian nonparametric approach, termed graphical Dirichlet process, that jointly models the dependent group-specific random measures by assuming each random measure to be distributed as a Dirichlet process whose concentration parameter and base probability measure depend on those of its parent groups. The resulting joint stochastic process respects the Markov property of the directed acyclic graph that links the groups. We characterize the graphical Dirichlet process using a novel hypergraph representation as well as the stick-breaking representation, the restaurant-type representation, and the representation as a limit of a finite mixture model. We develop an efficient posterior inference algorithm and illustrate our model with simulations and a real grouped single-cell data set.",
+    "authors": [
+        "Arhit Chakrabarti",
+        "Yang Ni",
+        "Ellen Ruth A. Morris",
+        "Michael L. Salinas",
+        "Robert S. Chapkin",
+        "Bani K. Mallick"
+    ],
+    "emails": [
+        "arhit.chakrabarti@stat.tamu.edu",
+        "yni@stat.tamu.edu",
+        "ellenruth@tamu.edu",
+        "mlsalinas4@tamu.edu",
+        "robert.chapkin@ag.tamu.edu",
+        "bmallick@stat.tamu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Arhit-Chakrabarti/GDPSamp"
+        ]
+    ],
+    "id": "23-1048",
+    "issue": 323,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Graphical Dirichlet Process for Clustering Non-Exchangeable Grouped Data",
+    "volume": 25,
+    "year": 2024
+}

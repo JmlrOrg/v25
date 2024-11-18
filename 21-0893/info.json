@@ -1,0 +1,22 @@
+{
+    "abstract": "High-dimensional, low-sample-size (HDLSS) data have been attracting people's attention for a long time. Many studies have proposed different approaches to dealing with this situation, among which variable selection is a significant idea. However, neural networks have been used to model complicated relationships. This paper discusses current variable selection techniques with neural networks. We showed that the stage-wise algorithm with the neural network suffers from some disadvantages, such as that the variables entering the model later may not be consistent. We also proposed an ensemble method to achieve better variable selection and proved that it has a probability tending to zero that a false variable will be selected. Moreover, we discussed further regularization to deal with over-fitting. Simulations and examples of real data are given to support the theory.",
+    "authors": [
+        "Kaixu Yang",
+        "Arkaprabha Ganguli",
+        "Tapabrata Maiti"
+    ],
+    "emails": [
+        "kaixuyang@gmail.com",
+        "aganguli@anl.gov",
+        "maiti@msu.edu"
+    ],
+    "id": "21-0893",
+    "issue": 335,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "ENNS: Variable Selection, Regression, Classification, and Deep Neural Network for High-Dimensional Data",
+    "volume": 25,
+    "year": 2024
+}

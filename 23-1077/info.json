@@ -1,0 +1,22 @@
+{
+    "abstract": "We present new results on average causal effects in settings with unmeasured exposure-outcome confounding. Our results are motivated by a class of estimands, e.g., frequently of interest in medicine and public health, that are currently not targeted by standard approaches for average causal effects. We recognize these estimands as queries about the average causal effect of an intervening variable. We anchor our introduction of these estimands in an investigation of the role of chronic pain and opioid prescription patterns, and illustrate how conventional approaches will lead to non-replicable estimates with ambiguous policy implications. We argue that our alternative effects are replicable and have clear policy implications, and furthermore are non-parametrically identified by the classical frontdoor formula. As an independent contribution, we derive a new semiparametric efficient estimator of the frontdoor formula with a uniform sample boundedness guarantee. This property is unique among previously-described estimators in its class, and we demonstrate superior performance in finite-sample settings. The theoretical results are applied to data from the National Health and Nutrition Examination Survey.",
+    "authors": [
+        "Lan Wen",
+        "Aaron Sarvet",
+        "Mats Stensrud"
+    ],
+    "emails": [
+        "lan.wen@uwaterloo.ca",
+        "asarvet@umass.edu",
+        "mats.stensrud@epfl.ch"
+    ],
+    "id": "23-1077",
+    "issue": 345,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Causal effects of intervening variables in settings with unmeasured confounding",
+    "volume": 25,
+    "year": 2024
+}

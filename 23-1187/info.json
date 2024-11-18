@@ -1,0 +1,30 @@
+{
+    "abstract": "Ill-conditioned problems are ubiquitous in large-scale machine learning: as a data set grows to include more and more features correlated with the labels, the condition number increases. Yet traditional stochastic gradient methods converge slowly on these ill-conditioned problems, even with careful hyperparameter tuning. This paper introduces PROMISE (Preconditioned Stochastic Optimization Methods by Incorporating Scalable Curvature Estimates), a suite of sketching-based preconditioned stochastic gradient algorithms that deliver fast convergence on ill-conditioned large-scale convex optimization problems arising in machine learning. PROMISE includes preconditioned versions of SVRG, SAGA, and Katyusha; each algorithm comes with a strong theoretical analysis and effective default hyperparameter values. Empirically, we verify the superiority of the proposed algorithms by showing that, using default hyperparameter values, they outperform or match popular tuned stochastic gradient optimizers on a test bed of 51 ridge and logistic regression problems assembled from benchmark machine learning repositories. On the theoretical side, this paper introduces the notion of quadratic regularity in order to establish linear convergence of all proposed methods even when the preconditioner is updated infrequently. The speed of linear convergence is determined by the quadratic regularity ratio, which often provides a tighter bound on the convergence rate compared to the condition number, both in theory and in practice, and explains the fast global linear convergence of the proposed methods.",
+    "authors": [
+        "Zachary Frangella",
+        "Pratik Rathore",
+        "Shipu Zhao",
+        "Madeleine Udell"
+    ],
+    "emails": [
+        "zfran@stanford.edu",
+        "pratikr@stanford.edu",
+        "sz533@cornell.edu",
+        "udell@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/udellgroup/PROMISE"
+        ]
+    ],
+    "id": "23-1187",
+    "issue": 346,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "PROMISE: Preconditioned Stochastic Optimization Methods by Incorporating Scalable Curvature Estimates",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "This note studies matrix completion for a partially observed $n$ by $p$ data matrix involving mixed types of variables (e.g., continuous, binary, ordinal). A general family of non-linear factor models is considered, under which the matrix completion problem becomes the estimation of  an $n$ by $p$ low-rank matrix ${\\mathbf M}$. For existing methods in the literature, estimation consistency is established by showing $\\Vert \\hat {\\mathbf M} - {\\mathbf M}^*\\Vert_F/\\sqrt{np}$, the scaled Frobenius norm of the difference between the estimated and true ${\\mathbf M}$ matrices, converges to zero in probability as $n$ and $p$ grow to infinity. However, this notion of consistency does not guarantee the convergence of each individual entry and, thus, may not be sufficient when specific data entries or the worst-case scenario is of interest. To address this issue, we consider the notion of entrywise consistency based on $\\Vert \\hat {\\mathbf M} - {\\mathbf M}^* \\Vert_{\\mbox{max}}$, the max norm of the estimation error matrix. We propose refinement procedures that turn estimators, which are consistent in the Frobenius norm sense, into entrywise estimators through a one-step refinement.\r\nTight probabilistic error bounds are derived for the proposed estimators. The proposed methods are evaluated by simulation studies and real-data applications for collaborative filtering and large-scale educational assessment.",
+    "authors": [
+        "Yunxiao Chen",
+        "Xiaoou Li"
+    ],
+    "emails": [
+        "y.chen186@lse.ac.uk",
+        "lixx1766@umn.edu"
+    ],
+    "id": "23-0834",
+    "issue": 343,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "A Note on Entrywise Consistency for Mixed-data Matrix Completion",
+    "volume": 25,
+    "year": 2024
+}

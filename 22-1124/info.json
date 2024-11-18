@@ -1,0 +1,30 @@
+{
+    "abstract": "Traditional statistical methods are faced with new challenges due to streaming data. The major challenge is the rapidly growing volume and velocity of data, which makes storing such huge data sets in memory impossible. The paper presents an online inference framework for regression parameters in high-dimensional semiparametric single-index models with unknown link functions. The proposed online procedure updates only the current data batch and summary statistics of historical data instead of re-accessing the entire raw data set. At the same time, we do not need to estimate the unknown link function, which is a highly challenging task. In addition, a generalized convex loss function is used in the proposed inference procedure. To illustrate the proposed method, we use the Huber loss function and the negative log-likelihood  of the logistic regression model. In this study, the asymptotic normality of the proposed online debiased Lasso estimators and the bounds of the proposed online Lasso estimators are investigated. To evaluate the performance of the proposed method, extensive simulation studies have been conducted. We provide applications to Nasdaq stock prices and financial distress data sets.",
+    "authors": [
+        "Dongxiao Han",
+        "Jinhan Xie",
+        "Jin Liu",
+        "Liuquan Sun",
+        "Jian Huang",
+        "Bei Jiang",
+        "Linglong Kong"
+    ],
+    "emails": [
+        "handongxiao@nankai.edu.cn",
+        "jinhanxie@163.com",
+        "liujin@nankai.edu.cn",
+        "slq@amt.ac.cn",
+        "j.huang@polyu.edu.hk",
+        "bei1@ualberta.ca",
+        "lkong@ualberta.ca"
+    ],
+    "id": "22-1124",
+    "issue": 337,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Inference on High-dimensional Single-index Models with Streaming Data",
+    "volume": 25,
+    "year": 2024
+}

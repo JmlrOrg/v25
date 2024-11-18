@@ -1,0 +1,24 @@
+{
+    "abstract": "Dynamic decision-making under distributional shifts is of fundamental interest in theory and applications of reinforcement learning:  The distribution of the environment in which the data is collected can differ from that of the environment in which the model is deployed. This paper presents two novel model-free algorithms, namely the distributionally robust Q-learning and its variance-reduced counterpart, that can effectively learn a robust policy despite distributional shifts. These algorithms are designed to efficiently approximate the $q$-function of an infinite-horizon $\\gamma$-discounted robust Markov decision process with Kullback-Leibler ambiguity set to an entry-wise $\\epsilon$-degree of precision.  Further, the variance-reduced distributionally robust Q-learning combines the synchronous Q-learning with variance-reduction techniques to enhance its performance. Consequently, we establish that it attains a minimax sample complexity upper bound of $\\tilde O(|\\mathbf{S}||\\mathbf{A}|(1-\\gamma)^{-4}\\epsilon^{-2})$, where $\\mathbf{S}$ and $\\mathbf{A}$ denote the state and action spaces.  This is the first complexity result that is independent of the ambiguity size $\\delta$, thereby providing new complexity theoretic insights. Additionally, a series of numerical experiments confirm the theoretical findings and the efficiency of the algorithms in handling distributional shifts.",
+    "authors": [
+        "Shengbo Wang",
+        "Nian Si",
+        "Jose Blanchet",
+        "Zhengyuan Zhou"
+    ],
+    "emails": [
+        "shengbo.wang@stanford.edu",
+        "niansi@ust.hk",
+        "jose.blanchet@stanford.edu",
+        "zz26@stern.nyu.edu"
+    ],
+    "id": "23-0526",
+    "issue": 341,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "Sample Complexity of Variance-Reduced Distributionally Robust Q-Learning",
+    "volume": 25,
+    "year": 2024
+}

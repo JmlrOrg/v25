@@ -1,0 +1,20 @@
+{
+    "abstract": "Model averaging has received much attention in the past two decades, which integrates available information by averaging over potential models. Although various model averaging methods have been developed, there is little literature on the theoretical properties of model averaging from the perspective of stability, and the majority of these methods constrain model weights to a simplex. The aim of this paper is to introduce stability from statistical learning theory into model averaging. Thus, we define the stability, asymptotic empirical risk minimization, generalization and consistency of model averaging, and study the relationship among them. Similar to the existing results in literature, we find that stability can ensure that the model averaging estimator has good generalization performance and consistency under reasonable conditions, where consistency means that the model averaging estimator can asymptotically minimize the mean squared prediction error. We also propose an $L_2$-penalty model averaging method without limiting model weights, and prove that it has stability and consistency. In order to overcome selection uncertainty of the $L_2$-penalty parameter, we use cross-validation to select a candidate set of $L_2$-penalty parameters, and then perform a weighted average of the estimators of model weights based on cross-validation errors. We demonstrate the usefulness of the proposed method with a Monte Carlo simulation and application to a prediction task on the wage1 dataset.",
+    "authors": [
+        "Hengkun Zhu",
+        "Guohua Zou"
+    ],
+    "emails": [
+        "hkzhu@cnu.edu.cn",
+        "ghzou@amss.ac.cn"
+    ],
+    "id": "23-0853",
+    "issue": 322,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Stability and L2-penalty in Model Averaging",
+    "volume": 25,
+    "year": 2024
+}

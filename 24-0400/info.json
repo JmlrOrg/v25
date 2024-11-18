@@ -1,0 +1,28 @@
+{
+    "abstract": "In this work, we study the problem of common and unique feature extraction from noisy data. When we have $N$ observation matrices from $N$ different and associated sources corrupted by sparse and potentially gross noise, can we recover the common and unique components from these noisy observations? This is a challenging task as the number of parameters to estimate is approximately thrice the number of observations. Despite the difficulty, we propose an intuitive alternating minimization algorithm called triple component matrix factorization (TCMF) to recover the three components exactly. TCMF is distinguished from existing works in literature thanks to two salient features. First, TCMF is a principled method to separate the three components given noisy observations provably. Second, the bulk of the computation in TCMF can be distributed.  On the technical side, we formulate the problem as a constrained nonconvex nonsmooth optimization problem. Despite the intricate nature of the problem, we provide a Taylor series characterization of its solution by solving the corresponding Karush\u2013Kuhn\u2013Tucker conditions. Using this characterization, we can show that the alternating minimization algorithm makes significant progress at each iteration and converges into the ground truth at a linear rate. Numerical experiments in video segmentation and anomaly detection highlight the superior feature extraction abilities of TCMF.",
+    "authors": [
+        "Naichen Shi",
+        "Salar Fattahi",
+        "Raed Al Kontar"
+    ],
+    "emails": [
+        "naichens@umich.edu",
+        "fattahi@umich.edu",
+        "alkontar@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/UMDataScienceLab/TCMF"
+        ]
+    ],
+    "id": "24-0400",
+    "issue": 332,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "Triple Component Matrix Factorization: Untangling Global, Local, and Noisy Components",
+    "volume": 25,
+    "year": 2024
+}

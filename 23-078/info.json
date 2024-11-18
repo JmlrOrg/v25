@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the problem of learning multioutput function classes in the batch and online settings. In both settings, we show that a multioutput function class is learnable if and only if each single-output restriction of the function class is learnable. This provides a complete characterization of the learnability of multilabel classification and multioutput regression in both batch and online settings. As an extension, we also consider multilabel learnability in the bandit feedback setting and show a similar characterization as in the full-feedback setting.",
+    "authors": [
+        "Vinod Raman",
+        "Unique Subedi",
+        "Ambuj Tewari"
+    ],
+    "emails": [
+        "vkraman@umich.edu",
+        "subedi@umich.edu",
+        "tewaria@umich.edu"
+    ],
+    "id": "23-078",
+    "issue": 342,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "A Characterization of Multioutput Learnability",
+    "volume": 25,
+    "year": 2024
+}

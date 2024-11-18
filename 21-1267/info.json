@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper studies the multi-armed bandit problem with a requirement of differential privacy guarantee or global differential privacy guarantee. We first prove that, the lower bound for the extra regret to protect $(\\epsilon,\\delta)$-global differential privacy is $\\Omega({N\\over \\epsilon }\\log {(e^{\\epsilon} -1)T + \\delta T \\over (e^{\\epsilon}-1) + \\delta T})$ ($N$ is the number of arms and $T$ is the time horizon), which is independent with $T$ for $\\delta > 0$ and large enough $T$. Moreover, the lower bound for the extra regret to protect $(\\epsilon,\\delta)$-differential privacy can be no more than the above bound. This means that, different with the case $\\delta = 0$, it is possible to design algorithms that protect privacy and achieve the same asymptotical regret upper bound as the non-private algorithms when $\\delta > 0$. Then we adapt the Follow the Perturbed Leader (FTPL) framework, and propose learning policies with both Gaussian and Beta perturbed distributions (DP-FTPL-Gauss and DP-FTPL-Beta) to protect $(\\epsilon,\\delta)$-differential privacy. The analysis shows that they achieve an $O({N\\log T\\over \\Delta_{\\min}} + N \\min\\{{1\\over \\delta^2}, {1\\over \\epsilon^2}\\log{1\\over \\delta}\\})$ regret upper bound, where $\\Delta_{\\min}$ is the minimum expected reward gap between the optimal arm and any other ones. We also design a unique perturbed distribution to protect $(\\epsilon,\\delta)$-differential privacy in the FTPL framework (DP-FTPL-New), which reduces the regret upper bound to $O({N\\log T\\over \\Delta_{\\min}} + {N\\over \\epsilon }\\log {(e^{\\epsilon} -1)T + \\delta T \\over (e^{\\epsilon}-1) + \\delta T})$. We further show that this perturbed distribution could also be used to protect $(\\epsilon,\\delta)$-global differential privacy, and design a corresponding algorithm GDP-Elim-New. We show that its regret upper bound is  $O({\\Delta_{\\max} \\over \\Delta_{\\min}}({N\\log T\\over \\Delta_{\\min}} + {N\\over \\epsilon }\\log {(e^{\\epsilon} -1)T + \\delta T \\over (e^{\\epsilon}-1) + \\delta T}))$. This shows that our $\\Omega({N\\over \\epsilon }\\log {(e^{\\epsilon} -1)T + \\delta T \\over (e^{\\epsilon}-1) + \\delta T})$ regret lower bound is tight (e.g. when ${\\Delta_{\\max}\\over \\Delta_{\\min}}$ is bounded).",
+    "authors": [
+        "Siwei Wang",
+        "Jun Zhu"
+    ],
+    "emails": [
+        "siweiwang@microsoft.com",
+        "dcszj@tsinghua.edu.cn"
+    ],
+    "id": "21-1267",
+    "issue": 314,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Optimal Learning Policies for Differential Privacy in Multi-armed Bandits",
+    "volume": 25,
+    "year": 2024
+}

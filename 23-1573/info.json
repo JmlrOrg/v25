@@ -1,0 +1,30 @@
+{
+    "abstract": "A central question in deep learning is to understand the functions learned by deep networks. What is their approximation class? Do the learned weights and representations depend on initialization? Previous empirical work has evidenced that kernels defined by network activations are similar across initializations. For shallow networks, this has been theoretically studied with random feature models, but an extension to deep networks has remained elusive. Here, we provide a deep extension of such random feature models, which we call the rainbow model. We prove that rainbow networks define deterministic (hierarchical) kernels in the infinite-width limit. The resulting functions thus belong to a data-dependent RKHS which does not depend on the weight randomness. We also verify numerically our modeling assumptions on deep CNNs trained on image classification tasks, and show that the trained networks approximately satisfy the rainbow hypothesis. In particular, rainbow networks sampled from the corresponding random feature model achieve similar performance as the trained networks. Our results highlight the central role played by the covariances of network weights at each layer, which are observed to be low-rank as a result of feature learning.",
+    "authors": [
+        "Florentin Guth",
+        "Brice M{{\\'e}}nard",
+        "Gaspar Rochette",
+        "St{{\\'e}}phane Mallat"
+    ],
+    "emails": [
+        "florentin.guth@nyu.edu",
+        "menard@jhu.edu",
+        "gaspar.rochette@ens.fr",
+        "stephane.mallat@ens.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/FlorentinGuth/Rainbow"
+        ]
+    ],
+    "id": "23-1573",
+    "issue": 350,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "A Rainbow in Deep Network Black Boxes",
+    "volume": 25,
+    "year": 2024
+}

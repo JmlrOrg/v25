@@ -1,0 +1,26 @@
+{
+    "abstract": "We consider the non-convex non-concave objective function in two-player zero-sum continuous games. The existence of pure Nash equilibrium requires stringent conditions, posing a major challenge for this problem. To circumvent this difficulty, we examine the problem of identifying a mixed Nash equilibrium, where strategies are randomized and characterized by probability distributions over continuous domains. To this end, we propose PArticle-based Primal-dual ALgorithm (PAPAL)  tailored for a weakly entropy-regularized min-max optimization over probability distributions.  This algorithm employs the stochastic movements of particles to represent the updates of random strategies for the $\\epsilon$-mixed Nash equilibrium. We offer a comprehensive convergence analysis of the proposed algorithm, demonstrating its effectiveness. In contrast to prior research that attempted to update particle importance without movements, PAPAL is the first implementable particle-based algorithm accompanied by non-asymptotic quantitative convergence results, running time, and sample complexity guarantees.  Our framework contributes novel insights into the particle-based algorithms for continuous min-max optimization in the general non-convex non-concave setting.",
+    "authors": [
+        "Shihong Ding",
+        "Hanze Dong",
+        "Cong Fang",
+        "Zhouchen Lin",
+        "Tong Zhang"
+    ],
+    "emails": [
+        "dingshihong@stu.pku.edu.cn",
+        "hendrydong@gmail.com",
+        "fangcong@pku.edu.cn",
+        "zlin@pku.edu.cn",
+        "tongzhang@tongzhang-ml.org"
+    ],
+    "id": "23-1522",
+    "issue": 327,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "PAPAL: A Provable PArticle-based Primal-Dual ALgorithm for Mixed Nash Equilibrium",
+    "volume": 25,
+    "year": 2024
+}

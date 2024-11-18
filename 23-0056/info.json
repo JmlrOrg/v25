@@ -1,0 +1,22 @@
+{
+    "abstract": "High dimensional and heterogeneous count data are collected in various applied fields. In this paper, we look closely at high-resolution sequencing data on the microbiome, which have enabled researchers to study the genomes of entire microbial communities. Revealing the underlying interactions between these communities is of vital importance to learn how microbes influence human health. To perform structural learning from multivariate count data such as these, we develop a novel Gaussian copula graphical model with two key elements. Firstly, we employ parametric regression to characterize the marginal distributions. This step is crucial for accommodating the impact of external covariates. Neglecting this adjustment could potentially introduce distortions in the inference of the underlying network of dependences. Secondly, we advance a Bayesian structure learning framework, based on a computationally efficient search algorithm that is suited to high dimensionality. The approach returns simultaneous inference of the marginal effects and of the dependence structure, including graph uncertainty estimates. A simulation study and a real data analysis of microbiome data highlight the applicability of the proposed approach at inferring networks from multivariate count data in general, and its relevance to microbiome analyses in particular. The proposed method is implemented in the R package BDgraph.",
+    "authors": [
+        "Veronica Vinciotti",
+        "Pariya Behrouzi",
+        "Reza Mohammadi"
+    ],
+    "emails": [
+        "veronica.vinciotti@unitn.it",
+        "pariya.behrouzi@wur.nl",
+        "a.mohammadi@uva.nl"
+    ],
+    "id": "23-0056",
+    "issue": 339,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Bayesian Structural Learning with Parametric Marginals for Count Data: An Application to Microbiota Systems",
+    "volume": 25,
+    "year": 2024
+}

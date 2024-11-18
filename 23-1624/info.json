@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we establish anti-concentration inequalities for additive noise mechanisms which achieve $f$-differential privacy ($f$-DP), a notion of privacy phrased in terms of a tradeoff function $f$ which limits the ability of an adversary to determine which individuals were in the database. We show that canonical noise distributions (CNDs), proposed by Awan and Vadhan (2023), match the anti-concentration bounds at half-integer values, indicating that their tail behavior is near-optimal. We also show that all CNDs are sub-exponential, regardless of the $f$-DP guarantee. In the case of log-concave CNDs, we show that they are the stochastically smallest noise compared to any other noise distributions with the same strong privacy guarantee. In terms of integer-valued noise, we propose a new notion of discrete CND and prove that a discrete CND always exists, can be constructed by rounding a continuous CND, and that the discrete CND is unique when designed for a statistic with sensitivity 1. We further show that the discrete CND at sensitivity 1 is stochastically smallest compared to other integer-valued noises. Our theoretical results shed light on the different types of privacy guarantees possible in the $f$-DP framework and can be incorporated in more complex mechanisms to optimize performance.",
+    "authors": [
+        "Jordan Awan",
+        "Aishwarya Ramasethu"
+    ],
+    "emails": [
+        "jawan@purdue.edu",
+        "aishwarya.ramasethu@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JordanAwan/OptimizingNoiseForFDP"
+        ]
+    ],
+    "id": "23-1624",
+    "issue": 351,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Optimizing Noise for f-Differential Privacy via Anti-Concentration and Stochastic Dominance",
+    "volume": 25,
+    "year": 2024
+}

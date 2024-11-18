@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper focuses on parameter estimation and introduces a new method for lower bounding the Bayesian risk. The method allows for the use of virtually any information measure, including R\\'enyi's $\\alpha$, $\\varphi$-divergences, and Sibson's $\\alpha$-Mutual Information. \r\nThe approach considers divergences as functionals of measures and exploits the duality between spaces of measures and spaces of functions. In particular, we show that one can lower bound the risk with any information measure by upper bounding its dual via Markov's inequality.\r\nWe are thus able to provide estimator-independent impossibility results thanks to the Data-Processing Inequalities that divergences satisfy.\r\nThe results are then applied to settings of interest involving both discrete and continuous parameters, including the ``Hide-and-Seek'' problem, and compared to the state-of-the-art techniques. An important observation is that the behaviour of the lower bound in the number of samples is influenced by the choice of the information measure. We leverage this by introducing a new divergence inspired by the ``Hockey-Stick'' divergence, which is demonstrated empirically to provide the largest lower bound across all considered settings. If the observations are subject to privatisation, stronger impossibility results can be obtained via Strong Data-Processing Inequalities. The paper also discusses some generalisations and alternative directions.",
+    "authors": [
+        "Amedeo Roberto Esposito",
+        "Adrien Vandenbroucque",
+        "Michael Gastpar"
+    ],
+    "emails": [
+        "amedeo.esposito@oist.jp",
+        "adrien.vandenbroucque@epfl.ch",
+        "michael.gastpar@epfl.ch"
+    ],
+    "id": "23-0361",
+    "issue": 340,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Lower Bounds on the Bayesian Risk via Information Measures",
+    "volume": 25,
+    "year": 2024
+}

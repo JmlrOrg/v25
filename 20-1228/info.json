@@ -1,0 +1,20 @@
+{
+    "abstract": "Nonparametric tests via kernel embedding of distributions have witnessed a great deal of practical successes in recent years. However, statistical properties of these tests are largely unknown beyond consistency against a fixed alternative. To fill in this void, we study here the asymptotic properties of goodness-of-fit, homogeneity and independence tests using Gaussian kernels, arguably the most popular and successful among such tests. Our results provide theoretical justifications for this common practice by showing that tests using a Gaussian kernel with an appropriately chosen scaling parameter are minimax optimal against smooth alternatives in all three settings. In addition, our analysis also pinpoints the importance of choosing a diverging scaling parameter when using Gaussian kernels and suggests a data-driven choice of the scaling parameter that yields tests optimal, up to an iterated logarithmic factor, over a wide range of smooth alternatives. Numerical experiments are also presented to further demonstrate the practical merits of the methodology.",
+    "authors": [
+        "Tong Li",
+        "Ming Yuan"
+    ],
+    "emails": [
+        "Tong.Li@columbia.edu",
+        "Ming.Yuan@columbia.edu"
+    ],
+    "id": "20-1228",
+    "issue": 334,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "On the Optimality of Gaussian Kernel Based Nonparametric Tests against Smooth Alternatives",
+    "volume": 25,
+    "year": 2024
+}

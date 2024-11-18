@@ -1,0 +1,28 @@
+{
+    "abstract": "The random forest (RF) algorithm has become a very popular prediction method for its great flexibility and promising accuracy. In RF, it is conventional to put equal weights on all the base learners (trees) to aggregate their predictions. However, the predictive performance of different trees within the forest can vary significantly due to the randomization of the embedded bootstrap sampling and feature selection. In this paper, we focus on RF for regression and propose two optimal weighting algorithms, namely the 1 Step Optimal Weighted RF (1step-WRF$_\\mathrm{opt}$) and 2 Steps Optimal Weighted RF (2steps-WRF$_\\mathrm{opt}$), that combine the base learners through the weights determined by weight choice criteria. Under some regularity conditions, we show that these algorithms are asymptotically optimal in the sense that the resulting squared loss and risk are asymptotically identical to those of the infeasible but best possible weighted RF. Numerical studies conducted on real-world data sets and semi-synthetic data sets indicate that these algorithms outperform the equal-weight forest and two other weighted RFs proposed in the existing literature in most cases.",
+    "authors": [
+        "Xinyu Chen",
+        "Dalei Yu",
+        "Xinyu Zhang"
+    ],
+    "emails": [
+        "SA21204192@mail.ustc.edu.cn",
+        "yudalei@126.com",
+        "xinyu@amss.ac.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/XinyuChen-hey/Optimal-Weighted-Random-Forests"
+        ]
+    ],
+    "id": "23-0607",
+    "issue": 320,
+    "pages": [
+        1,
+        81
+    ],
+    "title": "Optimal Weighted Random Forests",
+    "volume": 25,
+    "year": 2024
+}

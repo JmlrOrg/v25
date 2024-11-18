@@ -1,0 +1,24 @@
+{
+    "abstract": "Kernel methods are powerful tools in machine learning. Classical kernel methods are based on positive definite kernels, which enable learning in reproducing kernel Hilbert spaces (RKHS). For non-Euclidean data spaces, positive definite kernels are difficult to come by. In this case, we propose the use of reproducing kernel Krein space (RKKS) based methods, which require only kernels that admit a positive decomposition. We show that one does not need to access this decomposition to learn in RKKS. We then investigate the conditions under which a kernel is positively decomposable. We show that invariant kernels admit a positive decomposition on homogeneous spaces under tractable regularity assumptions. This makes them much easier to construct than positive definite kernels, providing a route for learning with kernels for non-Euclidean data. By the same token, this provides theoretical foundations for RKKS-based methods in general.",
+    "authors": [
+        "Nathael Da Costa",
+        "Cyrus Mostajeran",
+        "Juan-Pablo Ortega",
+        "Salem Said"
+    ],
+    "emails": [
+        "nathael.dacosta@gmail.com",
+        "cyrus.mostajeran@gmail.com",
+        "juan-pablo.ortega@ntu.edu.sg",
+        "salem.said@univ-grenoble-alpes.fr"
+    ],
+    "id": "23-1400",
+    "issue": 326,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Geometric Learning with Positively Decomposable Kernels",
+    "volume": 25,
+    "year": 2024
+}

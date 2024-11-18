@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper considers the problem of minimizing the sum of a smooth function and the Schatten-$p$ norm of the matrix. Our contribution involves proposing accelerated iteratively reweighted nuclear norm methods designed to solve the nonconvex low-rank minimization problem. Two major novelties characterize our approach. First, the proposed method possesses an active manifold identification property, enabling the provable identification of the correct rank of the stationary point within a finite number of iterations. Second, we introduce an adaptive updating strategy for smoothing parameters. This strategy automatically fixes parameters associated with zero singular values as constants upon detecting the correct rank while quickly driving the remaining parameters to zero. This adaptive behavior transforms the algorithm into one that effectively solves smooth problems after a few iterations, setting our work apart from existing iteratively reweighted methods for low-rank optimization.  We prove the global convergence of the proposed algorithm, guaranteeing that every limit point of the iterates is a critical point. Furthermore, a local convergence rate analysis is provided under the Kurdyka-\u0141ojasiewicz property. We conduct numerical experiments using both synthetic and real data to showcase our algorithm's efficiency and superiority over existing methods.",
+    "authors": [
+        "Hao Wang",
+        "Ye Wang",
+        "Xiangyu Yang"
+    ],
+    "emails": [
+        "haw309@gmail.com",
+        "wangye_77@outlook.com",
+        "yangxy@henu.edu.cn"
+    ],
+    "id": "23-0449",
+    "issue": 319,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Efficient Active Manifold Identification via Accelerated Iteratively Reweighted Nuclear Norm Minimization",
+    "volume": 25,
+    "year": 2024
+}

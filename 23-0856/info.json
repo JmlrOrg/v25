@@ -1,0 +1,26 @@
+{
+    "abstract": "Entropic optimal transport (EOT) presents an effective and computationally viable alternative to unregularized optimal transport (OT), offering diverse applications for large-scale data analysis. In this work, we derive novel statistical bounds for empirical plug-in estimators of the EOT cost and show that their statistical performance in the entropy regularization parameter $\\varepsilon$ and the sample size $n$ only depends on the simpler of the two probability measures. For instance, under sufficiently smooth costs this yields the parametric rate $n^{-1/2}$ with factor $\\varepsilon^{-d/2}$, where $d$ is the minimum dimension of the two population measures. This confirms that empirical EOT also adheres to the lower complexity adaptation principle, a hallmark feature only recently identified for unregularized OT. As a consequence of our theory, we show that the empirical entropic Gromov-Wasserstein distance and its unregularized version for measures on Euclidean spaces also obey this principle. Additionally, we comment on computational aspects and complement our findings with Monte Carlo simulations. Our technique employs empirical process theory and relies on a dual formulation of EOT over a single function class. Central to our analysis is the observation that the entropic cost-transformation of a function class does not increase its uniform metric entropy by much.",
+    "authors": [
+        "Michel Groppe",
+        "Shayan Hundrieser"
+    ],
+    "emails": [
+        "michel.groppe@uni-goettingen.de",
+        "s.hundrieser@math.uni-goettingen.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://gitlab.gwdg.de/michel.groppe/eot-lca-simulations"
+        ]
+    ],
+    "id": "23-0856",
+    "issue": 344,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Lower Complexity Adaptation for Empirical Entropic Optimal Transport",
+    "volume": 25,
+    "year": 2024
+}

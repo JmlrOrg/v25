@@ -1,0 +1,26 @@
+{
+    "abstract": "For high-dimensional Gaussian data, we investigate theoretically how the features of a two-layer neural network adapt to the structure of the target function through a few large batch gradient descent steps, leading to an improvement in the approximation capacity with respect to the initialization.  First, we compare the influence of batch size to that of multiple (but finitely many) steps. For a single gradient step, a batch of size $n = O(d)$ is both necessary and sufficient to align with the target function, although only a single direction can be learned. In contrast, $n = O(d^2)$ is essential for neurons to specialize in multiple relevant directions of the target with a single gradient step. Even in this case, we show there might exist ``hard'' directions requiring $n = O(d^\\ell)$ samples to be learned, where $\\ell$ is known as the leap index of the target. Second, we show that the picture drastically improves over multiple gradient steps: a batch size of $n = O(d)$ is indeed sufficient to learn multiple target directions satisfying a staircase property, where more and more directions can be learned over time. Finally, we discuss how these directions allow for a drastic improvement in the approximation capacity and generalization error over the initialization, illustrating a separation of scale between the random features/lazy regime and the feature learning regime. Our technical analysis leverages a combination of techniques related to concentration, projection-based conditioning, and Gaussian equivalence, which we believe are of independent interest. By pinning down the conditions necessary for specialization and learning, our results highlight the intertwined role of the structure of the task to learn, the detail of the algorithm (the batch size), and the architecture (i.e., the number of hidden neurons), shedding new light on how neural networks adapt to the feature and learn complex task from data over time.",
+    "authors": [
+        "Yatin Dandi",
+        "Florent Krzakala",
+        "Bruno Loureiro",
+        "Luca Pesce",
+        "Ludovic Stephan"
+    ],
+    "emails": [
+        "yatin.dandi@epfl.ch",
+        "florent.krzakala@epfl.ch",
+        "bruno.loureiro@di.ens.fr",
+        "luca.pesce@epfl.ch",
+        "ludovic.stephan@ensai.fr"
+    ],
+    "id": "23-1543",
+    "issue": 349,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "How Two-Layer Neural Networks Learn, One (Giant) Step at a Time",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Transfer learning uses a data model, trained to make predictions or inferences on data from one population, to make reliable predictions or inferences on data from another population. Most existing transfer learning approaches are based on fine-tuning pre-trained neural network models, and fail to provide crucial uncertainty quantification. We develop a statistical framework for model predictions based on transfer learning, called RECaST. The primary mechanism is a Cauchy random effect that recalibrates a source model to a target population; we mathematically and empirically demonstrate the validity of our RECaST approach for transfer learning between linear models, in the sense that prediction sets will achieve their nominal stated coverage, and we numerically illustrate the method's robustness to asymptotic approximations for nonlinear models. Whereas many existing techniques are built on particular source models, RECaST is agnostic to the choice of source model, and does not require access to source data.  For example, our RECaST transfer learning approach can be applied to a continuous or discrete data model with linear or logistic regression, deep neural network architectures, etc.  Furthermore, RECaST provides uncertainty quantification for predictions, which is mostly absent in the literature.  We examine our method's performance in a simulation study and in an application to real hospital data.",
+    "authors": [
+        "Jimmy Hickey",
+        "Jonathan P. Williams",
+        "Emily C. Hector"
+    ],
+    "emails": [
+        "jhickey@ncsu.edu",
+        "jwilli27@ncsu.edu",
+        "ehector@ncsu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JimmyJHickey/RECaST"
+        ]
+    ],
+    "id": "22-1369",
+    "issue": 338,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Transfer Learning with Uncertainty Quantification: Random Effect Calibration of Source to Target (RECaST)",
+    "volume": 25,
+    "year": 2024
+}
