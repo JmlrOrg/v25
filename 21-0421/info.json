@@ -1,0 +1,26 @@
+{
+    "abstract": "We present a framework for approximate Bayesian inference intended for a situation where only a limited number of noisy log-likelihood evaluations can be obtained due to constraints on the available computational budget, which is becoming increasingly common for expensive simulator-based models. We model the log-likelihood function using a Gaussian process (GP) and our main methodological innovation is to apply this model to emulate the progression that an exact Metropolis-Hastings (MH) sampler would take if it was applicable. Informative log-likelihood evaluation locations are selected using a sequential experimental design strategy until the MH accept/reject decisions are performed with sufficient level of accuracy based on a prespecified error tolerance criterion. The resulting approximate sampler is conceptually simple and shown to be sample-efficient. It is also more robust compared with earlier ``Bayesian optimisation-like'' methods tailored for approximate Bayesian inference, which generally assume a global surrogate model across the parameter space that can be challenging to fit well. We discuss some theoretical aspects and various interpretations of the resulting approximate MH sampler, and demonstrate its benefits in the context of Bayesian and generalised Bayesian likelihood-free inference for simulator-based statistical models.",
+    "authors": [
+        "Marko J{{\\\"a}}rvenp{{\\\"a}}{{\\\"a}}",
+        "Jukka Corander"
+    ],
+    "emails": [
+        "m.j.jarvenpaa@medisin.uio.no",
+        "jukka.corander@medisin.uio.no"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mjarvenpaa/GP-MH"
+        ]
+    ],
+    "id": "21-0421",
+    "issue": 366,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Approximate Bayesian inference from noisy likelihoods with Gaussian process emulated MCMC",
+    "volume": 25,
+    "year": 2024
+}

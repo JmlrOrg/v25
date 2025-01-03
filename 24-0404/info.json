@@ -1,0 +1,57 @@
+{
+    "abstract": "We present the Keras domain packages KerasCV and KerasNLP, extensions of the Keras API for Computer Vision and Natural Language Processing workflows, capable of running on either JAX, TensorFlow, or PyTorch. These domain packages are designed to enable fast experimentation, with a focus on ease-of-use and performance. We adopt a modular, layered design: at the library\u2019s lowest level of abstraction, we provide building blocks for creating models and data preprocessing pipelines, and at the library\u2019s highest level of abstraction, we provide pretrained \u201dtask\u201d models for popular architectures such as Stable Diffusion, YOLOv8, GPT2, BERT, Mistral, CLIP, Gemma, T5, etc. Task models have built-in preprocessing, pretrained weights, and can be fine-tuned on raw inputs. To enable efficient training, we support XLA compilation for all models, and run all preprocessing via a compiled graph of TensorFlow operations using the tf.data API. The libraries are fully open-source (Apache 2.0 license) and available on GitHub. Keywords: KerasCV, KerasNLP, Keras multi-backend, Deep learning, Generative AI",
+    "authors": [
+        "Matthew Watson",
+        "Divyashree Shivakumar Sreepathihalli",
+        "Fran\\c{c}ois Chollet",
+        "Martin G{{\\'o}}rner",
+        "Kiranbir Sodhia",
+        "Ramesh Sampath",
+        "Tirth Patel",
+        "Haifeng Jin",
+        "Neel Kovelamudi",
+        "Gabriel Rasskin",
+        "Samaneh Saadat",
+        "Luke Wood",
+        "Chen Qian",
+        "Jonathan Bischof",
+        "Ian Stenbit",
+        "Abheesht Sharma",
+        "Anshuman Mishra"
+    ],
+    "emails": [
+        "mattdangerw@google.com",
+        "divyasreepat@google.com",
+        "fchollet@google.com",
+        "mgorner@google.com",
+        "ksodhia@google.com",
+        "rameshsampath@google.com",
+        "tirthp@google.com",
+        "haifengj@google.com",
+        "nkovela@google.com",
+        "grasskin@google.com",
+        "ssaadat@google.com",
+        "lukewoodcs@gmail.com",
+        "qianchen94era@gmail.com",
+        "jbischof1@gmail.com",
+        "ian@stenbit.com",
+        "sharmabhee@gmail.com",
+        "shivanshuman021@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/keras-team/keras-hub"
+        ]
+    ],
+    "id": "24-0404",
+    "issue": 375,
+    "pages": [
+        1,
+        10
+    ],
+    "special_issue": "MLOSS",
+    "title": "KerasCV and KerasNLP: Multi-framework Models",
+    "volume": 25,
+    "year": 2024
+}

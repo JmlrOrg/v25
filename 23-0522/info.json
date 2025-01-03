@@ -1,0 +1,20 @@
+{
+    "abstract": "We prove some representer theorems for a localised version of a semisupervised, manifold regularised and multiview support vector machine learning problem introduced by H.Q. Minh, L. Bazzani, and V. Murino, Journal of Machine Learning Research, 17(2016) 1-72, that involves operator valued positive semidefinite kernels and their reproducing kernel Hilbert spaces. The results concern general cases when convex or nonconvex lossfunctions and finite or infinite dimensional underlying Hilbert spaces are considered. We show that the general framework allows infinite dimensional Hilbert spaces and nonconvex loss functions for some special cases, in particular in case the loss functions are G\u00e2teaux differentiable. Detailed calculations are provided for the exponential least squares loss functions that lead to systems of partially nonlinear equations for which some Newton's approximation methods based on the interior point method can be used. Some numerical experiments are performed on a toy model that illustratethe tractability of the methods that we propose.",
+    "authors": [
+        "Aurelian Gheondea",
+        "Cankat Tilki"
+    ],
+    "emails": [
+        "a.gheondea@imar.ro",
+        "cankat@vt.edu"
+    ],
+    "id": "23-0522",
+    "issue": 368,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Localisation of Regularised and Multiview Support Vector Machine Learning",
+    "volume": 25,
+    "year": 2024
+}

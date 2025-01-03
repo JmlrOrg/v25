@@ -1,0 +1,32 @@
+{
+    "abstract": "While message passing graph neural networks result in informative node embeddings, they may suffer from describing the topological properties of graphs. To this end, node filtration has been widely used as an attempt to obtain the topological information of a graph using persistence diagrams. However, these attempts have faced the problem of losing node embedding information, which in turn prevents them from providing a more expressive graph representation. To tackle this issue, we shift our focus to edge filtration and introduce a novel edge filtration-based persistence diagram, named Topological Edge Diagram (TED), which is mathematically proven to preserve node embedding information as well as contain additional topological information. To implement TED, we propose a neural network based algorithm, named Line Graph Vietoris-Rips (LGVR) Persistence Diagram, that extracts edge information by transforming a graph into its line graph. Through LGVR, we propose two model frameworks that can be applied to any message passing GNNs, and prove that they are strictly more powerful than Weisfeiler-Lehman type colorings. Finally we empirically validate superior performance of our models on several graph classification and regression benchmarks.",
+    "authors": [
+        "Jaesun Shin",
+        "Eunjoo Jeon",
+        "Taewon Cho",
+        "Namkyeong Cho",
+        "Youngjune Gwon"
+    ],
+    "emails": [
+        "j1991.shin@samsung.com",
+        "ej85.jeon@samsung.com",
+        "taewon08.cho@samsung.com",
+        "namkyeong.cho@gmail.com",
+        "gyj.gwon@samsung.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/samsungsds-research-papers/LGVR"
+        ]
+    ],
+    "id": "23-1610",
+    "issue": 362,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Line Graph Vietoris-Rips Persistence Diagram for Topological Graph Representation Learning",
+    "volume": 25,
+    "year": 2024
+}

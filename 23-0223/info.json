@@ -1,0 +1,22 @@
+{
+    "abstract": "Federated learning (FL) is a framework for learning across an axis of group partitioned data (heterogeneous clients) while preserving data privacy, under the orchestration of a central server. FL methods often compute gradients of loss functions purely locally (e.g. at each client), typically using automatic differentiation (AD) techniques. In this work, we consider the problem of applying AD to federated computations while preserving compatibility with privacy-enhancing technologies. We propose a framework, federated automatic differentiation (federated AD), that 1) enables computing derivatives of functions involving client and server computation as well as communication between them and 2) operates in a manner compatible with existing federated technology. We show, in analogy with AD, that federated AD may be implemented using various accumulation modes, which introduce distinct computation-communication trade-offs and systems requirements. Further, we show that a broad class of federated computations is closed under these modes of federated AD, implying that if the original computation can be implemented using privacy-preserving primitives, its derivative may be computed using the same primitives. We then show how federated AD can be used to create algorithms that dynamically learn components of the algorithm itself. We demonstrate that performance of FedAvg-style algorithms can be significantly improved by using federated AD in this manner.",
+    "authors": [
+        "Keith Rush",
+        "Zachary Charles",
+        "Zachary Garrett"
+    ],
+    "emails": [
+        "krush@google.com",
+        "zachcharles@google.com",
+        "zachgarrett@google.com"
+    ],
+    "id": "23-0223",
+    "issue": 357,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Federated Automatic Differentiation",
+    "volume": 25,
+    "year": 2024
+}

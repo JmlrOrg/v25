@@ -1,0 +1,28 @@
+{
+    "abstract": "The Gromov-Wasserstein (GW) distance quantifies discrepancy between metric measure spaces and provides a natural framework for aligning heterogeneous datasets. Alas, as exact computation of GW alignment is NP-complete, entropic regularization provides an avenue towards a computationally tractable proxy. Leveraging a recently derived variational representation for the quadratic entropic GW (EGW) distance, this work derives the first efficient algorithms for solving the EGW problem subject to formal, non-asymptotic convergence guarantees. To that end, we derive smoothness and convexity properties of the objective in this variational problem, which enables its resolution by the accelerated gradient method. Our algorithms employ Sinkhorn's fixed point iterations to compute an approximate gradient, which we model as an inexact oracle. We furnish convergence rates towards local and even global solutions (the latter holds under a precise quantitative condition on the regularization parameter), characterize the effects of gradient inexactness, and prove that stationary points of the EGW problem converge towards a stationary point of the unregularized GW problem, in the limit of vanishing regularization. We provide numerical experiments that validate our theory and empirically demonstrate the state-of-the-art empirical performance of our algorithm.",
+    "authors": [
+        "Gabriel Rioux",
+        "Ziv Goldfeld",
+        "Kengo Kato"
+    ],
+    "emails": [
+        "ger84@cornell.edu",
+        "goldfeld@cornell.edu",
+        "kk976@cornell.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/gabrielrioux/EntropicGromovWasserstein"
+        ]
+    ],
+    "id": "24-0039",
+    "issue": 363,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Entropic Gromov-Wasserstein Distances: Stability and Algorithms",
+    "volume": 25,
+    "year": 2024
+}

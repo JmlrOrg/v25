@@ -1,0 +1,32 @@
+{
+    "abstract": "We present consistent algorithms for multiclass learning with complex performance metrics and constraints, where the objective and constraints are defined by arbitrary functions of the confusion matrix. This setting includes many common performance metrics such as the multiclass G-mean and micro F-measure, and  constraints such as those on the classifier's precision and recall and more recent measures of fairness discrepancy. We give a general framework for designing consistent algorithms for such complex design goals by viewing the learning problem as an optimization problem over the set of feasible confusion matrices. We provide multiple instantiations of our framework under different assumptions on the performance metrics and constraints, and in each case show rates of convergence to the optimal (feasible) classifier (and thus asymptotic consistency). Experiments on a variety of multiclass classification tasks and fairness constrained problems show that our algorithms compare favorably to the state-of-the-art baselines.",
+    "authors": [
+        "Harikrishna Narasimhan",
+        "Harish G. Ramaswamy",
+        "Shiv Kumar Tav",
+        "Praneeth Netrapalli",
+        "Shivani Agarwal"
+    ],
+    "emails": [
+        "hnarasimhan@google.com",
+        "hariguru@dsai.iitm.ac.in",
+        "dronakhurana1294@gmail.com",
+        "pnetrapalli@google.com",
+        "ashivani@seas.upenn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/shivtavker/constrained-classification"
+        ]
+    ],
+    "id": "22-1137",
+    "issue": 367,
+    "pages": [
+        1,
+        81
+    ],
+    "title": "Consistent Multiclass Algorithms for Complex Metrics and Constraints",
+    "volume": 25,
+    "year": 2024
+}

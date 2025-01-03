@@ -1,0 +1,32 @@
+{
+    "abstract": "Adversarial training is a popular method to robustify models against adversarial attacks. However, it exhibits much more severe overfitting than training on clean inputs. In this work, we investigate this phenomenon from the perspective of training instances, i.e., training input-target pairs. Based on a quantitative metric measuring the relative difficulty of an instance in the training set, we analyze the model's behavior on training instances of different difficulty levels. This lets us demonstrate that the decay in generalization performance of adversarial training is a result of fitting hard adversarial instances. We theoretically verify our observations for both linear and general nonlinear models, proving that models trained on hard instances have worse generalization performance than ones trained on easy instances, and that this generalization gap increases with the size of the adversarial budget. Finally, we investigate solutions to mitigate adversarial overfitting in several scenarios, including fast adversarial training and fine-tuning a pretrained model with additional data. Our results demonstrate that using training data adaptively improves the model's robustness.",
+    "authors": [
+        "Chen Liu",
+        "Zhichao Huang",
+        "Mathieu Salzmann",
+        "Tong Zhang",
+        "Sabine S{{\\\"u}}sstrunk"
+    ],
+    "emails": [
+        "chen.liu@cityu.edu.hk",
+        "zhichao.huang@connect.ust.hk",
+        "mathieu.salzmann@epfl.ch",
+        "tongzhang@tongzhang-ml.org",
+        "sabine.susstrunk@epfl.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/IVRL/RobustOverfit-HardInstance.git"
+        ]
+    ],
+    "id": "22-0950",
+    "issue": 356,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "On the Impact of Hard Adversarial Instances on Overfitting in Adversarial Training",
+    "volume": 25,
+    "year": 2024
+}

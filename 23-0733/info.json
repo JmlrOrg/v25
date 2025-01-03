@@ -1,0 +1,24 @@
+{
+    "abstract": "This work studies minimization problems with zero-order noisy oracle information under the assumption that the objective function is highly smooth and possibly satisfies additional properties. We consider two kinds of zero-order projected gradient descent algorithms, which differ in the form of the gradient estimator. The first algorithm uses a gradient estimator based on randomization over the $\\ell_2$ sphere due to Bach and Perchet (2016).  We present an improved analysis of this algorithm on the class of highly smooth and strongly convex functions studied in the prior work, and we derive rates of convergence for two more general classes of non-convex functions. Namely, we consider highly smooth functions satisfying the Polyak-\u0141ojasiewicz condition and the class of highly smooth functions with no additional property. The second algorithm is based on randomization over the $\\ell_1$ sphere, and it extends to the highly smooth setting the algorithm that was recently proposed for Lipschitz convex functions in Akhavan et al. (2022). We show that, in the case of noiseless oracle, this novel algorithm enjoys better bounds on bias and variance than the $\\ell_2$ randomization and the commonly used Gaussian randomization algorithms, while in the noisy case both $\\ell_1$  and $\\ell_2$  algorithms benefit from similar improved theoretical guarantees. The improvements are achieved thanks to a new proof techniques based on Poincar\u00e9 type inequalities for uniform distributions on the $\\ell_1$ or $\\ell_2$ spheres. The results are established under weak (almost adversarial) assumptions on the noise. Moreover, we provide minimax lower bounds proving optimality or near optimality of the obtained upper bounds in several cases.",
+    "authors": [
+        "Arya Akhavan",
+        "Evgenii Chzhen",
+        "Massimiliano Pontil",
+        "Alexandre B. Tsybakov"
+    ],
+    "emails": [
+        "ARIA.AKHAVANFOOMANI@IIT.IT",
+        "EVGENII.CHZHEN@CNRS.FR",
+        "MASSIMILIANO.PONTIL@IIT.IT",
+        "ALEXANDRE.TSYBAKOV@ENSAE.FR"
+    ],
+    "id": "23-0733",
+    "issue": 370,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Gradient-free optimization of highly smooth functions: improved analysis and a new algorithm",
+    "volume": 25,
+    "year": 2024
+}

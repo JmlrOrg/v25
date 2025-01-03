@@ -1,0 +1,22 @@
+{
+    "abstract": "We study statistical estimation and inference for the ranking problems based on pairwise comparisons with additional covariate information. In specific, in this paper, we study a Covariate-Assisted Ranking Estimation (CARE) model in a systematic way, that extends the well-known Bradley-Terry-Luce (BTL) model by incorporating the covariate information. We impose natural identifiability conditions, derive the statistical rates for the MLE under a sparse comparison graph, and obtain its asymptotic distribution. Moreover, we validate our theoretical results through large-scale numerical studies.",
+    "authors": [
+        "Jianqing Fan",
+        "Jikai Hou",
+        "Mengxin Yu"
+    ],
+    "emails": [
+        "jqfan@princeton.edu",
+        "jikaih@princeton.edu",
+        "mengxiny@wharton.upenn.edu"
+    ],
+    "id": "23-0554",
+    "issue": 358,
+    "pages": [
+        1,
+        83
+    ],
+    "title": "Uncertainty Quantification of MLE for Entity Ranking with Covariates",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,37 @@
+{
+    "abstract": "PGMax is an open-source Python/ JAX package for (a) easily specifying discrete Probabilistic Graphical Models (PGMs) as factor graphs; and (b) automatically running efficient and scalable differentiable Loopy Belief Propagation (LBP). PGMax supports general factor graphs with tractable factors, and leverages modern accelerators like GPUs for inference. Compared with alternative libraries, PGMax obtains higher-quality inference results with up to three orders-of-magnitude inference time speedups. PGMax interacts seamlessly with the growing JAX ecosystem, opening up new research possibilities. Our source code, examples and documentation are available at https://github.com/google-deepmind/PGMax",
+    "authors": [
+        "Guangyao Zhou",
+        "Antoine Dedieu",
+        "Nishanth Kumar",
+        "Wolfgang Lehrach",
+        "Shrinu Kushagra",
+        "Dileep George",
+        "Miguel L{{\\'a}}zaro-Gredilla"
+    ],
+    "emails": [
+        "stannis@google.com",
+        "adedieu@google.com",
+        "njk@mit.edu",
+        "wpl@google.com",
+        "shrinukushagra@google.com",
+        "dileepgeorge@google.com",
+        "lazarogredilla@google.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/google-deepmind/PGMax"
+        ]
+    ],
+    "id": "23-1010",
+    "issue": 371,
+    "pages": [
+        1,
+        25
+    ],
+    "special_issue": "MLOSS",
+    "title": "PGMax: Factor Graphs for Discrete Probabilistic Graphical Models and Loopy Belief Propagation in JAX",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper introduces a new methodology based on the field of Topological Data Analysis for detecting structural anomalies in dependent sequences of complex data. A motivating example is that of multivariate time series, for which our method allows to detect global changes in the dependence structure between channels. The proposed approach is lean enough to handle large scale data sets, and extensive numerical experiments back the intuition that it is more suitable for detecting global changes of correlation structures than existing methods. Some theoretical guarantees for quantization algorithms based on dependent sequences are also provided.",
+    "authors": [
+        "Fr{{\\'e}}d{{\\'e}}ric Chazal",
+        "Cl{{\\'e}}ment Levrard",
+        "Martin Royer"
+    ],
+    "emails": [
+        "frederic.chazal@inria.fr",
+        "clement.levrard@univ-rennes1.fr",
+        "martin.royer@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://catalog.confiance.ai/records/4fx8n-6t612"
+        ]
+    ],
+    "id": "24-0853",
+    "issue": 365,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Topological Analysis for Detecting Anomalies in dependent sequences: application to Time Series",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "A novel fully distributed joint kernel learning and clustering  framework is derived which is capable of determining clustering configurations in an unsupervised manner. Semidefinite programming is utilized  to quantify closeness of candidate kernel similarity matrices to a block diagonal structure of certain rank. Utilizing difference of convex functions and block coordinate descent a recursive algorithm is derived that determines jointly a proper kernel similarity matrix and clustering factors. Reformulating the involved semidefinite programs in a separable way we build on the alternating direction method of multipliers, to construct a fully distributed  scheme that enables joint kernel learning and clustering in  ad hoc networks via collaborating neighboring agents. Convergence claims establish that  the proposed algorithmic framework returns bounded similarity kernel updates promoting a block diagonal structure.   Detailed numerical examples utilizing both synthetic and real data demonstrate that the distributed novel approach can achieve clustering performance that gets close or even exceeds the one achieved by existing centralized alternatives.",
+    "authors": [
+        "Ioannis Schizas"
+    ],
+    "emails": [
+        "ioannis.d.schizas.civ@army.mil"
+    ],
+    "id": "23-0669",
+    "issue": 359,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Distributed Kernel-Driven Data Clustering",
+    "volume": 25,
+    "year": 2024
+}

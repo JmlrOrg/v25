@@ -1,0 +1,24 @@
+{
+    "abstract": "Random forests are a statistical learning method widely used in many areas of scientific research because of its ability to learn complex relationships between input and output variables and also its capacity to handle high-dimensional data. However, current random forest approaches are not flexible enough to handle heterogeneous data such as curves, images and shapes. In this paper, we introduce Fr\u00e9chet trees and Fr\u00e9chet random forests, which allow to handle data for which input and output variables take values in general metric spaces. To this end, a new way of splitting the nodes of trees is introduced and the prediction procedures of trees and forests are generalized. Then, random forests out-of-bag error and variable importance score are naturally adapted. A consistency theorem for Fr\u00e9chet regressogram predictor using data-driven partitions is given and applied to Fr\u00e9chet purely uniformly random trees. The method is studied through several simulation scenarios on heterogeneous data combining longitudinal, image and scalar data. Finally, one real data set about air quality is used to illustrate the use of the proposed method in practice.",
+    "authors": [
+        "Louis Capitaine",
+        "J{{\\'e}}r{{\\'e}}mie Bigot",
+        "Rodolphe Thi{{\\'e}}baut",
+        "Robin Genuer"
+    ],
+    "emails": [
+        "louis.capitaine@epoch-intelligence.fr",
+        "jeremie.bigot@math.u-bordeaux.fr",
+        "rodolphe.thiebaut@u-bordeaux.fr",
+        "robin.genuer@u-bordeaux.fr"
+    ],
+    "id": "20-1173",
+    "issue": 355,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Fr\u00e9chet Random Forests for Metric Space Valued Regression with Non Euclidean Predictors",
+    "volume": 25,
+    "year": 2024
+}
