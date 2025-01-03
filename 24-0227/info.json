@@ -2,7 +2,7 @@
     "abstract": "This work addresses the mediator feedback problem, a bandit game where the decision set consists of a number of policies, each associated with a probability distribution over a common space of outcomes. Upon choosing a policy, the learner observes an outcome sampled from its distribution and incurs the loss assigned to this outcome in the present round. We introduce the policy set capacity as an information-theoretic measure for the complexity of the policy set. Adopting the classical EXP4 algorithm, we provide new regret bounds depending on the policy set capacity in both the adversarial and the stochastic settings. For a selection of policy set families, we prove nearly-matching lower bounds, scaling similarly with the capacity. We also consider the case when the policies' distributions can vary between rounds, thus addressing the related bandits with expert advice problem, which we improve upon its prior results. Additionally, we prove a lower bound showing that exploiting the similarity between the policies is not possible in general under linear bandit feedback. Finally, for a full-information variant, we provide a regret bound scaling with the information radius of the policy set.",
     "authors": [
         "Khaled Eldowa",
-        "Nicolo Cesa-Bianchi",
+        "Nicol{{\\`o}} Cesa-Bianchi",
         "Alberto Maria Metelli",
         "Marcello Restelli"
     ],
