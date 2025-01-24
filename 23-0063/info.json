@@ -1,0 +1,22 @@
+{
+    "abstract": "The local Rademacher complexity framework is one of the most successful general-purpose toolboxes for establishing sharp excess risk bounds for statistical estimators based on empirical risk minimization. However, applying this toolbox typically requires using the Bernstein condition, which often restricts the applicability domain to convex and proper settings. Recent years have witnessed several examples of problems where optimal statistical performance is only achievable via non-convex and improper estimators originating from aggregation theory, including the fundamental problem of model selection. These examples are currently outside the reach of the classical local Rademacher complexity theory. In this work, we build upon the recent approach to localization via offset Rademacher complexities, for which a general high-probability theory has yet to be established. Our main result is an exponential-tail offset Rademacher complexity excess risk upper bound that yields results at least as sharp as those obtainable via the classical theory. However, our bound applies under an estimator-dependent geometric condition (the \u201coffset condition\u201d) instead of the estimator-independent (but, in general, distribution-dependent) Bernstein condition on which the classical theory relies. Our results apply to improper prediction regimes not directly covered by the classical theory, such as optimal model selection aggregation for arbitrary classes (including infinite and non-convex classes), and early-stopping/iterative regularization; the Bernstein condition does not hold in both examples.",
+    "authors": [
+        "Varun Kanade",
+        "Patrick Rebeschini",
+        "Tomas Vaskevicius"
+    ],
+    "emails": [
+        "varun.kanade@cs.ox.ac.uk",
+        "patrick.rebeschini@stats.ox.ac.uk",
+        "vaskevicius.tomas@gmail.com"
+    ],
+    "id": "23-0063",
+    "issue": 388,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Exponential Tail Local Rademacher Complexity Risk Bounds Without the Bernstein Condition",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the problem of finding a near-stationary point for smooth minimax optimization. The recently proposed extra anchored gradient (EAG) methods achieve the optimal convergence rate for the convex-concave minimax problem in the deterministic setting.  However, the direct extension of EAG to stochastic optimization is not efficient. In this paper, we design a novel stochastic algorithm called Recursive Anchored IteratioN (RAIN).  We show that the RAIN achieves near-optimal stochastic first-order oracle (SFO) complexity for stochastic minimax optimization in both convex-concave and strongly-convex-strongly-concave cases. In addition, we extend the idea of RAIN to solve structured nonconvex-nonconcave minimax problem and it also achieves near-optimal SFO complexity.",
+    "authors": [
+        "Lesi Chen",
+        "Luo Luo"
+    ],
+    "emails": [
+        "chenlc23@mails.edu.cn",
+        "luoluo@fudan.edu.cn"
+    ],
+    "id": "22-1126",
+    "issue": 387,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization",
+    "volume": 25,
+    "year": 2024
+}

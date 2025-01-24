@@ -1,0 +1,22 @@
+{
+    "abstract": "Tensor train (TT) decomposition represents an order-$N$ tensor using $O(N)$ order-$3$ tensors (i.e., factors of small dimension), achieved through products among these factors. Due to its compact representation, TT decomposition has been widely used in the fields of signal processing, machine learning, and quantum physics. It offers benefits such as reduced memory requirements, enhanced computational efficiency, and decreased sampling complexity. Nevertheless, existing optimization algorithms with  guaranteed performance concentrate exclusively on using the TT format for reducing the optimization space in recovery problems, while still operating on the entire tensor in each iteration. There is a lack of comprehensive theoretical analysis for optimization involving the factors directly, despite the proven efficacy of such factorization methods in practice. In this paper, we provide the first convergence guarantee for the factorization approach in a TT-based recovery problem. Specifically, to avoid the scaling ambiguity and to facilitate theoretical analysis, we optimize over the so-called left-orthogonal TT format which enforces orthonormality among most of the factors. To ensure the orthonormal structure, we utilize the Riemannian gradient descent (RGD) for optimizing those factors over the Stiefel manifold. We first delve into the TT factorization/decomposition problem and establish the local linear convergence of RGD. Notably, the rate of convergence only experiences a linear decline as the tensor order increases. We then study the sensing problem that aims to recover a TT format tensor from linear measurements. Assuming the sensing operator satisfies the restricted isometry property (RIP), we show that with a proper initialization, which could be obtained through spectral initialization, RGD also converges to the ground-truth tensor at a linear rate. Furthermore, we expand our analysis to encompass scenarios involving Gaussian noise in the measurements. We prove that RGD can reliably recover the ground truth at a linear rate, with the recovery error exhibiting only polynomial growth in relation to the tensor order $N$. We conduct various experiments to validate our theoretical findings.",
+    "authors": [
+        "Zhen Qin",
+        "Michael B. Wakin",
+        "Zhihui Zhu"
+    ],
+    "emails": [
+        "qin.660@osu.edu",
+        "mwakin@mines.edu",
+        "zhu.3440@osu.edu"
+    ],
+    "id": "24-0029",
+    "issue": 383,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Guaranteed Nonconvex Factorization Approach for Tensor Train Recovery",
+    "volume": 25,
+    "year": 2024
+}

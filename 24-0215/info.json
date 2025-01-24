@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper proposes and analyzes two neural network methods to solve the master equation for finite-state mean field games (MFGs). Solving MFGs provides approximate Nash equilibria for stochastic, differential games with finite but large populations of agents. The master equation is a partial differential equation (PDE) whose solution characterizes MFG equilibria for any possible initial distribution. The first method we propose relies on backward induction in a time component while the second method directly tackles the PDE without discretizing time. For both approaches, we prove two types of results: there exist neural networks that make the algorithms' loss functions arbitrarily small and conversely, if the losses are small, then the neural networks are good approximations of the master equation's solution. We conclude the paper with numerical experiments on benchmark problems from the literature up to dimension 15, and a comparison with solutions computed by a classical method for fixed initial distributions.",
+    "authors": [
+        "Asaf Cohen",
+        "Mathieu Lauri{{\\`e}}re",
+        "Ethan Zell"
+    ],
+    "emails": [
+        "asafc@umich.edu",
+        "mathieu.lauriere@nyu.edu",
+        "ezell@umich.edu"
+    ],
+    "id": "24-0215",
+    "issue": 401,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Deep Backward and Galerkin Methods for the Finite State Master Equation",
+    "volume": 25,
+    "year": 2024
+}

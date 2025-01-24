@@ -1,0 +1,26 @@
+{
+    "abstract": "This work focuses on addressing the challenges posed by covariate shift in nonparametric quantile regression using deep neural networks. We propose a two-stage pre-training reweighted method that leverages importance weighting to mitigate the effects of distribution shift. In the first stage, density ratios are estimated with a neural network by minimizing least squares. In the second stage, a deep neural network estimator is obtained using pre-training weights. Theoretical analysis is provided, offering non-asymptotic error bounds for the unweighted, reweighted, and pre-training reweighted estimators. We consider scenarios with both bounded and unbounded density ratios. Notably, we employ a novel proof technique to bound the generalization error, characterized by the size and weights bound of ReLU neural networks. This enables us to establish fast rates of convergence under the adaptive self-calibration condition,  distinguishing our approach from those relying on local Rademacher complexity techniques. Additionally, we derive the approximation error with weight bounds for ReLU neural networks approximating the H\\\"older class. Our theoretical findings provide valuable insights for the pre-training process and highlight the efficacy of reweighted techniques. Numerical experiments are conducted to further validate the theoretical findings and demonstrate the effectiveness of our proposed method.",
+    "authors": [
+        "Xingdong Feng",
+        "Xin He",
+        "Yuling Jiao",
+        "Lican Kang",
+        "Caixing Wang"
+    ],
+    "emails": [
+        "feng.xingdong@mail.shufe.edu.cn",
+        "he.xin17@mail.shufe.edu.cn",
+        "yulingjiaomath@whu.edu.cn",
+        "kanglican@whu.edu.cn",
+        "wang.caixing@stu.sufe.edu.cn"
+    ],
+    "id": "24-0906",
+    "issue": 385,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Deep Nonparametric Quantile Regression under Covariate Shift",
+    "volume": 25,
+    "year": 2024
+}

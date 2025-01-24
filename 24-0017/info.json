@@ -1,0 +1,26 @@
+{
+    "abstract": "We introduce a new, physics-informed continuous-time reinforcement learning (CT-RL) algorithm for control of affine nonlinear systems, an area that enables a plethora of well-motivated applications. Based on fundamental control principles, our approach uses reference command input (RCI) as probing noise to enable exploration in learning. With known physical dynamics of the environment, by leveraging on the Kleinman algorithm structure, and using state-action trajectory data, RCI provides a data-efficient optimal control solution under an infinite-horizon undiscounted cost. We show that our RCI-based CT-RL algorithm not only provides theoretical guarantees such as learning convergence, solution optimality, and closed-loop stability, but also well-behaved dynamic system responses. It is noted that our evaluations not only include extensive baseline and ablation studies using typical performance measures in RL, but also essential control-centric performance measures that are critical for real-life control applications. As a result, we demonstrate that our RCI-based CT-RL leads to new, SOTA control design and performance.",
+    "authors": [
+        "Brent A. Wallace",
+        "Jennie Si"
+    ],
+    "emails": [
+        "bawalla2@asu.edu",
+        "si@asu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bawalla2/JMLR-2024"
+        ]
+    ],
+    "id": "24-0017",
+    "issue": 400,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "A New, Physics-Informed Continuous-Time Reinforcement Learning Algorithm with Performance Guarantees",
+    "volume": 25,
+    "year": 2024
+}

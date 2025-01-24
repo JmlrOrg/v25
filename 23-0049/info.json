@@ -1,0 +1,30 @@
+{
+    "abstract": "This work proposes a rapid algorithm, BM-Global, for nuclear-norm-regularized convex and low-rank matrix optimization problems. BM-Global efficiently decreases the objective value via low-cost steps leveraging the nonconvex but smooth Burer-Monteiro (BM) decomposition, while effectively escapes saddle points and spurious local minima ubiquitous in the BM form to obtain guarantees of fast convergence rates to the global optima of the original nuclear-norm-regularized problem through aperiodic inexact proximal gradient steps on it. The proposed approach adaptively adjusts the rank for the BM decomposition and can provably identify an optimal rank for the BM decomposition problem automatically in the course of optimization through tools of manifold identification. BM-Global hence also spends significantly less time on parameter tuning than existing matrix-factorization methods, which require an exhaustive search for finding this optimal rank. Extensive experiments on real-world large-scale problems of recommendation systems, regularized kernel estimation, and molecular conformation confirm that BM-Global can indeed effectively escapes spurious local minima at which existing BM approaches are stuck, and is a magnitude faster than state-of-the-art algorithms for low-rank matrix optimization problems involving a nuclear-norm regularizer. Based on this research, we have released an open-source package of the proposed BM-Global.",
+    "authors": [
+        "Ching-pei Lee",
+        "Ling Liang",
+        "Tianyun Tang",
+        "Kim-Chuan Toh"
+    ],
+    "emails": [
+        "chingpei@ism.ac.jp",
+        "liang.ling@u.nus.edu",
+        "ttang@u.nus.edu",
+        "mattohkc@nus.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://www.github.com/leepei/BM-Global/"
+        ]
+    ],
+    "id": "23-0049",
+    "issue": 379,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Accelerating Nuclear-norm Regularized Low-rank Matrix Optimization Through Burer-Monteiro Decomposition",
+    "volume": 25,
+    "year": 2024
+}

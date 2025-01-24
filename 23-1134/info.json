@@ -1,0 +1,30 @@
+{
+    "abstract": "Making inference with spatial extremal dependence models can be computationally burdensome since they involve intractable and/or censored likelihoods. Building on recent advances in likelihood-free inference with neural Bayes estimators, that is, neural networks that approximate Bayes estimators, we develop highly efficient estimators for censored peaks-over-threshold models that {use augmented data} to encode censoring information in the neural network {input}. Our new method provides a paradigm shift that challenges traditional censored likelihood-based inference methods for spatial extremal dependence models. Our simulation studies highlight significant gains in both computational and statistical efficiency, relative to competing likelihood-based approaches, when applying our novel estimators to make inference with popular extremal dependence models, such as max-stable, $r$-Pareto, and random scale mixture process models. We also illustrate that it is possible to train a single neural Bayes estimator for a general censoring level, precluding the need to retrain the network when the censoring level is changed. We illustrate the efficacy of our estimators by making fast inference on hundreds-of-thousands of high-dimensional spatial extremal dependence models to assess extreme particulate matter 2.5 microns or less in diameter (${\\rm PM}_{2.5}$) concentration over the whole of Saudi Arabia.",
+    "authors": [
+        "Jordan Richards",
+        "Matthew Sainsbury-Dale",
+        "Andrew Zammit-Mangion",
+        "Rapha{{\\\"e}}l Huser"
+    ],
+    "emails": [
+        "jordan.richards@ed.ac.uk",
+        "matthew.sainsburydale@kaust.edu.sa",
+        "azm@uow.edu.au",
+        "raphael.huser@kaust.edu.sa"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Jbrich95/CensoredNeuralEstimators"
+        ]
+    ],
+    "id": "23-1134",
+    "issue": 390,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Neural Bayes estimators for censored inference with peaks-over-threshold models",
+    "volume": 25,
+    "year": 2024
+}

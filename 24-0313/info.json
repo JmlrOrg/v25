@@ -1,0 +1,30 @@
+{
+    "abstract": "While physics-informed neural networks (PINNs) have become a  popular deep learning framework for tackling forward and inverse problems governed by partial differential equations (PDEs), their performance is known to degrade when larger and deeper neural network architectures are employed. Our study identifies that the root of this counter-intuitive behavior lies in the use of multi-layer perceptron (MLP) architectures with non-suitable initialization schemes, which result in poor trainablity for the network derivatives, and ultimately lead to an unstable minimization of the PDE residual loss. To address this, we introduce Physics-Informed Residual Adaptive Networks (PirateNets), a novel architecture that is designed to facilitate stable and efficient training of deep PINN models. PirateNets leverage a novel adaptive residual connection, which allows the networks to be initialized as shallow networks that progressively deepen during training. We also show that the proposed initialization scheme allows us to encode appropriate inductive biases corresponding to a given PDE system into the network architecture. We provide comprehensive empirical evidence showing that PirateNets are easier to optimize and can gain accuracy from considerably increased depth, ultimately achieving state-of-the-art results across various benchmarks. All code and data accompanying this manuscript will be made publicly available at https://github.com/PredictiveIntelligenceLab/jaxpi/tree/pirate.",
+    "authors": [
+        "Sifan Wang",
+        "Bowen Li",
+        "Yuhan Chen",
+        "Paris Perdikaris"
+    ],
+    "emails": [
+        "sifan.wang@yale.edu",
+        "bowen.li@cityu.edu.hk",
+        "ychen239@ncsu.edu",
+        "pgp@seas.upenn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PredictiveIntelligenceLab/jaxpi/tree/pirate"
+        ]
+    ],
+    "id": "24-0313",
+    "issue": 402,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "PirateNets: Physics-informed Deep Learning with Residual Adaptive Networks",
+    "volume": 25,
+    "year": 2024
+}

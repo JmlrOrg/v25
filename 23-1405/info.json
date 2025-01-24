@@ -1,0 +1,20 @@
+{
+    "abstract": "Motivated by several examples, we consider a general framework of learning with linear loss functions. In this context, we provide excess risk and estimation  bounds that hold with large probability for four estimators: ERM, minmax MOM and their regularized versions. These general bounds are applied for the problem of robustness in sparse PCA. In particular, we improve the state of the art result for this this problems, obtain results under weak moment assumptions as well as for adversarial contaminated data.",
+    "authors": [
+        "Guillaume Lecu{{\\'e}}",
+        "Lucie Neirac"
+    ],
+    "emails": [
+        "lecue@essec.edu",
+        "lucie.neirac@ensae.fr"
+    ],
+    "id": "23-1405",
+    "issue": 399,
+    "pages": [
+        1,
+        90
+    ],
+    "title": "Learning with a linear loss function: excess risk and estimation bounds for ERM, minmax MOM and their regularized versions with applications to robustness in sparse PCA.",
+    "volume": 25,
+    "year": 2024
+}

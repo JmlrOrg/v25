@@ -1,0 +1,28 @@
+{
+    "abstract": "Neyman-Scott processes (NSPs) are a class of Cox processes constructed by stacking layers of Poisson processes into a deep structure. While a lot of research has been conducted regarding the posterior sampling and inference for NSPs, most of the existing methods only work for shallow NSPs (i.e., NSPs with one layer of latent Poisson processes). In this paper, we present virtual-event-based posterior sampling and inference algorithms for NSPs. The algorithms work for both deep NSPs and shallow NSPs. Moreover, we show that deep NSPs can be viewed as branching processes or a limiting case of probabilistic graphical models.  We conduct a theoretical analysis of the convergence of our algorithms and provide the condition for the convergence to hold. In doing so, we also prove the convergence of virtual-event-based sampling inference algorithms for other point process models with missing information (Markov jump processes, piecewise-constant intensity models, and Hawkes processes). Like NSPs, the latent variables of these models with missing information are also point processes. Our experimental results demonstrate that the prediction based on our sampling and inference algorithms for NSPs can achieve good prediction performance compared with state-of-the-art methods.",
+    "authors": [
+        "Chengkuan Hong",
+        "Christian R. Shelton",
+        "Jun Zhu"
+    ],
+    "emails": [
+        "ckhong@mail.tsinghua.edu.cn",
+        "cshelton@cs.ucr.edu",
+        "dcszj@tsinghua.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/hongchengkuan/Inclusive_VI_NSPs"
+        ]
+    ],
+    "id": "24-0235",
+    "issue": 384,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Virtual-Event-Based Posterior Sampling and Inference for Neyman-Scott Processes",
+    "volume": 25,
+    "year": 2024
+}

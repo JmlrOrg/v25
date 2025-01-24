@@ -1,0 +1,30 @@
+{
+    "abstract": "Orthogonality constraints naturally appear in many machine learning problems, from principal component analysis to robust neural network training. They are usually solved using Riemannian optimization algorithms, which minimize the objective function while enforcing the constraint. However, enforcing the orthogonality constraint can be the most time-consuming operation in such algorithms.  Recently, Ablin and Peyr\u00e9 (2022) proposed the landing algorithm, a method with cheap iterations that does not enforce the orthogonality constraints but is attracted towards the manifold in a smooth manner. This article provides new practical and theoretical developments for the landing algorithm. First, the method is extended to the Stiefel manifold, the set of rectangular orthogonal matrices. We also consider stochastic and variance reduction algorithms when the cost function is an average of many functions. We demonstrate that all these methods have the same rate of convergence as their Riemannian counterparts that exactly enforce the constraint, and converge to the manifold. Finally, our experiments demonstrate the promise of our approach to an array of machine-learning problems that involve orthogonality constraints.",
+    "authors": [
+        "Pierre Ablin",
+        "Simon Vary",
+        "Bin Gao",
+        "Pierre-Antoine Absil"
+    ],
+    "emails": [
+        "pierreablin@gmail.com",
+        "simon.vary@stats.ox.ac.uk",
+        "gaobin@lsec.cc.ac.cn",
+        "pa.absil@uclouvain.be"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/simonvary/landing-stiefel"
+        ]
+    ],
+    "id": "23-0451",
+    "issue": 389,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Infeasible Deterministic, Stochastic, and Variance-Reduction Algorithms for Optimization under Orthogonality Constraints",
+    "volume": 25,
+    "year": 2024
+}

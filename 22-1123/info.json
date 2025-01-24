@@ -1,0 +1,24 @@
+{
+    "abstract": "Maximum mean discrepancies (MMDs) like the kernel Stein discrepancy (KSD) have grown central to a wide range of applications, including hypothesis testing, sampler selection, distribution approximation, and variational inference. In each setting, these kernel-based discrepancy measures are required to $(i)$ separate a target $\\mathrm{P}$ from other probability measures or even $(ii)$ control weak convergence to $\\mathrm{P}$. In this article we derive new sufficient and necessary conditions to ensure $(i)$ and $(ii)$. For MMDs on separable metric spaces, we characterize those kernels that separate Bochner embeddable measures and introduce simple conditions for separating all measures with unbounded kernels and for controlling convergence with bounded kernels. We use these results on $\\mathbb{R}^d$ to substantially broaden the known conditions for KSD separation and convergence control and to develop the first KSDs known to exactly metrize weak convergence to $\\mathrm{P}$. Along the way, we highlight the implications of our results for hypothesis testing, measuring and improving sample quality, and sampling with Stein variational gradient descent.",
+    "authors": [
+        "Alessandro Barp",
+        "Carl-Johann Simon-Gabriel",
+        "Mark Girolami",
+        "Lester Mackey"
+    ],
+    "emails": [
+        "alessandro.barp@ucl.ac.uk",
+        "cjsg@mirelo.ai",
+        "mag92@cam.ac.uk",
+        "lmackey@microsoft.com"
+    ],
+    "id": "22-1123",
+    "issue": 378,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Targeted Separation and Convergence with Kernel Discrepancies",
+    "volume": 25,
+    "year": 2024
+}

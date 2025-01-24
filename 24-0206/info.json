@@ -1,0 +1,22 @@
+{
+    "abstract": "We provide a Lyapunov convergence analysis for time-inhomogeneous variable coefficient stochastic differential equations (SDEs). Three typical examples include overdamped, irreversible drift, and underdamped Langevin dynamics. We first formulate the probability transition equation of Langevin dynamics as a modified gradient flow of the Kullback-Leibler divergence in the probability space with respect to time-dependent optimal transport metrics. This formulation contains both gradient and non-gradient directions depending on a class of time-dependent target distribution. We then select a time-dependent relative Fisher information functional as a Lyapunov functional. We develop a time-dependent Hessian matrix condition, which guarantees the convergence of the probability density function of the SDE. We verify the proposed conditions for several time-inhomogeneous Langevin dynamics. For the overdamped Langevin dynamics, we prove the $O(t^{-1/2})$ convergence in $L^1$ distance for the simulated annealing dynamics with a strongly convex potential function. For the irreversible drift Langevin dynamics, we prove an improved convergence towards the target distribution in an asymptotic regime. We also verify the convergence condition for the underdamped Langevin dynamics. Numerical examples demonstrate the convergence results for the time-dependent Langevin dynamics.",
+    "authors": [
+        "Qi Feng",
+        "Xinzhe Zuo",
+        "Wuchen Li"
+    ],
+    "emails": [
+        "qfeng2@fsu.edu",
+        "zxz@math.ucla.edu",
+        "wuchen@mailbox.sc.edu"
+    ],
+    "id": "24-0206",
+    "issue": 392,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Fisher information dissipation for time-inhomogeneous stochastic differential equations",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "Personalized Federated Learning (FL) faces many challenges such as expensive communication costs, training-time adversarial attacks, and performance unfairness across devices. Recent developments witness a trade-off between a reference model and local models to achieve personalization. Following the avenue, we propose a personalized FL method toward the three goals. When it is time to communicate, our method projects local models into a shared-and-fixed low-dimensional random subspace and uses infimal convolution to control the deviation between the reference model and projected local models. We theoretically show our method converges for both strongly convex and non-convex but smooth objectives with square regularizers and the convergence dependence on the projection dimension is mild. We also illustrate the benefits of robustness and fairness on a class of linear problems. Finally, we conduct a large number of experiments to show the empirical superiority of our method over several state-of-the-art methods on the three aspects.",
+    "authors": [
+        "Yuze Han",
+        "Xiang Li",
+        "Shiyun Lin",
+        "Zhihua Zhang"
+    ],
+    "emails": [
+        "hanyuze97@ruc.edu.cn",
+        "lx10077@pku.edu.cn",
+        "shiyunlin@stu.pku.edu.cn",
+        "zhzhang@math.pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/desternylin/perfed"
+        ]
+    ],
+    "id": "23-0215",
+    "issue": 380,
+    "pages": [
+        1,
+        88
+    ],
+    "title": "A Random Projection Approach to Personalized Federated Learning: Enhancing Communication Efficiency, Robustness, and Fairness",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Structural learning of directed acyclic graphs (DAGs) or Bayesian networks has been studied extensively under the assumption that the data are independent. We propose a new Gaussian DAG model for dependent data which assumes the observations are correlated according to an undirected network. Under this model, we develop a method to estimate the DAG structure given a topological ordering of the nodes. The proposed method jointly estimates the Bayesian network and the correlations among observations by optimizing a scoring function based on penalized likelihood. We show that under some mild conditions, the proposed method produces consistent estimators after one iteration. Extensive numerical experiments also demonstrate that, by jointly estimating the DAG structure and the sample correlation, our method achieves much higher accuracy in structure learning. When the node ordering is unknown, through experiments on synthetic and real data, we show that our algorithm can be used to estimate the correlations between samples, with which we can de-correlate the dependent data to significantly improve the performance of classical DAG learning methods.",
+    "authors": [
+        "Hangjian Li",
+        "Oscar Hernan Madrid Padilla",
+        "Qing Zhou"
+    ],
+    "emails": [
+        "lihangjian123@ucla.edu",
+        "oscar.madrid@stat.ucla.edu",
+        "zhou@stat.ucla.edu"
+    ],
+    "id": "21-0846",
+    "issue": 377,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Learning Gaussian DAGs from Network Data",
+    "volume": 25,
+    "year": 2024
+}

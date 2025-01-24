@@ -1,0 +1,22 @@
+{
+    "abstract": "Tensor Gaussian graphical models (GGMs), interpreting conditional independence structures within tensor data, have important applications in numerous areas. Yet, the available tensor data in one single study is often limited due to high acquisition costs. Although relevant studies can provide additional data, it remains an open question how to pool such heterogeneous data. In this paper, we propose a transfer learning framework for tensor GGMs, which takes full advantage of informative auxiliary domains even when non-informative auxiliary domains are present, benefiting from the carefully designed data-adaptive weights. Our theoretical analysis shows substantial improvement of estimation errors and variable selection consistency on the target domain under much relaxed conditions, by leveraging information from auxiliary domains. Extensive numerical experiments are conducted on both synthetic tensor graphs and brain functional connectivity network data, which demonstrates the satisfactory performance of the proposed method.",
+    "authors": [
+        "Mingyang Ren",
+        "Yaoming Zhen",
+        "Junhui Wang"
+    ],
+    "emails": [
+        "mingyangren@sjtu.edu.cn",
+        "yaoming.zhen@utoronto.ca",
+        "junhuiwang@cuhk.edu.hk"
+    ],
+    "id": "22-1313",
+    "issue": 396,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Transfer learning for tensor Gaussian graphical models",
+    "volume": 25,
+    "year": 2024
+}

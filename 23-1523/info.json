@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we study approximation algorithms for several classes of DR-submodular optimization problems, where DR is short for diminishing return. Following a newly introduced algorithm framework for zeroth-order stochastic approximation methods, we first propose algorithms {\\bf CG-ZOSA} and {\\bf RG-ZOSA} for smooth DR-submodular optimization based on the coordinate-wise gradient estimator and the randomized gradient estimator, respectively. Our theoretical analysis proves that \\rm{\\bf{CG-ZOSA}} can reach a solution whose expected objective value exceeds $(1-e^{-1}-\\epsilon^{2})$OPT$-\\epsilon$ after $\\mathcal{O}(\\epsilon^{-2})$ iterations and $\\mathcal{O}(N^{2/3}d\\epsilon^{-2})$ oracle calls, where $d$ represents the problem dimension. On the other hand, \\rm{\\bf{RG-ZOSA}} improves the approximation ratio to $(1-e^{-1}-\\epsilon^{2}/d)$ while maintaining the same overall oracle complexity. For non-smooth up-concave maximization problems, we propose a novel auxiliary function based on a smoothed objective function and introduce the \\rm{\\bf{NZOSA}} algorithm. This algorithm achieves an approximation ratio of $(1-e^{-1}-\\epsilon \\ln \\epsilon^{-1}- \\epsilon^{2}\\ln \\epsilon^{-1})$ with $\\mathcal{O}(d\\epsilon^{-2})$ iterations and $\\mathcal{O}(N^{2/3}d^{3/2} \\epsilon^{-3})$ oracle calls. We also extend \\rm{\\bf{NZOSA}} to handle a class of robust DR-submodular maximization problems. To validate the effectiveness of our proposed algorithms, we conduct experiments on both synthetic and real-world problems. The results demonstrate the superior performance and efficiency of our methods in solving DR-submodular optimization problems.",
+    "authors": [
+        "Yuefang Lian",
+        "Xiao Wang",
+        "Dachuan Xu",
+        "Zhongrui Zhao"
+    ],
+    "emails": [
+        "lianyf@emails.bjut.edu.cn",
+        "wxucas@outlook.com",
+        "xudc@bjut.edu.cn",
+        "zhongrui.zhao@my.jcu.edu.au"
+    ],
+    "id": "23-1523",
+    "issue": 391,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Zeroth-order Stochastic Approximation Algorithms for DR-submodular Optimization",
+    "volume": 25,
+    "year": 2024
+}

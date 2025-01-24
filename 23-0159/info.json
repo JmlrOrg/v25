@@ -1,0 +1,28 @@
+{
+    "abstract": "Dynamic mechanism design studies how mechanism designers should allocate resources among agents in a time-varying environment. We consider the problem where the agents interact with the mechanism designer according to an unknown Markov Decision Process (MDP), where agent rewards and the mechanism designer's state evolve according to an episodic MDP with unknown reward functions and transition kernels. We focus on the online setting with linear function approximation and propose novel learning algorithms to recover the dynamic Vickrey-Clarke-Grove (VCG) mechanism over multiple rounds of interaction. A key contribution of our approach is incorporating reward-free online Reinforcement Learning (RL) to aid exploration over a rich policy space to estimate prices in the dynamic VCG mechanism. We show that the regret of our proposed method is upper bounded by $\\tilde{\\mathcal{O}}(T^{2/3})$ and further devise a lower bound to show that our algorithm is efficient, incurring the same $\\Omega(T^{2 / 3})$ regret as the lower bound, where $T$ is the total number of rounds. Our work establishes the regret guarantee for online RL in solving dynamic mechanism design problems without prior knowledge of the underlying model.",
+    "authors": [
+        "Shuang Qiu",
+        "Boxiang Lyu",
+        "Qinglin Meng",
+        "Zhaoran Wang",
+        "Zhuoran Yang",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "masqiu@ust.hk",
+        "blyu@chicagobooth.edu",
+        "meng160@purdue.edu",
+        "zhaoranwang@gmail.com",
+        "zhuoran.yang@yale.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "23-0159",
+    "issue": 397,
+    "pages": [
+        1,
+        73
+    ],
+    "title": "Learning Dynamic Mechanisms in Unknown Environments: A Reinforcement Learning Approach",
+    "volume": 25,
+    "year": 2024
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider contextual bandits with linear constraints (CBwLC), a variant of contextual bandits in which the algorithm consumes multiple resources subject to linear constraints on total consumption. This problem generalizes contextual bandits with knapsacks (CBwK), allowing for packing and covering constraints, as well as positive and negative resource consumption. We provide the first algorithm for CBwLC (or CBwK) that is based on regression oracles. The algorithm is simple, computationally efficient, and statistically optimal under mild assumptions. Further, we provide the first vanishing-regret guarantees for CBwLC (or CBwK) that extend beyond the stochastic environment. We side-step strong impossibility results from prior work by identifying a weaker (and, arguably, fairer) benchmark to compare against. Our algorithm builds on LagrangeBwK (Immorlica et al., 2019, 2022), a Lagrangianbased technique for CBwK, and SquareCB (Foster and Rakhlin, 2020), a regression-based technique for contextual bandits. Our analysis leverages the inherent modularity of both techniques.",
+    "authors": [
+        "Aleksandrs Slivkins",
+        "Xingyu Zhou",
+        "Karthik Abinav Sankararaman",
+        "Dylan J. Foster"
+    ],
+    "emails": [
+        "slivkins@microsoft.com",
+        "xingyu.zhou@wayne.edu",
+        "karthikabinavs@gmail.com",
+        "dylanfoster@microsoft.com"
+    ],
+    "id": "24-1220",
+    "issue": 394,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Contextual Bandits with Packing and Covering Constraints: A Modular Lagrangian Approach via Regression",
+    "volume": 25,
+    "year": 2024
+}

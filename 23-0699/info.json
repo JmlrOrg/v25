@@ -1,0 +1,32 @@
+{
+    "abstract": "Global feature effect methods, such as partial dependence plots, provide an intelligible visualization of the expected marginal feature effect. However, such global feature effect methods can be misleading, as they do not represent local feature effects of single observations well when feature interactions are present. We formally introduce generalized additive decomposition of global effects (GADGET), which is a new framework based on recursive partitioning to find interpretable regions in the feature space such that the interaction-related heterogeneity of local feature effects is minimized. We provide a mathematical foundation of the framework and show that it is applicable to the most popular methods to visualize marginal feature effects, namely partial dependence, accumulated local effects, and Shapley additive explanations (SHAP) dependence. Furthermore, we introduce and validate a new permutation-based interaction detection procedure that is applicable to any feature effect method that fits into our proposed framework. We empirically evaluate the theoretical characteristics of the proposed methods based on various feature effect methods in different experimental settings. Moreover, we apply our introduced methodology to three real-world examples to showcase their usefulness.",
+    "authors": [
+        "Julia Herbinger",
+        "Marvin N. Wright",
+        "Thomas Nagler",
+        "Bernd Bischl",
+        "Giuseppe Casalicchio"
+    ],
+    "emails": [
+        "julia.herbinger@gmail.com",
+        "wright@leibniz-bips.de",
+        "nagler@stat.uni-muenchen.de",
+        "bernd.bischl@stat.uni-muenchen.de",
+        "giuseppe.casalicchio@stat.uni-muenchen.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JuliaHerbinger/gadget/"
+        ]
+    ],
+    "id": "23-0699",
+    "issue": 381,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Decomposing Global Feature Effects Based on Feature Interactions",
+    "volume": 25,
+    "year": 2024
+}

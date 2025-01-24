@@ -1,0 +1,28 @@
+{
+    "abstract": "A scaled conjugate gradient method that accelerates existing adaptive methods utilizing stochastic gradients is proposed for solving nonconvex optimization problems with deep neural networks. It is shown theoretically that, whether with a constant or diminishing learning rate, the proposed method can obtain a stationary point of the problem. Additionally, its rate of convergence with a diminishing learning rate is verified to be superior to that of the conjugate gradient method. The proposed method is shown to minimize training loss functions faster than the existing adaptive methods in practical applications of image and text classification. Furthermore, in the training of generative adversarial networks, one version of the proposed method achieved the lowest Fr\\'echet inception distance score among those of the adaptive methods.",
+    "authors": [
+        "Naoki Sato",
+        "Koshiro Izumi",
+        "Hideaki Iiduka"
+    ],
+    "emails": [
+        "naoki310303@gmail.com",
+        "koshi-izumi@secom.co.jp",
+        "iiduka@cs.meiji.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/iiduka-researches/202210-izumi"
+        ]
+    ],
+    "id": "22-0815",
+    "issue": 395,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Scaled Conjugate Gradient Method for Nonconvex Optimization in Deep Neural Networks",
+    "volume": 25,
+    "year": 2024
+}
