@@ -1,0 +1,20 @@
+{
+    "abstract": "Federated learning (FL) is a creative technique that enables multiple edge devices to train a model without revealing raw data. However, several issues hinder the practical implementation of FL, especially in wireless environments. These issues comprise the limited capacity of the upload transmission link between the edge devices and the aggregator, as well as the wireless disturbances. To address these challenges, we develop a zero-order (ZO) communication-efficient framework for FL. While in standard FL, each device must upload a long vector containing the gradient or the model per communication round, our novel ZO method incorporates a two-point gradient estimator, which requires uploading only two scalars. What also sets our approach apart is that it directly incorporates wireless perturbations into the learning, eliminating the need for additional computational resources to remove their impact. In this work, we overcome the technical and analytical challenges associated with FL problems and ZO methods, comprehensively study our algorithm, and prove it converges almost surely under different conditions, convexity and non-convexity, noise-free and noisy environments. We then find theoretical bounds on the convergence rate when the objective is strongly convex, non-convex, and $\\kappa$-gradient-dominated that compete with first-order (FO) or centralized methods under the same settings. Finally, we provide experimental results demonstrating the effectiveness of our algorithm, considering relevant examples. We provide an example illustrating the amount of communication saved due to its efficiency compared to its FO counterpart.",
+    "authors": [
+        "Elissa Mhanna",
+        "Mohamad Assaad"
+    ],
+    "emails": [
+        "elissa.mhanna@centralesupelec.fr",
+        "mohamad.assaad@centralesupelec.fr"
+    ],
+    "id": "24-1189",
+    "issue": 418,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Countering the Communication Bottleneck in Federated Learning: A Highly Efficient Zero-Order Optimization Technique",
+    "volume": 25,
+    "year": 2024
+}

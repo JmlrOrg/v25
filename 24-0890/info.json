@@ -1,0 +1,22 @@
+{
+    "abstract": "Many existing covariate shift adaptation methods estimate sample weights to mitigate the gap between the source and the target distribution. However, estimating the optimal weights typically involves computationally expensive matrix inversion and hyper-parameter tuning. In this paper, we propose a new covariate shift adaptation method which avoids estimating the weights. The basic idea is to directly work on unlabeled target data, labeled according to the $k$-nearest neighbors in the source dataset. Our analysis reveals that setting $k = 1$ is an optimal choice. This property eliminates the necessity of tuning the hyper-parameter $k$ and leads to a running time quasi-linear in the sample size. Our results include sharp rates of convergence for our estimator, with a tight control of the mean square error and explicit constants. In particular, the variance of our estimator has the same rate of convergence as for standard parametric estimation despite their non-parametric nature. The proposed estimator shares similarities with some matching-based treatment effect estimators used, e.g., in biostatistics, econometrics, and epidemiology. Our experiments show that it achieves drastic reduction in the running time with remarkable accuracy.",
+    "authors": [
+        "Fran{\\c{c}}ois Portier",
+        "Lionel Truquet",
+        "Ikko Yamane"
+    ],
+    "emails": [
+        "francois.portier@ensai.fr",
+        "lionel.truquet@ensai.fr",
+        "ikko.yamane@ensai.fr"
+    ],
+    "id": "24-0890",
+    "issue": 410,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Nearest Neighbor Sampling for Covariate Shift Adaptation",
+    "volume": 25,
+    "year": 2024
+}

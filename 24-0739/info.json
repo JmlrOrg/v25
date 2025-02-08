@@ -1,0 +1,39 @@
+{
+    "abstract": "The dynamic mode decomposition (DMD) is a powerful data-driven modeling technique that reveals coherent spatiotemporal patterns from dynamical system snapshot observations. PyDMD is a Python package that implements DMD and several of its major optimizations and methodological extensions. In this paper, we introduce the version 1.0 release of PyDMD, which includes new data preprocessors, plotting tools, and a number of cutting-edge DMD methods specifically designed to handle real-world data that may be noisy, multi-scale, parameterized, prohibitively high-dimensional, and even strongly nonlinear. The package is friendly to install, thoroughly-documented, supplemented with extensive code examples, and modularly-structured to support future additions. The entire codebase is released under the MIT license and is available at https://github.com/PyDMD/PyDMD.",
+    "authors": [
+        "Sara M. Ichinaga",
+        "Francesco Andreuzzi",
+        "Nicola Demo",
+        "Marco Tezzele",
+        "Karl Lapo",
+        "Gianluigi Rozza",
+        "Steven L. Brunton",
+        "J. Nathan Kutz"
+    ],
+    "emails": [
+        "sarami7@uw.edu",
+        "andreuzzi.francesco@gmail.com",
+        "nicola.demo@sissa.it",
+        "marco.tezzele@emory.edu",
+        "karl-eric.lapo@uibk.ac.at",
+        "gianluigi.rozza@sissa.it",
+        "sbrunton@uw.edu",
+        "kutz@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PyDMD/PyDMD"
+        ]
+    ],
+    "id": "24-0739",
+    "issue": 417,
+    "pages": [
+        1,
+        9
+    ],
+    "special_issue": "MLOSS",
+    "title": "PyDMD: A Python Package for Robust Dynamic Mode Decomposition",
+    "volume": 25,
+    "year": 2024
+}

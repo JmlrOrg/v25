@@ -1,0 +1,22 @@
+{
+    "abstract": "The problem of classifying multiple categorical responses is fundamental in modern machine learning and statistics, with diverse applications in fields such as bioinformatics and imaging. This manuscript investigates linear discriminant analysis (LDA) with high-dimensional predictors and multiple multi-class responses. Specifically, we first examine two different classification scenarios under the bivariate LDA model: joint classification of the two responses and conditional classification of one response while observing the other. To achieve optimal classification rules for both scenarios, we introduce two novel tensor formulations of the discriminant coefficients and corresponding regularization strategies. For joint classification, we propose an overlapping group lasso penalty and a blockwise coordinate descent algorithm to efficiently compute the joint discriminant coefficient tensors. For conditional classification, we utilize an alternating direction method of multipliers (ADMM) algorithm to compute the discriminant coefficient tensors under new constraints. We then extend our method and algorithms to general multivariate responses. Finally, we validate the effectiveness of our approach through simulation studies and applications to benchmark datasets.",
+    "authors": [
+        "Kai Deng",
+        "Xin Zhang",
+        "Aaron J. Molstad"
+    ],
+    "emails": [
+        "kdeng@fsu.edu",
+        "henry@stat.fsu.edu",
+        "amolstad@umn.edu"
+    ],
+    "id": "23-0961",
+    "issue": 413,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Multi-Response Linear Discriminant Analysis in High Dimensions",
+    "volume": 25,
+    "year": 2024
+}

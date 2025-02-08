@@ -1,0 +1,24 @@
+{
+    "abstract": "We propose data-dependent uniform generalization bounds by approaching the problem from a PAC-Bayesian perspective. We first apply the PAC-Bayesian framework on ``random sets'' in a rigorous way, where the training algorithm is assumed to output a data-dependent hypothesis set after observing the training data. This approach allows us to prove data-dependent bounds, which can be applicable in numerous contexts. To highlight the power of our approach, we consider two main applications. First, we propose a PAC-Bayesian formulation of the recently developed fractal-dimension-based generalization bounds. The derived results are shown to be tighter and they unify the existing results around one simple proof technique. Second, we prove uniform bounds over the trajectories of continuous Langevin dynamics and stochastic gradient Langevin dynamics. These results provide novel information about the generalization properties of noisy algorithms.",
+    "authors": [
+        "Benjamin Dupuis",
+        "Paul Viallard",
+        "George Deligiannidis",
+        "Umut Simsekli"
+    ],
+    "emails": [
+        "benjamin.dupuis@inria.fr",
+        "paul.viallard@inria.fr",
+        "george.deligiannidis@stats.ox.ac.uk",
+        "umut.simsekli@inria.fr"
+    ],
+    "id": "24-0605",
+    "issue": 409,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Uniform Generalization Bounds on Data-Dependent Hypothesis Sets via PAC-Bayesian Theory on Random Sets",
+    "volume": 25,
+    "year": 2024
+}

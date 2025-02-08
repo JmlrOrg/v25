@@ -1,0 +1,24 @@
+{
+    "abstract": "Recent advances in dynamic treatment regimes (DTRs) facilitate the search for optimal treatments, which are tailored to individuals' specific needs and able to maximize their expected clinical benefits. However, existing algorithms relying on consistent trajectories, such as inverse probability weighting estimators (IPWEs), could suffer from insufficient sample size under optimal treatments and a growing number of decision-making stages, particularly in the context of chronic diseases. To address these challenges, we propose a novel individualized learning method which estimates the DTR with a focus on prioritizing alignment between the observed treatment trajectory and the one obtained by the optimal regime across decision stages. By relaxing the restriction that the observed trajectory must be fully aligned with the optimal treatments, our approach substantially improves the sample efficiency and stability of IPWE-based methods. In particular, the proposed learning scheme builds a more general framework which includes the popular outcome weighted learning framework as a special case of ours. Moreover, we introduce the notion of stage importance scores along with an attention mechanism to explicitly account for heterogeneity among decision stages. We establish the theoretical properties of the proposed approach, including Fisher consistency and the finite-sample performance bound. Empirically, we evaluate the proposed method in extensive simulated environments and a real case study for the COVID-19 pandemic.",
+    "authors": [
+        "Hanwen Ye",
+        "Wenzhuo Zhou",
+        "Ruoqing Zhu",
+        "Annie Qu"
+    ],
+    "emails": [
+        "hanweny@uci.edu",
+        "wenzhuz3@uci.edu",
+        "rqzhu@illinois.edu",
+        "aqu2@uci.edu"
+    ],
+    "id": "23-1422",
+    "issue": 408,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Stage-Aware Learning for Dynamic Treatments",
+    "volume": 25,
+    "year": 2024
+}

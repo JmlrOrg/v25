@@ -1,0 +1,26 @@
+{
+    "abstract": "Logistic regression is a key method for modeling the probability of a binary outcome based on a collection of covariates. However, the classical formulation of  logistic regression relies on the independent sampling assumption, which is often violated when the outcomes interact through an underlying network structure, such as over a temporal/spatial domain or on a social network. This necessitates the development of models that can simultaneously handle both the network 'peer-effect' (arising from neighborhood interactions) and the effect of (possibly) high-dimensional covariates. In this paper, we develop a framework for incorporating such dependencies in a high-dimensional logistic regression model by introducing a quadratic interaction term, as in the Ising model, designed to capture the pairwise interactions from the underlying network. The resulting model can also be viewed as an Ising model, where the node-dependent external fields linearly encode the high-dimensional covariates. We propose a penalized maximum pseudo-likelihood method for estimating the network peer-effect and the effect of the covariates (the regression coefficients), which, in addition to handling the high-dimensionality of the parameters, conveniently avoids the computational intractability of the maximum likelihood approach. Under various standard regularity conditions, we show that the corresponding estimate attains the classical high-dimensional rate of consistency. In particular, our results imply that even under network dependence it is possible to consistently estimate the model parameters at the same rate as in classical (independent) logistic regression, when the true parameter is sparse and the underlying network is not too dense. Consequently,  we  derive  the rates of consistency of our proposed estimator for various  natural  graph  ensembles,  such  as bounded degree graphs, sparse Erd\\H{o}s-R\\'{e}nyi random graphs, and stochastic block models. We also develop an efficient algorithm for computing the estimates and validate our theoretical results in numerical experiments. An application to selecting genes in clustering spatial transcriptomics data is also discussed.",
+    "authors": [
+        "Somabha Mukherjee",
+        "Ziang Niu",
+        "Sagnik Halder",
+        "Bhaswar B. Bhattacharya",
+        "George Michailidis"
+    ],
+    "emails": [
+        "somabha@nus.edu.sg",
+        "ziangniu@wharton.upenn.edu",
+        "shalder@ufl.edu",
+        "bhaswar@wharton.upenn.edu",
+        "gmichail@ufl.edu"
+    ],
+    "id": "22-1040",
+    "issue": 411,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Logistic Regression Under Network Dependence",
+    "volume": 25,
+    "year": 2024
+}

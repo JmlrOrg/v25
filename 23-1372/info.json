@@ -1,0 +1,24 @@
+{
+    "abstract": "Interested in estimating the order of a finite-state Hidden Markov Model (HMM) with non-parametric emission distributions from a single observed sequence, we introduce a new method that only requires full rank transition matrix and linear independence between the emission distributions. This method relies on the equality between the order of the HMM and the rank of a specific integral operator. Since only the empirical counter-part of the singular values of the operator can be obtained, a thresholding procedure is proposed. At a non-asymptotic level, an upper-bound on the probability of overestimating the order of the HMM is provided. At an asymptotic level, the consistency of the estimator is established. In addition, we introduce a general heuristic that can be successfully applied to several problems in spectral analysis for designing a data-driven procedure for the threshold. The approach has the advantage of not requiring any knowledge of an upper-bound on the order of the HMM. Moreover, different types of data (including circular or mixed-type data) can be managed. The relevance of the approach is illustrated on numerical experiments and on real data considering multivariate data with directional variables.",
+    "authors": [
+        "Marie Du Roy de Chaumaray",
+        "Salima El Kolei",
+        "Marie-Pierre Etienne",
+        "Matthieu Marbac"
+    ],
+    "emails": [
+        "marie.du-roy-de-chaumaray@univ-rennes2.fr",
+        "salima.el-kolei@ensai.fr",
+        "marie-pierre.etienne@institut-agro.fr",
+        "matthieu.marbac-lourdelle@ensai.fr"
+    ],
+    "id": "23-1372",
+    "issue": 415,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Estimation of the Order of Non-Parametric Hidden Markov Models using the Singular Values of an Integral Operator",
+    "volume": 25,
+    "year": 2024
+}

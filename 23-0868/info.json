@@ -1,0 +1,32 @@
+{
+    "abstract": "We consider learning a probabilistic classifier from partially-labelled supervision (inputs denoted with multiple possibilities) using standard neural architectures with a softmax as the final layer.  We identify a bias phenomenon that can arise from the softmax layer in even simple architectures that prevents proper exploration of alternative options, making the dynamics of gradient descent overly sensitive to initialization.  We introduce a novel loss function that allows for unbiased exploration within the space of alternative outputs.  We give a theoretical justification for our loss function, and provide an extensive evaluation of its impact on synthetic data, on standard partially labelled benchmarks and on a contributed novel benchmark related to an existing rule learning challenge.",
+    "authors": [
+        "Zsolt Zombori",
+        "Agapi Rissaki",
+        "Krist{{\\'o}}f Szab{{\\'o}}",
+        "Wolfgang Gatterbauer",
+        "Michael Benedikt"
+    ],
+    "emails": [
+        "zombori@renyi.hu",
+        "rissaki.agapi@gmail.com",
+        "krist.sz13@gmail.com",
+        "wgatterbauer@northeastern.edu",
+        "michael.benedikt@cs.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://sites.google.com/view/symbolicsupervision"
+        ]
+    ],
+    "id": "23-0868",
+    "issue": 412,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Towards Unbiased Exploration in Partial Label Learning",
+    "volume": 25,
+    "year": 2024
+}

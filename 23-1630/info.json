@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper considers stochastic-constrained stochastic optimization where the stochastic constraint is to satisfy that the expectation of a random function is below a certain threshold. In particular, we study the setting where data samples are drawn from a Markov chain and thus are not independent and identically distributed. We generalize the drift-plus-penalty framework, a primal-dual stochastic gradient method developed for the i.i.d. case, to the Markov chain sampling setting. We propose three variants of drift-plus-penalty; two are for the case when the mixing time of the underlying Markov chain is known while the other is for the case of unknown mixing time. In fact, our algorithms apply to a more general setting of constrained online convex optimization where the sequence of constraint functions follows a Markov chain. The algorithms are adaptive in that the first two work without knowledge of the time horizon while the third uses AdaGrad-style algorithm parameters, which is of independent interest. We demonstrate the effectiveness of our proposed methods through numerical experiments on classification with fairness constraints.",
+    "authors": [
+        "Yeongjong Kim",
+        "Dabeen Lee"
+    ],
+    "emails": [
+        "kim.yj@postech.ac.kr",
+        "dabeenl@kaist.ac.kr"
+    ],
+    "id": "23-1630",
+    "issue": 416,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Stochastic-Constrained Stochastic Optimization with Markovian Data",
+    "volume": 25,
+    "year": 2024
+}

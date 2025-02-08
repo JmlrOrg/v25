@@ -1,0 +1,18 @@
+{
+    "abstract": "The Metropolis-adjusted Langevin (MALA) algorithm is a sampling algorithm that incorporates the gradient of the logarithm of the target density in its proposal distribution. In an earlier joint work, the author had extended the seminal work of Roberts and Rosenthal and showed that in stationarity, MALA applied to an $N-$dimensional approximation of the target will take ${\\cal O}(N^{\\frac13})$ steps to explore its target measure. It was also shown that, as a consequence of the diffusion limit, the MALA algorithm is optimized at an average acceptance probability of $0.574$. Pereyra introduced the proximal MALA algorithm where the gradient of the log target density is replaced by the proximal function (mainly aimed at implementing MALA for non-differentiable target densities). In this paper, we show that for a wide class of twice differentiable target densities, the proximal MALA enjoys the same optimal scaling as that of MALA in high dimensions and also has an average optimal acceptance probability of $0.574$. The results of this paper thus give the following practically useful guideline: for smooth target densities where it is expensive to compute the gradient while implementing MALA, users may replace the gradient with the corresponding proximal function (that can be often computed relatively cheaply via convex optimization) without losing any efficiency gains from optimal scaling. We show this for two class of examples. First, for the product of Gaussians, we identify the optimal scale for proximal MALA and show that it is identical to MALA. Next, following the exact framework used in the author's previous paper, we define a version of the proximal MALA algorithm in a Hilbert space. We show that for a certain class of twice differentiable, infinite dimensional non-product measures commonly used in applications, the proximal MALA applied to an $N-$dimensional approximation of the target also will take ${\\cal O}(N^{\\frac13})$ steps to explore the invariant measure, with an optimal acceptance probability of $0.574$. This confirms some of the empirical observations made in Pereyra.",
+    "authors": [
+        "Natesh S. Pillai"
+    ],
+    "emails": [
+        "nateshspillai@gmail.com"
+    ],
+    "id": "23-0139",
+    "issue": 404,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Optimal Scaling for the Proximal Langevin Algorithm in High Dimensions",
+    "volume": 25,
+    "year": 2024
+}

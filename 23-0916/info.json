@@ -1,0 +1,22 @@
+{
+    "abstract": "Residual bootstrap is a classical method of statistical inference in regression settings. With massive data sets becoming increasingly common, there is a demand for computationally efficient alternatives to residual bootstrap. We propose a simple and versatile scalable algorithm called subsampled residual bootstrap (SRB) for generalized linear models (GLMs), a large class of regression models that includes the classical linear regression model as well as other widely used models such as logistic, Poisson and probit regression. We prove consistency and distributional results that establish that the SRB has the same theoretical guarantees under the GLM framework as the classical residual bootstrap, while being computationally much faster.  We demonstrate the empirical performance of SRB via simulation studies and a real data analysis of the Forest Covertype data from the UCI Machine Learning Repository.",
+    "authors": [
+        "Indrila Ganguly",
+        "Srijan Sengupta",
+        "Sujit Ghosh"
+    ],
+    "emails": [
+        "iganguly@fredhutch.org",
+        "ssengup2@ncsu.edu",
+        "sujit.ghosh@ncsu.edu"
+    ],
+    "id": "23-0916",
+    "issue": 405,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Scalable Resampling in Massive Generalized Linear Models via Subsampled Residual Bootstrap",
+    "volume": 25,
+    "year": 2024
+}

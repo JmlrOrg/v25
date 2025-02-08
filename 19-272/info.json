@@ -1,0 +1,20 @@
+{
+    "abstract": "Parametric inference posits a statistical model that is a specified family of probability distributions.  Restricted inference, for example, restricted likelihood ratio testing, attempts to exploit the structure of a statistical submodel that is a subset of the specified family.  We consider the problem of testing a simple hypothesis against alternatives from such a submodel.  In the case of an unknown submodel, it is not clear how to realize the benefits of restricted inference.  To do so, we first construct information tests that are locally asymptotically equivalent to likelihood ratio tests.  Information tests are conceptually appealing but (in general) computationally intractable.  However, unlike restricted likelihood ratio tests, restricted information tests can be approximated even when the statistical submodel is unknown.  We construct approximate information tests using manifold learning procedures to extract information from samples of an unknown (or intractable) submodel, thereby providing a roadmap for computational solutions to a class of previously impenetrable problems in statistical inference.  Examples illustrate the efficacy of the proposed methodology.",
+    "authors": [
+        "Michael W. Trosset",
+        "Carey E. Priebe"
+    ],
+    "emails": [
+        "mtrosset@iu.edu",
+        "cep@jhu.edu"
+    ],
+    "id": "19-272",
+    "issue": 403,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Approximate Information Tests on Statistical Submanifolds",
+    "volume": 25,
+    "year": 2024
+}

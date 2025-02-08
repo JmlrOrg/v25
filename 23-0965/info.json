@@ -1,0 +1,30 @@
+{
+    "abstract": "We study the convergence of message-passing graph neural networks on random graph models toward their continuous counterparts as the number of nodes tends to infinity. Until now, this convergence was only known for architectures with aggregation functions in the form of normalized means, or, equivalently, of an application of classical operators like the adjacency matrix or the graph Laplacian. We extend such results to a large class of aggregation functions, that encompasses all classically used message-passing graph neural networks, such as attention-based message-passing, max convolutional message-passing, (degree-normalized) convolutional message-passing, or moment-based aggregation message-passing. Under mild assumptions, we give non-asymptotic bounds with high probability to quantify this convergence. Our main result is based on the McDiarmid inequality. Interestingly, this result does not apply to the case where the aggregation is a coordinate-wise maximum. We treat this case separately and obtain a different convergence rate.",
+    "authors": [
+        "Matthieu Cordonnier",
+        "Nicolas Keriven",
+        "Nicolas Tremblay",
+        "Samuel Vaiter"
+    ],
+    "emails": [
+        "matthieu.cordonnier@gipsa-lab.fr",
+        "nicolas.keriven@cnrs.fr",
+        "nicolas.tremblay@cnrs.fr",
+        "samuel.vaiter@cnrs.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Matthieu-Cordonnier/convergence-mpgnn/"
+        ]
+    ],
+    "id": "23-0965",
+    "issue": 406,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Convergence of Message-Passing Graph Neural Networks with Generic Aggregation on Large Random Graphs",
+    "volume": 25,
+    "year": 2024
+}
