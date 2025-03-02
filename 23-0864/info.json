@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider stochastic strongly-convex-strongly-concave (SCSC) saddle point (SP) problems which frequently arise in applications ranging from distributionally robust learning to game theory and fairness in machine learning. We focus on the recently developed stochastic accelerated primal-dual algorithm (SAPD), which admits optimal complexity in several settings as an accelerated algorithm. We provide high probability guarantees for convergence to a neighborhood of the saddle point that reflects accelerated convergence behavior. We also provide an analytical formula for the limiting covariance matrix of the iterates for a class of stochastic SCSC quadratic problems where the gradient noise is additive and Gaussian. This allows us to develop lower bounds for this class of quadratic problems which show that our analysis is tight in terms of the high probability bound dependence on the problem parameters. We also provide a risk-averse convergence analysis characterizing the \u201cConditional Value at Risk\u201d, the \u201cEntropic Value at Risk\u201d, and the \u03c72-divergence of the distance to the saddle point for the iterate sequence, highlighting the trade-offs between the bias and the risk associated with an approximate solution obtained by terminating the algorithm at any iteration.",
+    "authors": [
+        "Yassine Laguel",
+        "Necdet Serhat Aybat",
+        "Mert G{{\\\"u}}rb{{\\\"u}}zbalaban"
+    ],
+    "emails": [
+        "yassine.laguel@univ-cotedazur.fr",
+        "nsa10@psu.edu",
+        "mgurbuzbalaban@business.rutgers.edu"
+    ],
+    "id": "23-0864",
+    "issue": 421,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "High Probability and Risk-Averse Guarantees for a Stochastic Accelerated Primal-Dual Method",
+    "volume": 25,
+    "year": 2024
+}

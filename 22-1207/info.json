@@ -1,0 +1,22 @@
+{
+    "abstract": "Independent learners are agents that employ single-agent algorithms in multi-agent systems, intentionally ignoring the effect of other strategic agents. This paper studies mean-field games from a decentralized learning perspective with two aims: (i) to identify structure that can guide algorithm design, and (ii) to understand emergent behaviour in systems of independent learners. We study a new model of partially observed mean-field games with finitely many players, local action observability, and partial observations of the global state. Specific observation channels considered include (a) global observability, (b) mean-field observability, (c) compressed mean-field observability, and (d) only local observability. We establish conditions under which the control problem of a given agent is equivalent to a fully observed MDP, as well as conditions under which the control problem is equivalent only to a POMDP. Using the connection to MDPs, we prove the existence of perfect equilibrium among memoryless stationary policies under mean-field observability.  Using the connection to POMDPs, we prove convergence of learning iterates obtained by independent learners under any of our observation channels. We interpret the limiting values as subjective value functions, which an agent believes to be relevant to its control problem. These subjective value functions are used to propose subjective Q-equilibrium, a new solution concept whose existence is proved under mean-field or global observability. Furthermore, we provide a decentralized independent learning algorithm, and by adapting the recently developed theory of satisficing paths to allow for subjectivity, we prove that it drives play to subjective Q-equilibrium. Our algorithm is decentralized, in that it uses only local information for learning and allows players to use different, heterogeneous policies during play. As such, it departs from the conventional representative agent approach common to other algorithms for mean-field games.",
+    "authors": [
+        "Bora Yongacoglu",
+        "G{{\\\"u}}rdal Arslan",
+        "Serdar Y{{\\\"u}}ksel"
+    ],
+    "emails": [
+        "bora.yongacoglu@utoronto.ca",
+        "gurdal@hawaii.edu",
+        "yuksel@queensu.ca"
+    ],
+    "id": "22-1207",
+    "issue": 419,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Mean-Field Games With Finitely Many Players: Independent Learning and Subjectivity",
+    "volume": 25,
+    "year": 2024
+}
